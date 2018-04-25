@@ -1,0 +1,757 @@
+﻿<Type Name="WebOptions" FullName="Microsoft.Office.Interop.Excel.WebOptions">
+  <TypeSignature Language="C#" Value="public interface WebOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract WebOptions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WebOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface WebOptions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class WebOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024449-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains workbook-level attributes used by Microsoft Excel when you save a document as a Web page or open a Web page.</summary>
+    <remarks>
+      <para>You can return or set attributes either at the application (global) level or at the workbook level. (Note that attribute values can be different from one workbook to another, depending on the attribute value at the time the workbook was saved.) Workbook-level attribute settings override application-level attribute settings. Application-level attributes are contained in the <see cref="T:Microsoft.Office.Interop.Excel.DefaultWebOptions" /> object.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.WebOptions" /> property to return the <b>WebOptions</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowPNG">
+      <MemberSignature Language="C#" Value="public bool AllowPNG { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowPNG" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.AllowPNG" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowPNG As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowPNG { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1908)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1908)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1908)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if PNG (Portable Network Graphics) is allowed as an image format when you save documents as a Web page. <b>False</b> if PNG is not allowed as an output format. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If you save images in the PNG format as opposed to any other file format, you might improve the image quality or reduce the size of those image files, and therefore decrease the download time, assuming that the Web browsers you are targeting support the PNG format.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownloadComponents">
+      <MemberSignature Language="C#" Value="public bool DownloadComponents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DownloadComponents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.DownloadComponents" />
+      <MemberSignature Language="VB.NET" Value="Public Property DownloadComponents As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DownloadComponents { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1906)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1906)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1906)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the necessary Microsoft Office Web components are downloaded when you view the saved document in a Web browser, but only if the components are not already installed. <b>False</b> if the components are not downloaded. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.LocationOfComponents" /> property to a central URL (on the intranet or Web) or path (local or network) to a location from which authorized users can download components when viewing your saved document. The path must be valid and must point to a location that contains the necessary components, and the user must have a valid Microsoft Office license.</para>
+          <para>Office Web components add interactivity to documents that you save as Web pages. If you view a Web page in a browser on a computer that does not have the components installed, the interactive portions of the page will be static.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Encoding">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoEncoding Encoding { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoEncoding Encoding" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.Encoding" />
+      <MemberSignature Language="VB.NET" Value="Public Property Encoding As MsoEncoding" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoEncoding Encoding { Microsoft::Office::Core::MsoEncoding get(); void set(Microsoft::Office::Core::MsoEncoding value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1822)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1822)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1822)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoEncoding</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the document encoding (code page or character set) to be used by the Web browser when you view the saved document. The default is the system code page.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You cannot use any of the constants that have the suffix <b>AutoDetect</b>. These constants are used by the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.ReloadAs(Microsoft.Office.Core.MsoEncoding)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSuffix">
+      <MemberSignature Language="C#" Value="public string FolderSuffix { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FolderSuffix" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.FolderSuffix" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FolderSuffix As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FolderSuffix { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1914)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1914)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the folder suffix that Microsoft Excel uses when you save a document as a Web page, use long file names, and choose to save supporting files in a separate folder (that is, if the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.UseLongFileNames" /> and <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.OrganizeInFolder" /> properties are set to <b>True</b>).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Newly created documents use the suffix returned by the <see cref="P:Microsoft.Office.Interop.Excel.DefaultWebOptions.FolderSuffix" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.DefaultWebOptions" /> object. The value of the <b>FolderSuffix</b> property of the <see cref="T:Microsoft.Office.Interop.Excel.WebOptions" /> object may differ from that of the <b>DefaultWebOptions</b> object if the document was previously edited in a different language version of Microsoft Excel. You can use the <see cref="M:Microsoft.Office.Interop.Excel.WebOptions.UseDefaultFolderSuffix" /> method to change the suffix to the language you are currently using in Microsoft Office.</para>
+          <para>By default, the name of the supporting folder is the name of the Web page plus an underscore (_), a period (.), or a hyphen (-) and the word "files" (appearing in the language of the version of Excel in which the file was saved as a Web page). For example, suppose that you use the Dutch language version of Excel to save a file called "Page1" as a Web page. The default name of the supporting folder is Page1_bestanden.</para>
+          <para>The following table lists each language version of Office and gives its corresponding <see cref="P:Microsoft.Office.Core.LanguageSettings.LanguageID(Microsoft.Office.Core.MsoAppLanguageID)" /> property value and folder suffix. For the languages that are not listed in the table, the suffix ".files" is used.</para>
+          <list type="table">
+            <item>
+              <para>Arabic</para>
+              <para>1025</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Basque</para>
+              <para>1069</para>
+              <para>_fitxategiak</para>
+            </item>
+            <item>
+              <para>Brazilian</para>
+              <para>1046</para>
+              <para>_arquivos</para>
+            </item>
+            <item>
+              <para>Bulgarian</para>
+              <para>1026</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Catalan</para>
+              <para>1027</para>
+              <para>_fitxers</para>
+            </item>
+            <item>
+              <para>Chinese - Simplified</para>
+              <para>2052</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Chinese - Traditional</para>
+              <para>1028</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Croatian</para>
+              <para>1050</para>
+              <para>_datoteke</para>
+            </item>
+            <item>
+              <para>Czech</para>
+              <para>1029</para>
+              <para>_soubory</para>
+            </item>
+            <item>
+              <para>Danish</para>
+              <para>1030</para>
+              <para>-filer</para>
+            </item>
+            <item>
+              <para>Dutch</para>
+              <para>1043</para>
+              <para>_bestanden</para>
+            </item>
+            <item>
+              <para>English</para>
+              <para>1033</para>
+              <para>_files</para>
+            </item>
+            <item>
+              <para>Estonian</para>
+              <para>1061</para>
+              <para>_failid</para>
+            </item>
+            <item>
+              <para>Finnish</para>
+              <para>1035</para>
+              <para>_tiedostot</para>
+            </item>
+            <item>
+              <para>French</para>
+              <para>1036</para>
+              <para>_fichiers</para>
+            </item>
+            <item>
+              <para>German</para>
+              <para>1031</para>
+              <para>-Dateien</para>
+            </item>
+            <item>
+              <para>Greek</para>
+              <para>1032</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Hebrew</para>
+              <para>1037</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Hungarian</para>
+              <para>1038</para>
+              <para>_elemei</para>
+            </item>
+            <item>
+              <para>Italian</para>
+              <para>1040</para>
+              <para>-file</para>
+            </item>
+            <item>
+              <para>Japanese</para>
+              <para>1041</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Korean</para>
+              <para>1042</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Latvian</para>
+              <para>1062</para>
+              <para>_fails</para>
+            </item>
+            <item>
+              <para>Lithuanian</para>
+              <para>1063</para>
+              <para>_bylos</para>
+            </item>
+            <item>
+              <para>Norwegian</para>
+              <para>1044</para>
+              <para>-filer</para>
+            </item>
+            <item>
+              <para>Polish</para>
+              <para>1045</para>
+              <para>_pliki</para>
+            </item>
+            <item>
+              <para>Portuguese</para>
+              <para>2070</para>
+              <para>_ficheiros</para>
+            </item>
+            <item>
+              <para>Romanian</para>
+              <para>1048</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Russian</para>
+              <para>1049</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Serbian (Cyrillic)</para>
+              <para>3098</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Serbian (Latin)</para>
+              <para>2074</para>
+              <para>_fajlovi</para>
+            </item>
+            <item>
+              <para>Slovakian</para>
+              <para>1051</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Slovenian</para>
+              <para>1060</para>
+              <para>_datoteke</para>
+            </item>
+            <item>
+              <para>Spanish</para>
+              <para>3082</para>
+              <para>_archivos</para>
+            </item>
+            <item>
+              <para>Swedish</para>
+              <para>1053</para>
+              <para>-filer</para>
+            </item>
+            <item>
+              <para>Thai</para>
+              <para>1054</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Turkish</para>
+              <para>1055</para>
+              <para>_dosyalar</para>
+            </item>
+            <item>
+              <para>Ukranian</para>
+              <para>1058</para>
+              <para>.files</para>
+            </item>
+            <item>
+              <para>Vietnamese</para>
+              <para>1066</para>
+              <para>.files</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LocationOfComponents">
+      <MemberSignature Language="C#" Value="public string LocationOfComponents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LocationOfComponents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.LocationOfComponents" />
+      <MemberSignature Language="VB.NET" Value="Public Property LocationOfComponents As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocationOfComponents { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1911)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1911)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1911)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the central URL (on the intranet or Web) or path (local or network) to the location from which authorized users can download Microsoft Office Web components when viewing your saved document. The default value is the local or network installation path for Microsoft Office.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Office Web components are automatically downloaded with the specified Web page if the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.DownloadComponents" /> property is set to <b>True</b>, the components are not already installed, the path is valid and points to a location that contains the necessary components, and the user has a valid Microsoft Office license.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OrganizeInFolder">
+      <MemberSignature Language="C#" Value="public bool OrganizeInFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OrganizeInFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.OrganizeInFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Property OrganizeInFolder As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OrganizeInFolder { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1902)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1902)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1902)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if all supporting files, such as background textures and graphics, are organized in a separate folder when you save the specified document as a Web page. <b>False</b> if supporting files are saved in the same folder as the Web page. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The new folder is created in the folder where you have saved the Web page and is named after the document. If long file names are used, a suffix is added to the folder name. The <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.FolderSuffix" /> property returns the folder suffix for the language support you have selected or installed, or the default folder suffix.</para>
+          <para>If you save a document that was previously saved with the <b>OrganizeInFolder</b> property set to a different value, Microsoft Excel automatically moves the supporting files into or out of the folder, as appropriate.</para>
+          <para>If you don't use long file names (that is, if the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.UseLongFileNames" /> property is set to <b>False</b>), Microsoft Excel automatically saves any supporting files in a separate folder. The files cannot be saved in the same folder as the Web page.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PixelsPerInch">
+      <MemberSignature Language="C#" Value="public int PixelsPerInch { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PixelsPerInch" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.PixelsPerInch" />
+      <MemberSignature Language="VB.NET" Value="Public Property PixelsPerInch As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PixelsPerInch { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1910)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1910)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1910)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the density (pixels per inch) of graphics images and table cells on a Web page. The range of settings is usually from 19 to 480, and common settings for popular screen sizes are 72, 96, and 120. The default setting is 96.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property determines the size of the images and cells on the specified Web page relative to the size of text whenever you view the saved document in a Web browser. The physical dimensions of the resulting image or cell are the result of the original dimensions (in inches) multiplied by the number of pixels per inch.</para>
+          <para>You use the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.ScreenSize" /> property to set the optimum screen size for the targeted Web browsers.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelyOnCSS">
+      <MemberSignature Language="C#" Value="public bool RelyOnCSS { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelyOnCSS" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.RelyOnCSS" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelyOnCSS As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnCSS { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1899)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1899)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1899)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if cascading style sheets (CSS) are used for font formatting when you view a saved document in a Web browser. <b>False</b> if HTML &lt;FONT&gt; tags and cascading style sheets are used. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Microsoft Excel creates a cascading style sheet file and saves it either to the specified folder or to the same folder as your Web page, depending on the value of the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.OrganizeInFolder" /> property.</para>
+          <para>You should set this property to <b>True</b> if your Web browser supports cascading style sheets, as this will give you more precise layout and formatting control on your Web page and make it look more like your document (as it appears in Microsoft Excel).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RelyOnVML">
+      <MemberSignature Language="C#" Value="public bool RelyOnVML { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RelyOnVML" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.RelyOnVML" />
+      <MemberSignature Language="VB.NET" Value="Public Property RelyOnVML As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RelyOnVML { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1907)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1907)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1907)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if image files are not generated from drawing objects when you save a document as a Web page. <b>False</b> if images are generated. The default value is <b>False</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can reduce file sizes by not generating images for drawing objects if your Web browser supports Vector Markup Language (VML). You should set the <b>RelyOnVML</b> property to <b>True</b> if you are targeting a browser that supports VML. For browsers that do not support VML, the image will not appear when you view a Web page saved with this property enabled.</para>
+          <para>For example, you should not generate images if your Web page uses image files that you have generated earlier, and if the location where you save the document is different from the final location of the page on the Web server.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScreenSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoScreenSize ScreenSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoScreenSize ScreenSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.ScreenSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScreenSize As MsoScreenSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoScreenSize ScreenSize { Microsoft::Office::Core::MsoScreenSize get(); void set(Microsoft::Office::Core::MsoScreenSize value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1909)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1909)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1909)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoScreenSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <see cref="T:Microsoft.Office.Core.MsoScreenSize" /> constant specifying the ideal minimum screen size (width by height, in pixels) that you should use when viewing the saved document in a Web browser. The default constant is <b>msoScreenSize800x600</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetBrowser">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTargetBrowser TargetBrowser { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTargetBrowser TargetBrowser" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.TargetBrowser" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetBrowser As MsoTargetBrowser" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTargetBrowser TargetBrowser { Microsoft::Office::Core::MsoTargetBrowser get(); void set(Microsoft::Office::Core::MsoTargetBrowser value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2179)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTargetBrowser</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <see cref="T:Microsoft.Office.Core.MsoTargetBrowser" /> constant indicating the browser version.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDefaultFolderSuffix">
+      <MemberSignature Language="C#" Value="public void UseDefaultFolderSuffix ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UseDefaultFolderSuffix() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.WebOptions.UseDefaultFolderSuffix" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UseDefaultFolderSuffix ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UseDefaultFolderSuffix();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1915)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Sets the folder suffix for the specified document to the default suffix for the language support you have selected or installed.</summary>
+        <remarks>
+          <para>Microsoft Excel uses the folder suffix when you save a document as a Web page, use long file names, and choose to save supporting files in a separate folder (that is, if the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.UseLongFileNames" /> and <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.OrganizeInFolder" /> properties are set to <b>True</b>).</para>
+          <para>The suffix appears in the folder name after the document name. For example, if the document is called "Book1" and the language is English, the folder name is Book1_files. The available folder suffixes are listed in the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.FolderSuffix" /> property topic.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseLongFileNames">
+      <MemberSignature Language="C#" Value="public bool UseLongFileNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseLongFileNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.WebOptions.UseLongFileNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseLongFileNames As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseLongFileNames { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1904)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1904)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1904)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if long file names are used when you save the document as a Web page. <b>False</b> if long file names are not used and the DOS file name format (8.3) is used. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If you don't use long file names and your document has supporting files, Microsoft Excel automatically organizes those files in a separate folder. Otherwise, use the <see cref="P:Microsoft.Office.Interop.Excel.WebOptions.OrganizeInFolder" /> property to determine whether supporting files are organized in a separate folder.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

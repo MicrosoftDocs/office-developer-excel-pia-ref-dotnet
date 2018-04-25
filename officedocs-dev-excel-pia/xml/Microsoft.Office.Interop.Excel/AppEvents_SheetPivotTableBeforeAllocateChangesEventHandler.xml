@@ -1,0 +1,42 @@
+﻿<Type Name="AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler(object Sh, PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler(Sh As Object, TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler(System::Object ^ Sh, PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Sh" Type="System.Object" />
+    <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+    <Parameter Name="ValueChangeStart" Type="System.Int32" />
+    <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Sh">The worksheet that contains the PivotTable.</param>
+    <param name="TargetPivotTable">The PivotTable that contains the changes to apply.</param>
+    <param name="ValueChangeStart">The index to the first change in the associated <see cref="T:Microsoft.Office.Interop.Excel.PivotTableChangeList" /> collection. The index is specified by the <see cref="P:Microsoft.Office.Interop.Excel.ValueChange.Order" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.ValueChange" /> object in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTableChangeList" /> collection.</param>
+    <param name="ValueChangeEnd">The index to the last change in the associated <see cref="T:Microsoft.Office.Interop.Excel.PivotTableChangeList" /> collection. The index is specified by the <see cref="P:Microsoft.Office.Interop.Excel.ValueChange.Order" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.ValueChange" /> object in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTableChangeList" /> collection.</param>
+    <param name="Cancel">
+      <b>false</b> when the event occurs. If the event procedure sets this parameter to <b>true</b>, the changes are not applied to the PivotTable and all edits are lost.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.SheetPivotTableBeforeAllocateChanges" /> event. The <b>SheetPivotTableBeforeAllocateChanges</b> event occurs before changes are applied to a PivotTable.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

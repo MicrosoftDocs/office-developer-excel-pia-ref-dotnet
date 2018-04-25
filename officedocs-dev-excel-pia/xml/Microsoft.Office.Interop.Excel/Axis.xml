@@ -1,0 +1,1794 @@
+﻿<Type Name="Axis" FullName="Microsoft.Office.Interop.Excel.Axis">
+  <TypeSignature Language="C#" Value="public interface Axis" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Axis" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Axis" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Axis" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Axis" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020848-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a single axis in a chart.</summary>
+    <remarks>
+      <para>The <b>Axis</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.Axes" /> collection.</para>
+      <para>Use <b>Axes</b>(<paramref name="type, group" />) where type is the axis type and group is the axis group to return a single <b>Axis</b> object. <paramref name="Type" /> can be one of the following <see cref="ff" /> constants: <b>xlCategory</b>, <b>xlSeries</b>, or <b>xlValue</b>. <paramref name="Group" /> can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisGroup" /> constants: <b>xlPrimary</b> or <b>xlSecondary</b>. For more information, see the <see cref="M:Microsoft.Office.Interop.Excel._Chart.Axes(System.Object,Microsoft.Office.Interop.Excel.XlAxisGroup)" /> method.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AxisBetweenCategories">
+      <MemberSignature Language="C#" Value="public bool AxisBetweenCategories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AxisBetweenCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.AxisBetweenCategories" />
+      <MemberSignature Language="VB.NET" Value="Public Property AxisBetweenCategories As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AxisBetweenCategories { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(45)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(45)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(45)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the value axis crosses the category axis between categories.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies only to category axes, and it doesn't apply to 3-D charts.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AxisGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.AxisGroup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AxisGroup As XlAxisGroup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAxisGroup AxisGroup { Microsoft::Office::Interop::Excel::XlAxisGroup get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAxisGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the group for the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For 3-D charts, only <b>xlPrimary</b> is valid.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AxisTitle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AxisTitle AxisTitle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.AxisTitle AxisTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.AxisTitle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AxisTitle As AxisTitle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::AxisTitle ^ AxisTitle { Microsoft::Office::Interop::Excel::AxisTitle ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(82)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AxisTitle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.AxisTitle" /> object that represents the title of the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUnit">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTimeUnit BaseUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTimeUnit BaseUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.BaseUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseUnit As XlTimeUnit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTimeUnit BaseUnit { Microsoft::Office::Interop::Excel::XlTimeUnit get(); void set(Microsoft::Office::Interop::Excel::XlTimeUnit value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1647)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1647)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1647)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the base unit for the specified category axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property has no visible effect if the <see cref="P:Microsoft.Office.Interop.Excel.Axis.CategoryType" /> property for the specified axis is set to <b>xlCategoryScale</b>. The set value is retained, however, and takes effect when the <b>CategoryType</b> property is set to <b>xlTimeScale</b>.</para>
+          <para>You cannot set this property for a value axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseUnitIsAuto">
+      <MemberSignature Language="C#" Value="public bool BaseUnitIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BaseUnitIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.BaseUnitIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseUnitIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BaseUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1648)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1648)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1648)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel chooses appropriate base units for the specified category axis. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You cannot set this property for a value axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Border">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Border Border { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Border Border" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Border" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As Border" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Border ^ Border { Microsoft::Office::Interop::Excel::Border ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Border</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Border" /> object that represents the border of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryNames">
+      <MemberSignature Language="C#" Value="public object CategoryNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CategoryNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.CategoryNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property CategoryNames As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CategoryNames { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(156)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(156)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(156)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets all the category names for the specified axis as a text array.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When you set this property, you can set it to either an array or a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object that contains the category names.</para>
+          <para>This property applies only to category axes.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCategoryType CategoryType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCategoryType CategoryType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.CategoryType" />
+      <MemberSignature Language="VB.NET" Value="Public Property CategoryType As XlCategoryType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCategoryType CategoryType { Microsoft::Office::Interop::Excel::XlCategoryType get(); void set(Microsoft::Office::Interop::Excel::XlCategoryType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1651)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1651)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCategoryType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the category axis type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You cannot set this property for a value axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Crosses">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAxisCrosses Crosses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAxisCrosses Crosses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Crosses" />
+      <MemberSignature Language="VB.NET" Value="Public Property Crosses As XlAxisCrosses" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAxisCrosses Crosses { Microsoft::Office::Interop::Excel::XlAxisCrosses get(); void set(Microsoft::Office::Interop::Excel::XlAxisCrosses value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(42)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(42)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(42)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAxisCrosses</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the point on the specified axis where the other axis crosses.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Crosses</b> property can be one of the <see cref="T:Microsoft.Office.Interop.Excel.XlAxisCrosses" /> constants listed in the following table.</para>
+          <list type="table">
+            <item>
+              <para>
+                <b>xlAxisCrossesAutomatic</b>
+              </para>
+              <para>Microsoft Excel sets the axis crossing point.</para>
+            </item>
+            <item>
+              <para>
+                <b>xlMinimum</b>
+              </para>
+              <para>The axis crosses at the minimum value.</para>
+            </item>
+            <item>
+              <para>
+                <b>xlMaximum</b>
+              </para>
+              <para>The axis crosses at the maximum value.</para>
+            </item>
+            <item>
+              <para>
+                <b>xlAxisCrossesCustom</b>
+              </para>
+              <para>The <see cref="P:Microsoft.Office.Interop.Excel.Axis.CrossesAt" /> property specifies the axis crossing point.</para>
+            </item>
+          </list>
+          <para>This property isn't available for radar charts. For 3-D charts, this property can only be applied to the value axis and indicates where the plane defined by the category axes crosses the value axis.</para>
+          <para>This property can be used for both category and value axes. On the category axis, <b>xlMinimum</b> sets the value axis to cross at the first category, and <b>xlMaximum</b> sets the value axis to cross at the last category.</para>
+          <para>Note that <b>xlMinimum</b> and <b>xlMaximum</b> can have different meanings, depending on the axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CrossesAt">
+      <MemberSignature Language="C#" Value="public double CrossesAt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 CrossesAt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.CrossesAt" />
+      <MemberSignature Language="VB.NET" Value="Public Property CrossesAt As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double CrossesAt { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(43)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(43)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(43)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the point on the value axis where the category axis crosses it. Applies only to the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property causes the <see cref="P:Microsoft.Office.Interop.Excel.Axis.Crosses" /> property to change to <b>xlAxisCrossesCustom</b>.</para>
+          <para>This property cannot be used on radar charts. For 3-D charts, this property indicates where the plane defined by the category axes crosses the value axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public object Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Axis.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayUnit">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlDisplayUnit DisplayUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlDisplayUnit DisplayUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayUnit As XlDisplayUnit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlDisplayUnit DisplayUnit { Microsoft::Office::Interop::Excel::XlDisplayUnit get(); void set(Microsoft::Office::Interop::Excel::XlDisplayUnit value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1886)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1886)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1886)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlDisplayUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the unit label for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Using unit labels when charting large values makes your tick mark labels easier to read. For example, if you label your value axis in units of hundreds, thousands, or millions, you can use smaller numeric values at the tick marks on the axis.</para>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlDisplayUnit" /> can be one of these <b>XlDisplayUnit</b> constants:</para>
+          <para>
+            <b>xlHundredMillions</b>
+          </para>
+          <para>
+            <b>xlHundredThousands</b>
+          </para>
+          <para>
+            <b>xlMillions</b>
+          </para>
+          <para>
+            <b>xlTenThousands</b>
+          </para>
+          <para>
+            <b>xlThousands</b>
+          </para>
+          <para>
+            <b>xlHundreds</b>
+          </para>
+          <para>
+            <b>xlMillionMillions</b>
+          </para>
+          <para>
+            <b>xlTenMillions</b>
+          </para>
+          <para>
+            <b>xlThousandMillions</b>
+          </para>
+          <para>The unit label can also be one of the following constants:</para>
+          <para>
+            <b>xlCustom</b>
+          </para>
+          <para>
+            <b>xlNone</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayUnitCustom">
+      <MemberSignature Language="C#" Value="public double DisplayUnitCustom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 DisplayUnitCustom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnitCustom" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayUnitCustom As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double DisplayUnitCustom { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1887)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1887)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1887)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>If the value of the <see cref="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnit" /> property is <b>xlCustom</b>, the <b>DisplayUnitCustom</b> property returns or sets the value of the displayed units. The value must be from 0 through 10E307.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Using unit labels when charting large values makes your tick mark labels easier to read. For example, if you label your value axis in units of hundreds, thousands, or millions, you can use smaller numeric values at the tick marks on the axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayUnitLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DisplayUnitLabel DisplayUnitLabel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.DisplayUnitLabel DisplayUnitLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnitLabel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayUnitLabel As DisplayUnitLabel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::DisplayUnitLabel ^ DisplayUnitLabel { Microsoft::Office::Interop::Excel::DisplayUnitLabel ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1889)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1889)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DisplayUnitLabel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.DisplayUnitLabel" /> object for the specified axis. Returns <b>Null</b> if the <see cref="P:Microsoft.Office.Interop.Excel.Axis.HasDisplayUnitLabel" /> property is set to False.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ChartFormat Format { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ChartFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Format" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ChartFormat ^ Format { Microsoft::Office::Interop::Excel::ChartFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.ChartFormat" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.ChartFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDisplayUnitLabel">
+      <MemberSignature Language="C#" Value="public bool HasDisplayUnitLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasDisplayUnitLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.HasDisplayUnitLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasDisplayUnitLabel As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDisplayUnitLabel { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1888)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1888)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the label specified by the <see cref="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnit" /> or <see cref="P:Microsoft.Office.Interop.Excel.Axis.DisplayUnitCustom" /> property is displayed on the specified axis. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasMajorGridlines">
+      <MemberSignature Language="C#" Value="public bool HasMajorGridlines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasMajorGridlines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.HasMajorGridlines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasMajorGridlines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasMajorGridlines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the axis has major gridlines. Only axes in the primary axis group can have gridlines.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasMinorGridlines">
+      <MemberSignature Language="C#" Value="public bool HasMinorGridlines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasMinorGridlines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.HasMinorGridlines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasMinorGridlines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasMinorGridlines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the axis has minor gridlines. Only axes in the primary axis group can have gridlines.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasTitle">
+      <MemberSignature Language="C#" Value="public bool HasTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.HasTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasTitle As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasTitle { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(54)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the axis or chart has a visible title.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>An axis title is represented by an <see cref="T:Microsoft.Office.Interop.Excel.AxisTitle" /> object.</para>
+          <para>A chart title is represented by a <see cref="T:Microsoft.Office.Interop.Excel.ChartTitle" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public double Height { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Height" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Height As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Height { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The height, in points, of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public double Left { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Left" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Left As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Left { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(127)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The distance, in points, from the left edge of the object to the left edge of the chart area.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogBase">
+      <MemberSignature Language="C#" Value="public double LogBase { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 LogBase" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.LogBase" />
+      <MemberSignature Language="VB.NET" Value="Public Property LogBase As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double LogBase { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2646)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2646)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2646)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the base of the logarithm when you are using log scales. Read/write <b>Double</b>. </summary>
+        <value>
+          <b>Double</b>
+        </value>
+        <remarks>
+          <para>Attempting to set this property to a value less than or equal to zero (0) causes an error. The default value is 10.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorGridlines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Gridlines MajorGridlines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Gridlines MajorGridlines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MajorGridlines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorGridlines As Gridlines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Gridlines ^ MajorGridlines { Microsoft::Office::Interop::Excel::Gridlines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(89)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Gridlines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Gridlines" /> object that represents the major gridlines for the specified axis. Only axes in the primary axis group can have gridlines.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorTickMark">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTickMark MajorTickMark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTickMark MajorTickMark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MajorTickMark" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorTickMark As XlTickMark" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTickMark MajorTickMark { Microsoft::Office::Interop::Excel::XlTickMark get(); void set(Microsoft::Office::Interop::Excel::XlTickMark value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(26)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTickMark</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of major tick mark for the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlTickMark" /> can be one of these <b>XlTickMark</b> constants:</para>
+          <para>
+            <b>xlTickMarkInside</b>
+          </para>
+          <para>
+            <b>xlTickMarkOutside</b>
+          </para>
+          <para>
+            <b>xlTickMarkCross</b>
+          </para>
+          <para>
+            <b>xlTickMarkNone</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorUnit">
+      <MemberSignature Language="C#" Value="public double MajorUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MajorUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MajorUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorUnit As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MajorUnit { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(37)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the major units for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property sets the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MajorUnitIsAuto" /> property to <b>False</b>.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Axis.TickMarkSpacing" /> property to set tick mark spacing on the category axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorUnitIsAuto">
+      <MemberSignature Language="C#" Value="public bool MajorUnitIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MajorUnitIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MajorUnitIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorUnitIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MajorUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(38)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel calculates the major units for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MajorUnit" /> property sets this property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorUnitScale">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTimeUnit MajorUnitScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTimeUnit MajorUnitScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MajorUnitScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property MajorUnitScale As XlTimeUnit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTimeUnit MajorUnitScale { Microsoft::Office::Interop::Excel::XlTimeUnit get(); void set(Microsoft::Office::Interop::Excel::XlTimeUnit value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1649)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the major unit scale value for the category axis when the <see cref="P:Microsoft.Office.Interop.Excel.Axis.CategoryType" /> property is set to <b>xlTimeScale</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlTimeUnit" /> can be one of these <b>XlTimeUnit</b> constants:</para>
+          <para>
+            <b>xlMonths</b>
+          </para>
+          <para>
+            <b>xlDays</b>
+          </para>
+          <para>
+            <b>xlYears</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumScale">
+      <MemberSignature Language="C#" Value="public double MaximumScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MaximumScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MaximumScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumScale As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MaximumScale { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(35)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the maximum value on the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property sets the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MaximumScaleIsAuto" /> property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaximumScaleIsAuto">
+      <MemberSignature Language="C#" Value="public bool MaximumScaleIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MaximumScaleIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MaximumScaleIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaximumScaleIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MaximumScaleIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(36)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel calculates the maximum value for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MaximumScale" /> property sets this property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumScale">
+      <MemberSignature Language="C#" Value="public double MinimumScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MinimumScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinimumScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumScale As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinimumScale { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(33)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the minimum value on the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property sets the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MinimumScaleIsAuto" /> property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumScaleIsAuto">
+      <MemberSignature Language="C#" Value="public bool MinimumScaleIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MinimumScaleIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinimumScaleIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumScaleIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinimumScaleIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(34)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel calculates the minimum value for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MinimumScale" /> property sets this property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorGridlines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Gridlines MinorGridlines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Gridlines MinorGridlines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinorGridlines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorGridlines As Gridlines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Gridlines ^ MinorGridlines { Microsoft::Office::Interop::Excel::Gridlines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(90)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Gridlines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Gridlines" /> object that represents the minor gridlines for the specified axis. Only axes in the primary axis group can have gridlines.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorTickMark">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTickMark MinorTickMark { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTickMark MinorTickMark" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinorTickMark" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorTickMark As XlTickMark" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTickMark MinorTickMark { Microsoft::Office::Interop::Excel::XlTickMark get(); void set(Microsoft::Office::Interop::Excel::XlTickMark value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(27)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTickMark</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of minor tick mark for the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlTickMark" /> can be one of these <b>XlTickMark</b> constants:</para>
+          <para>
+            <b>xlTickMarkInside</b>
+          </para>
+          <para>
+            <b>xlTickMarkOutside</b>
+          </para>
+          <para>
+            <b>xlTickMarkCross</b>
+          </para>
+          <para>
+            <b>xlTickMarkNone</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorUnit">
+      <MemberSignature Language="C#" Value="public double MinorUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 MinorUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinorUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorUnit As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double MinorUnit { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(39)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(39)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(39)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the minor units on the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property sets the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MinorUnitIsAuto" /> property to <b>False</b>.</para>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Axis.TickMarkSpacing" /> property to set tick mark spacing on the category axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorUnitIsAuto">
+      <MemberSignature Language="C#" Value="public bool MinorUnitIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MinorUnitIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinorUnitIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorUnitIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MinorUnitIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(40)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(40)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(40)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel calculates minor units for the value axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MinorUnit" /> property sets this property to <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorUnitScale">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTimeUnit MinorUnitScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTimeUnit MinorUnitScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.MinorUnitScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinorUnitScale As XlTimeUnit" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTimeUnit MinorUnitScale { Microsoft::Office::Interop::Excel::XlTimeUnit get(); void set(Microsoft::Office::Interop::Excel::XlTimeUnit value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1650)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1650)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1650)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTimeUnit</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the minor unit scale value for the category axis when the <see cref="P:Microsoft.Office.Interop.Excel.Axis.CategoryType" /> property is set to <b>xlTimeScale</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlTimeUnit" /> can be one of these <b>XlTimeUnit</b> constants:</para>
+          <para>
+            <b>xlMonths</b>
+          </para>
+          <para>
+            <b>xlDays</b>
+          </para>
+          <para>
+            <b>xlYears</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReversePlotOrder">
+      <MemberSignature Language="C#" Value="public bool ReversePlotOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReversePlotOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.ReversePlotOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReversePlotOrder As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReversePlotOrder { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(44)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(44)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(44)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel plots data points from last to first.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property cannot be used on radar charts.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ScaleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlScaleType ScaleType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlScaleType ScaleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.ScaleType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ScaleType As XlScaleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlScaleType ScaleType { Microsoft::Office::Interop::Excel::XlScaleType get(); void set(Microsoft::Office::Interop::Excel::XlScaleType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(41)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(41)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(41)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlScaleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the value axis scale type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlScaleType" /> can be one of these <b>XlScaleType</b> constants:</para>
+          <para>
+            <b>xlScaleLinear</b>
+          </para>
+          <para>
+            <b>xlScaleLogarithmic</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public object Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Axis.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(235)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>To select a cell or a range of cells, use the <b>Select</b> method. To make a single cell the active cell, use the <see cref="M:Microsoft.Office.Interop.Excel._Worksheet.Activate" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickLabelPosition">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTickLabelPosition TickLabelPosition { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTickLabelPosition TickLabelPosition" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.TickLabelPosition" />
+      <MemberSignature Language="VB.NET" Value="Public Property TickLabelPosition As XlTickLabelPosition" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTickLabelPosition TickLabelPosition { Microsoft::Office::Interop::Excel::XlTickLabelPosition get(); void set(Microsoft::Office::Interop::Excel::XlTickLabelPosition value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(28)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTickLabelPosition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Describes the position of tick-mark labels on the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlTickLabelPosition" /> can be one of these <b>XlTickLabelPosition</b> constants:</para>
+          <para>
+            <b>xlTickLabelPositionLow</b>
+          </para>
+          <para>
+            <b>xlTickLabelPositionNone</b>
+          </para>
+          <para>
+            <b>xlTickLabelPositionHigh</b>
+          </para>
+          <para>
+            <b>xlTickLabelPositionNextToAxis</b>
+          </para>
+          <para>You cannot use the <b>xlTickLabelPositionHigh</b> constant on 3-D charts.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickLabels">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.TickLabels TickLabels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.TickLabels TickLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.TickLabels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TickLabels As TickLabels" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::TickLabels ^ TickLabels { Microsoft::Office::Interop::Excel::TickLabels ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(91)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.TickLabels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.TickLabels" /> object that represents the tick-mark labels for the specified axis.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickLabelSpacing">
+      <MemberSignature Language="C#" Value="public int TickLabelSpacing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TickLabelSpacing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.TickLabelSpacing" />
+      <MemberSignature Language="VB.NET" Value="Public Property TickLabelSpacing As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TickLabelSpacing { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(29)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of categories or series between tick-mark labels. Applies only to category and series axes.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Tick-mark label spacing on the value axis is always calculated by Microsoft Excel.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickLabelSpacingIsAuto">
+      <MemberSignature Language="C#" Value="public bool TickLabelSpacingIsAuto { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TickLabelSpacingIsAuto" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.TickLabelSpacingIsAuto" />
+      <MemberSignature Language="VB.NET" Value="Public Property TickLabelSpacingIsAuto As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TickLabelSpacingIsAuto { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2647)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2647)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2647)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets whether or not the tick label spacing is automatic. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.Axis.TickLabelSpacing" /> property returns the current tick label spacing, whether or not the setting is automatic.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TickMarkSpacing">
+      <MemberSignature Language="C#" Value="public int TickMarkSpacing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TickMarkSpacing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.TickMarkSpacing" />
+      <MemberSignature Language="VB.NET" Value="Public Property TickMarkSpacing As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TickMarkSpacing { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(31)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of categories or series between tick marks. Applies only to category and series axes.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Axis.MajorUnit" /> and <see cref="P:Microsoft.Office.Interop.Excel.Axis.MinorUnit" /> properties to set tick-mark spacing on the value axis.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public double Top { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Top" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Top As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Top { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The distance, in points, from the top edge of the object to the top of row 1 (on a worksheet) or the top of the chart area (on a chart).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAxisType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAxisType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As XlAxisType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAxisType Type { Microsoft::Office::Interop::Excel::XlAxisType get(); void set(Microsoft::Office::Interop::Excel::XlAxisType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAxisType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the Axis type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlAxisType" /> can be one of these <b>XlAxisType</b> constants:</para>
+          <para>
+            <b>xlCategory</b>
+          </para>
+          <para>
+            <b>xlSeriesAxis</b>
+          </para>
+          <para>
+            <b>xlValue</b>
+          </para>
+          <para>When using this property for the horizontal axis of scatter charts, <b>xlCategory</b> will be returned as the Axis type.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public double Width { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Axis.Width" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Width As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double Width { double get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The width, in points, of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

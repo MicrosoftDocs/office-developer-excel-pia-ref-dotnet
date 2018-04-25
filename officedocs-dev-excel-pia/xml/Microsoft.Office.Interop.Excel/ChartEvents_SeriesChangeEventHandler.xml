@@ -1,0 +1,35 @@
+﻿<Type Name="ChartEvents_SeriesChangeEventHandler" FullName="Microsoft.Office.Interop.Excel.ChartEvents_SeriesChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ChartEvents_SeriesChangeEventHandler(int SeriesIndex, int PointIndex);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ChartEvents_SeriesChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartEvents_SeriesChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ChartEvents_SeriesChangeEventHandler(SeriesIndex As Integer, PointIndex As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ChartEvents_SeriesChangeEventHandler(int SeriesIndex, int PointIndex);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="SeriesIndex" Type="System.Int32" />
+    <Parameter Name="PointIndex" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="SeriesIndex">The offset within the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> collection for the changed series.</param>
+    <param name="PointIndex">The offset within the <see cref="T:Microsoft.Office.Interop.Excel.Points" /> collection for the changed point.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.SeriesChange" /> event. The <b>SeriesChange</b> event occurs when the user changes the value of a chart data point.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,602 @@
+﻿<Type Name="DiagramNode" FullName="Microsoft.Office.Interop.Excel.DiagramNode">
+  <TypeSignature Language="C#" Value="public interface DiagramNode : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DiagramNode implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DiagramNode" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DiagramNode&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DiagramNode : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0370-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4304)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a node in a diagram.</summary>
+    <remarks>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.AddNode(Microsoft.Office.Core.MsoRelativeNodePosition,Microsoft.Office.Core.MsoDiagramNodeType)" /> method to add a node to a diagram or to a diagram node.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.Delete" /> method to remove a node from a diagram or diagram node.</para>
+      <para>To return a <b>DiagramNode</b> object, use one of the following:</para>
+      <list type="bullet">
+        <item>
+          <para>The <b>DiagramNode</b> object's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.AddNode(Microsoft.Office.Core.MsoRelativeNodePosition,Microsoft.Office.Core.MsoDiagramNodeType)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.CloneNode(System.Boolean,Microsoft.Office.Interop.Excel.DiagramNode,Microsoft.Office.Core.MsoRelativeNodePosition)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.NextNode" />, or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.PrevNode" /> methods or its <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Root" /> property</para>
+        </item>
+        <item>
+          <para>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodeChildren" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.AddNode(System.Object,Microsoft.Office.Core.MsoDiagramNodeType)" /> or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.Item(System.Object)" /> methods or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.FirstChild" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.LastChild" /> properties</para>
+        </item>
+        <item>
+          <para>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodes" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodes.Item(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>The <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object's or <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" /> collection's <b>DiagramNode</b> property</para>
+        </item>
+      </list>
+      <para>A diagram node can terminate, or it can contain other child diagrams, child diagram nodes, or child shapes. Refer to these with the following:</para>
+      <list type="bullet">
+        <item>
+          <para>To refer to a child diagram, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Diagram" /> property.</para>
+        </item>
+        <item>
+          <para>To refer to an individual child diagram node, use the <b>AddNode</b>, <b>CloneNode</b>, <b>NextNode</b> or <b>PrevNode</b> methods or the <b>Root</b> property.</para>
+        </item>
+        <item>
+          <para>To refer to a collection of child diagram nodes, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Children" /> property.</para>
+        </item>
+        <item>
+          <para>To refer to a shape, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Shape" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.TextShape" /> properties.</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNode AddNode (Microsoft.Office.Core.MsoRelativeNodePosition pos = Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterNode, Microsoft.Office.Core.MsoDiagramNodeType nodeType = Microsoft.Office.Core.MsoDiagramNodeType.msoDiagramNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.DiagramNode AddNode([in]valuetype Microsoft.Office.Core.MsoRelativeNodePosition pos, [in]valuetype Microsoft.Office.Core.MsoDiagramNodeType nodeType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.AddNode(Microsoft.Office.Core.MsoRelativeNodePosition,Microsoft.Office.Core.MsoDiagramNodeType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddNode (Optional pos As MsoRelativeNodePosition = Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterNode, Optional nodeType As MsoDiagramNodeType = Microsoft.Office.Core.MsoDiagramNodeType.msoDiagramNode) As DiagramNode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pos" Type="Microsoft.Office.Core.MsoRelativeNodePosition" />
+        <Parameter Name="nodeType" Type="Microsoft.Office.Core.MsoDiagramNodeType" />
+      </Parameters>
+      <Docs>
+        <param name="pos">Optional <see cref="T:Microsoft.Office.Interop.Office.MsoRelativeNodePosiiton" />. Where the node will be added, relative to another node.<b>MsoRelativeNodePosition</b> can be one of these constants:<b>msoAfterLastSibling</b><b>msoAfterNode </b>Default<b>msoBeforeFirstSibling</b><b>msoBeforeNode</b></param>
+        <param name="nodeType">Optional <see cref="T:Microsoft.Office.Interop.Office.MsoDiagramNodeType" />. The type of node. Can be one of these <b>MsoDiagramNodeType</b> constants:<b>msoDiagramAssistant</b><b>msoDiagramNode</b> Default</param>
+        <summary>Creates a diagram node. Returns a <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object that represents the new node.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNodeChildren Children { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.DiagramNodeChildren Children" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Children" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Children As DiagramNodeChildren" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::DiagramNodeChildren ^ Children { Microsoft::Office::Interop::Excel::DiagramNodeChildren ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNodeChildren</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodeChildren" /> object, representing the collection of child nodes of a particular node.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloneNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNode CloneNode (bool copyChildren, Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, Microsoft.Office.Core.MsoRelativeNodePosition pos = Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.DiagramNode CloneNode([in]bool copyChildren, [in]class Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, [in]valuetype Microsoft.Office.Core.MsoRelativeNodePosition pos) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.CloneNode(System.Boolean,Microsoft.Office.Interop.Excel.DiagramNode,Microsoft.Office.Core.MsoRelativeNodePosition)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CloneNode (copyChildren As Boolean, pTargetNode As DiagramNode, Optional pos As MsoRelativeNodePosition = Microsoft.Office.Core.MsoRelativeNodePosition.msoAfterNode) As DiagramNode" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="copyChildren" Type="System.Boolean" />
+        <Parameter Name="pTargetNode" Type="Microsoft.Office.Interop.Excel.DiagramNode" />
+        <Parameter Name="pos" Type="Microsoft.Office.Core.MsoRelativeNodePosition" />
+      </Parameters>
+      <Docs>
+        <param name="copyChildren">Required <b>Boolean</b>. <b>True</b> to clone the diagram node's children as well.</param>
+        <param name="pTargetNode">Required <b>DiagramNode</b> object. An expression that returns a <b>DiagramNode</b> object that represents the node where the new node will be placed.</param>
+        <param name="pos">Optional <see cref="T:Microsoft.Office.Interop.Office.MsoRelativeNodePosiiton" />. If <paramref name="pTargetNode" /> is specified, indicates where the node will be added relative to <paramref name="pTargetNode" />.<b>MsoRelativeNodePosition</b> can be one of these constants:<b>msoAfterLastSibling</b><b>msoAfterNode </b>Default<b>msoBeforeFirstSibling</b><b>msoBeforeNode</b></param>
+        <summary>Clones a diagram node. Returns a <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object representing the cloned node.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Diagram">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.IMsoDiagram Diagram { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.IMsoDiagram Diagram" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Diagram" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Diagram As IMsoDiagram" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::IMsoDiagram ^ Diagram { Microsoft::Office::Core::IMsoDiagram ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.IMsoDiagram</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Diagram" /> object representing a diagram.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Layout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoOrgChartLayoutType Layout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoOrgChartLayoutType Layout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Layout" />
+      <MemberSignature Language="VB.NET" Value="Public Property Layout As MsoOrgChartLayoutType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoOrgChartLayoutType Layout { Microsoft::Office::Core::MsoOrgChartLayoutType get(); void set(Microsoft::Office::Core::MsoOrgChartLayoutType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoOrgChartLayoutType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a constant to indicate the formatting of the child nodes of an organization chart.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoOrgChartLayoutType</b> can be one of these <b>MsoOrgChartLayoutType</b> constants.</para>
+          <para>
+            <b>msoOrgChartLayoutAssistant</b> Places child nodes as assistants.</para>
+          <para>
+            <b>msoOrgChartLayoutBothHanging</b> Places child nodes vertically from the parent node on both the left and the right side.</para>
+          <para>
+            <b>msoOrgChartLayoutLeftHanging</b> Places child nodes vertically from the parent node on the left side.</para>
+          <para>
+            <b>msoOrgChartLayoutMixed</b> Return value for a parent node that has children formatted using more than one <b>MsoOrgChartLayoutType</b>.</para>
+          <para>
+            <b>msoOrgChartLayoutRightHanging</b> Places child nodes vertically from the parent node on the right side.</para>
+          <para>
+            <b>msoOrgChartLayoutStandard</b> Places child nodes horizontally below the parent node.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveNode">
+      <MemberSignature Language="C#" Value="public void MoveNode (Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, Microsoft.Office.Core.MsoRelativeNodePosition pos);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MoveNode([in]class Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, [in]valuetype Microsoft.Office.Core.MsoRelativeNodePosition pos) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.MoveNode(Microsoft.Office.Interop.Excel.DiagramNode,Microsoft.Office.Core.MsoRelativeNodePosition)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MoveNode (pTargetNode As DiagramNode, pos As MsoRelativeNodePosition)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MoveNode(Microsoft::Office::Interop::Excel::DiagramNode ^ pTargetNode, Microsoft::Office::Core::MsoRelativeNodePosition pos);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pTargetNode" Type="Microsoft.Office.Interop.Excel.DiagramNode" />
+        <Parameter Name="pos" Type="Microsoft.Office.Core.MsoRelativeNodePosition" />
+      </Parameters>
+      <Docs>
+        <param name="pTargetNode">Required <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object. The diagram node where the specified node will be moved.</param>
+        <param name="pos">Required <see cref="T:Microsoft.Office.Interop.Office.MsoRelativeNodePosiiton" />. The position to move the node, relative to <paramref name="TargetNode" />.<b>MsoRelativeNodePosition</b> can be one of these constants:<b>msoAfterLastSibling</b><b>msoAfterNode</b><b>msoBeforeFirstSibling</b><b>msoBeforeNode</b></param>
+        <summary>Moves a diagram node and any of its child nodes within a diagram.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NextNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNode NextNode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.DiagramNode NextNode() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.NextNode" />
+      <MemberSignature Language="VB.NET" Value="Public Function NextNode () As DiagramNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::DiagramNode ^ NextNode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects the next diagram node in a series of nodes. Returns a <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object representing the newly-selected node.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrevNode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNode PrevNode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.DiagramNode PrevNode() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.PrevNode" />
+      <MemberSignature Language="VB.NET" Value="Public Function PrevNode () As DiagramNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::DiagramNode ^ PrevNode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object that represents the previous diagram node in a collection of diagram nodes.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplaceNode">
+      <MemberSignature Language="C#" Value="public void ReplaceNode (Microsoft.Office.Interop.Excel.DiagramNode pTargetNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReplaceNode([in]class Microsoft.Office.Interop.Excel.DiagramNode pTargetNode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.ReplaceNode(Microsoft.Office.Interop.Excel.DiagramNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReplaceNode (pTargetNode As DiagramNode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceNode(Microsoft::Office::Interop::Excel::DiagramNode ^ pTargetNode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pTargetNode" Type="Microsoft.Office.Interop.Excel.DiagramNode" />
+      </Parameters>
+      <Docs>
+        <param name="pTargetNode">Required <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object. The target diagram node to be replaced.</param>
+        <summary>Replaces a target diagram node with the source diagram node.</summary>
+        <remarks>
+          <para>The target diagram node is deleted, and the source diagram node, including any of its child nodes, are moved to where the target diagram node was.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Root">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DiagramNode Root { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.DiagramNode Root" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Root" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Root As DiagramNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::DiagramNode ^ Root { Microsoft::Office::Interop::Excel::DiagramNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DiagramNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the root <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object which the root diagram node belongs.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape Shape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Shape Shape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.Shape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Shape As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Shape ^ Shape { Microsoft::Office::Interop::Excel::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the shape attached to the specified diagram node</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwapNode">
+      <MemberSignature Language="C#" Value="public void SwapNode (Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, bool swapChildren = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SwapNode([in]class Microsoft.Office.Interop.Excel.DiagramNode pTargetNode, [in]bool swapChildren) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.SwapNode(Microsoft.Office.Interop.Excel.DiagramNode,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SwapNode (pTargetNode As DiagramNode, Optional swapChildren As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pTargetNode" Type="Microsoft.Office.Interop.Excel.DiagramNode" />
+        <Parameter Name="swapChildren" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="pTargetNode">Required <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object. The target diagram node to be replaced.</param>
+        <param name="swapChildren">Optional <b>Boolean</b>. The child nodes of the target and source nodes being swapped. Any child diagram nodes are moved along with their corresponding root nodes. Default is <b>True</b>, which swaps the child nodes.</param>
+        <summary>Swaps the source diagram node with a target diagram node.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape TextShape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Shape TextShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DiagramNode.TextShape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextShape As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Shape ^ TextShape { Microsoft::Office::Interop::Excel::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object representing the shape of the text box associated with a diagram node.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransferChildren">
+      <MemberSignature Language="C#" Value="public void TransferChildren (Microsoft.Office.Interop.Excel.DiagramNode pReceivingNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TransferChildren([in]class Microsoft.Office.Interop.Excel.DiagramNode pReceivingNode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DiagramNode.TransferChildren(Microsoft.Office.Interop.Excel.DiagramNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TransferChildren (pReceivingNode As DiagramNode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TransferChildren(Microsoft::Office::Interop::Excel::DiagramNode ^ pReceivingNode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pReceivingNode" Type="Microsoft.Office.Interop.Excel.DiagramNode" />
+      </Parameters>
+      <Docs>
+        <param name="pReceivingNode">Required <see cref="T:Microsoft.Office.Interop.Excel.DiagramNode" /> object. The diagram node receiving the child nodes being transferred from the specified node.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object representing the shape of the text box associated with a diagram node.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

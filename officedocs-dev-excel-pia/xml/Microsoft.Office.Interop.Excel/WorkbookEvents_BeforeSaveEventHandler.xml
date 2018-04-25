@@ -1,0 +1,37 @@
+﻿<Type Name="WorkbookEvents_BeforeSaveEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_BeforeSaveEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_BeforeSaveEventHandler(bool SaveAsUI, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_BeforeSaveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_BeforeSaveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_BeforeSaveEventHandler(SaveAsUI As Boolean, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_BeforeSaveEventHandler(bool SaveAsUI, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="SaveAsUI" Type="System.Boolean" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="SaveAsUI">
+      <b>True</b> if the Save As dialog box will be displayed.</param>
+    <param name="Cancel">
+      <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the workbook isn't saved when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.BeforeSave" /> event. The <b>BeforeSave</b> event occurs before the workbook is saved.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

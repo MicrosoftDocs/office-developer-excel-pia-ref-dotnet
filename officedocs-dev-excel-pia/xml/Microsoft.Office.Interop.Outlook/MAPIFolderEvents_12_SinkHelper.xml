@@ -1,0 +1,145 @@
+﻿<Type Name="MAPIFolderEvents_12_SinkHelper" FullName="Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class MAPIFolderEvents_12_SinkHelper : Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MAPIFolderEvents_12_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class MAPIFolderEvents_12_SinkHelper&#xA;Implements MAPIFolderEvents_12" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MAPIFolderEvents_12_SinkHelper sealed : Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFolderMove">
+      <MemberSignature Language="C#" Value="public override void BeforeFolderMove (Microsoft.Office.Interop.Outlook.MAPIFolder , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeFolderMove(class Microsoft.Office.Interop.Outlook.MAPIFolder , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper.BeforeFolderMove(Microsoft.Office.Interop.Outlook.MAPIFolder,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeFolderMove ( As MAPIFolder, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeFolderMove(Microsoft::Office::Interop::Outlook::MAPIFolder ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12.BeforeFolderMove(Microsoft.Office.Interop.Outlook.MAPIFolder,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemMove">
+      <MemberSignature Language="C#" Value="public override void BeforeItemMove (object , Microsoft.Office.Interop.Outlook.MAPIFolder , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeItemMove(object , class Microsoft.Office.Interop.Outlook.MAPIFolder , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper.BeforeItemMove(System.Object,Microsoft.Office.Interop.Outlook.MAPIFolder,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeItemMove ( As Object,  As MAPIFolder, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeItemMove(System::Object ^ , Microsoft::Office::Interop::Outlook::MAPIFolder ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12.BeforeItemMove(System.Object,Microsoft.Office.Interop.Outlook.MAPIFolder,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeFolderMoveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler m_BeforeFolderMoveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler m_BeforeFolderMoveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper.m_BeforeFolderMoveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeFolderMoveDelegate As MAPIFolderEvents_12_BeforeFolderMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeFolderMoveEventHandler ^ m_BeforeFolderMoveDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeFolderMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeItemMoveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler m_BeforeItemMoveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler m_BeforeItemMoveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper.m_BeforeItemMoveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeItemMoveDelegate As MAPIFolderEvents_12_BeforeItemMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::MAPIFolderEvents_12_BeforeItemMoveEventHandler ^ m_BeforeItemMoveDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_BeforeItemMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.MAPIFolderEvents_12_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

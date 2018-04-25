@@ -1,0 +1,65 @@
+﻿<Type Name="Chart" FullName="Microsoft.Office.Interop.Excel.Chart">
+  <TypeSignature Language="C#" Value="public interface Chart : Microsoft.Office.Interop.Excel._Chart, Microsoft.Office.Interop.Excel.ChartEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Chart implements class Microsoft.Office.Interop.Excel._Chart, class Microsoft.Office.Interop.Excel.ChartEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Chart" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Chart&#xA;Implements _Chart, ChartEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Chart : Microsoft::Office::Interop::Excel::_Chart, Microsoft::Office::Interop::Excel::ChartEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel._Chart</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.ChartEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Excel.ChartClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000208D6-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a chart in a workbook. The chart can be either an embedded chart (contained in a <see cref="T:Microsoft.Office.Interop.Excel.ChartObject" />) or a separate chart sheet.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Excel._Chart" />.</para>
+      <para>The following properties for returning a <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> object are described in this section:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ChartObject.Chart" /> property</para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel._Workbook.Charts" /> property</para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel._Workbook.ActiveChart" /> property</para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel._Workbook.ActiveSheet" /> property</para>
+        </item>
+      </list>
+      <para>Chart Property</para>
+      <para>Use the <b>Chart</b> property to return a <b>Chart</b> object that represents the chart contained in a <b>ChartObject</b> object.</para>
+      <para>Charts Property</para>
+      <para>The <see cref="T:Microsoft.Office.Interop.Excel.Charts" /> collection contains a <b>Chart</b> object for each chart sheet in a workbook. Use <b>Charts</b>(<paramref name="index" />), where <paramref name="index" /> is the chart-sheet index number or name, to return a single <b>Chart</b> object.</para>
+      <para>The chart index number represents the position of the chart sheet on the workbook tab bar. All chart sheets are included in the index count, even if they’re hidden. The chart sheet name is shown on the workbook tab for the chart. You can use the <see cref="P:Microsoft.Office.Interop.Excel._Chart.Name" /> property to set or return the chart name.</para>
+      <para>The <b>Chart</b> object is also a member of the <see cref="T:Microsoft.Office.Interop.Excel.Sheets" /> collection. The <b>Sheets</b> collection contains all the sheets in the workbook (both chart sheets and worksheets). Use <b>Sheets</b>(<paramref name="index" />), where <paramref name="index" /> is the sheet index number or name, to return a single sheet.</para>
+      <para>ActiveChart Property</para>
+      <para>When a chart is the active object, you can use the <b>ActiveChart</b> property to refer to it. A chart sheet is active if the user has selected it or it’s been activated with the <see cref="M:Microsoft.Office.Interop.Excel._Chart.Activate" /> method.</para>
+      <para>An embedded chart is active if the user has selected it or the <see cref="T:Microsoft.Office.Interop.Excel.ChartObject" /> object that it’s contained in has been activated with the <b>Activate</b> method.</para>
+      <para>ActiveSheet Property</para>
+      <para>When a chart sheet is the active sheet, you can use the <b>ActiveSheet</b> property to refer to it. </para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

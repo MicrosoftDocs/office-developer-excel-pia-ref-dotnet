@@ -1,0 +1,1075 @@
+﻿<Type Name="ChartGroup" FullName="Microsoft.Office.Interop.Excel.ChartGroup">
+  <TypeSignature Language="C#" Value="public interface ChartGroup" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartGroup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartGroup" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ChartGroup" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartGroup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020859-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents one or more series plotted in a chart with the same format. The <b>ChartGroup</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.ChartGroups" /> collection.</summary>
+    <remarks>
+      <para>A chart contains one or more chart groups, each chart group contains one or more series, and each series contains one or more points. For example, a single chart might contain both a line chart group, containing all the series plotted with the line chart format, and a bar chart group, containing all the series plotted with the bar chart format.</para>
+      <para>Use <b>ChartGroups</b>(<paramref name="index" />), where <paramref name="index" /> is the chart-group index number, to return a single <b>ChartGroup</b> object. If the chart has been activated, you can use the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.ActiveChart" /> property.</para>
+      <para>Because the index number for a particular chart group can change if the chart format used for that group is changed, it may be easier to use one of the named chart group shortcut methods to return a particular chart group. The <see cref="M:Microsoft.Office.Interop.Excel._Chart.PieGroups(System.Object)" /> method returns the collection of pie chart groups in a chart, the <see cref="M:Microsoft.Office.Interop.Excel._Chart.LineGroups(System.Object)" /> method returns the collection of line chart groups, and so on. Each of these methods can be used with an index number to return a single <b>ChartGroup</b> object, or without an index number to return a <b>ChartGroups</b> collection. The following chart group methods are available:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.AreaGroups(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.BarGroups(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.ColumnGroups(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.DoughnutGroups(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.LineGroups(System.Object)" /> method</para>
+        </item>
+        <item>
+          <para>
+            <see cref="M:Microsoft.Office.Interop.Excel._Chart.PieGroups(System.Object)" /> method</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the creator of the specified object (you can use this property with an OLE Automation object to return the application of that object).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AxisGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.AxisGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property AxisGroup As XlAxisGroup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAxisGroup AxisGroup { Microsoft::Office::Interop::Excel::XlAxisGroup get(); void set(Microsoft::Office::Interop::Excel::XlAxisGroup value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAxisGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the group for the specified chart group or series.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For 3-D charts only <b>xlPrimary</b> is valid.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BubbleScale">
+      <MemberSignature Language="C#" Value="public int BubbleScale { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BubbleScale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.BubbleScale" />
+      <MemberSignature Language="VB.NET" Value="Public Property BubbleScale As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BubbleScale { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1653)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1653)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the scale factor for bubbles in the specified chart group. Can be an integer value from 0 (zero) to 300, corresponding to a percentage of the default size. Applies only to bubble charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CategoryCollection">
+      <MemberSignature Language="C#" Value="public object CategoryCollection (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object CategoryCollection([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartGroup.CategoryCollection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CategoryCollection (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3082)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">The name or number of the categories.</param>
+        <summary>Returns an object that represents a collection of all of the visible categories (a <see cref="T:Microsoft.Office.Interop.Excel.CategoryCollection" /> collection) in the chart group.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoughnutHoleSize">
+      <MemberSignature Language="C#" Value="public int DoughnutHoleSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DoughnutHoleSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.DoughnutHoleSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property DoughnutHoleSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DoughnutHoleSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the size of the hole in a doughnut chart group. The hole size is expressed as a percentage of the chart size, between 10 and 90 percent.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DownBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DownBars DownBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.DownBars DownBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.DownBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DownBars As DownBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::DownBars ^ DownBars { Microsoft::Office::Interop::Excel::DownBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(141)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(141)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DownBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.DownBars" /> object that represents the down bars on a line chart. Applies only to line charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropLines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.DropLines DropLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.DropLines DropLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.DropLines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DropLines As DropLines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::DropLines ^ DropLines { Microsoft::Office::Interop::Excel::DropLines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(142)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(142)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DropLines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.DropLines" /> object that represents the drop lines for a series on a line chart or area chart. Applies only to line charts or area charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FirstSliceAngle">
+      <MemberSignature Language="C#" Value="public int FirstSliceAngle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FirstSliceAngle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.FirstSliceAngle" />
+      <MemberSignature Language="VB.NET" Value="Public Property FirstSliceAngle As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int FirstSliceAngle { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(63)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(63)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(63)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the angle of the first pie-chart or doughnut-chart slice in degrees (clockwise from vertical). Applies only to pie, 3-D pie, and doughnut charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullCategoryCollection">
+      <MemberSignature Language="C#" Value="public object FullCategoryCollection (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object FullCategoryCollection([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartGroup.FullCategoryCollection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function FullCategoryCollection (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3081)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">The name or number of the categories.</param>
+        <summary>Returns an object that represents a collection of all of the visible and filtered categories (a <see cref="T:Microsoft.Office.Interop.Excel.CategoryCollection" />) in the chart group.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GapWidth">
+      <MemberSignature Language="C#" Value="public int GapWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GapWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.GapWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property GapWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GapWidth { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(51)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(51)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(51)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Bar and Column charts: Returns or sets the space between bar or column clusters as a percentage of the bar or column width. Pie of Pie and Bar of Pie charts: Returns or sets the space between the primary and secondary sections of the chart.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The value of this property must be between 0 and 500.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Has3DShading">
+      <MemberSignature Language="C#" Value="public bool Has3DShading { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Has3DShading" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Has3DShading" />
+      <MemberSignature Language="VB.NET" Value="Public Property Has3DShading As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DShading { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1658)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1658)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1658)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the chart group has three-dimensional shading. This property only applies to surface charts and will return a run-time error if you try to set it to a non-surface chart.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDropLines">
+      <MemberSignature Language="C#" Value="public bool HasDropLines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasDropLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HasDropLines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasDropLines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDropLines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(61)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the line chart or area chart has drop lines. Applies only to line and area charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasHiLoLines">
+      <MemberSignature Language="C#" Value="public bool HasHiLoLines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasHiLoLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HasHiLoLines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasHiLoLines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasHiLoLines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(62)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(62)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(62)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the line chart has high-low lines. Applies only to line charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasRadarAxisLabels">
+      <MemberSignature Language="C#" Value="public bool HasRadarAxisLabels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasRadarAxisLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HasRadarAxisLabels" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasRadarAxisLabels As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasRadarAxisLabels { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a radar chart has axis labels. Applies only to radar charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasSeriesLines">
+      <MemberSignature Language="C#" Value="public bool HasSeriesLines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasSeriesLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HasSeriesLines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasSeriesLines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasSeriesLines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(65)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(65)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(65)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a stacked column chart or bar chart has series lines or if a Pie of Pie chart or Bar of Pie chart has connector lines between the two sections. Applies only to stacked column charts, bar charts, Pie of Pie charts, or Bar of Pie charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasUpDownBars">
+      <MemberSignature Language="C#" Value="public bool HasUpDownBars { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasUpDownBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HasUpDownBars" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasUpDownBars As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasUpDownBars { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(66)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>True if a line chart has up and down bars. Applies only to line charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HiLoLines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HiLoLines HiLoLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HiLoLines HiLoLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.HiLoLines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HiLoLines As HiLoLines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HiLoLines ^ HiLoLines { Microsoft::Office::Interop::Excel::HiLoLines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(143)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(143)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HiLoLines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.HiLoLines" /> object that represents the high-low lines for a series on a line chart. Applies only to line charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the index number of the object within the collection of similar objects.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Overlap">
+      <MemberSignature Language="C#" Value="public int Overlap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Overlap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Overlap" />
+      <MemberSignature Language="VB.NET" Value="Public Property Overlap As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Overlap { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(56)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(56)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(56)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies how bars and columns are positioned. Can be a value between –100 and 100. Applies only to 2-D bar and 2-D column charts.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If this property is set to –100, bars are positioned so that there's one bar width between them. If the overlap is 0 (zero), there's no space between bars (one bar starts immediately after the preceding bar). If the overlap is 100, bars are positioned on top of each other.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadarAxisLabels">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.TickLabels RadarAxisLabels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.TickLabels RadarAxisLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.RadarAxisLabels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RadarAxisLabels As TickLabels" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::TickLabels ^ RadarAxisLabels { Microsoft::Office::Interop::Excel::TickLabels ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(144)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(144)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.TickLabels</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.TickLabels" /> object that represents the radar axis labels for the specified chart group.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SecondPlotSize">
+      <MemberSignature Language="C#" Value="public int SecondPlotSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SecondPlotSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SecondPlotSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property SecondPlotSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SecondPlotSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1657)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1657)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1657)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the size of the secondary section of either a Pie of Pie chart or a Bar of Pie chart, as a percentage of the size of the primary pie. Can be a value from 5 to 200.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeriesCollection">
+      <MemberSignature Language="C#" Value="public object SeriesCollection (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object SeriesCollection([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartGroup.SeriesCollection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SeriesCollection (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(68)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The name or number of the series.</param>
+        <summary>Returns an object that represents either a single series (a <see cref="T:Microsoft.Office.Interop.Excel.Series" /> object) or a collection of all the series (a <see cref="T:Microsoft.Office.Interop.Excel.SeriesCollection" /> collection) in the chart or chart group.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeriesLines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SeriesLines SeriesLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SeriesLines SeriesLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SeriesLines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SeriesLines As SeriesLines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SeriesLines ^ SeriesLines { Microsoft::Office::Interop::Excel::SeriesLines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(145)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SeriesLines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.SeriesLines" /> object that represents the series lines for a stacked bar chart or a stacked column chart. Applies only to stacked bar and stacked column charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowNegativeBubbles">
+      <MemberSignature Language="C#" Value="public bool ShowNegativeBubbles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowNegativeBubbles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.ShowNegativeBubbles" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowNegativeBubbles As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowNegativeBubbles { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1654)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1654)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if negative bubbles are shown for the chart group. Valid only for bubble charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SizeRepresents">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSizeRepresents SizeRepresents { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSizeRepresents SizeRepresents" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SizeRepresents" />
+      <MemberSignature Language="VB.NET" Value="Public Property SizeRepresents As XlSizeRepresents" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSizeRepresents SizeRepresents { Microsoft::Office::Interop::Excel::XlSizeRepresents get(); void set(Microsoft::Office::Interop::Excel::XlSizeRepresents value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1652)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1652)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSizeRepresents</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets what the bubble size represents on a bubble chart. Can be either of the following <b>XlSizeRepresents</b> constants: <b>xlSizeIsArea</b> or <b>xlSizeIsWidth</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlChartSplitType SplitType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlChartSplitType SplitType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SplitType" />
+      <MemberSignature Language="VB.NET" Value="Public Property SplitType As XlChartSplitType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlChartSplitType SplitType { Microsoft::Office::Interop::Excel::XlChartSplitType get(); void set(Microsoft::Office::Interop::Excel::XlChartSplitType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1655)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1655)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlChartSplitType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the way the two sections of either a Pie of Pie chart or a Bar of Pie chart are split.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitValue">
+      <MemberSignature Language="C#" Value="public object SplitValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object SplitValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SplitValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property SplitValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SplitValue { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1656)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1656)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1656)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the threshold value separating the two sections of either a Pie of Pie chart or a Bar of Pie chart.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubType">
+      <MemberSignature Language="C#" Value="public int SubType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SubType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.SubType" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SubType { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public int Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.UpBars UpBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.UpBars UpBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.UpBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UpBars As UpBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::UpBars ^ UpBars { Microsoft::Office::Interop::Excel::UpBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(140)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(140)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.UpBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.UpBars" /> object that represents the up bars on a line chart. Applies only to line charts.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VaryByCategories">
+      <MemberSignature Language="C#" Value="public bool VaryByCategories { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool VaryByCategories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartGroup.VaryByCategories" />
+      <MemberSignature Language="VB.NET" Value="Public Property VaryByCategories As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool VaryByCategories { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(60)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(60)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(60)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel assigns a different color or pattern to each data marker. The chart must contain only one series.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

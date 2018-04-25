@@ -1,0 +1,380 @@
+﻿<Type Name="DocEvents_Event" FullName="Microsoft.Office.Interop.Excel.DocEvents_Event">
+  <TypeSignature Language="C#" Value="public interface DocEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DocEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Excel.DocEvents), typeof(Microsoft.Office.Interop.Excel.DocEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Excel <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_ActivateEventHandler Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_ActivateEventHandler Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Activate" />
+      <MemberSignature Language="VB.NET" Value="Event Activate As DocEvents_ActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_ActivateEventHandler ^ Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a worksheet is activated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDelete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_BeforeDeleteEventHandler BeforeDelete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_BeforeDeleteEventHandler BeforeDelete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.BeforeDelete" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDelete As DocEvents_BeforeDeleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_BeforeDeleteEventHandler ^ BeforeDelete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_BeforeDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <b>BeforeDelete</b> event occurs before any sheet is deleted.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_BeforeDoubleClickEventHandler BeforeDoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_BeforeDoubleClickEventHandler BeforeDoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.BeforeDoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDoubleClick As DocEvents_BeforeDoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_BeforeDoubleClickEventHandler ^ BeforeDoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_BeforeDoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a worksheet is double-clicked, before the default double-click action.</summary>
+        <remarks>
+          <para>The <see cref="M:Microsoft.Office.Interop.Excel._Application.DoubleClick" /> method doesn't cause this event to occur.</para>
+          <para>This event doesn't occur when the user double-clicks the border of a cell.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRightClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_BeforeRightClickEventHandler BeforeRightClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_BeforeRightClickEventHandler BeforeRightClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.BeforeRightClick" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeRightClick As DocEvents_BeforeRightClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_BeforeRightClickEventHandler ^ BeforeRightClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_BeforeRightClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a worksheet is right-clicked, before the default right-click action.</summary>
+        <remarks>
+          <para>Like other worksheet events, this event doesn't occur if you right-click while the pointer is on a shape or a command bar (a toolbar or menu bar).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Calculate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_CalculateEventHandler Calculate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_CalculateEventHandler Calculate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Calculate" />
+      <MemberSignature Language="VB.NET" Value="Event Calculate As DocEvents_CalculateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_CalculateEventHandler ^ Calculate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_CalculateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after the worksheet is recalculated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_ChangeEventHandler Change;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_ChangeEventHandler Change" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Change" />
+      <MemberSignature Language="VB.NET" Value="Event Change As DocEvents_ChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_ChangeEventHandler ^ Change;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_ChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when cells on the worksheet are changed by the user or by an external link.</summary>
+        <remarks>
+          <para>This event doesn't occur when cells change during a recalculation. Use the <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Calculate" /> event to trap a sheet recalculation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_DeactivateEventHandler Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_DeactivateEventHandler Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Event Deactivate As DocEvents_DeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_DeactivateEventHandler ^ Deactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the worksheet is deactivated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowHyperlink">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_FollowHyperlinkEventHandler FollowHyperlink;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_FollowHyperlinkEventHandler FollowHyperlink" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.FollowHyperlink" />
+      <MemberSignature Language="VB.NET" Value="Event FollowHyperlink As DocEvents_FollowHyperlinkEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_FollowHyperlinkEventHandler ^ FollowHyperlink;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_FollowHyperlinkEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when you click any hyperlink on a worksheet. For application- and workbook-level events, see the <b>SheetFollowHyperlink</b> event.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LensGalleryRenderComplete">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_LensGalleryRenderCompleteEventHandler LensGalleryRenderComplete;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_LensGalleryRenderCompleteEventHandler LensGalleryRenderComplete" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.LensGalleryRenderComplete" />
+      <MemberSignature Language="VB.NET" Value="Event LensGalleryRenderComplete As DocEvents_LensGalleryRenderCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_LensGalleryRenderCompleteEventHandler ^ LensGalleryRenderComplete;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_LensGalleryRenderCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a callout gallery’s icons (dynamic and static) have completed rendering.</summary>
+        <remarks>
+          <para>This event can be used to indicate when re-enable screen updating or display additional dialogs, for example.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableAfterValueChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableAfterValueChangeEventHandler PivotTableAfterValueChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableAfterValueChangeEventHandler PivotTableAfterValueChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableAfterValueChange" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableAfterValueChange As DocEvents_PivotTableAfterValueChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableAfterValueChangeEventHandler ^ PivotTableAfterValueChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableAfterValueChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after a cell or range of cells inside a PivotTable are edited or recalculated (for cells that contain formulas).</summary>
+        <remarks>
+          <para>The <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableAfterValueChange" /> event does not occur under any conditions other than editing or recalculating cells. For example, it will not occur when the PivotTable is refreshed, sorted, filtered, or drilled down on, even though those operations move cells and potentially retrieve new values from the OLAP data source.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeAllocateChanges">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeAllocateChangesEventHandler PivotTableBeforeAllocateChanges;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeAllocateChangesEventHandler PivotTableBeforeAllocateChanges" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableBeforeAllocateChanges" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableBeforeAllocateChanges As DocEvents_PivotTableBeforeAllocateChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableBeforeAllocateChangesEventHandler ^ PivotTableBeforeAllocateChanges;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeAllocateChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs before changes are applied to a PivotTable.</summary>
+        <remarks>
+          <para>The <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableBeforeAllocateChanges" /> event occurs immediately before Excel executes an UPDATE CUBE statement to apply all changes to the PivotTable's OLAP data source, and immediately after the user has chosen to apply changes in the user interface.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeCommitChanges">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeCommitChangesEventHandler PivotTableBeforeCommitChanges;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeCommitChangesEventHandler PivotTableBeforeCommitChanges" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableBeforeCommitChanges" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableBeforeCommitChanges As DocEvents_PivotTableBeforeCommitChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableBeforeCommitChangesEventHandler ^ PivotTableBeforeCommitChanges;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeCommitChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs before changes are committed against the OLAP data source for a PivotTable.</summary>
+        <remarks>
+          <para>The <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableBeforeAllocateChanges" /> event occurs immediately before Excel executes an COMMIT TRANSACTION against the PivotTable's OLAP data source, and immediately after the user has chosen to save changes for the whole PivotTable.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeDiscardChanges">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeDiscardChangesEventHandler PivotTableBeforeDiscardChanges;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeDiscardChangesEventHandler PivotTableBeforeDiscardChanges" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableBeforeDiscardChanges" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableBeforeDiscardChanges As DocEvents_PivotTableBeforeDiscardChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableBeforeDiscardChangesEventHandler ^ PivotTableBeforeDiscardChanges;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableBeforeDiscardChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs before changes to a PivotTable are discarded.</summary>
+        <remarks>
+          <para>Occurs immediately before Excel executes a ROLLBACK TRANSACTION statement against the OLAP data source, if a transaction is still active, and then discards all edited values in the PivotTable, after the user has chosen to discard changes.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableChangeSync">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableChangeSyncEventHandler PivotTableChangeSync;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableChangeSyncEventHandler PivotTableChangeSync" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableChangeSync" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableChangeSync As DocEvents_PivotTableChangeSyncEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableChangeSyncEventHandler ^ PivotTableChangeSync;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableChangeSyncEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after changes to a PivotTable.</summary>
+        <remarks>
+          <para>The <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableChangeSync" /> event occurs during most changes to a PivotTable, so that you can write code to respond to user actions, such as clearing, grouping, or refreshing items in the PivotTable.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_PivotTableUpdateEventHandler PivotTableUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_PivotTableUpdateEventHandler PivotTableUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.PivotTableUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event PivotTableUpdate As DocEvents_PivotTableUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_PivotTableUpdateEventHandler ^ PivotTableUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_PivotTableUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after a PivotTable report is updated on a worksheet.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_SelectionChangeEventHandler SelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_SelectionChangeEventHandler SelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.SelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Event SelectionChange As DocEvents_SelectionChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_SelectionChangeEventHandler ^ SelectionChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_SelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the selection changes on a worksheet.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableUpdate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.DocEvents_TableUpdateEventHandler TableUpdate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.DocEvents_TableUpdateEventHandler TableUpdate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.DocEvents_Event.TableUpdate" />
+      <MemberSignature Language="VB.NET" Value="Event TableUpdate As DocEvents_TableUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::DocEvents_TableUpdateEventHandler ^ TableUpdate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.DocEvents_TableUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after a Query table connected to the Data Model is updated on a worksheet.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

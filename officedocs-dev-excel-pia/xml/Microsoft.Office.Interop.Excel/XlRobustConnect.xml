@@ -1,0 +1,77 @@
+﻿<Type Name="XlRobustConnect" FullName="Microsoft.Office.Interop.Excel.XlRobustConnect">
+  <TypeSignature Language="C#" Value="public enum XlRobustConnect" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlRobustConnect extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlRobustConnect" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlRobustConnect" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlRobustConnect" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how the PivotTable cache connects to its data source.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlAlways">
+      <MemberSignature Language="C#" Value="xlAlways" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlRobustConnect xlAlways = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlRobustConnect.xlAlways" />
+      <MemberSignature Language="VB.NET" Value="xlAlways" />
+      <MemberSignature Language="C++ CLI" Value="xlAlways" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlRobustConnect</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The cache always uses external source information (as defined by the <b>SourceConnectionFile</b> or <b>SourceDataFile</b> property) to reconnect.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlAsRequired">
+      <MemberSignature Language="C#" Value="xlAsRequired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlRobustConnect xlAsRequired = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlRobustConnect.xlAsRequired" />
+      <MemberSignature Language="VB.NET" Value="xlAsRequired" />
+      <MemberSignature Language="C++ CLI" Value="xlAsRequired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlRobustConnect</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The cache uses external source info to reconnect using the <b>Connection</b> property.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlNever">
+      <MemberSignature Language="C#" Value="xlNever" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlRobustConnect xlNever = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlRobustConnect.xlNever" />
+      <MemberSignature Language="VB.NET" Value="xlNever" />
+      <MemberSignature Language="C++ CLI" Value="xlNever" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlRobustConnect</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The cache never uses source info to reconnect.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

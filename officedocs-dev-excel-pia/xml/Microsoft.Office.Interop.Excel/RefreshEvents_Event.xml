@@ -1,0 +1,67 @@
+﻿<Type Name="RefreshEvents_Event" FullName="Microsoft.Office.Interop.Excel.RefreshEvents_Event">
+  <TypeSignature Language="C#" Value="public interface RefreshEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RefreshEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.RefreshEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RefreshEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RefreshEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Excel.RefreshEvents), typeof(Microsoft.Office.Interop.Excel.RefreshEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Excel <see cref="T:Microsoft.Office.Interop.Excel.QueryTable" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterRefresh">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler AfterRefresh;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler AfterRefresh" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.RefreshEvents_Event.AfterRefresh" />
+      <MemberSignature Language="VB.NET" Value="Event AfterRefresh As RefreshEvents_AfterRefreshEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::RefreshEvents_AfterRefreshEventHandler ^ AfterRefresh;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after a query is completed or canceled.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRefresh">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler BeforeRefresh;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler BeforeRefresh" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.RefreshEvents_Event.BeforeRefresh" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeRefresh As RefreshEvents_BeforeRefreshEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::RefreshEvents_BeforeRefreshEventHandler ^ BeforeRefresh;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs before any refreshes of the query table. This includes refreshes resulting from calling the <b>Refresh</b> method, from the user's actions in the product, and from opening the workbook containing the query table.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

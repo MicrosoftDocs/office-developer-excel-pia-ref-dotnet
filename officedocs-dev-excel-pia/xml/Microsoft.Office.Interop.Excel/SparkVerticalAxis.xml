@@ -1,0 +1,264 @@
+﻿<Type Name="SparkVerticalAxis" FullName="Microsoft.Office.Interop.Excel.SparkVerticalAxis">
+  <TypeSignature Language="C#" Value="public interface SparkVerticalAxis" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SparkVerticalAxis" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.SparkVerticalAxis" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SparkVerticalAxis" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SparkVerticalAxis" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244BC-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the settings for the vertical axes of a group of sparklines.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.SparkAxes.Vertical" />property of the <see cref="T:Microsoft.Office.Interop.Excel.SparkAxes" /> object to return the <see cref="T:Microsoft.Office.Interop.Excel.SparkVerticalAxis" /> object for group of sparklines.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the creator of the specified object.</summary>
+        <value>An <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a 32-bit <b>integer</b> that indicates the application in which this object was created.</summary>
+        <value>A 32-bit <b>integer</b> that indicates the application in which this object was created.</value>
+        <remarks>
+          <para>Read-only <b>long</b>.</para>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. The <see cref="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.Creator" /> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomMaxScaleValue">
+      <MemberSignature Language="C#" Value="public object CustomMaxScaleValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CustomMaxScaleValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.CustomMaxScaleValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomMaxScaleValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CustomMaxScaleValue { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2968)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2968)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2968)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the custom maximum value for the vertical axis of a sparkline.</summary>
+        <value>The custom maximum value for the vertical axis of a sparkline.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.CustomMaxScaleValue" /> property can be returned or set only when the <see cref="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.MaxScaleType" /> property of the specified <see cref="T:Microsoft.Office.Interop.Excel.SparkVerticalAxis" /> object is set to <see cref="F:Microsoft.Office.Interop.Excel.XlSparkScale.xlSparkScaleCustom" /> (3).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomMinScaleValue">
+      <MemberSignature Language="C#" Value="public object CustomMinScaleValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CustomMinScaleValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.CustomMinScaleValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomMinScaleValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CustomMinScaleValue { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2966)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2966)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2966)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the custom minimum value for the vertical axis of a sparkline.</summary>
+        <value>The custom minimum value for the vertical axis of a sparkline.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.CustomMinScaleValue" /> property can be returned or set only when the <see cref="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.MinScaleType" /> property of the specified <see cref="T:Microsoft.Office.Interop.Excel.SparkVerticalAxis" /> object is set to <see cref="F:Microsoft.Office.Interop.Excel.XlSparkScale.xlSparkScaleCustom" /> (3).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxScaleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSparkScale MaxScaleType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSparkScale MaxScaleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.MaxScaleType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxScaleType As XlSparkScale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSparkScale MaxScaleType { Microsoft::Office::Interop::Excel::XlSparkScale get(); void set(Microsoft::Office::Interop::Excel::XlSparkScale value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2967)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2967)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2967)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSparkScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets how the maximum value of the vertical axis of the sparkline is scaled relative to other sparklines in the group.</summary>
+        <value>Specifies how the maximum value of the vertical axis of the sparkline is scaled relative to other sparklines in the group.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinScaleType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSparkScale MinScaleType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSparkScale MinScaleType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.MinScaleType" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinScaleType As XlSparkScale" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSparkScale MinScaleType { Microsoft::Office::Interop::Excel::XlSparkScale get(); void set(Microsoft::Office::Interop::Excel::XlSparkScale value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2965)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2965)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2965)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSparkScale</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets how the minimum value of the vertical axis of the sparkline is scaled relative to other sparklines in the group.</summary>
+        <value>Specifies how the minimum value of the vertical axis of the sparkline is scaled relative to other sparklines in the group.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkVerticalAxis.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</summary>
+        <value>The parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

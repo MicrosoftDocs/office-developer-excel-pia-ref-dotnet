@@ -1,0 +1,36 @@
+﻿<Type Name="AppEvents_ProtectedViewWindowBeforeEditEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeEditEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_ProtectedViewWindowBeforeEditEventHandler(ProtectedViewWindow Pvw, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_ProtectedViewWindowBeforeEditEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeEditEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_ProtectedViewWindowBeforeEditEventHandler(Pvw As ProtectedViewWindow, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_ProtectedViewWindowBeforeEditEventHandler(ProtectedViewWindow ^ Pvw, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Pvw">The Protected View window that contains the workbook that is enabled for editing.</param>
+    <param name="Cancel">
+      <b>false</b> when the event occurs. If the event procedure sets this argument to <b>true</b>, editing is not enabled on the workbook.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.ProtectedViewWindowBeforeEdit" /> event. The <b>ProtectedViewWindowBeforeEdit</b> event occurs immediately before editing is enabled on the workbook in the specified Protected View window.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

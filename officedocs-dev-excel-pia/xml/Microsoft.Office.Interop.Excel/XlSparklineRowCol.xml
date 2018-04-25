@@ -1,0 +1,80 @@
+﻿<Type Name="XlSparklineRowCol" FullName="Microsoft.Office.Interop.Excel.XlSparklineRowCol">
+  <TypeSignature Language="C#" Value="public enum XlSparklineRowCol" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSparklineRowCol extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlSparklineRowCol" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlSparklineRowCol" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlSparklineRowCol" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how to plot the sparkline when the data on which it is based is in a square-shaped range.</summary>
+    <remarks>
+      <para>The <b>XlSparklineRowCol</b> enumeration is used by the <see cref="P:Microsoft.Office.Interop.Excel.SparklineGroup.PlotBy" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object to determine how to plot chart in a sparkline when data on which it based is in a square-shaped range, such as A1:B2.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlSparklineColumnsSquare">
+      <MemberSignature Language="C#" Value="xlSparklineColumnsSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSparklineRowCol xlSparklineColumnsSquare = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSparklineRowCol.xlSparklineColumnsSquare" />
+      <MemberSignature Language="VB.NET" Value="xlSparklineColumnsSquare" />
+      <MemberSignature Language="C++ CLI" Value="xlSparklineColumnsSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSparklineRowCol</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Plot the data by columns.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSparklineNonSquare">
+      <MemberSignature Language="C#" Value="xlSparklineNonSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSparklineRowCol xlSparklineNonSquare = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSparklineRowCol.xlSparklineNonSquare" />
+      <MemberSignature Language="VB.NET" Value="xlSparklineNonSquare" />
+      <MemberSignature Language="C++ CLI" Value="xlSparklineNonSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSparklineRowCol</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The sparkline is not bound to data in a square-shaped range.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlSparklineRowsSquare">
+      <MemberSignature Language="C#" Value="xlSparklineRowsSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSparklineRowCol xlSparklineRowsSquare = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSparklineRowCol.xlSparklineRowsSquare" />
+      <MemberSignature Language="VB.NET" Value="xlSparklineRowsSquare" />
+      <MemberSignature Language="C++ CLI" Value="xlSparklineRowsSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSparklineRowCol</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Plot the data by rows.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

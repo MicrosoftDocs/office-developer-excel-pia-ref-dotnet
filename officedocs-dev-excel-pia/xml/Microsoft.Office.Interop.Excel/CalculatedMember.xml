@@ -1,0 +1,680 @@
+﻿<Type Name="CalculatedMember" FullName="Microsoft.Office.Interop.Excel.CalculatedMember">
+  <TypeSignature Language="C#" Value="public interface CalculatedMember" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalculatedMember" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.CalculatedMember" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalculatedMember" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalculatedMember" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024455-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the calculated fields and calculated items for PivotTables with Online Analytical Processing (OLAP) data sources.</summary>
+    <remarks>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalculatedMembers.Add(System.String,System.String,System.Object,System.Object)" /> method or the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Item(System.Object)" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMembers" /> collection to return a <b>CalculatedMember</b> object.</para>
+      <para>With a <b>CalculatedMember</b> object you can check the validity of a calculated field or item in a PivotTable using the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.IsValid" /> property.</para>
+      <para>
+        <b>Note</b>  The <b>IsValid</b> property will return <b>True</b> if the PivotTable is not currently connected to the data source. Use the <see cref="M:Microsoft.Office.Interop.Excel.PivotCache.MakeConnection" /> method before testing the <b>IsValid</b> property.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Excel for the Macintosh, where each application has a four-character creator code. For example, Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalculatedMember.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <remarks>
+          <para>You can delete cube fields only if you have created the cube fields yourself by using the <b>CalculatedMember.Add</b> method with the <paramref name="xlCalculatedSet" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayFolder">
+      <MemberSignature Language="C#" Value="public string DisplayFolder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.DisplayFolder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayFolder As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayFolder { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2927)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2927)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the display folder name for a named set.</summary>
+        <value>The display folder name for a named set.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The value of this property corresponds to the optional value that can be entered in the Display folder text box of the New/Modify Set dialog box when a named set is created or edited. To create a new named set from data in a PivotTable based on an OLAP data source, click the PivotTable, click Field, Items, &amp; Sets on the PivotTable Tools Options tab on the ribbon, click Manage Sets, click New in the Set Manager dialog box, and then click Create Set using MDX. This will display the New Set dialog box, which contains the Display folder text box. Similarly, if you select an existing named set in the Set Manager dialog box, and then click Edit, the Modify Set dialog box is displayed.</para>
+          <para>This property along with the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Dynamic" /> and <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.HierarchizeDistinct" /> properties can only be read for named sets (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedSet" />). These properties for cannot be read for calculated members or measures (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedMember" />). If you attempt to read these properties for calculated members or measures, a run-time error is raised.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dynamic">
+      <MemberSignature Language="C#" Value="public bool Dynamic { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Dynamic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Dynamic" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Dynamic As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Dynamic { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2926)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2926)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the specified named set is recalculated with every update. </summary>
+        <value>
+          <b>true</b> if the specified named set is recalculated with every update; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>
+            <b>true</b> if the named set is recalculated with every update; otherwise <b>false</b>.</para>
+          <para>The value of this property corresponds to the setting of the Recalculate set with every update check box in the New/Modify Set dialog box that is available when a named set is created or edited. To create a new named set from data in a PivotTable based on an OLAP data source, click the PivotTable, click Field, Items, &amp; Sets on the PivotTable Tools Options tab on the ribbon, click Manage Sets, click New in the Set Manager dialog box, and then click Create Set using MDX. This will display the New Set dialog box, which contains the Recalculate set with every update check box. Similarly, if you select an existing named set in the Set Manager dialog box, and then click Edit, the Modify Set dialog box is displayed.</para>
+          <para>This property along with the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.DisplayFolder" /> and <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.HierarchizeDistinct" /> properties can only be read for named sets (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedSet" />). These properties for cannot be read for calculated members or measures (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedMember" />). If you attempt to read these properties for calculated members or measures, a run-time error is raised.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlattenHierarchies">
+      <MemberSignature Language="C#" Value="public bool FlattenHierarchies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FlattenHierarchies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.FlattenHierarchies" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlattenHierarchies As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FlattenHierarchies { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether items from all levels of the hierarchy of the specified named set are displayed in the same field of a PivotTable report based on an OLAP cube.</summary>
+        <value>
+          <b>true</b> if items from all levels of the hierarchy of the specified named set are displayed in the same field of a PivotTable report based on an OLAP cube; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if items from all levels of the hierarchy of the named set are displayed in the same field; otherwise <b>false</b>.</para>
+          <para>The value of this property corresponds to the setting of the Display items from different levels in separate fields check box in the New/Modify Set dialog box when a named set is created or edited. To create a new named set from data in a PivotTable based on an OLAP data source, click the PivotTable, click Field, Items, &amp; Sets on the PivotTable Tools Options tab on the ribbon, click Manage Sets, click New in the Set Manager dialog box, and then click Create Set using MDX. This will display the New Set dialog box, which contains the Display items from different levels in separate fields check box. Similarly, if you select an existing named set in the Set Manager dialog box, and then click Edit, the Modify Set dialog box is displayed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Formula">
+      <MemberSignature Language="C#" Value="public string Formula { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Formula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Formula" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Formula As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Formula { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the member's formula in multidimensional expressions (MDX) syntax.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para>If the cell contains a constant, this property returns the constant. If the cell is empty, the <b>Formula</b> property returns an empty string. If the cell contains a formula, the <b>Formula</b> property returns the formula as a string in the same format that would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, Microsoft Excel changes the number format to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to an array of the same dimensions. Similarly, you can put the formula into an array.</para>
+          <para>Setting the formula for a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HierarchizeDistinct">
+      <MemberSignature Language="C#" Value="public bool HierarchizeDistinct { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HierarchizeDistinct" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.HierarchizeDistinct" />
+      <MemberSignature Language="VB.NET" Value="Public Property HierarchizeDistinct As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HierarchizeDistinct { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether to order and remove duplicates when displaying the hierarchy of the specified named set in a PivotTable report based on an OLAP cube.</summary>
+        <value>
+          <b>true</b> if duplicates should be ordered and removed when displaying the hierarchy of the specified named set in a PivotTable report based on an OLAP cube; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the hierarchy of the named set is displayed as ordered with duplicates removed; otherwise <b>false</b>.</para>
+          <para>The value of this property corresponds to the Automatically order and remove duplicates from the set check box in the New/Modify Set dialog box when a named set is created or edited. To create a new named set from data in a PivotTable based on an OLAP data source, click the PivotTable, click Field, Items, &amp; Sets on the PivotTable Tools Options tab on the ribbon, click Manage Sets, click New in the Set Manager dialog box, and then click Create Set using MDX. This will display the New Set dialog box, which contains the Automatically order and remove duplicates from the set check box. Similarly, if you select an existing named set in the Set Manager dialog box, and then click Edit, the Modify Set dialog box is displayed.</para>
+          <para>This property along with the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.DisplayFolder" /> and <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Dynamic" /> properties can only be read for named sets (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedSet" />). These properties for cannot be read for calculated members or measures (which are represented by <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects where the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" /> property equals <paramref name="xlCalculatedMember" />). If you attempt to read these properties for calculated members or measures, a run-time error is raised.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsValid">
+      <MemberSignature Language="C#" Value="public bool IsValid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsValid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.IsValid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsValid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsValid { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2188)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2188)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> that indicates whether the specified calculated member has been successfully instantiated with the OLAP provider during the current session.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> even if the PivotTable is not connected to its data source. Make sure that the PivotTable is connected before querying the value of the <b>IsValid</b> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MeasureGroup">
+      <MemberSignature Language="C#" Value="public string MeasureGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MeasureGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.MeasureGroup" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MeasureGroup As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MeasureGroup { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3092)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3092)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the associated measure group. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCalcMemNumberFormatType NumberFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCalcMemNumberFormatType NumberFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.NumberFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberFormat As XlCalcMemNumberFormatType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCalcMemNumberFormatType NumberFormat { Microsoft::Office::Interop::Excel::XlCalcMemNumberFormatType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCalcMemNumberFormatType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.XlCalcMemNumberFormatType" /> value that represents the number format of the calculated member. The default value is <b>xlNumberFormatTypeDefault</b>. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentHierarchy">
+      <MemberSignature Language="C#" Value="public string ParentHierarchy { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentHierarchy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.ParentHierarchy" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentHierarchy As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ParentHierarchy { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3093)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3093)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the current parent hierarchy from the hierarchies that are available on the cube. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentMember">
+      <MemberSignature Language="C#" Value="public string ParentMember { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ParentMember" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.ParentMember" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentMember As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ParentMember { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3094)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3094)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the parent member for the parent hierarchy. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default parent member is determined by whatever has been defined by the cube designer or Analysis Services as the default member of the selected hierarchy. For example, if an “All” member exists for the selected hierarchy, then this is typically the default parent member on the cube.</para>
+          <para>If the selected parent hierarchy does not have an “All” parent member, another default parent member is defined, either by the cube designer or programmatically by Analysis Services. (If a default member is not specified by the cube designer, the Analysis Services engine automatically defines one.)</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolveOrder">
+      <MemberSignature Language="C#" Value="public int SolveOrder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 SolveOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.SolveOrder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SolveOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int SolveOrder { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2187)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2187)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> specifying the value of the calculated member's solve order MDX (multidimensional expression) argument. The default value is zero.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceName">
+      <MemberSignature Language="C#" Value="public string SourceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.SourceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(721)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(721)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the specified object’s name as it appears in the original source data for the specified PivotTable report.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>SourceName</b> property might be different from the current item name if the user renamed the item after creating the PivotTable report.</para>
+          <para>The following table shows example values of the <b>SourceName</b> property and related properties, given an <a href="mk:@MSITStore:C:\Program%20Files\Microsoft%20Office\OFFICE11\1033\VBAXL10.CHM::/html/xlproSourceName1.htm">OLAP</a></para>
+          <list type="table">
+            <item>
+              <para>
+                <b>Caption</b>
+              </para>
+              <para>Paris</para>
+              <para>Paris</para>
+            </item>
+            <item>
+              <para>
+                <b>Name</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>Paris</para>
+            </item>
+            <item>
+              <para>
+                <b>SourceName</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>(same as SQL property value, read-only)</para>
+            </item>
+            <item>
+              <para>
+                <b>Value</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>Paris</para>
+            </item>
+          </list>
+          <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
+          <list type="table">
+            <item>
+              <para>expression.PivotItems("[Europe].[France].[Paris]")</para>
+              <para>expression.PivotItems("Paris")</para>
+            </item>
+          </list>
+          <para>When using the <see cref="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index names, as shown in the following table.</para>
+          <list type="table">
+            <item>
+              <para>[Europe].[France].[Paris]</para>
+              <para>Paris</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCalculatedMemberType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCalculatedMemberType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMember.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As XlCalculatedMemberType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCalculatedMemberType Type { Microsoft::Office::Interop::Excel::XlCalculatedMemberType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCalculatedMemberType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the calculated member type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlCalculatedMemberType" /> can be one of these <b>XlCalculatedMemberType</b> constants:</para>
+          <para>
+            <b>xlCalculatedMember</b>
+          </para>
+          <para>
+            <b>xlCalculatedSet</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

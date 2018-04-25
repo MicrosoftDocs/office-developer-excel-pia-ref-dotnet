@@ -1,0 +1,691 @@
+﻿<Type Name="CalloutFormat" FullName="Microsoft.Office.Interop.Excel.CalloutFormat">
+  <TypeSignature Language="C#" Value="public interface CalloutFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalloutFormat implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.CalloutFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalloutFormat&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalloutFormat : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0311-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains properties and methods that apply to line callouts.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.Callout" /> property to return a <b>CalloutFormat</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accent">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Accent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Accent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Accent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accent As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Accent { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows the user to place a vertical accent bar to separate the callout text from the callout line.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoTriState</b> can be one of these <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b>
+          </para>
+          <para>
+            <b>msoFalse</b>
+          </para>
+          <para>
+            <b>msoTriStateMixed</b>
+          </para>
+          <para>
+            <b>msoTriStateToggle</b>
+          </para>
+          <para>
+            <b>msoTrue</b> A vertical accent bar separates the callout text from the callout line.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Angle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutAngleType Angle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutAngleType Angle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Angle" />
+      <MemberSignature Language="VB.NET" Value="Public Property Angle As MsoCalloutAngleType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutAngleType Angle { Microsoft::Office::Core::MsoCalloutAngleType get(); void set(Microsoft::Office::Core::MsoCalloutAngleType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutAngleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the angle of the callout line.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the callout line contains more than one line segment, the <b>Angle</b> property returns or sets the angle of the segment that is farthest from the callout text box.</para>
+          <para>
+            <b>MsoCalloutAngleType</b> can be one of these <b>MsoCalloutAngleType</b> constants:</para>
+          <para>
+            <b>msoCalloutAngle30</b>
+          </para>
+          <para>
+            <b>msoCalloutAngle45</b>
+          </para>
+          <para>
+            <b>msoCalloutAngle60</b>
+          </para>
+          <para>
+            <b>msoCalloutAngle90</b>
+          </para>
+          <para>
+            <b>msoCalloutAngleAutomatic</b>
+          </para>
+          <para>
+            <b>msoCalloutAngleMixed</b>
+          </para>
+          <para>If you set the value of this property to anything other than <b>msoCalloutAngleAutomatic</b>, the callout line maintains a fixed angle as you drag the callout.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoAttach">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState AutoAttach { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState AutoAttach" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoAttach" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoAttach As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoAttach { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the place where the callout line attaches to the callout text box changes depending on whether the origin of the callout line (where the callout points to) is to the left or right of the callout text box.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoTriState</b> can be one of these <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b>
+          </para>
+          <para>
+            <b>msoFalse</b>
+          </para>
+          <para>
+            <b>msoTriStateMixed</b>
+          </para>
+          <para>
+            <b>msoTriStateToggle</b>
+          </para>
+          <para>
+            <b>msoTrue</b> The place where the callout line attaches to the callout text box changes depending on whether the origin of the callout line (where the callout points to) is to the left or right of the callout text box.</para>
+          <para>When the value of this property is <b>True</b>, the drop value (the vertical distance from the edge of the callout text box to the place where the callout line attaches) is measured from the top of the text box when the text box is to the right of the origin, and it’s measured from the bottom of the text box when the text box is to the left of the origin. When the value of this property is <b>False</b>, the drop value is always measured from the top of the text box, regardless of the relative positions of the text box and the origin. Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomDrop(System.Single)" /> method to set the drop value, and use the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.Drop" /> property to return the drop value.</para>
+          <para>Setting this property affects a callout only if it has an explicitly set drop value — that is, if the value of the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.DropType" /> property is <b>msoCalloutDropCustom</b>. By default, callouts have explicitly set drop values when they’re created.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoLength">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState AutoLength { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState AutoLength" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoLength" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoLength As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState AutoLength { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Applies only to callouts whose lines consist of more than one segment (types <b>msoCalloutThree</b> and <b>msoCalloutFour</b>).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoTriState</b> can be one of these <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b>
+          </para>
+          <para>
+            <b>msoFalse</b> The first segment of the callout retains the fixed length specified by the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.Length" /> property whenever the callout is moved.</para>
+          <para>
+            <b>msoTriStateMixed</b>
+          </para>
+          <para>
+            <b>msoTriStateToggle</b>
+          </para>
+          <para>
+            <b>msoTrue</b> The first segment of the callout line (the segment attached to the text callout box) is scaled automatically whenever the callout is moved.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.AutomaticLength" /> method to set this property to <b>msoTrue</b>, and use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomLength(System.Single)" /> method to set this property to <b>msoFalse</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutomaticLength">
+      <MemberSignature Language="C#" Value="public void AutomaticLength ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutomaticLength() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalloutFormat.AutomaticLength" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AutomaticLength ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutomaticLength();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Specifies that the first segment of the callout line (the segment attached to the text callout box) be scaled automatically when the callout is moved.</summary>
+        <remarks>
+          <para>The <b>AutomaticLength</b> method applies only to callouts whose lines consist of more than one segment (types <b>msoCalloutThree</b> and <b>msoCalloutFour</b>).</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomLength(System.Single)" /> method to specify that the first segment of the callout line retains the fixed length returned by the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.Length" /> property whenever the callout is moved.</para>
+          <para>Applying this method sets the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoLength" /> property to <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Border">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Border { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Border" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Border" />
+      <MemberSignature Language="VB.NET" Value="Public Property Border As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Border { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Represents the visibility options for the border of the object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoTriState</b> can be one of these <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b> Does not apply to this object.</para>
+          <para>
+            <b>msoFalse</b> Sets the border invisible.</para>
+          <para>
+            <b>msoTriStateMixed</b> Does not apply to this object.</para>
+          <para>
+            <b>msoTriStateToggle</b> Allows the user to switch the border from visible to invisible and vice versa.</para>
+          <para>
+            <b>msoTrue</b> Default. Sets the border visible.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomDrop">
+      <MemberSignature Language="C#" Value="public void CustomDrop (float Drop);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CustomDrop([in]float32 Drop) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomDrop(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CustomDrop (Drop As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomDrop(float Drop);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Drop" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Drop">Required <b>Single</b>. The drop distance, in points.</param>
+        <summary>Sets the vertical distance (in points) from the edge of the text bounding box to the place where the callout line attaches to the text box.</summary>
+        <remarks>
+          <para>This distance is measured from the top of the text box unless the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoAttach" /> property is set to <b>True</b> and the text box is to the left of the origin of the callout line (the place that the callout points to), in which case the drop distance is measured from the bottom of the text box.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomLength">
+      <MemberSignature Language="C#" Value="public void CustomLength (float Length);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CustomLength([in]float32 Length) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomLength(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CustomLength (Length As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CustomLength(float Length);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Length" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Length">Required <b>Single</b>. The length of the first segment of the callout in points.</param>
+        <summary>Specifies that the first segment of the callout line (the segment attached to the text callout box) retains a fixed length whenever the callout is moved.</summary>
+        <remarks>
+          <para>The <b>CustomLength</b> method applies only to callouts whose lines consist of more than one segment (types <b>msoCalloutThree</b> and <b>msoCalloutFour</b>).</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.AutomaticLength" /> method to specify that the first segment of the callout line be scaled automatically whenever the callout is moved.</para>
+          <para>Applying this method sets the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoLength" /> property to <b>False</b> and sets the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.Length" /> property to the value specified for the <b>Length</b> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Drop">
+      <MemberSignature Language="C#" Value="public float Drop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Drop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Drop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Drop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Drop { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For callouts with an explicitly set drop value, returns the vertical distance (in points) from the edge of the text bounding box to the place where the callout line attaches to the text box.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The distance is measured from the top of the text box unless the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoAttach" /> property is set to <b>True</b> and the text box is to the left of the origin of the callout line (the place that the callout points to), in which case the drop distance is measured from the bottom of the text box.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomDrop(System.Single)" /> method to set the value of this property.</para>
+          <para>The value of this property accurately reflects the position of the callout line attachment to the text box only if the callout has an explicitly set drop value — that is, if the value of the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.DropType" /> property is <b>msoCalloutDropCustom</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DropType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutDropType DropType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutDropType DropType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.DropType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DropType As MsoCalloutDropType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutDropType DropType { Microsoft::Office::Core::MsoCalloutDropType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutDropType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a value that indicates where the callout line attaches to the callout text box.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoCalloutDropType</b> can be one of these <b>MsoCalloutDropType</b> constants:</para>
+          <para>
+            <b>msoCalloutDropCenter</b>
+          </para>
+          <para>
+            <b>msoCalloutDropMixed</b>
+          </para>
+          <para>
+            <b>msoCalloutDropBottom</b>
+          </para>
+          <para>
+            <b>msoCalloutDropCustom</b>
+          </para>
+          <para>
+            <b>msoCalloutDropTop</b>
+          </para>
+          <para>If the callout drop type is <b>msoCalloutDropCustom</b>, the values of the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.Drop" /> and <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoAttach" /> properties and the relative positions of the callout text box and callout line origin (the place that the callout points to) are used to determine where the callout line attaches to the text box.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.PresetDrop(Microsoft.Office.Core.MsoCalloutDropType)" /> method to set the value of this property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Gap">
+      <MemberSignature Language="C#" Value="public float Gap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Gap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Gap" />
+      <MemberSignature Language="VB.NET" Value="Public Property Gap As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Gap { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the horizontal distance (in points) between the end of the callout line and the text bounding box.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Length">
+      <MemberSignature Language="C#" Value="public float Length { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Length" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Length" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Length As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Length { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When the <see cref="P:Microsoft.Office.Interop.Excel.CalloutFormat.AutoLength" /> property of the specified callout is set to <b>False</b>, returns the length (in points) of the first segment of the callout line (the segment attached to the text callout box).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Length</b> property applies only to callouts whose lines consist of more than one segment (types <b>msoCalloutThree</b> and <b>msoCalloutFour</b>).</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.CalloutFormat.CustomLength(System.Single)" /> method to set the value of this property for a <see cref="T:Microsoft.Office.Interop.Excel.CalloutFormat" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetDrop">
+      <MemberSignature Language="C#" Value="public void PresetDrop (Microsoft.Office.Core.MsoCalloutDropType DropType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetDrop([in]valuetype Microsoft.Office.Core.MsoCalloutDropType DropType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalloutFormat.PresetDrop(Microsoft.Office.Core.MsoCalloutDropType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PresetDrop (DropType As MsoCalloutDropType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetDrop(Microsoft::Office::Core::MsoCalloutDropType DropType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DropType" Type="Microsoft.Office.Core.MsoCalloutDropType" />
+      </Parameters>
+      <Docs>
+        <param name="DropType">Required <see cref="T:Microsoft.Office.Interop.Office.MsoCalloutDropType" />. The starting position of the callout line relative to the text bounding box. Can be one of these <b>MsoCalloutDropType</b> constants:<b>msoCalloutDropBottom</b><b>msoCalloutDropCenter</b><b>msoCalloutDropCustom</b> Specifying <b>msoCalloutDropCustom</b> for this argument will cause your code to fail.<b>msoCalloutDropMixed</b><b>msoCalloutDropTop</b></param>
+        <summary>Specifies whether the callout line attaches to the top, bottom, or center of the callout text box or whether it attaches at a point that’s a specified distance from the top or bottom of the text box.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoCalloutType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoCalloutType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalloutFormat.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MsoCalloutType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoCalloutType Type { Microsoft::Office::Core::MsoCalloutType get(); void set(Microsoft::Office::Core::MsoCalloutType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoCalloutType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the callout format type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <b>MsoCalloutType</b> can be one of these <b>MsoCalloutType</b> constants:</para>
+          <para>
+            <b>msoCalloutFour</b>
+          </para>
+          <para>
+            <b>msoCalloutMixed</b>
+          </para>
+          <para>
+            <b>msoCalloutOne</b>
+          </para>
+          <para>
+            <b>msoCalloutThree</b>
+          </para>
+          <para>
+            <b>msoCalloutTwo</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

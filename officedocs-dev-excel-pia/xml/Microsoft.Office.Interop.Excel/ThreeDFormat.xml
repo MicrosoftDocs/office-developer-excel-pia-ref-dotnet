@@ -1,0 +1,1286 @@
+﻿<Type Name="ThreeDFormat" FullName="Microsoft.Office.Interop.Excel.ThreeDFormat">
+  <TypeSignature Language="C#" Value="public interface ThreeDFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ThreeDFormat implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ThreeDFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ThreeDFormat&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ThreeDFormat : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0321-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a shape's three-dimensional formatting.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.ThreeD" /> property to return a <b>ThreeDFormat</b> object.</para>
+      <para>You cannot apply three-dimensional formatting to some kinds of shapes, such as beveled shapes or multiple-disjoint paths. Most of the properties and methods of the <b>ThreeDFormat</b> object for such a shape will fail.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelBottomDepth">
+      <MemberSignature Language="C#" Value="public float BevelBottomDepth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BevelBottomDepth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelBottomDepth" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelBottomDepth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BevelBottomDepth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the bottom depth when using the bevel effect on a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelBottomInset">
+      <MemberSignature Language="C#" Value="public float BevelBottomInset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BevelBottomInset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelBottomInset" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelBottomInset As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BevelBottomInset { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value indicating whether the bottom insert bevel should be raised for  a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelBottomType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBevelType BevelBottomType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBevelType BevelBottomType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelBottomType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelBottomType As MsoBevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBevelType BevelBottomType { Microsoft::Office::Core::MsoBevelType get(); void set(Microsoft::Office::Core::MsoBevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the bottom bevel type for a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoBevelType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelTopDepth">
+      <MemberSignature Language="C#" Value="public float BevelTopDepth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BevelTopDepth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelTopDepth" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelTopDepth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BevelTopDepth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the top depth when using the bevel effect on a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelTopInset">
+      <MemberSignature Language="C#" Value="public float BevelTopInset { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 BevelTopInset" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelTopInset" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelTopInset As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float BevelTopInset { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value indicating whether the top insert bevel should be raised for  a <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetThreeDFormat(Microsoft.Office.Core.MsoPresetThreeDFormat)" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BevelTopType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoBevelType BevelTopType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoBevelType BevelTopType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.BevelTopType" />
+      <MemberSignature Language="VB.NET" Value="Public Property BevelTopType As MsoBevelType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoBevelType BevelTopType { Microsoft::Office::Core::MsoBevelType get(); void set(Microsoft::Office::Core::MsoBevelType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoBevelType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the top Bevel type for a <b>ThreeDFormat</b> object. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoBevelType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContourColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ColorFormat ContourColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ColorFormat ContourColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.ContourColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContourColor As ColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ColorFormat ^ ContourColor { Microsoft::Office::Interop::Excel::ColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the contour color for a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.ColorFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContourWidth">
+      <MemberSignature Language="C#" Value="public float ContourWidth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 ContourWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.ContourWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContourWidth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float ContourWidth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(122)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the contour width for  a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Depth">
+      <MemberSignature Language="C#" Value="public float Depth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Depth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Depth" />
+      <MemberSignature Language="VB.NET" Value="Public Property Depth As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Depth { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the depth of the shape's extrusion.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Depth</b> property can be a value from –600 through 9600 (positive values produce an extrusion whose front face is the original shape; negative values produce an extrusion whose back face is the original shape).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtrusionColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ColorFormat ExtrusionColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ColorFormat ExtrusionColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.ExtrusionColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExtrusionColor As ColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ColorFormat ^ ExtrusionColor { Microsoft::Office::Interop::Excel::ColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ColorFormat" /> object that represents the color of the shape's extrusion.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtrusionColorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoExtrusionColorType ExtrusionColorType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoExtrusionColorType ExtrusionColorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.ExtrusionColorType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtrusionColorType As MsoExtrusionColorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoExtrusionColorType ExtrusionColorType { Microsoft::Office::Core::MsoExtrusionColorType get(); void set(Microsoft::Office::Core::MsoExtrusionColorType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoExtrusionColorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that indicates whether the extrusion color is based on the extruded shape’s fill (the front face of the extrusion) and automatically changes when the shape’s fill changes, or whether the extrusion color is independent of the shape’s fill.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldOfView">
+      <MemberSignature Language="C#" Value="public float FieldOfView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 FieldOfView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.FieldOfView" />
+      <MemberSignature Language="VB.NET" Value="Public Property FieldOfView As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float FieldOfView { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(124)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(124)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(124)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the angle at which a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object can be viewed. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotationHorizontal">
+      <MemberSignature Language="C#" Value="public void IncrementRotationHorizontal (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotationHorizontal([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationHorizontal(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotationHorizontal (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotationHorizontal(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Specifies how much (in degrees) the rotation of the shape is to be changed horizontally. Can be a value from  –90 through 90. A positive value moves the shape left; a negative value moves it to the right.</param>
+        <summary>Changes the rotation of the specified shape horizontally by the specified number of degrees.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotationVertical">
+      <MemberSignature Language="C#" Value="public void IncrementRotationVertical (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotationVertical([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationVertical(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotationVertical (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotationVertical(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Specifies how much (in degrees) the rotation of the shape is to be changed horizontally. Can be a value from  –90 through 90. A positive value tilts the shape up; a negative value tilts it down.</param>
+        <summary>Changes the rotation of the specified shape vertically by the specified number of degrees.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotationX">
+      <MemberSignature Language="C#" Value="public void IncrementRotationX (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotationX([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationX(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotationX (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotationX(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how much (in degrees) the rotation of the shape around the x-axis is to be changed. Can be a value from –90 through 90. A positive value tilts the shape up; a negative value tilts it down.</param>
+        <summary>Changes the rotation of the specified shape around the x-axis by the specified number of degrees.</summary>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationX" /> property to set the absolute rotation of the shape around the x-axis.</para>
+          <para>You cannot adjust the specified shape's rotation around the x-axis past the upper or lower limit for the <b>RotationX</b> property (90 degrees to –90 degrees). For example, if the <b>RotationX</b> property is initially set to 80 and you specify 40 for the <paramref name="Increment" /> argument, the resulting rotation will be 90 (the upper limit for the <b>RotationX</b> property) instead of 120.</para>
+          <para>To change the rotation of a shape around the y-axis, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationY(System.Single)" /> method. To change the rotation around the z-axis, use the <see cref="M:Microsoft.Office.Interop.Excel.Shape.IncrementRotation(System.Single)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotationY">
+      <MemberSignature Language="C#" Value="public void IncrementRotationY (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotationY([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationY(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotationY (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotationY(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how much (in degrees) the rotation of the shape around the y-axis is to be changed. Can be a value from –90 through 90. A positive value tilts the shape to the left; a negative value tilts it to the right.</param>
+        <summary>Changes the rotation of the specified shape around the y-axis by the specified number of degrees.</summary>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationY" /> property to set the absolute rotation of the shape around the y-axis.</para>
+          <para>To change the rotation of a shape around the x-axis, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationX(System.Single)" /> method. To change the rotation around the z-axis, use the <see cref="M:Microsoft.Office.Interop.Excel.Shape.IncrementRotation(System.Single)" /> method.</para>
+          <para>You cannot adjust the specified shape's rotation around the y-axis shape past the upper or lower limit for the <b>RotationY</b> property (90 degrees to –90 degrees). For example, if the <b>RotationY</b> property is initially set to 80 and you specify 40 for the <paramref name="Increment" /> argument, the resulting rotation will be 90 (the upper limit for the <b>RotationY</b> property) instead of 120.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementRotationZ">
+      <MemberSignature Language="C#" Value="public void IncrementRotationZ (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementRotationZ([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationZ(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementRotationZ (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementRotationZ(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Specifies how much (in degrees) the rotation of the shape around the z-axis is to be changed. Can be a value from – 90 through 90. A positive value tilts the shape to the left; a negative value tilts it to the right.</param>
+        <summary>Changes the rotation of the specified shape around the z-axis by the specified number of degrees.</summary>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationZ" /> property to set the absolute rotation of the shape around the z-axis.</para>
+          <para>To change the rotation of a shape around the z-axis, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.IncrementRotationZ(System.Single)" />
+ method.</para>
+          <para>You cannot adjust the rotation around the z-axis of the specified shape past the upper or lower limit for the <b>RotationZ</b> property (90 degrees to  – 90 degrees). For example, if the <b>RotationZ</b> property is initially set to 80 and you specify 40 for the <paramref name="Increment" /> argument, the resulting rotation will be 90 (the upper limit for the <b>RotationZ</b> property) instead of 120.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LightAngle">
+      <MemberSignature Language="C#" Value="public float LightAngle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 LightAngle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.LightAngle" />
+      <MemberSignature Language="VB.NET" Value="Public Property LightAngle As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float LightAngle { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the angel of the extrusion lights set on a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Perspective">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Perspective { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Perspective" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Perspective" />
+      <MemberSignature Language="VB.NET" Value="Public Property Perspective As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Perspective { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the extrusion appears in perspective.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetCamera">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetCamera PresetCamera { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetCamera PresetCamera" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetCamera" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetCamera As MsoPresetCamera" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetCamera PresetCamera { Microsoft::Office::Core::MsoPresetCamera get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetCamera</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the extrusion preset camera for a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPresetCamera" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetExtrusionDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetExtrusionDirection PresetExtrusionDirection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection PresetExtrusionDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetExtrusionDirection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetExtrusionDirection As MsoPresetExtrusionDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetExtrusionDirection PresetExtrusionDirection { Microsoft::Office::Core::MsoPresetExtrusionDirection get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetExtrusionDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the direction that the extrusion's sweep path takes away from the extruded shape (the front face of the extrusion).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To set the value of this property, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetExtrusionDirection(Microsoft.Office.Core.MsoPresetExtrusionDirection)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetLighting">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoLightRigType PresetLighting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoLightRigType PresetLighting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetLighting" />
+      <MemberSignature Language="VB.NET" Value="Public Property PresetLighting As MsoLightRigType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoLightRigType PresetLighting { Microsoft::Office::Core::MsoLightRigType get(); void set(Microsoft::Office::Core::MsoLightRigType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoLightRigType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the extrusion preset lighting for a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoLightRigType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetLightingDirection">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetLightingDirection PresetLightingDirection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetLightingDirection PresetLightingDirection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetLightingDirection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PresetLightingDirection As MsoPresetLightingDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetLightingDirection PresetLightingDirection { Microsoft::Office::Core::MsoPresetLightingDirection get(); void set(Microsoft::Office::Core::MsoPresetLightingDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the position of the light source relative to the extrusion.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoLightRigType" />
+        </value>
+        <remarks>
+          <para>You won't see the lighting effects you set if the extrusion has a wire frame surface.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetLightingSoftness">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetLightingSoftness PresetLightingSoftness { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetLightingSoftness PresetLightingSoftness" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetLightingSoftness" />
+      <MemberSignature Language="VB.NET" Value="Public Property PresetLightingSoftness As MsoPresetLightingSoftness" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetLightingSoftness PresetLightingSoftness { Microsoft::Office::Core::MsoPresetLightingSoftness get(); void set(Microsoft::Office::Core::MsoPresetLightingSoftness value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetLightingSoftness</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the intensity of the extrusion lighting.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetMaterial">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetMaterial PresetMaterial { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetMaterial PresetMaterial" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetMaterial" />
+      <MemberSignature Language="VB.NET" Value="Public Property PresetMaterial As MsoPresetMaterial" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetMaterial PresetMaterial { Microsoft::Office::Core::MsoPresetMaterial get(); void set(Microsoft::Office::Core::MsoPresetMaterial value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetMaterial</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the extrusion surface material.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetThreeDFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetThreeDFormat PresetThreeDFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetThreeDFormat PresetThreeDFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetThreeDFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetThreeDFormat As MsoPresetThreeDFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetThreeDFormat PresetThreeDFormat { Microsoft::Office::Core::MsoPresetThreeDFormat get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetThreeDFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the preset extrusion format.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Each preset extrusion format contains a set of preset values for the various properties of the extrusion. If the extrusion has a custom format rather than a preset format, this property returns <see cref="F:Microsoft.Office.Core.MsoPresetThreeDFormat.msoPresetThreeDFormatMixed" />. The values for this property correspond to the options (numbered from left to right, top to bottom) displayed when you click the 3-D button on the Drawing toolbar.</para>
+          <para>To set the preset extrusion format, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetThreeDFormat(Microsoft.Office.Core.MsoPresetThreeDFormat)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProjectText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState ProjectText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState ProjectText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.ProjectText" />
+      <MemberSignature Language="VB.NET" Value="Public Property ProjectText As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState ProjectText { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(125)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the project text state for the specified <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResetRotation">
+      <MemberSignature Language="C#" Value="public void ResetRotation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ResetRotation() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.ResetRotation" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ResetRotation ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ResetRotation();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Resets the extrusion rotation around the x-axis and the y-axis to 0 (zero) so that the front of the extrusion faces forward.</summary>
+        <remarks>
+          <para>This method doesn’t reset the rotation around the z-axis.</para>
+          <para>To set the extrusion rotation around the x-axis and the y-axis to anything other than 0 (zero), use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationX" /> and <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationY" /> properties of the <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. To set the extrusion rotation around the z-axis, use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.Rotation" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the extruded shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationX">
+      <MemberSignature Language="C#" Value="public float RotationX { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 RotationX" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationX" />
+      <MemberSignature Language="VB.NET" Value="Public Property RotationX As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RotationX { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the rotation of the extruded shape around the x-axis in degrees.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>RotationX</b> property can be a value from –90 through 90. A positive value indicates upward rotation; a negative value indicates downward rotation.</para>
+          <para>To set the rotation of the extruded shape around the y-axis, use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationY" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. To set the rotation of the extruded shape around the z-axis, use the Rotation property of the <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object. To change the direction of the extrusion’s sweep path without rotating the front face of the extrusion, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetExtrusionDirection(Microsoft.Office.Core.MsoPresetExtrusionDirection)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationY">
+      <MemberSignature Language="C#" Value="public float RotationY { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 RotationY" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationY" />
+      <MemberSignature Language="VB.NET" Value="Public Property RotationY As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RotationY { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the rotation of the extruded shape around the y-axis in degrees.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>RotationY</b> property can be a value from –90 through 90. A positive value indicates rotation to the left; a negative value indicates rotation to the right.</para>
+          <para>To set the rotation of the extruded shape around the x-axis, use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationX" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. To set the rotation of the extruded shape around the z-axis, use the Rotation property of the <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object. To change the direction of the extrusion’s sweep path without rotating the front face of the extrusion, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetExtrusionDirection(Microsoft.Office.Core.MsoPresetExtrusionDirection)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RotationZ">
+      <MemberSignature Language="C#" Value="public float RotationZ { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 RotationZ" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationZ" />
+      <MemberSignature Language="VB.NET" Value="Public Property RotationZ As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float RotationZ { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(121)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the rotation of the extruded shape around the z-axis in degrees.  Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>The <b>RotationZ</b> property can be a value from  – 90 through 90. A positive value indicates upward rotation; a negative value indicates downward rotation.</para>
+          <para>To set the rotation of the extruded shape around the y-axis, use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationY" />
+ property of the <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. To set the rotation of the extruded shape around the x-axis, use the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.RotationX" />
+ property of the <b>ThreeDFormat</b>
+ object. To change the direction of the extrusion's sweep’s path without rotating the front face of the extrusion, use the <see cref="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetExtrusionDirection(Microsoft.Office.Core.MsoPresetExtrusionDirection)" />
+ method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetExtrusionDirection">
+      <MemberSignature Language="C#" Value="public void SetExtrusionDirection (Microsoft.Office.Core.MsoPresetExtrusionDirection PresetExtrusionDirection);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetExtrusionDirection([in]valuetype Microsoft.Office.Core.MsoPresetExtrusionDirection PresetExtrusionDirection) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetExtrusionDirection(Microsoft.Office.Core.MsoPresetExtrusionDirection)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetExtrusionDirection (PresetExtrusionDirection As MsoPresetExtrusionDirection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetExtrusionDirection(Microsoft::Office::Core::MsoPresetExtrusionDirection PresetExtrusionDirection);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetExtrusionDirection" Type="Microsoft.Office.Core.MsoPresetExtrusionDirection" />
+      </Parameters>
+      <Docs>
+        <param name="PresetExtrusionDirection">Required <see cref="T:Microsoft.Office.Core.MsoPresetExtrusionDirection" />. Specifies the extrusion direction.</param>
+        <summary>Sets the direction that the extrusion's sweep path takes away from the extruded shape.</summary>
+        <remarks>
+          <para>This method sets the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetExtrusionDirection" /> property to the direction specified by the <paramref name="PresetExtrusionDirection" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPresetCamera">
+      <MemberSignature Language="C#" Value="public void SetPresetCamera (Microsoft.Office.Core.MsoPresetCamera PresetCamera);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetPresetCamera([in]valuetype Microsoft.Office.Core.MsoPresetCamera PresetCamera) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetPresetCamera(Microsoft.Office.Core.MsoPresetCamera)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetPresetCamera (PresetCamera As MsoPresetCamera)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetPresetCamera(Microsoft::Office::Core::MsoPresetCamera PresetCamera);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetCamera" Type="Microsoft.Office.Core.MsoPresetCamera" />
+      </Parameters>
+      <Docs>
+        <param name="PresetCamera">Specifies the preset camera.</param>
+        <summary>Sets the camera for the specified <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetThreeDFormat">
+      <MemberSignature Language="C#" Value="public void SetThreeDFormat (Microsoft.Office.Core.MsoPresetThreeDFormat PresetThreeDFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetThreeDFormat([in]valuetype Microsoft.Office.Core.MsoPresetThreeDFormat PresetThreeDFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ThreeDFormat.SetThreeDFormat(Microsoft.Office.Core.MsoPresetThreeDFormat)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetThreeDFormat (PresetThreeDFormat As MsoPresetThreeDFormat)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetThreeDFormat(Microsoft::Office::Core::MsoPresetThreeDFormat PresetThreeDFormat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetThreeDFormat" Type="Microsoft.Office.Core.MsoPresetThreeDFormat" />
+      </Parameters>
+      <Docs>
+        <param name="PresetThreeDFormat">Required <b>MsoPresetThreeDFormat</b>. Specifies a preset extrusion format that corresponds to one of the options (numbered from left to right, from top to bottom) displayed when you click the 3-D button on the Drawing toolbar.</param>
+        <summary>Sets the preset extrusion format. Each preset extrusion format contains a set of preset values for the various properties of the extrusion.</summary>
+        <remarks>
+          <para>This method sets the <see cref="P:Microsoft.Office.Interop.Excel.ThreeDFormat.PresetThreeDFormat" /> property to the format specified by the <paramref name="PresetThreeDFormat" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the object is visible.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Z">
+      <MemberSignature Language="C#" Value="public float Z { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Z" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ThreeDFormat.Z" />
+      <MemberSignature Language="VB.NET" Value="Public Property Z As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Z { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the Z order of the specified  <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,119 @@
+﻿<Type Name="RTD" FullName="Microsoft.Office.Interop.Excel.RTD">
+  <TypeSignature Language="C#" Value="public interface RTD" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract RTD" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.RTD" />
+  <TypeSignature Language="VB.NET" Value="Public Interface RTD" />
+  <TypeSignature Language="C++ CLI" Value="public interface class RTD" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002446E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a real-time data object.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.RTD" /> property of the <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object to return an <b>RTD</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RefreshData">
+      <MemberSignature Language="C#" Value="public void RefreshData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshData() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.RTD.RefreshData" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshData ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshData();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2241)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Requests an update of real-time data from the real-time data server.</summary>
+        <remarks>
+          <para>Avoid using the <b>RefreshData</b> method in user-defined functions because this method will fail if it is called during recalculation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RestartServers">
+      <MemberSignature Language="C#" Value="public void RestartServers ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RestartServers() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.RTD.RestartServers" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RestartServers ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RestartServers();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2242)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Reconnects to a real-time data server (RTD).</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThrottleInterval">
+      <MemberSignature Language="C#" Value="public int ThrottleInterval { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ThrottleInterval" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.RTD.ThrottleInterval" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThrottleInterval As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ThrottleInterval { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2240)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2240)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2240)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Integer</b> indicating the time interval between updates.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is 2000 milliseconds. If this value is changed, the new value will persist when Microsoft Excel is restarted.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

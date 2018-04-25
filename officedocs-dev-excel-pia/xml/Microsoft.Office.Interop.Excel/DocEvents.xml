@@ -1,0 +1,512 @@
+﻿<Type Name="DocEvents" FullName="Microsoft.Office.Interop.Excel.DocEvents">
+  <TypeSignature Language="C#" Value="public interface DocEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DocEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024411-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Activate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(304)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDelete">
+      <MemberSignature Language="C#" Value="public void BeforeDelete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDelete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.BeforeDelete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDelete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeDelete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3074)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public void BeforeDoubleClick (Microsoft.Office.Interop.Excel.Range Target, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeDoubleClick([in]class Microsoft.Office.Interop.Excel.Range Target, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.BeforeDoubleClick(Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeDoubleClick (Target As Range, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeDoubleClick(Microsoft::Office::Interop::Excel::Range ^ Target, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1537)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRightClick">
+      <MemberSignature Language="C#" Value="public void BeforeRightClick (Microsoft.Office.Interop.Excel.Range Target, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeRightClick([in]class Microsoft.Office.Interop.Excel.Range Target, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.BeforeRightClick(Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeRightClick (Target As Range, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeRightClick(Microsoft::Office::Interop::Excel::Range ^ Target, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1534)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Calculate">
+      <MemberSignature Language="C#" Value="public void Calculate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Calculate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.Calculate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Calculate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Calculate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(279)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Change">
+      <MemberSignature Language="C#" Value="public void Change (Microsoft.Office.Interop.Excel.Range Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Change([in]class Microsoft.Office.Interop.Excel.Range Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.Change(Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Change (Target As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Change(Microsoft::Office::Interop::Excel::Range ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1545)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="public void Deactivate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Deactivate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deactivate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Deactivate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1530)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FollowHyperlink">
+      <MemberSignature Language="C#" Value="public void FollowHyperlink (Microsoft.Office.Interop.Excel.Hyperlink Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void FollowHyperlink([in]class Microsoft.Office.Interop.Excel.Hyperlink Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.FollowHyperlink(Microsoft.Office.Interop.Excel.Hyperlink)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub FollowHyperlink (Target As Hyperlink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void FollowHyperlink(Microsoft::Office::Interop::Excel::Hyperlink ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Hyperlink" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LensGalleryRenderComplete">
+      <MemberSignature Language="C#" Value="public void LensGalleryRenderComplete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LensGalleryRenderComplete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.LensGalleryRenderComplete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LensGalleryRenderComplete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LensGalleryRenderComplete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3072)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableAfterValueChange">
+      <MemberSignature Language="C#" Value="public void PivotTableAfterValueChange (Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, Microsoft.Office.Interop.Excel.Range TargetRange);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableAfterValueChange([in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]class Microsoft.Office.Interop.Excel.Range TargetRange) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableAfterValueChange(Microsoft.Office.Interop.Excel.PivotTable,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableAfterValueChange (TargetPivotTable As PivotTable, TargetRange As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableAfterValueChange(Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, Microsoft::Office::Interop::Excel::Range ^ TargetRange);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2886)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="TargetRange" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="TargetRange">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeAllocateChanges">
+      <MemberSignature Language="C#" Value="public void PivotTableBeforeAllocateChanges (Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableBeforeAllocateChanges([in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableBeforeAllocateChanges(Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableBeforeAllocateChanges (TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableBeforeAllocateChanges(Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2889)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeCommitChanges">
+      <MemberSignature Language="C#" Value="public void PivotTableBeforeCommitChanges (Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableBeforeCommitChanges([in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableBeforeCommitChanges(Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableBeforeCommitChanges (TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableBeforeCommitChanges(Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2892)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableBeforeDiscardChanges">
+      <MemberSignature Language="C#" Value="public void PivotTableBeforeDiscardChanges (Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableBeforeDiscardChanges([in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableBeforeDiscardChanges(Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableBeforeDiscardChanges (TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableBeforeDiscardChanges(Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2893)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableChangeSync">
+      <MemberSignature Language="C#" Value="public void PivotTableChangeSync (Microsoft.Office.Interop.Excel.PivotTable Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableChangeSync([in]class Microsoft.Office.Interop.Excel.PivotTable Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableChangeSync(Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableChangeSync (Target As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableChangeSync(Microsoft::Office::Interop::Excel::PivotTable ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2894)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableUpdate">
+      <MemberSignature Language="C#" Value="public void PivotTableUpdate (Microsoft.Office.Interop.Excel.PivotTable Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableUpdate([in]class Microsoft.Office.Interop.Excel.PivotTable Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.PivotTableUpdate(Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableUpdate (Target As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PivotTableUpdate(Microsoft::Office::Interop::Excel::PivotTable ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2156)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionChange">
+      <MemberSignature Language="C#" Value="public void SelectionChange (Microsoft.Office.Interop.Excel.Range Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectionChange([in]class Microsoft.Office.Interop.Excel.Range Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.SelectionChange(Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectionChange (Target As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectionChange(Microsoft::Office::Interop::Excel::Range ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1543)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableUpdate">
+      <MemberSignature Language="C#" Value="public void TableUpdate (Microsoft.Office.Interop.Excel.TableObject Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TableUpdate([in]class Microsoft.Office.Interop.Excel.TableObject Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.DocEvents.TableUpdate(Microsoft.Office.Interop.Excel.TableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TableUpdate (Target As TableObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TableUpdate(Microsoft::Office::Interop::Excel::TableObject ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3073)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.TableObject" />
+      </Parameters>
+      <Docs>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,35 @@
+﻿<Type Name="DocEvents_BeforeRightClickEventHandler" FullName="Microsoft.Office.Interop.Excel.DocEvents_BeforeRightClickEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void DocEvents_BeforeRightClickEventHandler(Range Target, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocEvents_BeforeRightClickEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DocEvents_BeforeRightClickEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub DocEvents_BeforeRightClickEventHandler(Target As Range, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void DocEvents_BeforeRightClickEventHandler(Range ^ Target, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Target">Required. The cell nearest to the mouse pointer when the right-click occurs.</param>
+    <param name="Cancel">Optional. <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the default right-click action doesn't occur when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.BeforeRightClick" /> event. The <b>BeforeRightClick</b> event occurs when a worksheet is right-clicked, before the default right-click action.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

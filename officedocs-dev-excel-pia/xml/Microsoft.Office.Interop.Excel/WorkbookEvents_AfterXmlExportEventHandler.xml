@@ -1,0 +1,40 @@
+﻿<Type Name="WorkbookEvents_AfterXmlExportEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_AfterXmlExportEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_AfterXmlExportEventHandler(XmlMap Map, string Url, XlXmlExportResult Result);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_AfterXmlExportEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_AfterXmlExportEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_AfterXmlExportEventHandler(Map As XmlMap, Url As String, Result As XlXmlExportResult)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_AfterXmlExportEventHandler(XmlMap ^ Map, System::String ^ Url, XlXmlExportResult Result);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+    <Parameter Name="Url" Type="System.String" />
+    <Parameter Name="Result" Type="Microsoft.Office.Interop.Excel.XlXmlExportResult" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Map">Required <see cref="T:Microsoft.Office.Interop.Excel.XmlMap" /> object. The schema map that was used to save or export data.</param>
+    <param name="Url">Required <b>String</b>. The location of the XML file that was exported.</param>
+    <param name="Result">Required <see cref="T:Microsoft.Office.Interop.Excel.XlXmlExportResult" />. Indicates the results of the save or export operation.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.AfterXmlExport" /> event. The <b>AfterXmlExport</b> event occurs after Microsoft Excel saves or exports data from the specified workbook to an XML data file.</summary>
+    <remarks>
+      <para>XML features, except for saving files in the XML Spreadsheet format, are available only in Microsoft Office Professional Edition 2003 and Microsoft Office Excel 2003.</para>
+      <para />
+    </remarks>
+  </Docs>
+</Type>

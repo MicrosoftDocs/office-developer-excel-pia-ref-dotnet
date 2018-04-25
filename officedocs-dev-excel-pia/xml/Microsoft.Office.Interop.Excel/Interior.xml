@@ -1,0 +1,542 @@
+﻿<Type Name="Interior" FullName="Microsoft.Office.Interop.Excel.Interior">
+  <TypeSignature Language="C#" Value="public interface Interior" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Interior" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Interior" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Interior" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Interior" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020870-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the interior of an object.</summary>
+    <remarks>
+      <para>Use the <b>Interior</b> property to return the <b>Interior</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public object Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the primary cell shading color or drawing object fill color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorIndex">
+      <MemberSignature Language="C#" Value="public object ColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.ColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The color is specified as an index value into the current color palette or as one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" /> constants.</para>
+          <para>
+            <b>xlColorIndexAutomatic</b>. Use to specify the automatic fill for drawing objects.</para>
+          <para>
+            <b>xlColorIndexNone</b>. Use to specify no interior fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Gradient">
+      <MemberSignature Language="C#" Value="public object Gradient { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Gradient" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Gradient" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Gradient As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Gradient { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2645)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2645)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the <b>Gradient</b> property of an <b>Interior</b> object of a selection. </summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Uses either LinearGradient or RectangularGradient.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertIfNegative">
+      <MemberSignature Language="C#" Value="public object InvertIfNegative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object InvertIfNegative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.InvertIfNegative" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ InvertIfNegative { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel inverts the pattern in the item when it corresponds to a negative number.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pattern">
+      <MemberSignature Language="C#" Value="public object Pattern { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Pattern" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.Pattern" />
+      <MemberSignature Language="VB.NET" Value="Public Property Pattern As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Pattern { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the interior pattern.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Pattern</b> property can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPattern" /> constants.</para>
+          <para>
+            <b>xlPatternAutomatic</b>
+          </para>
+          <para>
+            <b>xlPatternChecker</b>
+          </para>
+          <para>
+            <b>xlPatternCrissCross</b>
+          </para>
+          <para>
+            <b>xlPatternDown</b>
+          </para>
+          <para>
+            <b>xlPatternGray16</b>
+          </para>
+          <para>
+            <b>xlPatternGray25</b>
+          </para>
+          <para>
+            <b>xlPatternGray50</b>
+          </para>
+          <para>
+            <b>xlPatternGray75</b>
+          </para>
+          <para>
+            <b>xlPatternGray8</b>
+          </para>
+          <para>
+            <b>xlPatternGrid</b>
+          </para>
+          <para>
+            <b>xlPatternHorizontal</b>
+          </para>
+          <para>
+            <b>xlPatternLightDown</b>
+          </para>
+          <para>
+            <b>xlPatternLightHorizontal</b>
+          </para>
+          <para>
+            <b>xlPatternLightUp</b>
+          </para>
+          <para>
+            <b>xlPatternLightVertical</b>
+          </para>
+          <para>
+            <b>xlPatternNone</b>
+          </para>
+          <para>
+            <b>xlPatternSemiGray75</b>
+          </para>
+          <para>
+            <b>xlPatternSolid</b>
+          </para>
+          <para>
+            <b>xlPatternUp</b>
+          </para>
+          <para>
+            <b>xlPatternVertical</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternColor">
+      <MemberSignature Language="C#" Value="public object PatternColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.PatternColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior pattern as an RGB value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternColorIndex">
+      <MemberSignature Language="C#" Value="public object PatternColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.PatternColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(98)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the interior pattern as an index into the current color palette, or as one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" /> constants: <b>xlColorIndexAutomatic</b> or <b>xlColorIndexNone</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Set this property to <b>xlColorIndexAutomatic</b> to specify the automatic pattern for cells or the automatic fill style for drawing objects. Set this property to <b>xlColorIndexNone</b> to specify that you don't want a pattern (this is the same as setting the <see cref="P:Microsoft.Office.Interop.Excel.Interior.Pattern" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Interior" /> object to <b>xlPatternNone</b>).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternThemeColor">
+      <MemberSignature Language="C#" Value="public object PatternThemeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternThemeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.PatternThemeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternThemeColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternThemeColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2643)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a theme color pattern for an <b>Interior</b> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PatternTintAndShade">
+      <MemberSignature Language="C#" Value="public object PatternTintAndShade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PatternTintAndShade" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.PatternTintAndShade" />
+      <MemberSignature Language="VB.NET" Value="Public Property PatternTintAndShade As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PatternTintAndShade { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2644)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a tint and shade pattern for an <b>Interior</b> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThemeColor">
+      <MemberSignature Language="C#" Value="public object ThemeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ThemeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.ThemeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThemeColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ThemeColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the theme color in the applied color scheme that is associated with the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Attempting to access a theme color for an object whose color is not currently themed will result in an invalid request run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TintAndShade">
+      <MemberSignature Language="C#" Value="public object TintAndShade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TintAndShade" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Interior.TintAndShade" />
+      <MemberSignature Language="VB.NET" Value="Public Property TintAndShade As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TintAndShade { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a value that lightens or darkens a color.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can enter a number from -1 (darkest) to 1 (lightest) for the <b>TintAndShade</b> property. Zero (0) is neutral.</para>
+          <para>Attempting to set this property to a value less than -1 or more than 1 results in a run-time error: "The specified value is out of range." This property works for both theme colors and nontheme colors.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

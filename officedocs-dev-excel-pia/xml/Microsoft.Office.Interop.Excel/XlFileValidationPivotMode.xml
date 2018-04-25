@@ -1,0 +1,95 @@
+﻿<Type Name="XlFileValidationPivotMode" FullName="Microsoft.Office.Interop.Excel.XlFileValidationPivotMode">
+  <TypeSignature Language="C#" Value="public enum XlFileValidationPivotMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlFileValidationPivotMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlFileValidationPivotMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlFileValidationPivotMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlFileValidationPivotMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how to validate the data caches for PivotTable reports.</summary>
+    <remarks>
+      <para>This enumeration is used to specify the setting of the <see cref="P:Microsoft.Office.Interop.Excel._Application.FileValidationPivot" /> property of the <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object.</para>
+      <para>The effect of the <b>xlFileValidationPivotDefault</b> setting is controlled by the PivotOptions registry value, which is set in the following registry subkey: HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Security\FileValidation. The PivotOptions value is a DWORD value that can be set as listed in the following table.</para>
+      <list type="table">
+        <item>
+          <para>0</para>
+          <para>Never validate PivotTable report data caches. (Not recommended)</para>
+        </item>
+        <item>
+          <para>1</para>
+          <para>Validate PivotTable report data caches in the following cases (Default setting):The file was opened from the Internet.The file is an e-mail attachment.The file was opened by using the Open in Protected View command of the Open dialog box.The file was opened from a known unsafe location where Internet content is cached locally, or from a user-defined untrusted location. The data cache is parsed on load when the file is opened.</para>
+        </item>
+        <item>
+          <para>2</para>
+          <para>Validate all PivotTable report data caches.</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlFileValidationPivotDefault">
+      <MemberSignature Language="C#" Value="xlFileValidationPivotDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFileValidationPivotMode xlFileValidationPivotDefault = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFileValidationPivotMode.xlFileValidationPivotDefault" />
+      <MemberSignature Language="VB.NET" Value="xlFileValidationPivotDefault" />
+      <MemberSignature Language="C++ CLI" Value="xlFileValidationPivotDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFileValidationPivotMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Validate the contents of data caches as specified by the PivotOptions registry setting (default).</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFileValidationPivotRun">
+      <MemberSignature Language="C#" Value="xlFileValidationPivotRun" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFileValidationPivotMode xlFileValidationPivotRun = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFileValidationPivotMode.xlFileValidationPivotRun" />
+      <MemberSignature Language="VB.NET" Value="xlFileValidationPivotRun" />
+      <MemberSignature Language="C++ CLI" Value="xlFileValidationPivotRun" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFileValidationPivotMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Validate the contents of all data caches regardless of the registry setting.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFileValidationPivotSkip">
+      <MemberSignature Language="C#" Value="xlFileValidationPivotSkip" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFileValidationPivotMode xlFileValidationPivotSkip = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFileValidationPivotMode.xlFileValidationPivotSkip" />
+      <MemberSignature Language="VB.NET" Value="xlFileValidationPivotSkip" />
+      <MemberSignature Language="C++ CLI" Value="xlFileValidationPivotSkip" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFileValidationPivotMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Do not validate the contents of data caches.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

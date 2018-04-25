@@ -1,0 +1,318 @@
+﻿<Type Name="SparkPoints" FullName="Microsoft.Office.Interop.Excel.SparkPoints">
+  <TypeSignature Language="C#" Value="public interface SparkPoints" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SparkPoints" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.SparkPoints" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SparkPoints" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SparkPoints" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244B8-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the settings of the markers for points of data on a sparkline.</summary>
+    <remarks>
+      <para>Use the <see cref="T:Microsoft.Office.Interop.Excel.SparkPoints" /> object to set the color and visibility of markers for points of data on a sparkline. Use the <see cref="P:Microsoft.Office.Interop.Excel.SparklineGroup.Points" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object to return a <see cref="T:Microsoft.Office.Interop.Excel.SparkPoints" /> object. The properties of the <see cref="T:Microsoft.Office.Interop.Excel.SparkPoints" /> object correspond to the settings of the High Point, Low Point, Negative Point, First Point, Last Point, and Markers check boxes in the Show section, and of the items on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the creator of the specified object.</summary>
+        <value>An <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a 32-bit <b>integer</b> that indicates the application in which this object was created.</summary>
+        <value>A 32-bit <b>integer</b> that indicates the application in which this object was created.</value>
+        <remarks>
+          <para>Read-only <b>long</b>.</para>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Creator" />property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Firstpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Firstpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Firstpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Firstpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Firstpoint As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Firstpoint { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2959)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2959)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the first point of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the first point of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Firstpoint" /> property corresponds to the setting of the First Point check box in the Show section, and of the First Point item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Highpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Highpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Highpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Highpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Highpoint As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Highpoint { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2957)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2957)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the highest point of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the highest point of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Highpoint" /> property corresponds to the setting of the High Point check box in the Show section, and of the High Point item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lastpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Lastpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Lastpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Lastpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lastpoint As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Lastpoint { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2960)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2960)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the last point of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the last point of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Lastpoint" />property corresponds to the setting of the Last Point, check box in the Show section, and of the Last Point item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lowpoint">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Lowpoint { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Lowpoint" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Lowpoint" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lowpoint As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Lowpoint { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2958)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2958)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the lowest point of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of the marker for the lowest point of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Lowpoint" /> property corresponds to the setting of the Low Point check box in the Show section, and of the Low Point item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Markers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Markers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Markers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Markers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Markers As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Markers { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2956)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2956)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of markers for positive points of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents the color and visibility of markers for positive points of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Markers" />property corresponds to the setting of the Markers check box in the Show section, and of the Markers item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Negative">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Negative { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Negative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Negative" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Negative As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Negative { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2955)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2955)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents  the color and visibility of markers for negative points of data on a sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that represents  the color and visibility of markers for negative points of data on a sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.SparkPoints.Negative" />property corresponds to the setting of the Negative Point check box in the Show section, and of the Negative Points item on the Marker Color drop-down list in the Style section of the Sparkline Tools Design tab of the ribbon.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkPoints.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</summary>
+        <value>The parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

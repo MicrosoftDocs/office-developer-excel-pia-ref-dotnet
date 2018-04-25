@@ -1,0 +1,775 @@
+﻿<Type Name="Font" FullName="Microsoft.Office.Interop.Excel.Font">
+  <TypeSignature Language="C#" Value="public interface Font" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Font" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Font" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Font" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Font" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002084D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains the font attributes (font name, font size, color, and so on) for an object.</summary>
+    <remarks>
+      <para>Use the <b>Font</b> property to return the <b>Font</b> object.</para>
+      <para>If you don’t want to format all the text in a cell or graphic the same way, use the <see cref="P:Microsoft.Office.Interop.Excel.Range.Characters(System.Object,System.Object)" /> property to return a subset of the text.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Background">
+      <MemberSignature Language="C#" Value="public object Background { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Background" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Background" />
+      <MemberSignature Language="VB.NET" Value="Public Property Background As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Background { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(180)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(180)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(180)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of background for text used in charts. Can be one of the <see cref="T:Microsoft.Office.Interop.Excel.XlBackground" /> constants.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <list type="table">
+            <item>
+              <para>
+                <b>xlBackgroundAutomatic</b>
+              </para>
+              <para>Font background will automatically change the background area around the text to a color that best displays the chart text on the color applied to elements under the text</para>
+            </item>
+            <item>
+              <para>
+                <b>xlBackgroundOpaque</b>
+              </para>
+              <para>Font background will set the font background to black if the text color and fill color underneath the text are very close or the same color, such that the text would not appear</para>
+            </item>
+            <item>
+              <para>
+                <b>xlBackgroundTransparent</b>
+              </para>
+              <para>Font background is set to transparent so that text background does not change if the text color is close to the color underneath the text</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bold">
+      <MemberSignature Language="C#" Value="public object Bold { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Bold" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Bold" />
+      <MemberSignature Language="VB.NET" Value="Public Property Bold As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Bold { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(96)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(96)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(96)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is bold.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public object Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the primary color of the font.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorIndex">
+      <MemberSignature Language="C#" Value="public object ColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.ColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the font.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The color is specified as an index value into the current color palette, or as one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" /> constants:</para>
+          <para>
+            <b>xlColorIndexAutomatic</b>. Use to specify automatic color.</para>
+          <para>
+            <b>xlColorIndexNone</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontStyle">
+      <MemberSignature Language="C#" Value="public object FontStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object FontStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.FontStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property FontStyle As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ FontStyle { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(177)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(177)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(177)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the font style.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Changing this property may affect other <see cref="T:Microsoft.Office.Interop.Excel.Font" /> object properties (such as <see cref="P:Microsoft.Office.Interop.Excel.Font.Bold" /> and <see cref="P:Microsoft.Office.Interop.Excel.Font.Italic" />).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Italic">
+      <MemberSignature Language="C#" Value="public object Italic { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Italic" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Italic" />
+      <MemberSignature Language="VB.NET" Value="Public Property Italic As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Italic { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font style is italic.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public object Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Name { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The following table shows example values of the <b>Name</b> property and related properties given an <a href="mk:@MSITStore:C:\Program%20Files\Microsoft%20Office\OFFICE11\1033\VBAXL10.CHM::/html/xlproName1.htm">OLAP</a></para>
+          <list type="table">
+            <item>
+              <para>
+                <b>Caption</b>
+              </para>
+              <para>Paris</para>
+              <para>Paris</para>
+            </item>
+            <item>
+              <para>
+                <b>Name</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>Paris</para>
+            </item>
+            <item>
+              <para>
+                <b>SourceName</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>(Same as SQL property value, read-only)</para>
+            </item>
+            <item>
+              <para>
+                <b>Value</b>
+              </para>
+              <para>[Europe].[France].[Paris] (read-only)</para>
+              <para>Paris</para>
+            </item>
+          </list>
+          <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
+          <list type="table">
+            <item>
+              <para>expression.PivotItems("[Europe].[France].[Paris]")</para>
+              <para>expression.PivotItems("Paris")</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutlineFont">
+      <MemberSignature Language="C#" Value="public object OutlineFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object OutlineFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.OutlineFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property OutlineFont As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ OutlineFont { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>True if the font is an outline font.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property has no effect in Windows, but its value is retained (it can be set and returned).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shadow">
+      <MemberSignature Language="C#" Value="public object Shadow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Shadow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Shadow" />
+      <MemberSignature Language="VB.NET" Value="Public Property Shadow As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Shadow { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is a shadow font or if the object has a shadow.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property has no effect in Microsoft Windows, but its value is retained (it can be set and returned).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Size">
+      <MemberSignature Language="C#" Value="public object Size { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Size" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Size" />
+      <MemberSignature Language="VB.NET" Value="Public Property Size As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Size { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the size of the font.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Strikethrough">
+      <MemberSignature Language="C#" Value="public object Strikethrough { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Strikethrough" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Strikethrough" />
+      <MemberSignature Language="VB.NET" Value="Public Property Strikethrough As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Strikethrough { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is struck through with a horizontal line.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subscript">
+      <MemberSignature Language="C#" Value="public object Subscript { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Subscript" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Subscript" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subscript As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Subscript { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(179)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is formatted as subscript. <b>False</b> by default.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Superscript">
+      <MemberSignature Language="C#" Value="public object Superscript { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Superscript" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Superscript" />
+      <MemberSignature Language="VB.NET" Value="Public Property Superscript As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Superscript { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(178)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(178)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(178)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is formatted as superscript. <b>False</b> by default.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThemeColor">
+      <MemberSignature Language="C#" Value="public object ThemeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ThemeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.ThemeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThemeColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ThemeColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the theme color in the applied color scheme that is associated with the specified object.  Read/write <b>Object</b>.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>Attempting to access a theme color for an object whose color is not currently themed will result in an invalid request run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThemeFont">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlThemeFont ThemeFont { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlThemeFont ThemeFont" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.ThemeFont" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThemeFont As XlThemeFont" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlThemeFont ThemeFont { Microsoft::Office::Interop::Excel::XlThemeFont get(); void set(Microsoft::Office::Interop::Excel::XlThemeFont value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2367)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2367)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2367)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlThemeFont</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the theme font in the applied font scheme that is associated with the specified object.  Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlThemeFont" />.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.XlThemeFont" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TintAndShade">
+      <MemberSignature Language="C#" Value="public object TintAndShade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TintAndShade" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.TintAndShade" />
+      <MemberSignature Language="VB.NET" Value="Public Property TintAndShade As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TintAndShade { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b> that lightens or darkens a color.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>You can enter a number from -1 (darkest) to 1 (lightest) for the <see cref="P:Microsoft.Office.Interop.Excel.Font.TintAndShade" /> property. Zero (0) is neutral.</para>
+          <para>Attempting to set this property to a value less than -1 or more than 1 results in a run-time error: "The specified value is out of range."  This property works for both theme colors and nontheme colors.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Underline">
+      <MemberSignature Language="C#" Value="public object Underline { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Underline" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Font.Underline" />
+      <MemberSignature Language="VB.NET" Value="Public Property Underline As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Underline { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of underline applied to the font.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlUnderlineStyle" /> constants.</para>
+          <para>
+            <b>xlUnderlineStyleNone</b>
+          </para>
+          <para>
+            <b>xlUnderlineStyleSingle</b>
+          </para>
+          <para>
+            <b>xlUnderlineStyleDouble</b>
+          </para>
+          <para>
+            <b>xlUnderlineStyleSingleAccounting</b>
+          </para>
+          <para>
+            <b>xlUnderlineStyleDoubleAccounting</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

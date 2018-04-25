@@ -1,0 +1,35 @@
+﻿<Type Name="AppEvents_WorkbookPivotTableCloseConnectionEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableCloseConnectionEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WorkbookPivotTableCloseConnectionEventHandler(Workbook Wb, PivotTable Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WorkbookPivotTableCloseConnectionEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableCloseConnectionEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WorkbookPivotTableCloseConnectionEventHandler(Wb As Workbook, Target As PivotTable)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WorkbookPivotTableCloseConnectionEventHandler(Workbook ^ Wb, PivotTable ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">Required. The selected workbook.</param>
+    <param name="Target">Required. The selected PivotTable report.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookPivotTableCloseConnection" /> event. The <b>WorkbookPivotTableCloseConnection</b> event occurs after a PivotTable report connection has been closed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,783 @@
+﻿<Type Name="Workbooks" FullName="Microsoft.Office.Interop.Excel.Workbooks">
+  <TypeSignature Language="C#" Value="public interface Workbooks : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Workbooks implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Workbooks" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Workbooks&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Workbooks : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000208DB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of all the <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> objects that are currently open in the Microsoft Excel application.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.Workbooks" /> property to return the <b>Workbooks</b> collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.Workbooks.Add(System.Object)" /> method to create a new, empty workbook and add it to the collection.</para>
+      <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.Workbooks.Open(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method to open a file.</para>
+      <para>For more information about using a single <b>Workbook</b> object, see the <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="__OpenText">
+      <MemberSignature Language="C#" Value="public void __OpenText (string Filename, object Origin, object StartRow, object DataType, Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, object ConsecutiveDelimiter, object Tab, object Semicolon, object Comma, object Space, object Other, object OtherChar, object FieldInfo, object TextVisualLayout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void __OpenText([in]string Filename, [in]object Origin, [in]object StartRow, [in]object DataType, [in]valuetype Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier, [in]object ConsecutiveDelimiter, [in]object Tab, [in]object Semicolon, [in]object Comma, [in]object Space, [in]object Other, [in]object OtherChar, [in]object FieldInfo, [in]object TextVisualLayout) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.__OpenText(System.String,System.Object,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlTextQualifier,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub __OpenText (Filename As String, Optional Origin As Object, Optional StartRow As Object, Optional DataType As Object, Optional TextQualifier As XlTextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, Optional ConsecutiveDelimiter As Object, Optional Tab As Object, Optional Semicolon As Object, Optional Comma As Object, Optional Space As Object, Optional Other As Object, Optional OtherChar As Object, Optional FieldInfo As Object, Optional TextVisualLayout As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(683)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="Origin" Type="System.Object" />
+        <Parameter Name="StartRow" Type="System.Object" />
+        <Parameter Name="DataType" Type="System.Object" />
+        <Parameter Name="TextQualifier" Type="Microsoft.Office.Interop.Excel.XlTextQualifier" />
+        <Parameter Name="ConsecutiveDelimiter" Type="System.Object" />
+        <Parameter Name="Tab" Type="System.Object" />
+        <Parameter Name="Semicolon" Type="System.Object" />
+        <Parameter Name="Comma" Type="System.Object" />
+        <Parameter Name="Space" Type="System.Object" />
+        <Parameter Name="Other" Type="System.Object" />
+        <Parameter Name="OtherChar" Type="System.Object" />
+        <Parameter Name="FieldInfo" Type="System.Object" />
+        <Parameter Name="TextVisualLayout" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">To be added.</param>
+        <param name="Origin">To be added.</param>
+        <param name="StartRow">To be added.</param>
+        <param name="DataType">To be added.</param>
+        <param name="TextQualifier">To be added.</param>
+        <param name="ConsecutiveDelimiter">To be added.</param>
+        <param name="Tab">To be added.</param>
+        <param name="Semicolon">To be added.</param>
+        <param name="Comma">To be added.</param>
+        <param name="Space">To be added.</param>
+        <param name="Other">To be added.</param>
+        <param name="OtherChar">To be added.</param>
+        <param name="FieldInfo">To be added.</param>
+        <param name="TextVisualLayout">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Workbook _Default(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks._Default(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default(Index As Object) As Workbook" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Workbook ^ default[System::Object ^] { Microsoft::Office::Interop::Excel::Workbook ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Open">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook _Open (string Filename, object UpdateLinks, object ReadOnly, object Format, object Password, object WriteResPassword, object IgnoreReadOnlyRecommended, object Origin, object Delimiter, object Editable, object Notify, object Converter, object AddToMru);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook _Open([in]string Filename, [in]object UpdateLinks, [in]object ReadOnly, [in]object Format, [in]object Password, [in]object WriteResPassword, [in]object IgnoreReadOnlyRecommended, [in]object Origin, [in]object Delimiter, [in]object Editable, [in]object Notify, [in]object Converter, [in]object AddToMru) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks._Open(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _Open (Filename As String, Optional UpdateLinks As Object, Optional ReadOnly As Object, Optional Format As Object, Optional Password As Object, Optional WriteResPassword As Object, Optional IgnoreReadOnlyRecommended As Object, Optional Origin As Object, Optional Delimiter As Object, Optional Editable As Object, Optional Notify As Object, Optional Converter As Object, Optional AddToMru As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(682)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(13)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="UpdateLinks" Type="System.Object" />
+        <Parameter Name="ReadOnly" Type="System.Object" />
+        <Parameter Name="Format" Type="System.Object" />
+        <Parameter Name="Password" Type="System.Object" />
+        <Parameter Name="WriteResPassword" Type="System.Object" />
+        <Parameter Name="IgnoreReadOnlyRecommended" Type="System.Object" />
+        <Parameter Name="Origin" Type="System.Object" />
+        <Parameter Name="Delimiter" Type="System.Object" />
+        <Parameter Name="Editable" Type="System.Object" />
+        <Parameter Name="Notify" Type="System.Object" />
+        <Parameter Name="Converter" Type="System.Object" />
+        <Parameter Name="AddToMru" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">To be added.</param>
+        <param name="UpdateLinks">To be added.</param>
+        <param name="ReadOnly">To be added.</param>
+        <param name="Format">To be added.</param>
+        <param name="Password">To be added.</param>
+        <param name="WriteResPassword">To be added.</param>
+        <param name="IgnoreReadOnlyRecommended">To be added.</param>
+        <param name="Origin">To be added.</param>
+        <param name="Delimiter">To be added.</param>
+        <param name="Editable">To be added.</param>
+        <param name="Notify">To be added.</param>
+        <param name="Converter">To be added.</param>
+        <param name="AddToMru">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_OpenText">
+      <MemberSignature Language="C#" Value="public void _OpenText (string Filename, object Origin, object StartRow, object DataType, Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, object ConsecutiveDelimiter, object Tab, object Semicolon, object Comma, object Space, object Other, object OtherChar, object FieldInfo, object TextVisualLayout, object DecimalSeparator, object ThousandsSeparator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _OpenText([in]string Filename, [in]object Origin, [in]object StartRow, [in]object DataType, [in]valuetype Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier, [in]object ConsecutiveDelimiter, [in]object Tab, [in]object Semicolon, [in]object Comma, [in]object Space, [in]object Other, [in]object OtherChar, [in]object FieldInfo, [in]object TextVisualLayout, [in]object DecimalSeparator, [in]object ThousandsSeparator) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks._OpenText(System.String,System.Object,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlTextQualifier,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _OpenText (Filename As String, Optional Origin As Object, Optional StartRow As Object, Optional DataType As Object, Optional TextQualifier As XlTextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, Optional ConsecutiveDelimiter As Object, Optional Tab As Object, Optional Semicolon As Object, Optional Comma As Object, Optional Space As Object, Optional Other As Object, Optional OtherChar As Object, Optional FieldInfo As Object, Optional TextVisualLayout As Object, Optional DecimalSeparator As Object, Optional ThousandsSeparator As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1773)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="Origin" Type="System.Object" />
+        <Parameter Name="StartRow" Type="System.Object" />
+        <Parameter Name="DataType" Type="System.Object" />
+        <Parameter Name="TextQualifier" Type="Microsoft.Office.Interop.Excel.XlTextQualifier" />
+        <Parameter Name="ConsecutiveDelimiter" Type="System.Object" />
+        <Parameter Name="Tab" Type="System.Object" />
+        <Parameter Name="Semicolon" Type="System.Object" />
+        <Parameter Name="Comma" Type="System.Object" />
+        <Parameter Name="Space" Type="System.Object" />
+        <Parameter Name="Other" Type="System.Object" />
+        <Parameter Name="OtherChar" Type="System.Object" />
+        <Parameter Name="FieldInfo" Type="System.Object" />
+        <Parameter Name="TextVisualLayout" Type="System.Object" />
+        <Parameter Name="DecimalSeparator" Type="System.Object" />
+        <Parameter Name="ThousandsSeparator" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">To be added.</param>
+        <param name="Origin">To be added.</param>
+        <param name="StartRow">To be added.</param>
+        <param name="DataType">To be added.</param>
+        <param name="TextQualifier">To be added.</param>
+        <param name="ConsecutiveDelimiter">To be added.</param>
+        <param name="Tab">To be added.</param>
+        <param name="Semicolon">To be added.</param>
+        <param name="Comma">To be added.</param>
+        <param name="Space">To be added.</param>
+        <param name="Other">To be added.</param>
+        <param name="OtherChar">To be added.</param>
+        <param name="FieldInfo">To be added.</param>
+        <param name="TextVisualLayout">To be added.</param>
+        <param name="DecimalSeparator">To be added.</param>
+        <param name="ThousandsSeparator">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_OpenXML">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook _OpenXML (string Filename, object Stylesheets);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook _OpenXML([in]string Filename, [in]object Stylesheets) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks._OpenXML(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _OpenXML (Filename As String, Optional Stylesheets As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2071)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="Stylesheets" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">To be added.</param>
+        <param name="Stylesheets">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook Add (object Template);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook Add([in]object Template) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.Add(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional Template As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(181)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Template" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Template">Optional <b>Object</b>. Determines how the new workbook is created. If this argument is a string specifying the name of an existing Microsoft Excel file, the new workbook is created with the specified file as a template. If this argument is a constant, the new workbook contains a single sheet of the specified type. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlWBATemplate" /> constants: <b>xlWBATChart</b>, <b>xlWBATExcel4IntlMacroSheet</b>, <b>xlWBATExcel4MacroSheet</b>, or <b>xlWBATWorksheet</b>. If this argument is omitted, Microsoft Excel creates a new workbook with a number of blank sheets (the number of sheets is set by the <b>SheetsInNewWorkbook</b> property).</param>
+        <summary>Creates a new workbook. The new workbook becomes the active workbook. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>If the <paramref name="Template" /> argument specifies a file, the file name can include a path.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCheckOut">
+      <MemberSignature Language="C#" Value="public bool CanCheckOut (string Filename);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool CanCheckOut([in]string Filename) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.CanCheckOut(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CanCheckOut (Filename As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool CanCheckOut(System::String ^ Filename);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2070)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The name of the file to check out.</param>
+        <summary>
+          <b>True</b> if Microsoft Excel can check out a specified workbook from a server. Read/write <b>Boolean</b>.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckOut">
+      <MemberSignature Language="C#" Value="public void CheckOut (string Filename);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CheckOut([in]string Filename) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.CheckOut(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CheckOut (Filename As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CheckOut(System::String ^ Filename);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2069)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The name of the file to check out.</param>
+        <summary>Copies the specified workbook from a server to a local computer for editing.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Close();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(277)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Closes the object.</summary>
+        <remarks>
+          <para>Closing a workbook using the <b>Close</b> method doesn't run any Auto_Close macros in the workbook. Use the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.RunAutoMacros(Microsoft.Office.Interop.Excel.XlRunAutoMacro)" /> method to run the auto close macros.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of objects in the collection. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook Item[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Workbook Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item(Index As Object) As Workbook" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Workbook ^ Item[System::Object ^] { Microsoft::Office::Interop::Excel::Workbook ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <b>Object</b>. The name or index number of the object.</param>
+        <summary>Returns a single object from a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook Open (string Filename, object UpdateLinks, object ReadOnly, object Format, object Password, object WriteResPassword, object IgnoreReadOnlyRecommended, object Origin, object Delimiter, object Editable, object Notify, object Converter, object AddToMru, object Local, object CorruptLoad);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook Open([in]string Filename, [in]object UpdateLinks, [in]object ReadOnly, [in]object Format, [in]object Password, [in]object WriteResPassword, [in]object IgnoreReadOnlyRecommended, [in]object Origin, [in]object Delimiter, [in]object Editable, [in]object Notify, [in]object Converter, [in]object AddToMru, [in]object Local, [in]object CorruptLoad) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.Open(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Open (Filename As String, Optional UpdateLinks As Object, Optional ReadOnly As Object, Optional Format As Object, Optional Password As Object, Optional WriteResPassword As Object, Optional IgnoreReadOnlyRecommended As Object, Optional Origin As Object, Optional Delimiter As Object, Optional Editable As Object, Optional Notify As Object, Optional Converter As Object, Optional AddToMru As Object, Optional Local As Object, Optional CorruptLoad As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1923)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="UpdateLinks" Type="System.Object" />
+        <Parameter Name="ReadOnly" Type="System.Object" />
+        <Parameter Name="Format" Type="System.Object" />
+        <Parameter Name="Password" Type="System.Object" />
+        <Parameter Name="WriteResPassword" Type="System.Object" />
+        <Parameter Name="IgnoreReadOnlyRecommended" Type="System.Object" />
+        <Parameter Name="Origin" Type="System.Object" />
+        <Parameter Name="Delimiter" Type="System.Object" />
+        <Parameter Name="Editable" Type="System.Object" />
+        <Parameter Name="Notify" Type="System.Object" />
+        <Parameter Name="Converter" Type="System.Object" />
+        <Parameter Name="AddToMru" Type="System.Object" />
+        <Parameter Name="Local" Type="System.Object" />
+        <Parameter Name="CorruptLoad" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The file name of the workbook to be opened.</param>
+        <param name="UpdateLinks">Optional <b>Object</b>. Specifies the way links in the file are updated. If this argument is omitted, the user is prompted to specify how links will be updated. Otherwise, this argument is one of the values listed in the following table.If Microsoft Excel is opening a file in the WKS, WK1, or WK3 format and the <paramref name="UpdateLinks" /> argument is 2, Microsoft Excel generates charts from the graphs attached to the file. If the argument is 0, no charts are created.</param>
+        <param name="ReadOnly">Optional <b>Object</b>. True to open the workbook in read-only mode.</param>
+        <param name="Format">Optional <b>Object</b>. If Microsoft Excel is opening a text file, this argument specifies the delimiter character, as shown in the following table. If this argument is omitted, the current delimiter is used.</param>
+        <param name="Password">Optional <b>Object</b>. A string that contains the password required to open a protected workbook. If this argument is omitted and the workbook requires a password, the user is prompted for the password.</param>
+        <param name="WriteResPassword">Optional <b>Object</b>. A string that contains the password required to write to a write-reserved workbook. If this argument is omitted and the workbook requires a password, the user will be prompted for the password.</param>
+        <param name="IgnoreReadOnlyRecommended">Optional <b>Object</b>. <b>True</b> to have Microsoft Excel not display the read-only recommended message (if the workbook was saved with the <b>Read-Only Recommended</b> option).</param>
+        <param name="Origin">Optional <b>Object</b>. If the file is a text file, this argument indicates where it originated (so that code pages and Carriage Return/Line Feed (CR/LF) can be mapped correctly). Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPlatform" /> constants: <b>xlMacintosh</b>, <b>xlWindows</b>, or <b>xlMSDOS</b>. If this argument is omitted, the current operating system is used.</param>
+        <param name="Delimiter">Optional <b>Object</b>. If the file is a text file and the <b>Format</b> argument is 6, this argument is a string that specifies the character to be used as the delimiter. For example, use Chr(9) for tabs, use "," for commas, use ";" for semicolons, or use a custom character. Only the first character of the string is used.</param>
+        <param name="Editable">Optional <b>Object</b>. If the file is a Microsoft Excel 4.0 add-in, this argument is <b>True</b> to open the add-in so that it’s a visible window. If this argument is <b>False</b> or omitted, the add-in is opened as hidden, and it cannot be unhidden. This option doesn't apply to add-ins created in Microsoft Excel 5.0 or later. If the file is an Excel template, use <b>True</b> to open the specified template for editing or <b>False</b> to open a new workbook based on the specified template. The default value is <b>False</b>.</param>
+        <param name="Notify">Optional <b>Object</b>. If the file cannot be opened in read/write mode, this argument is <b>True</b> to add the file to the file notification list. Microsoft Excel will open the file as read-only, poll the file notification list, and then notify the user when the file becomes available. If this argument is <b>False</b> or omitted, no notification is requested, and any attempts to open an unavailable file will fail.</param>
+        <param name="Converter">Optional <b>Object</b>. The index of the first file converter to try when opening the file. The specified file converter is tried first; if this converter doesn’t recognize the file, all other converters are tried. The converter index consists of the row numbers of the converters returned by the <see cref="P:Microsoft.Office.Interop.Excel._Application.FileConverters(System.Object,System.Object)" /> property.</param>
+        <param name="AddToMru">Optional <b>Object</b>. <b>True</b> to add this workbook to the list of recently used files. The default value is <b>False</b>.</param>
+        <param name="Local">Optional <b>Object</b>. <b>True</b> saves files against the language of Microsoft Excel (including control panel settings). <b>False</b> (default) saves files against the language of Visual Basic for Applications (VBA) (which is typically U.S. English unless the VBA project where Workbooks.Open is run from is an old internationalized XL5/95 VBA project).</param>
+        <param name="CorruptLoad">Optional <b>Object</b>. Can be one of the following constants: <b>xlNormalLoad</b>, <b>xlRepairFile</b>, and <b>xlExtractData</b>. The default behavior if no value is specified is usually normal, but may be safe load or data recovery if Excel has already attempted to open the file. The first attempt is normal. If Excel stops operating while opening the file, the second attempt is safe load. If Excel again stops operating, the next attempt is data recovery.</param>
+        <summary>Opens a workbook.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>By default, macros are enabled when opening files programmatically. Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.AutomationSecurity" /> property to set the macro security mode used when opening files programmatically.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenDatabase">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook OpenDatabase (string Filename, object CommandText, object CommandType, object BackgroundQuery, object ImportDataAs);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook OpenDatabase([in]string Filename, [in]object CommandText, [in]object CommandType, [in]object BackgroundQuery, [in]object ImportDataAs) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.OpenDatabase(System.String,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenDatabase (Filename As String, Optional CommandText As Object, Optional CommandType As Object, Optional BackgroundQuery As Object, Optional ImportDataAs As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2067)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="CommandText" Type="System.Object" />
+        <Parameter Name="CommandType" Type="System.Object" />
+        <Parameter Name="BackgroundQuery" Type="System.Object" />
+        <Parameter Name="ImportDataAs" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The connection string.</param>
+        <param name="CommandText">Optional <b>Object</b>. The command text of the query.</param>
+        <param name="CommandType">Optional <b>Object</b>. The command type of the query. The following command types are available: Default, SQL, and Table.</param>
+        <param name="BackgroundQuery">Optional <b>Object</b>. The background of the query.</param>
+        <param name="ImportDataAs">Optional <b>Object</b>. Determines the format of the query.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object representing a database.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenText">
+      <MemberSignature Language="C#" Value="public void OpenText (string Filename, object Origin, object StartRow, object DataType, Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, object ConsecutiveDelimiter, object Tab, object Semicolon, object Comma, object Space, object Other, object OtherChar, object FieldInfo, object TextVisualLayout, object DecimalSeparator, object ThousandsSeparator, object TrailingMinusNumbers, object Local);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OpenText([in]string Filename, [in]object Origin, [in]object StartRow, [in]object DataType, [in]valuetype Microsoft.Office.Interop.Excel.XlTextQualifier TextQualifier, [in]object ConsecutiveDelimiter, [in]object Tab, [in]object Semicolon, [in]object Comma, [in]object Space, [in]object Other, [in]object OtherChar, [in]object FieldInfo, [in]object TextVisualLayout, [in]object DecimalSeparator, [in]object ThousandsSeparator, [in]object TrailingMinusNumbers, [in]object Local) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.OpenText(System.String,System.Object,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlTextQualifier,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OpenText (Filename As String, Optional Origin As Object, Optional StartRow As Object, Optional DataType As Object, Optional TextQualifier As XlTextQualifier = Microsoft.Office.Interop.Excel.XlTextQualifier.xlTextQualifierDoubleQuote, Optional ConsecutiveDelimiter As Object, Optional Tab As Object, Optional Semicolon As Object, Optional Comma As Object, Optional Space As Object, Optional Other As Object, Optional OtherChar As Object, Optional FieldInfo As Object, Optional TextVisualLayout As Object, Optional DecimalSeparator As Object, Optional ThousandsSeparator As Object, Optional TrailingMinusNumbers As Object, Optional Local As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1924)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.LCIDConversion(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="Origin" Type="System.Object" />
+        <Parameter Name="StartRow" Type="System.Object" />
+        <Parameter Name="DataType" Type="System.Object" />
+        <Parameter Name="TextQualifier" Type="Microsoft.Office.Interop.Excel.XlTextQualifier" />
+        <Parameter Name="ConsecutiveDelimiter" Type="System.Object" />
+        <Parameter Name="Tab" Type="System.Object" />
+        <Parameter Name="Semicolon" Type="System.Object" />
+        <Parameter Name="Comma" Type="System.Object" />
+        <Parameter Name="Space" Type="System.Object" />
+        <Parameter Name="Other" Type="System.Object" />
+        <Parameter Name="OtherChar" Type="System.Object" />
+        <Parameter Name="FieldInfo" Type="System.Object" />
+        <Parameter Name="TextVisualLayout" Type="System.Object" />
+        <Parameter Name="DecimalSeparator" Type="System.Object" />
+        <Parameter Name="ThousandsSeparator" Type="System.Object" />
+        <Parameter Name="TrailingMinusNumbers" Type="System.Object" />
+        <Parameter Name="Local" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. Specifies the file name of the text file to be opened and parsed.</param>
+        <param name="Origin">Optional <b>Object</b>. Specifies the origin of the text file. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPlatform" /> constants: <b>xlMacintosh</b>, <b>xlWindows</b>, or <b>xlMSDOS</b>. Additionally, this could be an integer representing the code page number of the desired code page. For example, "1256" would specify that the encoding of the source text file is Arabic (Windows). If this argument is omitted, the method uses the current setting of the File Origin option in the <b>Text Import Wizard</b>.</param>
+        <param name="StartRow">Optional <b>Object</b>. The row number at which to start parsing text. The default value is 1.</param>
+        <param name="DataType">Optional <b>Object</b>. Specifies the column format of the data in the file. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlTextParsingType" /> constants: <b>xlDelimited</b> or <b>xlFixedWidth</b>. If this argument is not specified, Microsoft Excel attempts to determine the column format when it opens the file.</param>
+        <param name="TextQualifier">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlTextQualifier" />. Specifies the text qualifier. Can be one of these <see cref="T:Microsoft.Office.Interop.Excel.XlTextQualifier" /> constants.<b>xlTextQualifierDoubleQuote</b><paramref name="default" /><b>xlTextQualifierNone</b><b>xlTextQualifierSingleQuote</b></param>
+        <param name="ConsecutiveDelimiter">Optional <b>Object</b>. <b>True</b> to have consecutive delimiters considered one delimiter. The default is <b>False</b>.</param>
+        <param name="Tab">Optional <b>Object</b>. True to have the tab character be the delimiter (<paramref name="DataType" /> must be <b>xlDelimited</b>). The default value is <b>False</b>.</param>
+        <param name="Semicolon">Optional <b>Object</b>. <b>True</b> to have the semicolon character be the delimiter (<paramref name="DataType" /> must be <b>xlDelimited</b>). The default value is <b>False</b>.</param>
+        <param name="Comma">Optional <b>Object</b>. <b>True</b> to have the comma character be the delimiter (<paramref name="DataType" /> must be <b>xlDelimited</b>). The default value is <b>False</b>.</param>
+        <param name="Space">Optional <b>Object</b>. <b>True</b> to have the space character be the delimiter (<paramref name="DataType" /> must be <b>xlDelimited</b>). The default value is <b>False</b>.</param>
+        <param name="Other">Optional <b>Object</b>. <b>True</b> to have the character specified by the <paramref name="OtherChar" /> argument be the delimiter (<paramref name="DataType" /> must be <b>xlDelimited</b>). The default value is <b>False</b>.</param>
+        <param name="OtherChar">Optional <b>Object</b> (required if <paramref name="Other" /> is <b>True</b>). Specifies the delimiter character when <paramref name="Other" /> is <b>True</b>. If more than one character is specified, only the first character of the string is used; the remaining characters are ignored.</param>
+        <param name="FieldInfo">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlColumnDataType" />. An array containing parse information for individual columns of data. The interpretation depends on the value of <paramref name="DataType" />. When the data is delimited, this argument is an array of two-element arrays, with each two-element array specifying the conversion options for a particular column. The first element is the column number (1-based), and the second element is one of the<b>XlColumnDataType</b> constants specifying how the column is parsed.<b>xlGeneralFormat</b> General<b>xlTextFormat</b> Text<b>xlMDYFormat</b> MDY date<b>xlDMYFormat</b> DMY date<b>xlYMDFormat</b> YMD date<b>xlMYDFormat</b> MYD date<b>xlDYMFormat</b> DYM date<b>xlYDMFormat</b> YDM date<b>xlEMDFormat</b> EMD date<b>xlSkipColumn</b> Skip ColumnYou can use <b>xlEMDFormat</b> only if you have installed and selected Taiwanese language support. The <b>xlEMDFormat</b> constant specifies that Taiwanese era dates are being used.The column specifiers can be in any order. If there's no column specifier for a particular column in the input data, the column is parsed with the General setting.<b>Notes</b>If you specify that a column is to be skipped, you must explicitly state the type for all remaining columns or the data will not parse correctly.If there is a recognizable date in the data, the cell will be formatted as a date in the worksheet even if the setting for the column is General. Additionally, if you specify one of the above date formats for a column and the data does not contain a recognized date, then the cell format in the worksheet will be General.If the source data has fixed-width columns, the first element in each two-element array specifies the position of the starting character in the column (as an integer; character 0 (zero) is the first character). The second element in the two-element array specifies the parse option for the column as a number between 0 and 9, as listed in the preceding table.</param>
+        <param name="TextVisualLayout">Optional <b>Object</b>. The visual layout of the text.</param>
+        <param name="DecimalSeparator">Optional <b>Object</b>. The decimal separator that Microsoft Excel uses when recognizing numbers. The default setting is the system setting.</param>
+        <param name="ThousandsSeparator">Optional <b>Object</b>. The thousands separator that Excel uses when recognizing numbers. The default setting is the system setting.The following table shows the results of importing text into Excel for various import settings. Numeric results are displayed in the rightmost column.</param>
+        <param name="TrailingMinusNumbers">Optional <b>Object</b>.</param>
+        <param name="Local">Optional <b>Object</b>.</param>
+        <summary>Loads and parses a text file as a new workbook with a single sheet that contains the parsed text-file data.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenXML">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Workbook OpenXML (string Filename, object Stylesheets, object LoadOption);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Workbook OpenXML([in]string Filename, [in]object Stylesheets, [in]object LoadOption) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Workbooks.OpenXML(System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function OpenXML (Filename As String, Optional Stylesheets As Object, Optional LoadOption As Object) As Workbook" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2280)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Workbook</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="Stylesheets" Type="System.Object" />
+        <Parameter Name="LoadOption" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The name of the file to open.</param>
+        <param name="Stylesheets">Optional <b>Object</b>. Either a single value or an array of values that specify which XSL Transformation (XSLT) style sheet processing instructions to apply.</param>
+        <param name="LoadOption">Optional <b>Object</b>. Specifies how Excel opens the XML data file. Can be one of these <see cref="T:Microsoft.Office.Interop.Excel.XlXmlLoadOption" /> constants:<b>xlXmlLoadImportToList</b> Places the contents of the XML data file in an XML list.<b>xlXmlLoadMapXml</b> Displays the schema of the XML data file in the <b>XML Structure</b> task pane.<b>xlXmlLoadOpenXml</b> Opens the XML data file. The contents of the file will be flattened.<b>xlXmlLoadPromptUser</b> Prompts the user to choose how to open the file.</param>
+        <summary>Opens an XML data file. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>XML features, except for saving files in the XML Spreadsheet format, are available only in Microsoft Office Professional Edition 2003 and Microsoft Office Excel 2003.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Workbooks.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

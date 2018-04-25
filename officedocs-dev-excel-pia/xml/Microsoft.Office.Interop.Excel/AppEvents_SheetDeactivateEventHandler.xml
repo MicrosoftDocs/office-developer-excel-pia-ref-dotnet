@@ -1,0 +1,33 @@
+﻿<Type Name="AppEvents_SheetDeactivateEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_SheetDeactivateEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_SheetDeactivateEventHandler(object Sh);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_SheetDeactivateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_SheetDeactivateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_SheetDeactivateEventHandler(Sh As Object)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_SheetDeactivateEventHandler(System::Object ^ Sh);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Sh" Type="System.Object" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Sh">The sheet. Can be a <b>Chart</b> or <b>Worksheet</b> object.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.SheetDeactivate" /> event. The <b>SheetDeactivate</b> event occurs when any sheet is deactivated.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,236 @@
+﻿<Type Name="ChartEvents_SelectEventHandler" FullName="Microsoft.Office.Interop.Excel.ChartEvents_SelectEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ChartEvents_SelectEventHandler(int ElementID, int Arg1, int Arg2);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ChartEvents_SelectEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartEvents_SelectEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ChartEvents_SelectEventHandler(ElementID As Integer, Arg1 As Integer, Arg2 As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ChartEvents_SelectEventHandler(int ElementID, int Arg1, int Arg2);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="ElementID" Type="System.Int32" />
+    <Parameter Name="Arg1" Type="System.Int32" />
+    <Parameter Name="Arg2" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="ElementID">Required. The double-clicked object.</param>
+    <param name="Arg1">Depends on <paramref name="ElementID" />.</param>
+    <param name="Arg2">Depends on <paramref name="ElementID" />.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Select" /> event. The <b>Select</b> event occurs when a chart element is selected.</summary>
+    <remarks>
+      <para>The following table shows the arguments associated with each <paramref name="ElementID" />.</para>
+      <list type="table">
+        <item>
+          <para>xlAxis</para>
+          <para>AxisIndex</para>
+          <para>AxisType</para>
+        </item>
+        <item>
+          <para>xlAxisTitle</para>
+          <para>AxisIndex</para>
+          <para>AxisType</para>
+        </item>
+        <item>
+          <para>xlDisplayUnitLabel</para>
+          <para>AxisIndex</para>
+          <para>AxisType</para>
+        </item>
+        <item>
+          <para>xlMajorGridlines</para>
+          <para>AxisIndex</para>
+          <para>AxisType</para>
+        </item>
+        <item>
+          <para>xlMinorGridlines</para>
+          <para>AxisIndex</para>
+          <para>AxisType</para>
+        </item>
+        <item>
+          <para>xlPivotChartDropZone</para>
+          <para>DropZoneType</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlPivotChartFieldButton</para>
+          <para>DropZoneType</para>
+          <para>PivotFieldIndex</para>
+        </item>
+        <item>
+          <para>xlDownBars</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlDropLines</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlHiLoLines</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlRadarAxisLabels</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlSeriesLines</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlUpBars</para>
+          <para>GroupIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlChartArea</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlChartTitle</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlCorners</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlDataTable</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlFloor</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlLegend</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlNothing</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlPlotArea</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlWalls</para>
+          <para>None</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlDataLabel</para>
+          <para>SeriesIndex</para>
+          <para>PointIndex</para>
+        </item>
+        <item>
+          <para>xlErrorBars</para>
+          <para>SeriesIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlLegendEntry</para>
+          <para>SeriesIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlLegendKey</para>
+          <para>SeriesIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlSeries</para>
+          <para>SeriesIndex</para>
+          <para>PointIndex</para>
+        </item>
+        <item>
+          <para>xlTrendline</para>
+          <para>SeriesIndex</para>
+          <para>TrendLineIndex</para>
+        </item>
+        <item>
+          <para>xlXErrorBars</para>
+          <para>SeriesIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlYErrorBars</para>
+          <para>SeriesIndex</para>
+          <para>None</para>
+        </item>
+        <item>
+          <para>xlShape</para>
+          <para>ShapeIndex</para>
+          <para>None</para>
+        </item>
+      </list>
+      <para>The following table describes the meaning of the arguments.</para>
+      <list type="table">
+        <item>
+          <para>AxisIndex</para>
+          <para>Specifies whether the axis is primary or secondary. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisGroup" /> constants: <b>xlPrimary</b> or <b>xlSecondary</b>.</para>
+        </item>
+        <item>
+          <para>AxisType</para>
+          <para>Specifies the axis type. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisType" /> constants: <b>xlCategory</b>, <b>xlSeriesAxis</b>, or <b>xlValue</b>.</para>
+        </item>
+        <item>
+          <para>DropZoneType</para>
+          <para>Specifies the drop zone type: column, data, page, or row field. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldOrientation" /> constants: <b>xlColumnField</b>, <b>xlDataField</b>, <b>xlPageField</b>, or <b>xlRowField</b>. The column and row field constants specify the series and category fields, respectively.</para>
+        </item>
+        <item>
+          <para>GroupIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.ChartGroups" /> collection for a specific chart group.</para>
+        </item>
+        <item>
+          <para>PivotFieldIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection for a specific column (series), data, page, or row (category) field.</para>
+        </item>
+        <item>
+          <para>PointIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Points" /> collection for a specific point within a series. The value –1 indicates that all data points are selected.</para>
+        </item>
+        <item>
+          <para>SeriesIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> collection for a specific series.</para>
+        </item>
+        <item>
+          <para>ShapeIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection for a specific shape.</para>
+        </item>
+        <item>
+          <para>TrendlineIndex</para>
+          <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Trendlines" /> collection for a specific trendline within a series.</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+</Type>

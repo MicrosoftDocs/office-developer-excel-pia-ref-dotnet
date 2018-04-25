@@ -1,0 +1,532 @@
+﻿<Type Name="ErrorCheckingOptions" FullName="Microsoft.Office.Interop.Excel.ErrorCheckingOptions">
+  <TypeSignature Language="C#" Value="public interface ErrorCheckingOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ErrorCheckingOptions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ErrorCheckingOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ErrorCheckingOptions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ErrorCheckingOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002445B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the error-checking options for an application.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.ErrorCheckingOptions" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object to return an <b>ErrorCheckingOptions</b> object.</para>
+      <para>Reference the <see cref="P:Microsoft.Office.Interop.Excel.Errors.Item(System.Object)" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Errors" /> object to view a list of index values associated with error-checking options.</para>
+      <para>You can use the following properties, which are members of the <b>ErrorCheckingOptions</b> object, to set or return error checking options.</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.BackgroundChecking" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.EmptyCellReferences" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.EvaluateToError" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.InconsistentFormula" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.IndicatorColorIndex" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.NumberAsText" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.OmittedCells" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.TextDate" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.UnlockedFormulaCells" />
+          </para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackgroundChecking">
+      <MemberSignature Language="C#" Value="public bool BackgroundChecking { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool BackgroundChecking" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.BackgroundChecking" />
+      <MemberSignature Language="VB.NET" Value="Public Property BackgroundChecking As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool BackgroundChecking { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2201)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2201)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Alerts the user for all cells that violate enabled error-checking rules.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When the <b>BackgroundChecking</b> property is set to <b>True</b> (default), the AutoCorrect Options button appears next to all cells that violate enabled errors. <b>False</b> disables background checking for errors.</para>
+          <para>Refer to the <see cref="T:Microsoft.Office.Interop.Excel.ErrorCheckingOptions" /> object to view a list of its members that can be enabled.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmptyCellReferences">
+      <MemberSignature Language="C#" Value="public bool EmptyCellReferences { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EmptyCellReferences" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.EmptyCellReferences" />
+      <MemberSignature Language="VB.NET" Value="Public Property EmptyCellReferences As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EmptyCellReferences { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2209)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies, with an AutoCorrect Options button, selected cells containing formulas that refer to empty cells. <b>False</b> disables empty cell reference checking.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EvaluateToError">
+      <MemberSignature Language="C#" Value="public bool EvaluateToError { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EvaluateToError" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.EvaluateToError" />
+      <MemberSignature Language="VB.NET" Value="Public Property EvaluateToError As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EvaluateToError { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2203)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2203)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2203)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies, with an AutoCorrect Options button, selected cells that contain formulas evaluating to an error. <b>False</b> disables error checking for cells that evaluate to an error value.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InconsistentFormula">
+      <MemberSignature Language="C#" Value="public bool InconsistentFormula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InconsistentFormula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.InconsistentFormula" />
+      <MemberSignature Language="VB.NET" Value="Public Property InconsistentFormula As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InconsistentFormula { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2206)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2206)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies cells containing an inconsistent formula in a region. <b>False</b> disables the inconsistent formula check.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Consistent formulas in the region must reside to the left and right or above and below the cell containing the inconsistent formula for the <b>InconsistentFormula</b> property to work properly.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InconsistentTableFormula">
+      <MemberSignature Language="C#" Value="public bool InconsistentTableFormula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InconsistentTableFormula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.InconsistentTableFormula" />
+      <MemberSignature Language="VB.NET" Value="Public Property InconsistentTableFormula As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InconsistentTableFormula { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2675)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2675)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2675)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the table formula is inconsistent. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndicatorColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlColorIndex IndicatorColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlColorIndex IndicatorColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.IndicatorColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property IndicatorColorIndex As XlColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlColorIndex IndicatorColorIndex { Microsoft::Office::Interop::Excel::XlColorIndex get(); void set(Microsoft::Office::Interop::Excel::XlColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2202)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2202)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2202)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the indicator for error checking options.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" /> can be one of the following <b>XlColorIndex</b> constants:</para>
+          <para>
+            <b>xlColorIndexAutomatic</b> The default system color.</para>
+          <para>
+            <b>xlColorIndexNone</b> Not used with this property.</para>
+          <para>You can specify a particular color for the indicator by entering the corresponding index value. You can use the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.Colors(System.Object)" /> property to return the current color palette.</para>
+          <para>The following illustration shows the color-index values in the default color palette.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListDataValidation">
+      <MemberSignature Language="C#" Value="public bool ListDataValidation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ListDataValidation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.ListDataValidation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListDataValidation As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ListDataValidation { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A <b>Boolean</b> value that is <b>True</b> if data validation is enabled in a list.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Data validation for a list can also be turned on or off by in the user interface by selecting or clearing the List data validation error check box on the Error Checking tab of the Options dialog box.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberAsText">
+      <MemberSignature Language="C#" Value="public bool NumberAsText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NumberAsText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.NumberAsText" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberAsText As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NumberAsText { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2205)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2205)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2205)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies, with an AutoCorrect Options button, selected cells that contain numbers written as text. <b>False</b> disables error checking for numbers written as text.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OmittedCells">
+      <MemberSignature Language="C#" Value="public bool OmittedCells { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OmittedCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.OmittedCells" />
+      <MemberSignature Language="VB.NET" Value="Public Property OmittedCells As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool OmittedCells { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2207)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2207)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies, with an AutoCorrect Options button, the selected cells that contain formulas referring to a range that omits adjacent cells that could be included. <b>False</b> disables error checking for omitted cells.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextDate">
+      <MemberSignature Language="C#" Value="public bool TextDate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.TextDate" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextDate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2204)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2204)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies, with an AutoCorrect Options button, cells that contain a text date with a two-digit year. <b>False</b> disables error checking for cells containing a text date with a two-digit year.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnlockedFormulaCells">
+      <MemberSignature Language="C#" Value="public bool UnlockedFormulaCells { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UnlockedFormulaCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ErrorCheckingOptions.UnlockedFormulaCells" />
+      <MemberSignature Language="VB.NET" Value="Public Property UnlockedFormulaCells As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UnlockedFormulaCells { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2208)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2208)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2208)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), Microsoft Excel identifies selected cells that are unlocked and contain a formula. <b>False</b> disables error checking for unlocked cells that contain formulas.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

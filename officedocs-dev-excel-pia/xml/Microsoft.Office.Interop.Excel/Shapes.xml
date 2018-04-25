@@ -1,0 +1,1042 @@
+﻿<Type Name="Shapes" FullName="Microsoft.Office.Interop.Excel.Shapes">
+  <TypeSignature Language="C#" Value="public interface Shapes : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Shapes implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Shapes" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Shapes&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Shapes : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002443A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of all the <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> objects on the specified sheet.</summary>
+    <remarks>
+      <para>Each <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object represents an object in the drawing layer, such as an AutoShape, freeform, OLE object, or picture.</para>
+      <para>
+        <b>Note</b>: If you want to work with a subset of the shapes on a document — for example, to do something to only the AutoShapes on the document or to only the selected shapes — you must construct a <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" /> collection that contains the shapes you want to work with.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape _Default (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape _Default([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes._Default(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _Default (Index As Object) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ _Default(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCallout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddCallout (Microsoft.Office.Core.MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddCallout([in]valuetype Microsoft.Office.Core.MsoCalloutType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddCallout(Microsoft.Office.Core.MsoCalloutType,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddCallout (Type As MsoCalloutType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddCallout(Microsoft::Office::Core::MsoCalloutType Type, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1713)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoCalloutType" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Core.MsoCalloutType" />. The type of callout line. Can be one of these <b>MsoCalloutType</b> constants:<b>msoCalloutOne</b>. A single-segment callout line that can be either horizontal or vertical.<b>msoCalloutTwo</b>. A single-segment callout line that rotates freely.<b>msoCalloutMixed</b>.<b>msoCalloutThree</b>. A two-segment line.<b>msoCalloutFour</b>. A three-segment line.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the callout's bounding box relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the callout's bounding box relative to the upper-left corner of the document.</param>
+        <param name="Width">Required <b>Single</b>. The width of the callout's bounding box, in points.</param>
+        <param name="Height">Required <b>Single</b>. The height of the callout's bounding box, in points.</param>
+        <summary>Creates a borderless line callout. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new callout.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>You can insert a greater variety of callouts by using the <see cref="M:Microsoft.Office.Interop.Excel.Shapes.AddShape(Microsoft.Office.Core.MsoAutoShapeType,System.Single,System.Single,System.Single,System.Single)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCanvas">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddCanvas (float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddCanvas([in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddCanvas(System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddCanvas (Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddCanvas(float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2177)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Left">To be added.</param>
+        <param name="Top">To be added.</param>
+        <param name="Width">To be added.</param>
+        <param name="Height">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddChart">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddChart (object XlChartType, object Left, object Top, object Width, object Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddChart([in]object XlChartType, [in]object Left, [in]object Top, [in]object Width, [in]object Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddChart(System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddChart (Optional XlChartType As Object, Optional Left As Object, Optional Top As Object, Optional Width As Object, Optional Height As Object) As Shape" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2665)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="XlChartType" Type="System.Object" />
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Width" Type="System.Object" />
+        <Parameter Name="Height" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="XlChartType">To be added.</param>
+        <param name="Left">To be added.</param>
+        <param name="Top">To be added.</param>
+        <param name="Width">To be added.</param>
+        <param name="Height">To be added.</param>
+        <summary>This object, member, or enumeration is deprecated and is not intended to be used in your code.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddChart2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddChart2 (object Style, object XlChartType, object Left, object Top, object Width, object Height, object NewLayout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddChart2([in]object Style, [in]object XlChartType, [in]object Left, [in]object Top, [in]object Width, [in]object Height, [in]object NewLayout) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddChart2(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddChart2 (Optional Style As Object, Optional XlChartType As Object, Optional Left As Object, Optional Top As Object, Optional Width As Object, Optional Height As Object, Optional NewLayout As Object) As Shape" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="System.Object" />
+        <Parameter Name="XlChartType" Type="System.Object" />
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Width" Type="System.Object" />
+        <Parameter Name="Height" Type="System.Object" />
+        <Parameter Name="NewLayout" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Style">The chart style. Use -1 to get the default style for the type of chart specified in <b>XlChartType</b></param>
+        <param name="XlChartType">The type of chart.</param>
+        <param name="Left">The position, in points, of the left edge of the chart, relative to the anchor.</param>
+        <param name="Top">The position, in points, of the top edge of the chart, relative to the anchor.</param>
+        <param name="Width">The width, in points, of the chart.</param>
+        <param name="Height">The height, in points, of the chart.</param>
+        <param name="NewLayout">If <paramref name="NewLayout" /> is true, the chart is inserted by using the new dynamic formatting rules (Title is on, and Legend is on only if there are multiple series).</param>
+        <summary>Adds a chart to the document. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents a chart and adds it to the specified collection.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddConnector">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddConnector (Microsoft.Office.Core.MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddConnector([in]valuetype Microsoft.Office.Core.MsoConnectorType Type, [in]float32 BeginX, [in]float32 BeginY, [in]float32 EndX, [in]float32 EndY) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddConnector(Microsoft.Office.Core.MsoConnectorType,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddConnector (Type As MsoConnectorType, BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddConnector(Microsoft::Office::Core::MsoConnectorType Type, float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1714)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoConnectorType" />
+        <Parameter Name="BeginX" Type="System.Single" />
+        <Parameter Name="BeginY" Type="System.Single" />
+        <Parameter Name="EndX" Type="System.Single" />
+        <Parameter Name="EndY" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Core.MsoConnectorType" />. The connector type to add. Can be one of these <b>MsoConnectorType</b> constants:<b>msoConnectorElbow</b><b>msoConnectorTypeMixed</b><b>msoConnectorCurve</b><b>msoConnectorStraight</b></param>
+        <param name="BeginX">Required <b>Single</b>. The horizontal position (in points) of the connector's starting point relative to the upper-left corner of the document.</param>
+        <param name="BeginY">Required <b>Single</b>. The vertical position (in points) of the connector's starting point relative to the upper-left corner of the document.</param>
+        <param name="EndX">Required <b>Single</b>. The horizontal position (in points) of the connector's end point relative to the upper-left corner of the document.</param>
+        <param name="EndY">Required <b>Single</b>. The veritcal position (in points) of the connector's end point relative to the upper-left corner of the document.</param>
+        <summary>Creates a connector. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new connector.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>When a connector is added, it's not connected to anything. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> and <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> methods to attach the beginning and end of a connector to other shapes in the document.</para>
+          <para>When you attach a connector to a shape, the size and position of the connector are automatically adjusted, if necessary. Therefore, if you’re going to attach a connector to other shapes, the position and dimensions you specify when adding the connector are irrelevant.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCurve">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddCurve (object SafeArrayOfPoints);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddCurve([in]object SafeArrayOfPoints) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddCurve(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddCurve (SafeArrayOfPoints As Object) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddCurve(System::Object ^ SafeArrayOfPoints);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1719)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SafeArrayOfPoints" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SafeArrayOfPoints">Required <b>Object</b>. An array of coordinate pairs that specifies the vertices and control points of the curve. The first point you specify is the starting vertex, and the next two points are control points for the first Bézier segment. Then, for each additional segment of the curve, you specify a vertex and two control points. The last point you specify is the ending vertex for the curve. Note that you must always specify 3n + 1 points, where n is the number of segments in the curve.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents a Bézier curve in a worksheet.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDiagram">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddDiagram (Microsoft.Office.Core.MsoDiagramType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddDiagram([in]valuetype Microsoft.Office.Core.MsoDiagramType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddDiagram(Microsoft.Office.Core.MsoDiagramType,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddDiagram (Type As MsoDiagramType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddDiagram(Microsoft::Office::Core::MsoDiagramType Type, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2176)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoDiagramType" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Core.MsoDiagramType" />. The type of diagram. Can be one of these <b>MsoDiagramType</b> constants:<b>msoDiagramCycle</b> A process diagram with a continuous cycle diagram type.<b>msoDiagramMixed</b> A mixed diagram type.<b>msoDiagramOrgChart</b> A hierarchical relationship diagram type.<b>msoDiagramPyramid</b> A foundation based relationships diagram type.<b>msoDiagramRadial</b> A diagram type showing relationships of a core element.<b>msoDiagramTarget</b> A diagram type showing steps toward a goal.<b>msoDiagramVenn</b> A diagram type showing areas of overlap between elements.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the diagram relative to the upper-left corner of the worksheet.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left top of the diagram relative to the upper-left corner of the worksheet.</param>
+        <param name="Width">Required <b>Single</b>. The width of the diagram, in points.</param>
+        <param name="Height">Required <b>Single</b>. The height of the diagram, in points.</param>
+        <summary>Creates a diagram. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new diagram.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFormControl">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddFormControl (Microsoft.Office.Interop.Excel.XlFormControl Type, int Left, int Top, int Width, int Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddFormControl([in]valuetype Microsoft.Office.Interop.Excel.XlFormControl Type, [in]int32 Left, [in]int32 Top, [in]int32 Width, [in]int32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddFormControl(Microsoft.Office.Interop.Excel.XlFormControl,System.Int32,System.Int32,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFormControl (Type As XlFormControl, Left As Integer, Top As Integer, Width As Integer, Height As Integer) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddFormControl(Microsoft::Office::Interop::Excel::XlFormControl Type, int Left, int Top, int Width, int Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1738)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Excel.XlFormControl" />
+        <Parameter Name="Left" Type="System.Int32" />
+        <Parameter Name="Top" Type="System.Int32" />
+        <Parameter Name="Width" Type="System.Int32" />
+        <Parameter Name="Height" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Interop.Excel.XlFormControl" />. The Microsoft Excel control type. You cannot create an edit box on a worksheet. Can be one of these <b>XlFormControl</b> constants:<b>xlButtonControl</b><b>xlCheckBox</b><b>xlDropDown</b><b>xlEditBox</b><b>xlGroupBox</b><b>xlLabel</b><b>xlListBox</b><b>xlOptionButton</b><b>xlScrollBar</b><b>xlSpinner</b></param>
+        <param name="Left">Required <b>Integer</b>. The initial coordinates of the new object (in points) relative to the upper-left corner of cell A1 on a worksheet or to the upper-left corner of a chart.</param>
+        <param name="Top">Required <b>Integer</b>. The initial coordinates of the new object (in points) relative to the upper-left corner of cell A1 on a worksheet or to the upper-left corner of a chart.</param>
+        <param name="Width">Required <b>Integer</b>. The initial size of the new object, in points.</param>
+        <param name="Height">Required <b>Integer</b>. The initial size of the new object, in points.</param>
+        <summary>Creates a Microsoft Excel control. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new control.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method or the <see cref="M:Microsoft.Office.Interop.Excel.OLEObjects.Add(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method of the OLEObjects collection to create an ActiveX control.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddLabel (Microsoft.Office.Core.MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddLabel([in]valuetype Microsoft.Office.Core.MsoTextOrientation Orientation, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddLabel(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddLabel (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddLabel(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1721)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Orientation" Type="Microsoft.Office.Core.MsoTextOrientation" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Orientation">Required <see cref="T:Microsoft.Office.Core.MsoTextOrientation" />. The text orientation within the label. Can be one of these <b>MsoTextOrientation</b> constants:<b>msoTextOrientationDownward</b><b>msoTextOrientationHorizontal</b><b>msoTextOrientationHorizontalRotatedFarEast</b><b>msoTextOrientationMixed</b><b>msoTextOrientationUpward</b><b>msoTextOrientationVertical</b><b>msoTextOrientationVerticalFarEast </b>Some of these constants may not be available to you, depending on the language support (U.S. English, for example) that you’ve selected or installed.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the label relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the label relative to the top corner of the document.</param>
+        <param name="Width">Required <b>Single</b>. The width of the label, in points.</param>
+        <param name="Height">Required <b>Single</b>. The height of the label, in points.</param>
+        <summary>Creates a label. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new label.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddLine">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddLine (float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddLine([in]float32 BeginX, [in]float32 BeginY, [in]float32 EndX, [in]float32 EndY) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddLine(System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddLine (BeginX As Single, BeginY As Single, EndX As Single, EndY As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddLine(float BeginX, float BeginY, float EndX, float EndY);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1722)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="BeginX" Type="System.Single" />
+        <Parameter Name="BeginY" Type="System.Single" />
+        <Parameter Name="EndX" Type="System.Single" />
+        <Parameter Name="EndY" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="BeginX">Required <b>Single</b>. The position (in points) of the line's starting point relative to the upper-left corner of the document.</param>
+        <param name="BeginY">Required <b>Single</b>. The position (in points) of the line's starting point relative to the upper-left corner of the document.</param>
+        <param name="EndX">Required <b>Single</b>. The position (in points) of the line's end point relative to the upper-left corner of the document.</param>
+        <param name="EndY">Required <b>Single</b>. The position (in points) of the line's end point relative to the upper-left corner of the document.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new line in a worksheet.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddOLEObject">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddOLEObject (object ClassType, object Filename, object Link, object DisplayAsIcon, object IconFileName, object IconIndex, object IconLabel, object Left, object Top, object Width, object Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddOLEObject([in]object ClassType, [in]object Filename, [in]object Link, [in]object DisplayAsIcon, [in]object IconFileName, [in]object IconIndex, [in]object IconLabel, [in]object Left, [in]object Top, [in]object Width, [in]object Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddOLEObject(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddOLEObject (Optional ClassType As Object, Optional Filename As Object, Optional Link As Object, Optional DisplayAsIcon As Object, Optional IconFileName As Object, Optional IconIndex As Object, Optional IconLabel As Object, Optional Left As Object, Optional Top As Object, Optional Width As Object, Optional Height As Object) As Shape" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1739)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ClassType" Type="System.Object" />
+        <Parameter Name="Filename" Type="System.Object" />
+        <Parameter Name="Link" Type="System.Object" />
+        <Parameter Name="DisplayAsIcon" Type="System.Object" />
+        <Parameter Name="IconFileName" Type="System.Object" />
+        <Parameter Name="IconIndex" Type="System.Object" />
+        <Parameter Name="IconLabel" Type="System.Object" />
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Width" Type="System.Object" />
+        <Parameter Name="Height" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="ClassType">Optional <b>Object</b>. (you must specify either <paramref name="ClassType" /> or <paramref name="FileName" />). A string that contains the programmatic identifier for the object to be created. If <paramref name="ClassType" /> is specified, <paramref name="FileName" /> and <paramref name="Link" /> are ignored.</param>
+        <param name="Filename">Optional <b>Object</b>. The file from which the object is to be created. If the path isn’t specified, the current working folder is used. You must specify either the <paramref name="ClassType" /> or <paramref name="FileName" /> argument for the object, but not both.</param>
+        <param name="Link">Optional <b>Object</b>. <b>True</b> to link the OLE object to the file from which it was created. <b>False</b> to make the OLE object an independent copy of the file. If you specified a value for <paramref name="ClassType" />, this argument must be <b>False</b>. The default value is <b>False</b>.</param>
+        <param name="DisplayAsIcon">Optional <b>Object</b>. <b>True</b> to display the OLE object as an icon. The default value is <b>False</b>.</param>
+        <param name="IconFileName">Optional <b>Object</b>. The file that contains the icon to be displayed.</param>
+        <param name="IconIndex">Optional <b>Object</b>. The index of the icon within <paramref name="IconFileName" />. The order of icons in the specified file corresponds to the order in which the icons appear in the Change Icon dialog box (accessed from the Object dialog box when the Display as icon check box is selected). The first icon in the file has the index number 0 (zero). If an icon with the given index number doesn't exist in <paramref name="IconFileName" />, the icon with the index number 1 (the second icon in the file) is used. The default value is 0 (zero).</param>
+        <param name="IconLabel">Optional <b>Object</b>. A label (caption) to be displayed beneath the icon.</param>
+        <param name="Left">Optional <b>Object</b>. The position (in points) of the upper-left corner of the new object relative to the upper-left corner of the document. The default value is 0 (zero).</param>
+        <param name="Top">Optional <b>Object</b>. The position (in points) of the upper-left corner of the new object relative to the upper-left corner of the document. The default value is 0 (zero).</param>
+        <param name="Width">Optional <b>Object</b>. The initial dimensions of the OLE object, in points.</param>
+        <param name="Height">Optional <b>Object</b>. The initial dimensions of the OLE object, in points.</param>
+        <summary>Creates an OLE object. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new OLE object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPicture">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddPicture (string Filename, Microsoft.Office.Core.MsoTriState LinkToFile, Microsoft.Office.Core.MsoTriState SaveWithDocument, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddPicture([in]string Filename, [in]valuetype Microsoft.Office.Core.MsoTriState LinkToFile, [in]valuetype Microsoft.Office.Core.MsoTriState SaveWithDocument, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddPicture(System.String,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddPicture (Filename As String, LinkToFile As MsoTriState, SaveWithDocument As MsoTriState, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddPicture(System::String ^ Filename, Microsoft::Office::Core::MsoTriState LinkToFile, Microsoft::Office::Core::MsoTriState SaveWithDocument, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1723)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="LinkToFile" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="SaveWithDocument" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">Required <b>String</b>. The file from which the OLE object is to be created.</param>
+        <param name="LinkToFile">Required <see cref="T:Microsoft.Office.Core.MsoTriState" />. The file to link to. Can be one of these <b>MsoTriState</b> constants:<b>msoCTrue</b><b>msoFalse</b> To make the picture an independent copy of the file.<b>msoTriStateMixed</b><b>msoTriStateToggle</b><b>msoTrue</b> To link the picture to the file from which it was created.</param>
+        <param name="SaveWithDocument">Required <b>MsoTriState</b>. To save the picture with the document.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the picture relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the picture relative to the top of the document.</param>
+        <param name="Width">Required <b>Single</b>. The width of the picture, in points.</param>
+        <param name="Height">Required <b>Single</b>. The height of the picture, in points.</param>
+        <summary>Creates a picture from an existing file. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new picture.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPicture2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddPicture2 (string Filename, Microsoft.Office.Core.MsoTriState LinkToFile, Microsoft.Office.Core.MsoTriState SaveWithDocument, float Left, float Top, float Width, float Height, Microsoft.Office.Core.MsoPictureCompress Compress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddPicture2([in]string Filename, [in]valuetype Microsoft.Office.Core.MsoTriState LinkToFile, [in]valuetype Microsoft.Office.Core.MsoTriState SaveWithDocument, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height, [in]valuetype Microsoft.Office.Core.MsoPictureCompress Compress) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddPicture2(System.String,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single,System.Single,System.Single,Microsoft.Office.Core.MsoPictureCompress)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddPicture2 (Filename As String, LinkToFile As MsoTriState, SaveWithDocument As MsoTriState, Left As Single, Top As Single, Width As Single, Height As Single, Compress As MsoPictureCompress) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddPicture2(System::String ^ Filename, Microsoft::Office::Core::MsoTriState LinkToFile, Microsoft::Office::Core::MsoTriState SaveWithDocument, float Left, float Top, float Width, float Height, Microsoft::Office::Core::MsoPictureCompress Compress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3159)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Filename" Type="System.String" />
+        <Parameter Name="LinkToFile" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="SaveWithDocument" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+        <Parameter Name="Compress" Type="Microsoft.Office.Core.MsoPictureCompress" />
+      </Parameters>
+      <Docs>
+        <param name="Filename">The file from which the OLE object is to be created.</param>
+        <param name="LinkToFile">Determines whether the picture will be linked to the file from which it was created.</param>
+        <param name="SaveWithDocument">Determines whether the linked picture will be saved with the document into which it is inserted. This argument must be msoTrue if LinkToFile is msoFalse.</param>
+        <param name="Left">The position, measured in points, of the left edge of the picture relative to the left edge of the worksheet.</param>
+        <param name="Top">The position, measured in points, of the top edge of the picture relative to the top edge of the worksheet.</param>
+        <param name="Width">The width of the picture, measured in points.</param>
+        <param name="Height">The height of the picture, measured in points.</param>
+        <param name="Compress">Determines whether the picture should be compressed when inserted.</param>
+        <summary>Creates a picture from an existing file. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new picture.</summary>
+        <returns>Shape</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPolyline">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddPolyline (object SafeArrayOfPoints);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddPolyline([in]object SafeArrayOfPoints) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddPolyline(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddPolyline (SafeArrayOfPoints As Object) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddPolyline(System::Object ^ SafeArrayOfPoints);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1726)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SafeArrayOfPoints" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SafeArrayOfPoints">Required <b>Object</b>. An array of coordinate pairs that specifies the polyline drawing's vertices.</param>
+        <summary>Creates an open polyline or a closed polygon drawing. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new polyline or polygon.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>To form a closed polygon, assign the same coordinates to the first and last vertices in the polyline drawing.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddShape (Microsoft.Office.Core.MsoAutoShapeType Type, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddShape([in]valuetype Microsoft.Office.Core.MsoAutoShapeType Type, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddShape(Microsoft.Office.Core.MsoAutoShapeType,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddShape (Type As MsoAutoShapeType, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddShape(Microsoft::Office::Core::MsoAutoShapeType Type, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1727)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Core.MsoAutoShapeType" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Core.MsoAutoShapeType" />. Specifies the type of AutoShape to create.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the AutoShape's bounding box relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the AutoShape's bounding box relative to the upper-left corner of the document.</param>
+        <param name="Width">Required <b>Single</b>. The width and height of the AutoShape's bounding box, in points.</param>
+        <param name="Height">Required <b>Single</b>. The width and height of the AutoShape's bounding box, in points.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new AutoShape in a worksheet.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>To change the type of an AutoShape that you’ve added, set the <see cref="P:Microsoft.Office.Interop.Excel.Shape.AutoShapeType" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddSmartArt">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddSmartArt (Microsoft.Office.Core.SmartArtLayout Layout, object Left, object Top, object Width, object Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddSmartArt([in]class Microsoft.Office.Core.SmartArtLayout Layout, [in]object Left, [in]object Top, [in]object Width, [in]object Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddSmartArt(Microsoft.Office.Core.SmartArtLayout,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddSmartArt (Layout As SmartArtLayout, Optional Left As Object, Optional Top As Object, Optional Width As Object, Optional Height As Object) As Shape" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2920)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Layout" Type="Microsoft.Office.Core.SmartArtLayout" />
+        <Parameter Name="Left" Type="System.Object" />
+        <Parameter Name="Top" Type="System.Object" />
+        <Parameter Name="Width" Type="System.Object" />
+        <Parameter Name="Height" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Layout">An object that represents the layout to use.</param>
+        <param name="Left">The distance, in points, from the left edge of the object to the left edge of column A (on a worksheet) or the left edge of the chart area (on a chart).</param>
+        <param name="Top">The distance, in points, from the top edge of the object to the top edge of the worksheet.</param>
+        <param name="Width">The width, in points, of the object.</param>
+        <param name="Height">The width, in points, of the object.</param>
+        <summary>Creates a new SmartArt graphic with the specified layout.</summary>
+        <returns>A <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTextbox">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddTextbox (Microsoft.Office.Core.MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddTextbox([in]valuetype Microsoft.Office.Core.MsoTextOrientation Orientation, [in]float32 Left, [in]float32 Top, [in]float32 Width, [in]float32 Height) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddTextbox(Microsoft.Office.Core.MsoTextOrientation,System.Single,System.Single,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddTextbox (Orientation As MsoTextOrientation, Left As Single, Top As Single, Width As Single, Height As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddTextbox(Microsoft::Office::Core::MsoTextOrientation Orientation, float Left, float Top, float Width, float Height);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1734)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Orientation" Type="Microsoft.Office.Core.MsoTextOrientation" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+        <Parameter Name="Width" Type="System.Single" />
+        <Parameter Name="Height" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Orientation">Required <see cref="T:Microsoft.Office.Core.MsoTextOrientation" />. The orientation of the textbox.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the text box relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the text box relative to the top of the document.</param>
+        <param name="Width">Required <b>Single</b>. The width of the text box, in points.</param>
+        <param name="Height">Required <b>Single</b>. The height of the text box, in points.</param>
+        <summary>Creates a text box. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new text box.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddTextEffect">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape AddTextEffect (Microsoft.Office.Core.MsoPresetTextEffect PresetTextEffect, string Text, string FontName, float FontSize, Microsoft.Office.Core.MsoTriState FontBold, Microsoft.Office.Core.MsoTriState FontItalic, float Left, float Top);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape AddTextEffect([in]valuetype Microsoft.Office.Core.MsoPresetTextEffect PresetTextEffect, [in]string Text, [in]string FontName, [in]float32 FontSize, [in]valuetype Microsoft.Office.Core.MsoTriState FontBold, [in]valuetype Microsoft.Office.Core.MsoTriState FontItalic, [in]float32 Left, [in]float32 Top) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.AddTextEffect(Microsoft.Office.Core.MsoPresetTextEffect,System.String,System.String,System.Single,Microsoft.Office.Core.MsoTriState,Microsoft.Office.Core.MsoTriState,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddTextEffect (PresetTextEffect As MsoPresetTextEffect, Text As String, FontName As String, FontSize As Single, FontBold As MsoTriState, FontItalic As MsoTriState, Left As Single, Top As Single) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ AddTextEffect(Microsoft::Office::Core::MsoPresetTextEffect PresetTextEffect, System::String ^ Text, System::String ^ FontName, float FontSize, Microsoft::Office::Core::MsoTriState FontBold, Microsoft::Office::Core::MsoTriState FontItalic, float Left, float Top);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1728)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetTextEffect" Type="Microsoft.Office.Core.MsoPresetTextEffect" />
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="FontName" Type="System.String" />
+        <Parameter Name="FontSize" Type="System.Single" />
+        <Parameter Name="FontBold" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="FontItalic" Type="Microsoft.Office.Core.MsoTriState" />
+        <Parameter Name="Left" Type="System.Single" />
+        <Parameter Name="Top" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="PresetTextEffect">Required <see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" />. The preset text effect.</param>
+        <param name="Text">Required <b>String</b>. The text in the WordArt.</param>
+        <param name="FontName">Required <b>String</b>. The name of the font used in the WordArt.</param>
+        <param name="FontSize">Required <b>Single</b>. The size (in points) of the font used in the WordArt.</param>
+        <param name="FontBold">Required <see cref="T:Microsoft.Office.Core.MsoTriState" />. The font used in the WordArt to bold.</param>
+        <param name="FontItalic">Required <b>MsoTriState</b>. The font used in the WordArt to italic.</param>
+        <param name="Left">Required <b>Single</b>. The position (in points) of the upper-left corner of the WordArt's bounding box relative to the upper-left corner of the document.</param>
+        <param name="Top">Required <b>Single</b>. The position (in points) of the upper-left corner of the WordArt's bounding box relative to the top of the document.</param>
+        <summary>Creates a WordArt object. Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the new WordArt object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>When you add WordArt to a document, the height and width of the WordArt are automatically set based on the size and amount of text you specify.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Shapes.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BuildFreeform">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.FreeformBuilder BuildFreeform (Microsoft.Office.Core.MsoEditingType EditingType, float X1, float Y1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.FreeformBuilder BuildFreeform([in]valuetype Microsoft.Office.Core.MsoEditingType EditingType, [in]float32 X1, [in]float32 Y1) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.BuildFreeform(Microsoft.Office.Core.MsoEditingType,System.Single,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Function BuildFreeform (EditingType As MsoEditingType, X1 As Single, Y1 As Single) As FreeformBuilder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::FreeformBuilder ^ BuildFreeform(Microsoft::Office::Core::MsoEditingType EditingType, float X1, float Y1);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1735)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.FreeformBuilder</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="EditingType" Type="Microsoft.Office.Core.MsoEditingType" />
+        <Parameter Name="X1" Type="System.Single" />
+        <Parameter Name="Y1" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="EditingType">Required <see cref="T:Microsoft.Office.Core.MsoEditingType" />. The editing property of the first node.</param>
+        <param name="X1">Required <b>Single</b>. The position (in points) of the first node in the freeform drawing relative to the upper-left corner of the document.</param>
+        <param name="Y1">Required <b>Single</b>. The position (in points) of the first node in the freeform drawing relative to the upper-left corner of the document.</param>
+        <summary>Builds a freeform object. Returns a <see cref="T:Microsoft.Office.Interop.Excel.FreeformBuilder" /> object that represents the freeform as it is being built.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.FreeformBuilder.AddNodes(Microsoft.Office.Core.MsoSegmentType,Microsoft.Office.Core.MsoEditingType,System.Single,System.Single,System.Object,System.Object,System.Object,System.Object)" /> method to add segments to the freeform. After you have added at least one segment to the freeform, you can use the <see cref="M:Microsoft.Office.Interop.Excel.FreeformBuilder.ConvertToShape" /> method to convert the <b>FreeformBuilder</b> object into a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that has the geometric description you’ve defined in the <b>FreeformBuilder</b> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Shapes.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of objects in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Shapes.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape Item (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Shape Item([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Item (Index As Object) As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::Shape ^ Item(System::Object ^ Index);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <b>Object</b>. The name or index number for the object.</param>
+        <summary>Returns a single object from a collection.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Shapes.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ShapeRange Range[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ShapeRange Range(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Shapes.Range(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range(Index As Object) As ShapeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ShapeRange ^ Range[System::Object ^] { Microsoft::Office::Interop::Excel::ShapeRange ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(197)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(197)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ShapeRange</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <b>Object</b>. The individual shapes to be included in the range. Can be an integer that specifies the index number of the shape, a string that specifies the name of the shape, or an array that contains either integers or strings.</param>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" /> object that represents a subset of the shapes in a <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAll">
+      <MemberSignature Language="C#" Value="public void SelectAll ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAll() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Shapes.SelectAll" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SelectAll ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SelectAll();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1737)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects all the shapes in the specified <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

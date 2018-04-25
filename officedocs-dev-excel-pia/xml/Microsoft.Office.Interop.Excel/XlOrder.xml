@@ -1,0 +1,58 @@
+﻿<Type Name="XlOrder" FullName="Microsoft.Office.Interop.Excel.XlOrder">
+  <TypeSignature Language="C#" Value="public enum XlOrder" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlOrder extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlOrder" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlOrder" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlOrder" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the order in which cells are processed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDownThenOver">
+      <MemberSignature Language="C#" Value="xlDownThenOver" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlOrder xlDownThenOver = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlOrder.xlDownThenOver" />
+      <MemberSignature Language="VB.NET" Value="xlDownThenOver" />
+      <MemberSignature Language="C++ CLI" Value="xlDownThenOver" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Process down the rows before processing across pages or page fields to the right.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOverThenDown">
+      <MemberSignature Language="C#" Value="xlOverThenDown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlOrder xlOverThenDown = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlOrder.xlOverThenDown" />
+      <MemberSignature Language="VB.NET" Value="xlOverThenDown" />
+      <MemberSignature Language="C++ CLI" Value="xlOverThenDown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlOrder</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Process across pages or page fields to the right before moving down the rows.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

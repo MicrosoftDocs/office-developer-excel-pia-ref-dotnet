@@ -1,0 +1,204 @@
+﻿<Type Name="IconCriterion" FullName="Microsoft.Office.Interop.Excel.IconCriterion">
+  <TypeSignature Language="C#" Value="public interface IconCriterion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IconCriterion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.IconCriterion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IconCriterion" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IconCriterion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024499-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the criterion for an individual icon in an icon set. The criterion specifies the range of values and the threshold type associated with the icon in an icon set conditional formatting rule.</summary>
+    <remarks>
+      <para>All of the criteria for an icon set conditional format are contained in an <see cref="T:Microsoft.Office.Interop.Excel.IconCriteria" /> collection. You can access each <b>IconCriterion</b> object in the collection by passing an index into the collection. See the example for details.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example creates a range of numbers representing test scores and then applies an icon set conditional formatting rule to that range. The type of icon set is then changed from the default icons to a five-arrow icon set. Finally, the threshold type is modified from percentile to a hard-coded number.</para>
+      <code>&lt;span class="label"&gt;Sub CreateIconSetCF()    Dim cfIconSet As IconSetCondition        'Fill cells with sample data    With ActiveSheet        .Range("C1") = 55        .Range("C2") = 92        .Range("C3") = 88        .Range("C4") = 77        .Range("C5") = 66        .Range("C6") = 93        .Range("C7") = 76        .Range("C8") = 80        .Range("C9") = 79        .Range("C10") = 83        .Range("C11") = 66        .Range("C12") = 74    End With        Range("C1:C12").Select          'Create an icon set conditional format for the created sample data range    Set cfIconSet = Selection.FormatConditions.AddIconSetCondition        'Change the icon set to a five-arrow icon set    cfIconSet.IconSet = ActiveWorkbook.IconSets(xl5Arrows)        'The IconCriterion collection contains all IconCriteria    'By indexing into the collection you can modify each criterion    With cfIconSet.IconCriteria(1)        .Type = xlConditionValueNumber        .Value = 0        .Operator = 7    End With    With cfIconSet.IconCriteria(2)        .Type = xlConditionValueNumber        .Value = 60        .Operator = 7    End With    With cfIconSet.IconCriteria(3)        .Type = xlConditionValueNumber        .Value = 70        .Operator = 7    End With    With cfIconSet.IconCriteria(4)        .Type = xlConditionValueNumber        .Value = 80        .Operator = 7    End With    With cfIconSet.IconCriteria(5)        .Type = xlConditionValueNumber        .Value = 90        .Operator = 7    End With        End Sub&lt;/span&gt;</code>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="Icon">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlIcon Icon { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlIcon Icon" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IconCriterion.Icon" />
+      <MemberSignature Language="VB.NET" Value="Public Property Icon As XlIcon" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlIcon Icon { Microsoft::Office::Interop::Excel::XlIcon get(); void set(Microsoft::Office::Interop::Excel::XlIcon value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2747)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2747)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2747)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlIcon</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the icon for a criterion in an icon set conditional formatting rule.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>After you set the <b>Icon</b> property for the icon criterion in an icon set conditional formatting rule, the <see cref="P:Microsoft.Office.Interop.Excel.IconSetCondition.IconSet" /> property is changed to <b>xlCustomSet</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IconCriterion.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value indicating which threshold the criteria represents.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For an icon set, this property will return a value of "1" for the minimum threshold, "2" for the next threshold, and so on.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operator">
+      <MemberSignature Language="C#" Value="public int Operator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Operator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IconCriterion.Operator" />
+      <MemberSignature Language="VB.NET" Value="Public Property Operator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Operator { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(797)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(797)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(797)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets one of the constants of the <see cref="T:Microsoft.Office.Interop.Excel.XlFormatConditionOperator" /> enumeration, which specifes if the threshold is "greater than" or "greater than or equal to" the threshold value.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For an icon set conditional formatting rule, this property can be set to only one of the following two constants: <b>xlGreater</b> or <b>xlGreaterEqual</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlConditionValueTypes Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlConditionValueTypes Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IconCriterion.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As XlConditionValueTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlConditionValueTypes Type { Microsoft::Office::Interop::Excel::XlConditionValueTypes get(); void set(Microsoft::Office::Interop::Excel::XlConditionValueTypes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlConditionValueTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns one of the constants of the <see cref="T:Microsoft.Office.Interop.Excel.XlConditionValueTypes" /> enumeration, which specifies how the threshold value for an icon set is determined. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The type of threshold value for an icon set can be  a number, percent, formula, or percentile. Setting the type to percentile will use the Percentile function in Excel to determine the threshold value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IconCriterion.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the threshold value for an icon in a conditional format. Read/write <b>Variant</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set the value only if the <see cref="P:Microsoft.Office.Interop.Excel.IconCriterion.Type" /> property for the conditional format is set to one of the following constants: <b>xlConditionValueNumber</b>, <b>xlConditionValuePercent</b>, <b>xlConditionValuePercentile</b>, or <b>xlConditionValueFormula</b>.</para>
+          <para>If the type of threshold  is a formula, you can set the formula as a <b>String</b>. The formula must return a single number.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

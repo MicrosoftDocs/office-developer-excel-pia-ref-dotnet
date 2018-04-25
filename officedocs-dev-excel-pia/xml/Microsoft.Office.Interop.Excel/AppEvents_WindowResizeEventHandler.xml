@@ -1,0 +1,35 @@
+﻿<Type Name="AppEvents_WindowResizeEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WindowResizeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WindowResizeEventHandler(Workbook Wb, Window Wn);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WindowResizeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WindowResizeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WindowResizeEventHandler(Wb As Workbook, Wn As Window)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WindowResizeEventHandler(Workbook ^ Wb, Window ^ Wn);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Wn" Type="Microsoft.Office.Interop.Excel.Window" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">The workbook displayed in the resized window.</param>
+    <param name="Wn">The resized window.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WindowResize" /> event. The <b>WindowResize</b> event occurs when any workbook window is resized.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

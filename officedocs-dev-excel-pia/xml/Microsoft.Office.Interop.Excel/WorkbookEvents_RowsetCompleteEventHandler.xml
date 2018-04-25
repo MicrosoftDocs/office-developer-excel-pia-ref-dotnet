@@ -1,0 +1,37 @@
+﻿<Type Name="WorkbookEvents_RowsetCompleteEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_RowsetCompleteEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_RowsetCompleteEventHandler(string Description, string Sheet, bool Success);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_RowsetCompleteEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_RowsetCompleteEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_RowsetCompleteEventHandler(Description As String, Sheet As String, Success As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_RowsetCompleteEventHandler(System::String ^ Description, System::String ^ Sheet, bool Success);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Description" Type="System.String" />
+    <Parameter Name="Sheet" Type="System.String" />
+    <Parameter Name="Success" Type="System.Boolean" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Description">A brief description of the event.</param>
+    <param name="Sheet">Worksheet on which the recordset is created.</param>
+    <param name="Success">Contains a Boolean value to indicate success or failure.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.RowsetComplete" /> event. The <b>RowsetComplete</b> event occurs when the user either drills through the recordset or invokes the rowset action on an OLAP PivotTable.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

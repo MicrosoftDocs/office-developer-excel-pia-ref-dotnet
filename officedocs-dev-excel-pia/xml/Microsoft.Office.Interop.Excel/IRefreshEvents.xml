@@ -1,0 +1,72 @@
+﻿<Type Name="IRefreshEvents" FullName="Microsoft.Office.Interop.Excel.IRefreshEvents">
+  <TypeSignature Language="C#" Value="public interface IRefreshEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRefreshEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.IRefreshEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRefreshEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRefreshEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002441B-0001-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterRefresh">
+      <MemberSignature Language="C#" Value="public void AfterRefresh (bool Success);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AfterRefresh([in]bool Success) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRefreshEvents.AfterRefresh(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AfterRefresh (Success As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AfterRefresh(bool Success);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Success" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Success">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRefresh">
+      <MemberSignature Language="C#" Value="public void BeforeRefresh (out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeRefresh([out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRefreshEvents.BeforeRefresh(System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeRefresh (ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeRefresh([Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

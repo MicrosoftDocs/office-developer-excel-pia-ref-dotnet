@@ -1,0 +1,134 @@
+﻿<Type Name="XlTrendlineType" FullName="Microsoft.Office.Interop.Excel.XlTrendlineType">
+  <TypeSignature Language="C#" Value="public enum XlTrendlineType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlTrendlineType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlTrendlineType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlTrendlineType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlTrendlineType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how the trendline that smoothes out fluctuations in the data is calculated.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlExponential">
+      <MemberSignature Language="C#" Value="xlExponential" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlExponential = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlExponential" />
+      <MemberSignature Language="VB.NET" Value="xlExponential" />
+      <MemberSignature Language="C++ CLI" Value="xlExponential" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Uses an equation to calculate the least squares fit through points.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLinear">
+      <MemberSignature Language="C#" Value="xlLinear" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlLinear = int32(-4132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlLinear" />
+      <MemberSignature Language="VB.NET" Value="xlLinear" />
+      <MemberSignature Language="C++ CLI" Value="xlLinear" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4132</MemberValue>
+      <Docs>
+        <summary>Uses the linear equation y = mx + b to calculate the least squares fit through points.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlLogarithmic">
+      <MemberSignature Language="C#" Value="xlLogarithmic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlLogarithmic = int32(-4133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlLogarithmic" />
+      <MemberSignature Language="VB.NET" Value="xlLogarithmic" />
+      <MemberSignature Language="C++ CLI" Value="xlLogarithmic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>-4133</MemberValue>
+      <Docs>
+        <summary>Uses the equation y = c ln x + b to calculate the least squares fit through points.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlMovingAvg">
+      <MemberSignature Language="C#" Value="xlMovingAvg" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlMovingAvg = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlMovingAvg" />
+      <MemberSignature Language="VB.NET" Value="xlMovingAvg" />
+      <MemberSignature Language="C++ CLI" Value="xlMovingAvg" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>Uses a sequence of averages computed from parts of the data series. The number of points equals the total number of points in the series less the number specified for the period.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPolynomial">
+      <MemberSignature Language="C#" Value="xlPolynomial" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlPolynomial = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlPolynomial" />
+      <MemberSignature Language="VB.NET" Value="xlPolynomial" />
+      <MemberSignature Language="C++ CLI" Value="xlPolynomial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Uses an equation to calculate the least squares fit through points.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlPower">
+      <MemberSignature Language="C#" Value="xlPower" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlTrendlineType xlPower = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlTrendlineType.xlPower" />
+      <MemberSignature Language="VB.NET" Value="xlPower" />
+      <MemberSignature Language="C++ CLI" Value="xlPower" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTrendlineType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Uses an equation to calculate the least squares fit through points.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

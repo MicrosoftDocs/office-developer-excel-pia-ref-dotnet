@@ -1,0 +1,77 @@
+﻿<Type Name="XlDataBarAxisPosition" FullName="Microsoft.Office.Interop.Excel.XlDataBarAxisPosition">
+  <TypeSignature Language="C#" Value="public enum XlDataBarAxisPosition" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlDataBarAxisPosition extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlDataBarAxisPosition" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlDataBarAxisPosition" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlDataBarAxisPosition" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the axis position for a range of cells with conditional formatting as data bars.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDataBarAxisAutomatic">
+      <MemberSignature Language="C#" Value="xlDataBarAxisAutomatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlDataBarAxisPosition xlDataBarAxisAutomatic = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlDataBarAxisPosition.xlDataBarAxisAutomatic" />
+      <MemberSignature Language="VB.NET" Value="xlDataBarAxisAutomatic" />
+      <MemberSignature Language="C++ CLI" Value="xlDataBarAxisAutomatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlDataBarAxisPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Display the axis at a variable position based on the ratio of the minimum negative value to the maximum positive value in the range. Positive values are displayed in a left-to-right direction. Negative values are displayed in a right-to-left direction. When all values are positive or all values are negative, no axis is displayed.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataBarAxisMidpoint">
+      <MemberSignature Language="C#" Value="xlDataBarAxisMidpoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlDataBarAxisPosition xlDataBarAxisMidpoint = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlDataBarAxisPosition.xlDataBarAxisMidpoint" />
+      <MemberSignature Language="VB.NET" Value="xlDataBarAxisMidpoint" />
+      <MemberSignature Language="C++ CLI" Value="xlDataBarAxisMidpoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlDataBarAxisPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Display the axis at the midpoint of the cell regardless of the set of values in the range. Positive values are displayed in a left-to-right direction. Negative values are displayed in a right-to-left direction.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlDataBarAxisNone">
+      <MemberSignature Language="C#" Value="xlDataBarAxisNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlDataBarAxisPosition xlDataBarAxisNone = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlDataBarAxisPosition.xlDataBarAxisNone" />
+      <MemberSignature Language="VB.NET" Value="xlDataBarAxisNone" />
+      <MemberSignature Language="C++ CLI" Value="xlDataBarAxisNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlDataBarAxisPosition</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>No axis is displayed, and both positive and negative values are displayed in the left-to-right direction.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,35 @@
+﻿<Type Name="WorkbookEvents_SheetChangeEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_SheetChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_SheetChangeEventHandler(object Sh, Range Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_SheetChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_SheetChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_SheetChangeEventHandler(Sh As Object, Target As Range)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_SheetChangeEventHandler(System::Object ^ Sh, Range ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Sh" Type="System.Object" />
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Sh">A <b>Worksheet</b> object that represents the sheet.</param>
+    <param name="Target">The changed range.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.SheetChange" /> event. The <b>SheetChange</b> event occurs when cells in any worksheet are changed by the user or by an external link.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,512 @@
+﻿<Type Name="ConnectorFormat" FullName="Microsoft.Office.Interop.Excel.ConnectorFormat">
+  <TypeSignature Language="C#" Value="public interface ConnectorFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ConnectorFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ConnectorFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ConnectorFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ConnectorFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002443E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains properties and methods that apply to connectors.</summary>
+    <remarks>
+      <para>A connector is a line that attaches two other shapes at points called connection sites. If you rearrange shapes that are connected, the geometry of the connector will be automatically adjusted so that the shapes remain connected.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.ConnectorFormat" /> property to return a <b>ConnectorFormat</b> object. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> and <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> methods to attach the ends of the connector to other shapes in the document. Use the <see cref="M:Microsoft.Office.Interop.Excel.Shape.RerouteConnections" /> method to automatically find the shortest path between the two shapes connected by the connector. Use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.Connector" /> property to see whether a shape is a connector.</para>
+      <para>Note that you assign a size and a position when you add a connector to the <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection, but the size and position are automatically adjusted when you attach the beginning and end of the connector to other shapes in the collection. Therefore, if you intend to attach a connector to other shapes, the initial size and position you specify are irrelevant. Likewise, you specify which connection sites on a shape to attach the connector to when you attach the connector, but using the <b>RerouteConnections</b> method after the connector is attached may change which connection sites the connector attaches to, making your original choice of connection sites irrelevant.</para>
+      <para>Connection sites are generally numbered according to the rules presented in the following table.</para>
+      <list type="table">
+        <item>
+          <para>AutoShapes, WordArt, pictures, and OLE objects</para>
+          <para>The connection sites are numbered starting at the top and proceeding counterclockwise.</para>
+        </item>
+        <item>
+          <para>Freeforms</para>
+          <para>The connection sites are the vertices, and they correspond to the vertex numbers.</para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConnect">
+      <MemberSignature Language="C#" Value="public void BeginConnect (Microsoft.Office.Interop.Excel.Shape ConnectedShape, int ConnectionSite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeginConnect([in]class Microsoft.Office.Interop.Excel.Shape ConnectedShape, [in]int32 ConnectionSite) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeginConnect (ConnectedShape As Shape, ConnectionSite As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginConnect(Microsoft::Office::Interop::Excel::Shape ^ ConnectedShape, int ConnectionSite);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1750)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Excel.Shape" />
+        <Parameter Name="ConnectionSite" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ConnectedShape">Required <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object. The shape to attach the beginning of the connector to. The specified <b>Shape</b> object must be in the same <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection as the connector.</param>
+        <param name="ConnectionSite">Required <b>Integer</b>. A connection site on the shape specified by <paramref name="ConnectedShape" />. Must be an integer between 1 and the integer returned by the <see cref="P:Microsoft.Office.Interop.Excel.Shape.ConnectionSiteCount" /> property of the specified shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the <see cref="M:Microsoft.Office.Interop.Excel.Shape.RerouteConnections" /> method after the connector is attached to shapes at both ends.</param>
+        <summary>Attaches the beginning of the specified connector to a specified shape.</summary>
+        <remarks>
+          <para>If there’s already a connection between the beginning of the connector and another shape, that connection is broken. If the beginning of the connector isn’t already positioned at the specified connecting site, this method moves the beginning of the connector to the connecting site and adjusts the size and position of the connector. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> method to attach the end of the connector to a shape.</para>
+          <para>When you attach a connector to an object, the size and position of the connector are automatically adjusted if necessary.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConnected">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState BeginConnected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState BeginConnected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnected As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState BeginConnected { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1756)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1756)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the beginning of the specified connector is connected to a shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoTriState" /> can be one of the following <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b>
+          </para>
+          <para>
+            <b>msoFalse</b>
+          </para>
+          <para>
+            <b>msoTriStateMixed</b>
+          </para>
+          <para>
+            <b>msoTriStateToggle</b>
+          </para>
+          <para>
+            <b>msoTrue</b> The beginning of the specified connector is connected to a shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConnectedShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape BeginConnectedShape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Shape BeginConnectedShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnectedShape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnectedShape As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Shape ^ BeginConnectedShape { Microsoft::Office::Interop::Excel::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1757)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1757)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the shape that the beginning of the specified connector is attached to.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the beginning of the specified connector isn’t attached to a shape, this property generates an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginConnectionSite">
+      <MemberSignature Language="C#" Value="public int BeginConnectionSite { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 BeginConnectionSite" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnectionSite" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BeginConnectionSite As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int BeginConnectionSite { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1758)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1758)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an integer that specifies the connection site that the end of a connector is connected to.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the end of the specified connector isn’t attached to a shape, this property generates an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginDisconnect">
+      <MemberSignature Language="C#" Value="public void BeginDisconnect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeginDisconnect() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginDisconnect" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeginDisconnect ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeginDisconnect();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1753)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Detaches the beginning of the specified connector from the shape it’s attached to.</summary>
+        <remarks>
+          <para>The <b>BeginDisconnect</b> method doesn’t alter the size or position of the connector. The beginning of the connector remains positioned at a connection site but is no longer connected. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndDisconnect" /> method to detach the end of the connector from a shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConnect">
+      <MemberSignature Language="C#" Value="public void EndConnect (Microsoft.Office.Interop.Excel.Shape ConnectedShape, int ConnectionSite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndConnect([in]class Microsoft.Office.Interop.Excel.Shape ConnectedShape, [in]int32 ConnectionSite) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndConnect (ConnectedShape As Shape, ConnectionSite As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndConnect(Microsoft::Office::Interop::Excel::Shape ^ ConnectedShape, int ConnectionSite);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1754)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ConnectedShape" Type="Microsoft.Office.Interop.Excel.Shape" />
+        <Parameter Name="ConnectionSite" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="ConnectedShape">Required <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object. The shape to attach the end of the connector to. The specified <b>Shape</b> object must be in the same <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection as the connector.</param>
+        <param name="ConnectionSite">Required <b>Integer</b>. A connection site on the shape specified by <paramref name="ConnectedShape" />. Must be an integer between 1 and the integer returned by the <see cref="P:Microsoft.Office.Interop.Excel.Shape.ConnectionSiteCount" /> property of the specified shape. If you want the connector to automatically find the shortest path between the two shapes it connects, specify any valid integer for this argument and then use the <see cref="M:Microsoft.Office.Interop.Excel.Shape.RerouteConnections" /> method after the connector is attached to shapes at both ends.</param>
+        <summary>Attaches the end of the specified connector to a specified shape.</summary>
+        <remarks>
+          <para>If there’s already a connection between the end of the connector and another shape, that connection is broken. If the end of the connector isn’t already positioned at the specified connecting site, this method moves the end of the connector to the connecting site and adjusts the size and position of the connector. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginConnect(Microsoft.Office.Interop.Excel.Shape,System.Int32)" /> method to attach the beginning of the connector to a shape.</para>
+          <para>When you attach a connector to an object, the size and position of the connector are automatically adjusted if necessary.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConnected">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState EndConnected { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState EndConnected" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnected" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnected As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState EndConnected { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1759)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1759)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>msoTrue</b> if the end of the specified connector is connected to a shape.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoTriState" /> can be one of the following <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoFalse</b> The end of the specified connector is not connected to a shape.</para>
+          <para>
+            <b>msoTrue</b> The end of the specified connector is connected to a shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConnectedShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape EndConnectedShape { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Shape EndConnectedShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnectedShape" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnectedShape As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Shape ^ EndConnectedShape { Microsoft::Office::Interop::Excel::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1760)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1760)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object that represents the shape that the end of the specified connector is attached to.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the end of the specified connector isn’t attached to a shape, this property generates an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndConnectionSite">
+      <MemberSignature Language="C#" Value="public int EndConnectionSite { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 EndConnectionSite" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.EndConnectionSite" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndConnectionSite As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int EndConnectionSite { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1761)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1761)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an integer that specifies the connection site that the end of a connector is connected to.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the end of the specified connector isn’t attached to a shape, this property generates an error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EndDisconnect">
+      <MemberSignature Language="C#" Value="public void EndDisconnect ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EndDisconnect() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ConnectorFormat.EndDisconnect" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EndDisconnect ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EndDisconnect();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1755)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Detaches the end of the specified connector from the shape it’s attached to.</summary>
+        <remarks>
+          <para>This method doesn’t alter the size or position of the connector; the end of the connector remains positioned at a connection site but is no longer connected. Use the <see cref="M:Microsoft.Office.Interop.Excel.ConnectorFormat.BeginDisconnect" /> method to detach the beginning of the connector from a shape.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoConnectorType Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoConnectorType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ConnectorFormat.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As MsoConnectorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoConnectorType Type { Microsoft::Office::Core::MsoConnectorType get(); void set(Microsoft::Office::Core::MsoConnectorType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoConnectorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the connector format type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoConnectorType" /> can be one of the following <b>MsoConnectorType</b> constants:</para>
+          <para>
+            <b>msoConnectorCurve</b>
+          </para>
+          <para>
+            <b>msoConnectorElbow</b>
+          </para>
+          <para>
+            <b>msoConnectorStraight</b>
+          </para>
+          <para>
+            <b>msoConnectorTypeMixed</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,173 @@
+﻿<Type Name="FormRegionStartupClass" FullName="Microsoft.Office.Interop.Outlook.FormRegionStartupClass">
+  <TypeSignature Language="C#" Value="public class FormRegionStartupClass : Microsoft.Office.Interop.Outlook.FormRegionStartup" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi FormRegionStartupClass extends System.Object implements class Microsoft.Office.Interop.Outlook._FormRegionStartup, class Microsoft.Office.Interop.Outlook.FormRegionStartup" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.FormRegionStartupClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class FormRegionStartupClass&#xA;Implements FormRegionStartup" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FormRegionStartupClass : Microsoft::Office::Interop::Outlook::FormRegionStartup" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.FormRegionStartup</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00061059-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeFormRegionShow">
+      <MemberSignature Language="C#" Value="public virtual void BeforeFormRegionShow (Microsoft.Office.Interop.Outlook.FormRegion FormRegion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeFormRegionShow([in]class Microsoft.Office.Interop.Outlook.FormRegion FormRegion) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FormRegionStartupClass.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void BeforeFormRegionShow(Microsoft::Office::Interop::Outlook::FormRegion ^ FormRegion) = Microsoft::Office::Interop::Outlook::_FormRegionStartup::BeforeFormRegionShow;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._FormRegionStartup.BeforeFormRegionShow(Microsoft.Office.Interop.Outlook.FormRegion)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64317)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegion" Type="Microsoft.Office.Interop.Outlook.FormRegion" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegion">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionIcon">
+      <MemberSignature Language="C#" Value="public virtual object GetFormRegionIcon (string FormRegionName, int LCID, Microsoft.Office.Interop.Outlook.OlFormRegionIcon Icon);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionIcon([in]string FormRegionName, [in]int32 LCID, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionIcon Icon) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FormRegionStartupClass.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFormRegionIcon (FormRegionName As String, LCID As Integer, Icon As OlFormRegionIcon) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetFormRegionIcon(System::String ^ FormRegionName, int LCID, Microsoft::Office::Interop::Outlook::OlFormRegionIcon Icon) = Microsoft::Office::Interop::Outlook::_FormRegionStartup::GetFormRegionIcon;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionIcon(System.String,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionIcon)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64564)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="LCID" Type="System.Int32" />
+        <Parameter Name="Icon" Type="Microsoft.Office.Interop.Outlook.OlFormRegionIcon" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">To be added.</param>
+        <param name="LCID">To be added.</param>
+        <param name="Icon">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionManifest">
+      <MemberSignature Language="C#" Value="public virtual object GetFormRegionManifest (string FormRegionName, int LCID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionManifest([in]string FormRegionName, [in]int32 LCID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FormRegionStartupClass.GetFormRegionManifest(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFormRegionManifest (FormRegionName As String, LCID As Integer) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetFormRegionManifest(System::String ^ FormRegionName, int LCID) = Microsoft::Office::Interop::Outlook::_FormRegionStartup::GetFormRegionManifest;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionManifest(System.String,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64563)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="LCID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">To be added.</param>
+        <param name="LCID">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormRegionStorage">
+      <MemberSignature Language="C#" Value="public virtual object GetFormRegionStorage (string FormRegionName, object Item, int LCID, Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode, Microsoft.Office.Interop.Outlook.OlFormRegionSize FormRegionSize);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetFormRegionStorage([in]string FormRegionName, [in]object Item, [in]int32 LCID, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionMode FormRegionMode, [in]valuetype Microsoft.Office.Interop.Outlook.OlFormRegionSize FormRegionSize) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.FormRegionStartupClass.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFormRegionStorage (FormRegionName As String, Item As Object, LCID As Integer, FormRegionMode As OlFormRegionMode, FormRegionSize As OlFormRegionSize) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetFormRegionStorage(System::String ^ FormRegionName, System::Object ^ Item, int LCID, Microsoft::Office::Interop::Outlook::OlFormRegionMode FormRegionMode, Microsoft::Office::Interop::Outlook::OlFormRegionSize FormRegionSize) = Microsoft::Office::Interop::Outlook::_FormRegionStartup::GetFormRegionStorage;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._FormRegionStartup.GetFormRegionStorage(System.String,System.Object,System.Int32,Microsoft.Office.Interop.Outlook.OlFormRegionMode,Microsoft.Office.Interop.Outlook.OlFormRegionSize)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64310)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="FormRegionName" Type="System.String" />
+        <Parameter Name="Item" Type="System.Object" />
+        <Parameter Name="LCID" Type="System.Int32" />
+        <Parameter Name="FormRegionMode" Type="Microsoft.Office.Interop.Outlook.OlFormRegionMode" />
+        <Parameter Name="FormRegionSize" Type="Microsoft.Office.Interop.Outlook.OlFormRegionSize" />
+      </Parameters>
+      <Docs>
+        <param name="FormRegionName">To be added.</param>
+        <param name="Item">To be added.</param>
+        <param name="LCID">To be added.</param>
+        <param name="FormRegionMode">To be added.</param>
+        <param name="FormRegionSize">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

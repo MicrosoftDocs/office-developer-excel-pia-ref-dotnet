@@ -1,0 +1,525 @@
+﻿<Type Name="PictureFormat" FullName="Microsoft.Office.Interop.Excel.PictureFormat">
+  <TypeSignature Language="C#" Value="public interface PictureFormat : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PictureFormat implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.PictureFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PictureFormat&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PictureFormat : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C031A-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains properties and methods that apply to pictures and OLE objects.</summary>
+    <remarks>
+      <para>The <see cref="T:Microsoft.Office.Interop.Excel.LinkFormat" /> object contains properties and methods that apply to linked OLE objects only. The <see cref="T:Microsoft.Office.Interop.Excel.OLEFormat" /> object contains properties and methods that apply to OLE objects whether or not they’re linked.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Shape.PictureFormat" /> property to return a <b>PictureFormat</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Brightness">
+      <MemberSignature Language="C#" Value="public float Brightness { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Brightness" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Brightness" />
+      <MemberSignature Language="VB.NET" Value="Public Property Brightness As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Brightness { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the brightness of the specified picture or OLE object. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPictureColorType ColorType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPictureColorType ColorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.ColorType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorType As MsoPictureColorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPictureColorType ColorType { Microsoft::Office::Core::MsoPictureColorType get(); void set(Microsoft::Office::Core::MsoPictureColorType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPictureColorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of color transformation applied to the specified picture or OLE object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Contrast">
+      <MemberSignature Language="C#" Value="public float Contrast { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 Contrast" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Contrast" />
+      <MemberSignature Language="VB.NET" Value="Public Property Contrast As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float Contrast { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the contrast for the specified picture or OLE object. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Crop">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Crop Crop { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Crop Crop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Crop" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Crop As Crop" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Crop ^ Crop { Microsoft::Office::Core::Crop ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Crop</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Core.Crop" /> object that represents the cropping settings for the specified <see cref="T:Microsoft.Office.Interop.Excel.PictureFormat" /> object. </summary>
+        <value>A <see cref="T:Microsoft.Office.Core.Crop" /> object that represents the cropping settings for the specified <see cref="T:Microsoft.Office.Interop.Excel.PictureFormat" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CropBottom">
+      <MemberSignature Language="C#" Value="public float CropBottom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 CropBottom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.CropBottom" />
+      <MemberSignature Language="VB.NET" Value="Public Property CropBottom As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropBottom { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of points that are cropped off the bottom of the specified picture or OLE object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it’s 200 points high, and then set the <b>CropBottom</b> property to 50, 100 points (not 50) will be cropped off the bottom of your picture.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CropLeft">
+      <MemberSignature Language="C#" Value="public float CropLeft { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 CropLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.CropLeft" />
+      <MemberSignature Language="VB.NET" Value="Public Property CropLeft As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropLeft { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of points that are cropped off the left side of the specified picture or OLE object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it’s 200 points wide, and then set the <b>CropLeft</b> property to 50, 100 points (not 50) will be cropped off the left side of your picture.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CropRight">
+      <MemberSignature Language="C#" Value="public float CropRight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 CropRight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.CropRight" />
+      <MemberSignature Language="VB.NET" Value="Public Property CropRight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropRight { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of points that are cropped off the right side of the specified picture or OLE object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points wide, rescale it so that it’s 200 points wide, and then set the <b>CropRight</b> property to 50, 100 points (not 50) will be cropped off the right side of your picture.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CropTop">
+      <MemberSignature Language="C#" Value="public float CropTop { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 CropTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.CropTop" />
+      <MemberSignature Language="VB.NET" Value="Public Property CropTop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float CropTop { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the number of points that are cropped off the top of the specified picture or OLE object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Cropping is calculated relative to the original size of the picture. For example, if you insert a picture that is originally 100 points high, rescale it so that it’s 200 points high, and then set the <b>CropTop</b> property to 50, 100 points (not 50) will be cropped off the top of your picture.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementBrightness">
+      <MemberSignature Language="C#" Value="public void IncrementBrightness (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementBrightness([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PictureFormat.IncrementBrightness(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementBrightness (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementBrightness(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how much to change the value of the <see cref="P:Microsoft.Office.Interop.Excel.PictureFormat.Brightness" /> property for the picture. A positive value makes the picture brighter; a negative value makes the picture darker.</param>
+        <summary>Changes the brightness of the picture by the specified amount.</summary>
+        <remarks>
+          <para>Use the <b>Brightness</b> property to set the absolute brightness of the picture.</para>
+          <para>You cannot adjust the brightness of a picture past the upper or lower limit for the <b>Brightness</b> property. For example, if the <b>Brightness</b> property is initially set to 0.9 and you specify 0.3 for the <paramref name="Increment" /> argument, the resulting brightness level will be 1.0, which is the upper limit for the <b>Brightness</b> property, instead of 1.2.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementContrast">
+      <MemberSignature Language="C#" Value="public void IncrementContrast (float Increment);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementContrast([in]float32 Increment) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PictureFormat.IncrementContrast(System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementContrast (Increment As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementContrast(float Increment);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Increment" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Increment">Required <b>Single</b>. Specifies how much to change the value of the <see cref="P:Microsoft.Office.Interop.Excel.PictureFormat.Contrast" /> property for the picture. A positive value increases the contrast; a negative value decreases the contrast.</param>
+        <summary>Changes the contrast of the picture by the specified amount.</summary>
+        <remarks>
+          <para>Use the <b>Contrast</b> property to set the absolute contrast for the picture.</para>
+          <para>You cannot adjust the contrast of a picture past the upper or lower limit for the <b>Contrast</b> property. For example, if the <b>Contrast</b> property is initially set to 0.9 and you specify 0.3 for the <paramref name="Increment" /> argument, the resulting contrast level will be 1.0, which is the upper limit for the <b>Contrast</b> property, instead of 1.2.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransparencyColor">
+      <MemberSignature Language="C#" Value="public int TransparencyColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TransparencyColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.TransparencyColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransparencyColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TransparencyColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("Microsoft.Office.Core.MsoRGBType")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the transparent color for the specified picture as a red-green-blue (RGB) value. Applies to bitmaps only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For this property to take effect, the <see cref="P:Microsoft.Office.Interop.Excel.PictureFormat.TransparentBackground" /> property must be set to <b>True</b>.</para>
+          <para>If you want to be able to see through the transparent parts of the picture all the way to the objects behind the picture, you must set the <see cref="P:Microsoft.Office.Interop.Excel.FillFormat.Visible" /> property of the picture's <see cref="T:Microsoft.Office.Interop.Excel.FillFormat" /> object to <b>False</b>. If your picture has a transparent color and the <b>Visible</b> property of the picture's <b>FillFormat</b> object is set to <b>True</b>, the picture's fill will be visible through the transparent color, but objects behind the picture will be obscured.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TransparentBackground">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState TransparentBackground { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState TransparentBackground" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PictureFormat.TransparentBackground" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransparentBackground As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState TransparentBackground { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets whether the specified picture format uses a transparent background.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.PictureFormat.TransparencyColor" /> property to set the transparent color. Applies to bitmaps only.</para>
+          <para>If you want to be able to see through the transparent parts of the picture all the way to the objects behind the picture, you must set the <see cref="P:Microsoft.Office.Interop.Excel.FillFormat.Visible" /> property of the picture's <see cref="T:Microsoft.Office.Interop.Excel.FillFormat" /> object to <b>False</b>. If your picture has a transparent color and the <b>Visible</b> property of the picture's <b>FillFormat</b> object is set to <b>True</b>, the picture's fill will be visible through the transparent color, but objects behind the picture will be obscured.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

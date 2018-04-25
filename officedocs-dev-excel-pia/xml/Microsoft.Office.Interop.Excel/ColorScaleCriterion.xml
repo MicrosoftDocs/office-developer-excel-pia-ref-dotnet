@@ -1,0 +1,175 @@
+﻿<Type Name="ColorScaleCriterion" FullName="Microsoft.Office.Interop.Excel.ColorScaleCriterion">
+  <TypeSignature Language="C#" Value="public interface ColorScaleCriterion" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ColorScaleCriterion" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ColorScaleCriterion" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ColorScaleCriterion" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ColorScaleCriterion" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024495-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the criteria for the minimum, midpoint, or maximum thresholds for a color format conditional format.</summary>
+    <remarks>
+      <para>Each <b>ColorScaleCriterion</b> is part of the <see cref="T:Microsoft.Office.Interop.Excel.ColorScaleCriteria" /> collection. Use <b>ColorScaleCriteria</b>(<paramref name="index" />), to return an individual criterion.</para>
+      <para>You can set the <see cref="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Type" />, <see cref="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Value" />, and <see cref="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.FormatColor" /> of each threshold for the color scale.</para>
+      <para />
+    </remarks>
+    <example>
+      <para>The following code example creates a range of numbers and then applies a two-color scale conditional formatting rule to that range. The color for the minimum threshold is then assigned to red and the maximum threshold to blue by indexing into the <see cref="T:Microsoft.Office.Interop.Excel.ColorScaleCriteria" />collection to set individual criteria.</para>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName="FormatColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.FormatColor FormatColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.FormatColor FormatColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.FormatColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormatColor As FormatColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::FormatColor ^ FormatColor { Microsoft::Office::Interop::Excel::FormatColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2717)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2717)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.FormatColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.FormatColor" /> object, which specifies the color assigned to the threshold of a color scale conditional format. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.FormatColor" />
+        </value>
+        <remarks>
+          <para>You can set the color of the minimum, midpoint, or maximum thresholds to any custom color by using the <see cref="P:Microsoft.Office.Interop.Excel.FormatColor.Color" /> property; or use the <see cref="P:Microsoft.Office.Interop.Excel.FormatColor.ThemeColor" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Index">
+      <MemberSignature Language="C#" Value="public int Index { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Index" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Index" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Index As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Index { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(486)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Integer</b> value indicating which threshold the criteria represents. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>For a two-color scale conditional format rule, this property will return a value of "1" for the minimum threshold and "2" for the maximum threshold. When using a three-color scale rule, the values will be "1" for the minimum, "2" for the midpoint, and "3" for the maximum thresholds.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlConditionValueTypes Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlConditionValueTypes Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As XlConditionValueTypes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlConditionValueTypes Type { Microsoft::Office::Interop::Excel::XlConditionValueTypes get(); void set(Microsoft::Office::Interop::Excel::XlConditionValueTypes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlConditionValueTypes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns one of the constants of the <see cref="T:Microsoft.Office.Interop.Excel.XlConditionValueTypes" /> enumeration, which specifies how the threshold values for a data bar or color scale conditional format are determined. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.XlConditionValueTypes" />
+        </value>
+        <remarks>
+          <para>The type of threshold value for a data bar or color scale can be a number, percent, formula, or percentile. Setting the type to percentile will use the Percentile function in Excel to determine the threshold value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public object Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the minimum, midpoint, or maximum threshold value for a color scale conditional format. Read/write.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>You can set the value only if the <see cref="P:Microsoft.Office.Interop.Excel.ColorScaleCriterion.Type" /> property for the conditional format is set to one of the following constants: <see cref="F:Microsoft.Office.Interop.Excel.XlConditionValueTypes.xlConditionValueNumber" />, <see cref="F:Microsoft.Office.Interop.Excel.XlConditionValueTypes.xlConditionValuePercent" />, <see cref="F:Microsoft.Office.Interop.Excel.XlConditionValueTypes.xlConditionValuePercentile" />, or <see cref="F:Microsoft.Office.Interop.Excel.XlConditionValueTypes.xlConditionValueFormula" />.</para>
+          <para>If the type of threshold is a formula, you can set the formula as a <b>String</b>. The formula must return a single number.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

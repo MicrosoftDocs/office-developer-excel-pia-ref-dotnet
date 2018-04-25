@@ -1,0 +1,205 @@
+﻿<Type Name="IRtdServer" FullName="Microsoft.Office.Interop.Excel.IRtdServer">
+  <TypeSignature Language="C#" Value="public interface IRtdServer" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IRtdServer" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.IRtdServer" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IRtdServer" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IRtdServer" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("EC0E6191-DB51-11D3-8F3E-00C04F3651B8")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4160)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an interface for a real-time data server.</summary>
+    <remarks>
+      <para>The <b>IRTDServer</b> object can be instantiated or created only by implementing the <b>IRTDServer</b> interface using the <b>Implements</b> keyword.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ConnectData">
+      <MemberSignature Language="C#" Value="public object ConnectData (int TopicID, ref Array Strings, out bool GetNewValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ConnectData([in]int32 TopicID, [in]class System.Array&amp; Strings, [out] bool&amp; GetNewValues) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.ConnectData(System.Int32,System.Array@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConnectData (TopicID As Integer, ByRef Strings As Array, ByRef GetNewValues As Boolean) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ConnectData(int TopicID, Array ^ % Strings, [Runtime::InteropServices::Out] bool % GetNewValues);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TopicID" Type="System.Int32" />
+        <Parameter Name="Strings" Type="System.Array&amp;" RefType="ref" />
+        <Parameter Name="GetNewValues" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TopicID">Required <b>Integer</b>. A unique value, assigned by Microsoft Excel, which identifies the topic.</param>
+        <param name="Strings">Required <b>Object</b>. A single-dimensional array of strings identifying the topic.</param>
+        <param name="GetNewValues">Required <b>Boolean</b>. <b>True</b> to determine if new values are to be acquired.</param>
+        <summary>Adds new topics from a real-time data server. The <b>ConnectData</b> method is called when a file is opened that contains real-time data functions or when a user types in a new formula which contains the <b>RTD</b> function.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisconnectData">
+      <MemberSignature Language="C#" Value="public void DisconnectData (int TopicID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DisconnectData([in]int32 TopicID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.DisconnectData(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DisconnectData (TopicID As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DisconnectData(int TopicID);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TopicID" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="TopicID">Required <b>Integer</b>. A unique value assigned to the topic assigned by Microsoft Excel.</param>
+        <summary>Notifies a real-time data (RTD) server application that a topic is no longer in use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Heartbeat">
+      <MemberSignature Language="C#" Value="public int Heartbeat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 Heartbeat() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.Heartbeat" />
+      <MemberSignature Language="VB.NET" Value="Public Function Heartbeat () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int Heartbeat();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Determines if the real-time data server is still active. Zero or a negative number indicates failure; a positive number indicates that the server is active.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>The Heartbeat method is called by Microsoft Excel if the <see cref="P:Microsoft.Office.Interop.Excel.IRTDUpdateEvent.HeartbeatInterval" /> property has elapsed since the last time Excel was called with the <see cref="M:Microsoft.Office.Interop.Excel.IRTDUpdateEvent.UpdateNotify" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshData">
+      <MemberSignature Language="C#" Value="public Array RefreshData (out int TopicCount);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Array RefreshData([out] int32&amp; TopicCount) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.RefreshData(System.Int32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RefreshData (ByRef TopicCount As Integer) As Array" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Array ^ RefreshData([Runtime::InteropServices::Out] int % TopicCount);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Array</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TopicCount" Type="System.Int32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="TopicCount">Required <b>Integer</b>. The RTD server must change the value of the <paramref name="TopicCount" /> to the number of elements in the array returned.</param>
+        <summary>This method is called by Microsoft Excel to get new data.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>The data returned to Excel is an <b>Object</b> containing a two-dimensional array. The first dimension represents the list of topic IDs. The second dimension represents the values associated with the topic IDs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerStart">
+      <MemberSignature Language="C#" Value="public int ServerStart (Microsoft.Office.Interop.Excel.IRTDUpdateEvent CallbackObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 ServerStart([in]class Microsoft.Office.Interop.Excel.IRTDUpdateEvent CallbackObject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.ServerStart(Microsoft.Office.Interop.Excel.IRTDUpdateEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ServerStart (CallbackObject As IRTDUpdateEvent) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int ServerStart(Microsoft::Office::Interop::Excel::IRTDUpdateEvent ^ CallbackObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="CallbackObject" Type="Microsoft.Office.Interop.Excel.IRTDUpdateEvent" />
+      </Parameters>
+      <Docs>
+        <param name="CallbackObject">Required <see cref="T:Microsoft.Office.Interop.Excel.IRTDUpdateEvent" /> object. The callback object.</param>
+        <summary>The <b>ServerStart</b> method is called immediately after a real-time data server is instantiated. Negative value or zero indicates failure to start the server; positive value indicates success.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerTerminate">
+      <MemberSignature Language="C#" Value="public void ServerTerminate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ServerTerminate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IRtdServer.ServerTerminate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ServerTerminate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ServerTerminate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Terminates the connection to the real-time data server.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

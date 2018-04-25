@@ -1,0 +1,35 @@
+﻿<Type Name="WorkbookEvents_SheetFollowHyperlinkEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_SheetFollowHyperlinkEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_SheetFollowHyperlinkEventHandler(object Sh, Hyperlink Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_SheetFollowHyperlinkEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_SheetFollowHyperlinkEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_SheetFollowHyperlinkEventHandler(Sh As Object, Target As Hyperlink)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_SheetFollowHyperlinkEventHandler(System::Object ^ Sh, Hyperlink ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Sh" Type="System.Object" />
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Hyperlink" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Sh">Required <b>Object</b>. The <b>Worksheet</b> object that contains the hyperlink.</param>
+    <param name="Target">Required <b>Hyperlink</b>. The <b>Hyperlink</b> object that represents the destination of the hyperlink.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.SheetFollowHyperlink" /> event. The <b>SheetFollowHyperlink</b> event occurs when you click any hyperlink in Microsoft Excel.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

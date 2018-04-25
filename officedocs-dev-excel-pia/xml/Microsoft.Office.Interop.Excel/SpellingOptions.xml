@@ -1,0 +1,728 @@
+﻿<Type Name="SpellingOptions" FullName="Microsoft.Office.Interop.Excel.SpellingOptions">
+  <TypeSignature Language="C#" Value="public interface SpellingOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SpellingOptions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.SpellingOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SpellingOptions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SpellingOptions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024465-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the various spell-checking options for a worksheet.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.SpellingOptions" /> property of the <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object to return a <b>SpellingOptions</b> object.</para>
+      <para>Once a <b>SpellingOptions</b> object is returned, you can use its following properties to set or return various spell-checking options:</para>
+      <list type="bullet">
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.ArabicModes" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.DictLang" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.GermanPostReform" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.HebrewModes" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreCaps" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreFileNames" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreMixedDigits" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanCombineAux" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanProcessCompound" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanUseAutoChangeList" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.SuggestMainOnly" />
+          </para>
+        </item>
+        <item>
+          <para>
+            <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.UserDict" />
+          </para>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ArabicModes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlArabicModes ArabicModes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlArabicModes ArabicModes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.ArabicModes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArabicModes As XlArabicModes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlArabicModes ArabicModes { Microsoft::Office::Interop::Excel::XlArabicModes get(); void set(Microsoft::Office::Interop::Excel::XlArabicModes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2231)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlArabicModes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the mode for the Arabic spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArabicStrictAlefHamza">
+      <MemberSignature Language="C#" Value="public bool ArabicStrictAlefHamza { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ArabicStrictAlefHamza" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.ArabicStrictAlefHamza" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArabicStrictAlefHamza As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ArabicStrictAlefHamza { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2932)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2932)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2932)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the spelling checker uses rules regarding Arabic words beginning with an alef hamza.</summary>
+        <value>
+          <b>true</b> if the spelling checker uses rules regarding Arabic words beginning with an alef hamza; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the spelling checker uses spelling rules regarding Arabic words beginning with an alef hamza; otherwise <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArabicStrictFinalYaa">
+      <MemberSignature Language="C#" Value="public bool ArabicStrictFinalYaa { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ArabicStrictFinalYaa" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.ArabicStrictFinalYaa" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArabicStrictFinalYaa As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ArabicStrictFinalYaa { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2933)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2933)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2933)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the spelling checker uses rules regarding Arabic words ending with the letter yaa.</summary>
+        <value>
+          <b>true</b> if the spelling checker uses rules regarding Arabic words ending with the letter yaa; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the spelling checker uses rules regarding Arabic words ending with the letter yaa; otherwise <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArabicStrictTaaMarboota">
+      <MemberSignature Language="C#" Value="public bool ArabicStrictTaaMarboota { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ArabicStrictTaaMarboota" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.ArabicStrictTaaMarboota" />
+      <MemberSignature Language="VB.NET" Value="Public Property ArabicStrictTaaMarboota As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ArabicStrictTaaMarboota { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2934)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2934)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2934)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the spelling checker uses rules to flag Arabic words ending with haa instead of taa marboota.</summary>
+        <value>
+          <b>true</b> if the spelling checker uses rules to flag Arabic words ending with haa instead of taa marboota; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the spelling checker uses rules to flag Arabic words ending with haa instead of taa marboota; otherwise <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrazilReform">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPortugueseReform BrazilReform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPortugueseReform BrazilReform" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.BrazilReform" />
+      <MemberSignature Language="VB.NET" Value="Public Property BrazilReform As XlPortugueseReform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPortugueseReform BrazilReform { Microsoft::Office::Interop::Excel::XlPortugueseReform get(); void set(Microsoft::Office::Interop::Excel::XlPortugueseReform value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2938)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2938)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2938)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPortugueseReform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the mode for checking the spelling of Brazilian Portuguese.</summary>
+        <value>The mode for checking the spelling of Brazilian Portuguese.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>Note</b>: This property does not set the mode for checking the spelling of European Portuguese. To do that, use the <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.PortugalReform" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DictLang">
+      <MemberSignature Language="C#" Value="public int DictLang { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DictLang" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.DictLang" />
+      <MemberSignature Language="VB.NET" Value="Public Property DictLang As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DictLang { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2220)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2220)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Selects the dictionary language used when Microsoft Excel performs spelling checks.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GermanPostReform">
+      <MemberSignature Language="C#" Value="public bool GermanPostReform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool GermanPostReform" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.GermanPostReform" />
+      <MemberSignature Language="VB.NET" Value="Public Property GermanPostReform As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool GermanPostReform { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2226)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2226)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> to check the spelling of words using the German post-reform rules. <b>False</b> cancels this feature.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HebrewModes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlHebrewModes HebrewModes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlHebrewModes HebrewModes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.HebrewModes" />
+      <MemberSignature Language="VB.NET" Value="Public Property HebrewModes As XlHebrewModes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlHebrewModes HebrewModes { Microsoft::Office::Interop::Excel::XlHebrewModes get(); void set(Microsoft::Office::Interop::Excel::XlHebrewModes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2230)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2230)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlHebrewModes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the mode for the Hebrew spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A legitimate Hebrew word can be a basic dictionary entry or any inflection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreCaps">
+      <MemberSignature Language="C#" Value="public bool IgnoreCaps { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IgnoreCaps" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreCaps" />
+      <MemberSignature Language="VB.NET" Value="Public Property IgnoreCaps As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoreCaps { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2222)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2222)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2222)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>False</b> instructs Microsoft Excel to check for uppercase words; <b>True</b> instructs Excel to ignore words in uppercase when using the spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreFileNames">
+      <MemberSignature Language="C#" Value="public bool IgnoreFileNames { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IgnoreFileNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreFileNames" />
+      <MemberSignature Language="VB.NET" Value="Public Property IgnoreFileNames As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoreFileNames { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2225)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2225)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>False</b> instructs Microsoft Excel to check for Internet and file addresses; <b>True</b> instructs Excel to ignore Internet and file addresses when using the spell checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreMixedDigits">
+      <MemberSignature Language="C#" Value="public bool IgnoreMixedDigits { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IgnoreMixedDigits" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.IgnoreMixedDigits" />
+      <MemberSignature Language="VB.NET" Value="Public Property IgnoreMixedDigits As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IgnoreMixedDigits { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2224)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2224)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>False</b> instructs Microsoft Excel to check for mixed digits; <b>True</b> instructs Excel to ignore mixed digits when checking spelling.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KoreanCombineAux">
+      <MemberSignature Language="C#" Value="public bool KoreanCombineAux { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KoreanCombineAux" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanCombineAux" />
+      <MemberSignature Language="VB.NET" Value="Public Property KoreanCombineAux As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KoreanCombineAux { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2227)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2227)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b>, Microsoft Excel combines Korean auxiliary verbs and adjectives when spelling is checked.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KoreanProcessCompound">
+      <MemberSignature Language="C#" Value="public bool KoreanProcessCompound { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KoreanProcessCompound" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanProcessCompound" />
+      <MemberSignature Language="VB.NET" Value="Public Property KoreanProcessCompound As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KoreanProcessCompound { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2229)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2229)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b>, this enables Microsoft Excel to process Korean compound nouns when using the spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KoreanUseAutoChangeList">
+      <MemberSignature Language="C#" Value="public bool KoreanUseAutoChangeList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool KoreanUseAutoChangeList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.KoreanUseAutoChangeList" />
+      <MemberSignature Language="VB.NET" Value="Public Property KoreanUseAutoChangeList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool KoreanUseAutoChangeList { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2228)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b>, this enables Microsoft Excel to use the auto-change list for Korean words when using the spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PortugalReform">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPortugueseReform PortugalReform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPortugueseReform PortugalReform" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.PortugalReform" />
+      <MemberSignature Language="VB.NET" Value="Public Property PortugalReform As XlPortugueseReform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPortugueseReform PortugalReform { Microsoft::Office::Interop::Excel::XlPortugueseReform get(); void set(Microsoft::Office::Interop::Excel::XlPortugueseReform value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2937)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2937)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2937)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPortugueseReform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the mode for checking the spelling of European Portuguese.</summary>
+        <value>The mode for checking the spelling of European Portuguese.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>Note</b>: This property does not set the mode for checking the spelling of Brazilian Portuguese. To do that, use the <see cref="P:Microsoft.Office.Interop.Excel.SpellingOptions.BrazilReform" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RussianStrictE">
+      <MemberSignature Language="C#" Value="public bool RussianStrictE { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RussianStrictE" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.RussianStrictE" />
+      <MemberSignature Language="VB.NET" Value="Public Property RussianStrictE As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RussianStrictE { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2935)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2935)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2935)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the spelling checker uses rules regarding Russian words containing the character ë.</summary>
+        <value>
+          <b>true</b> if the spelling checker uses rules regarding Russian words containing the character ë; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the spelling checker uses rules regarding Russian words containing the character ë; otherwise <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpanishModes">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSpanishModes SpanishModes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSpanishModes SpanishModes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.SpanishModes" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpanishModes As XlSpanishModes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSpanishModes SpanishModes { Microsoft::Office::Interop::Excel::XlSpanishModes get(); void set(Microsoft::Office::Interop::Excel::XlSpanishModes value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2936)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2936)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2936)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSpanishModes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the mode for checking the spelling of Spanish.</summary>
+        <value>The mode for checking the spelling of Spanish.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestMainOnly">
+      <MemberSignature Language="C#" Value="public bool SuggestMainOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SuggestMainOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.SuggestMainOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property SuggestMainOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SuggestMainOnly { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2223)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2223)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2223)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b>, instructs Microsoft Excel to suggest words from only the main dictionary when using the spelling checker. <b>False</b> removes the limits of suggesting words from only the main dictionary when using the spelling checker.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserDict">
+      <MemberSignature Language="C#" Value="public string UserDict { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserDict" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SpellingOptions.UserDict" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserDict As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UserDict { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2221)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2221)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Instructs Microsoft Excel to create a custom dictionary to which new words can be added when performing spelling checks on a worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

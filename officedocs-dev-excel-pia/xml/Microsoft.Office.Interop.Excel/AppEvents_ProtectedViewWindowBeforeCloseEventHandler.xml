@@ -1,0 +1,38 @@
+﻿<Type Name="AppEvents_ProtectedViewWindowBeforeCloseEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeCloseEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_ProtectedViewWindowBeforeCloseEventHandler(ProtectedViewWindow Pvw, XlProtectedViewCloseReason Reason, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_ProtectedViewWindowBeforeCloseEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeCloseEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_ProtectedViewWindowBeforeCloseEventHandler(Pvw As ProtectedViewWindow, Reason As XlProtectedViewCloseReason, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_ProtectedViewWindowBeforeCloseEventHandler(ProtectedViewWindow ^ Pvw, XlProtectedViewCloseReason Reason, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+    <Parameter Name="Reason" Type="Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Pvw">An object that represents the Protected View window that is closed.</param>
+    <param name="Reason">A constant that specifies the reason the Protected View window is closed.</param>
+    <param name="Cancel">
+      <b>false</b> when the event occurs. If the event procedure sets this parameter to <b>true</b>, the window does not close when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.ProtectedViewWindowBeforeClose" /> event. The <b>ProtectedViewWindowBeforeClose</b> event occurs immediately before a Protected View window or a workbook in a Protected View window closes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

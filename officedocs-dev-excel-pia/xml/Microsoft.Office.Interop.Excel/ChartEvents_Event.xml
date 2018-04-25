@@ -1,0 +1,283 @@
+﻿<Type Name="ChartEvents_Event" FullName="Microsoft.Office.Interop.Excel.ChartEvents_Event">
+  <TypeSignature Language="C#" Value="public interface ChartEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ChartEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.Excel.ChartEvents), typeof(Microsoft.Office.Interop.Excel.ChartEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Events interface for Microsoft Excel <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> object events.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_ActivateEventHandler Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_ActivateEventHandler Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Activate" />
+      <MemberSignature Language="VB.NET" Value="Event Activate As ChartEvents_ActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_ActivateEventHandler ^ Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a chart sheet or embedded chart is activated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeDoubleClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_BeforeDoubleClickEventHandler BeforeDoubleClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_BeforeDoubleClickEventHandler BeforeDoubleClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.BeforeDoubleClick" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeDoubleClick As ChartEvents_BeforeDoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_BeforeDoubleClickEventHandler ^ BeforeDoubleClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_BeforeDoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when an embedded chart is double-clicked, before the default double-click action.</summary>
+        <remarks>
+          <para>The <see cref="M:Microsoft.Office.Interop.Excel._Application.DoubleClick" /> method doesn't cause this event to occur.</para>
+          <para>This event doesn't occur when the user double-clicks the border of a cell.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRightClick">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_BeforeRightClickEventHandler BeforeRightClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_BeforeRightClickEventHandler BeforeRightClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.BeforeRightClick" />
+      <MemberSignature Language="VB.NET" Value="Event BeforeRightClick As ChartEvents_BeforeRightClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_BeforeRightClickEventHandler ^ BeforeRightClick;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_BeforeRightClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when an embedded chart is right-clicked, before the default right-click action.</summary>
+        <remarks>
+          <para>Like other worksheet events, this event doesn't occur if you right-click while the pointer is on a shape or a command bar (a toolbar or menu bar).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Calculate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_CalculateEventHandler Calculate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_CalculateEventHandler Calculate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Calculate" />
+      <MemberSignature Language="VB.NET" Value="Event Calculate As ChartEvents_CalculateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_CalculateEventHandler ^ Calculate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_CalculateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs after the chart plots new or changed data.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_DeactivateEventHandler Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_DeactivateEventHandler Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Event Deactivate As ChartEvents_DeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_DeactivateEventHandler ^ Deactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the chart is deactivated.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragOver">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_DragOverEventHandler DragOver;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_DragOverEventHandler DragOver" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.DragOver" />
+      <MemberSignature Language="VB.NET" Value="Event DragOver As ChartEvents_DragOverEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_DragOverEventHandler ^ DragOver;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_DragOverEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a range of cells is dragged over a chart.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragPlot">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_DragPlotEventHandler DragPlot;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_DragPlotEventHandler DragPlot" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.DragPlot" />
+      <MemberSignature Language="VB.NET" Value="Event DragPlot As ChartEvents_DragPlotEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_DragPlotEventHandler ^ DragPlot;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_DragPlotEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a range of cells is dragged and dropped on a chart.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseDown">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_MouseDownEventHandler MouseDown;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_MouseDownEventHandler MouseDown" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.MouseDown" />
+      <MemberSignature Language="VB.NET" Value="Event MouseDown As ChartEvents_MouseDownEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_MouseDownEventHandler ^ MouseDown;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_MouseDownEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a mouse button is pressed while the pointer is over a chart.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseMove">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_MouseMoveEventHandler MouseMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_MouseMoveEventHandler MouseMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.MouseMove" />
+      <MemberSignature Language="VB.NET" Value="Event MouseMove As ChartEvents_MouseMoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_MouseMoveEventHandler ^ MouseMove;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_MouseMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the position of the mouse pointer changes over a chart.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MouseUp">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_MouseUpEventHandler MouseUp;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_MouseUpEventHandler MouseUp" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.MouseUp" />
+      <MemberSignature Language="VB.NET" Value="Event MouseUp As ChartEvents_MouseUpEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_MouseUpEventHandler ^ MouseUp;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_MouseUpEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a mouse button is released while the pointer is over a chart.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_ResizeEventHandler Resize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_ResizeEventHandler Resize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Resize" />
+      <MemberSignature Language="VB.NET" Value="Event Resize As ChartEvents_ResizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_ResizeEventHandler ^ Resize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_ResizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the chart is resized.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_SelectEventHandler Select;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_SelectEventHandler Select" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.Select" />
+      <MemberSignature Language="VB.NET" Value="Event Select As ChartEvents_SelectEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_SelectEventHandler ^ Select;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_SelectEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when a chart element is selected.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SeriesChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.Excel.ChartEvents_SeriesChangeEventHandler SeriesChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Excel.ChartEvents_SeriesChangeEventHandler SeriesChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.SeriesChange" />
+      <MemberSignature Language="VB.NET" Value="Event SeriesChange As ChartEvents_SeriesChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::Excel::ChartEvents_SeriesChangeEventHandler ^ SeriesChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartEvents_SeriesChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Occurs when the user changes the value of a chart data point.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

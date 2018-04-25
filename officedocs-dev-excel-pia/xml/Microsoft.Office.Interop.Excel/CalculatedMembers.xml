@@ -1,0 +1,394 @@
+﻿<Type Name="CalculatedMembers" FullName="Microsoft.Office.Interop.Excel.CalculatedMembers">
+  <TypeSignature Language="C#" Value="public interface CalculatedMembers : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CalculatedMembers implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.CalculatedMembers" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CalculatedMembers&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CalculatedMembers : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024454-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of all the <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> objects on the specified PivotTable.</summary>
+    <remarks>
+      <para>Each <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" /> object represents a calculated member or calculated measure.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.CalculatedMembers" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> object to return a <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMembers" /> collection.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMember this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.CalculatedMember _Default(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers._Default(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default(Index As Object) As CalculatedMember" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::CalculatedMember ^ default[System::Object ^] { Microsoft::Office::Interop::Excel::CalculatedMember ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMember Add (string Name, string Formula, object SolveOrder, object Type);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.CalculatedMember Add([in]string Name, [in]string Formula, [in]object SolveOrder, [in]object Type) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalculatedMembers.Add(System.String,System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Name As String, Formula As String, Optional SolveOrder As Object, Optional Type As Object) As CalculatedMember" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2085)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Formula" Type="System.String" />
+        <Parameter Name="SolveOrder" Type="System.Object" />
+        <Parameter Name="Type" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">Required <b>String</b>. The name of the calculated member.</param>
+        <param name="Formula">Required <b>String</b>. The formula of the calculated member.</param>
+        <param name="SolveOrder">Optional <b>Object</b>. The solve order for the calculated member.</param>
+        <param name="Type">Optional <b>Object</b>. The type of calculated member.</param>
+        <summary>Adds a calculated field or calculated item to a PivotTable.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>The <paramref name="Formula" /> argument must have a valid MDX (multidimensional expression) syntax statement. The <paramref name="Name" /> argument has to be acceptable to the Online Analytical Processing (OLAP) provider and the <paramref name="Type" /> argument has to be defined.</para>
+          <para>If you set the <paramref name="Type" /> argument of this method to <paramref name="xlCalculatedSet" />, then you must call the <see cref="M:Microsoft.Office.Interop.Excel.CubeFields.AddSet(System.String,System.String)" /> method to make the new field set visible in the PivotTable.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMember Add2 (string Name, object Formula, object SolveOrder, object Type, object Dynamic, object DisplayFolder, object HierarchizeDistinct);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.CalculatedMember Add2([in]string Name, [in]object Formula, [in]object SolveOrder, [in]object Type, [in]object Dynamic, [in]object DisplayFolder, [in]object HierarchizeDistinct) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalculatedMembers.Add2(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add2 (Name As String, Formula As Object, Optional SolveOrder As Object, Optional Type As Object, Optional Dynamic As Object, Optional DisplayFolder As Object, Optional HierarchizeDistinct As Object) As CalculatedMember" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(181)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Formula" Type="System.Object" />
+        <Parameter Name="SolveOrder" Type="System.Object" />
+        <Parameter Name="Type" Type="System.Object" />
+        <Parameter Name="Dynamic" Type="System.Object" />
+        <Parameter Name="DisplayFolder" Type="System.Object" />
+        <Parameter Name="HierarchizeDistinct" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Formula">To be added.</param>
+        <param name="SolveOrder">To be added.</param>
+        <param name="Type">To be added.</param>
+        <param name="Dynamic">To be added.</param>
+        <param name="DisplayFolder">To be added.</param>
+        <param name="HierarchizeDistinct">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>Returns <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMember" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddCalculatedMember">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMember AddCalculatedMember (string Name, object Formula, object SolveOrder, object Type, object DisplayFolder, object MeasureGroup, object ParentHierarchy, object ParentMember, object NumberFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.CalculatedMember AddCalculatedMember([in]string Name, [in]object Formula, [in]object SolveOrder, [in]object Type, [in]object DisplayFolder, [in]object MeasureGroup, [in]object ParentHierarchy, [in]object ParentMember, [in]object NumberFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalculatedMembers.AddCalculatedMember(System.String,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddCalculatedMember (Name As String, Formula As Object, Optional SolveOrder As Object, Optional Type As Object, Optional DisplayFolder As Object, Optional MeasureGroup As Object, Optional ParentHierarchy As Object, Optional ParentMember As Object, Optional NumberFormat As Object) As CalculatedMember" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3091)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Formula" Type="System.Object" />
+        <Parameter Name="SolveOrder" Type="System.Object" />
+        <Parameter Name="Type" Type="System.Object" />
+        <Parameter Name="DisplayFolder" Type="System.Object" />
+        <Parameter Name="MeasureGroup" Type="System.Object" />
+        <Parameter Name="ParentHierarchy" Type="System.Object" />
+        <Parameter Name="ParentMember" Type="System.Object" />
+        <Parameter Name="NumberFormat" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">The name of the calculated member.</param>
+        <param name="Formula">The formula of the calculated member.</param>
+        <param name="SolveOrder">The solve order for the calculated member.</param>
+        <param name="Type">The type of calculated member.</param>
+        <param name="DisplayFolder">A folder that exists to display calculated measures.</param>
+        <param name="MeasureGroup">The group to which the calculated belongs.</param>
+        <param name="ParentHierarchy">The parent path of the <b>ParentMember</b>.</param>
+        <param name="ParentMember">The parent of the calculated member.</param>
+        <param name="NumberFormat">The format of numbers used for calculated members.</param>
+        <summary>Adds a calculated field or calculated item to a PivotTable.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>The <b>Formula</b> argument must have a valid MDX (multidimensional expression) syntax statement. The <b>Name</b> argument has to be acceptable to the Online Analytical Processing (OLAP) provider.</para>
+          <list type="bullet">
+            <item>
+              <para>
+                <b>DisplayFolder</b>: Display folders are only valid for calculated measures. They are not valid for calculated members. The string can have semicolons ; in it. Semicolons designate multiple display folders. For example, if you use the string my folder1;myfolder2 then the calculated measure will show in two display folders one named myfolder1 the other named ‘myfolder2’. The string can have backslashes \. This designates a hierarchical path for the display folder. For example, if you use the string welcome\to\seattle there will be a display folder called welcome that contains a display folder called to which contains a display folder called seattle. Display folders are virtual folders.  They do not really exist in the same sense that we think of system folders. They only exist for purposes of displaying the calculated measures.</para>
+            </item>
+            <item>
+              <para>
+                <b>NumberFormat</b>: The number formats can only be set by macros. There is no user interface for setting them. This is the only property that cannot be set via the user interface. The type is always <b>xlNumberFormatTypeDefault</b> when a calculated member is created via the user interface. The number formats are only valid for calculated members. They are not valid for calculated measures.</para>
+            </item>
+            <item>
+              <para>
+                <b>ParentHierarchy</b>: The parent hierarchy can be any valid MDX hierarchy. Parent hierarchies are only valid for calculated members. They are not valid for calculated measures. If a parent member is chosen that is in a different parent hierarchy, the parent hierarchy will be automatically changed to match the parent hierarchy of the parent member.</para>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of objects in the collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CalculatedMembers.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMember Item[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.CalculatedMember Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item(Index As Object) As CalculatedMember" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::CalculatedMember ^ Item[System::Object ^] { Microsoft::Office::Interop::Excel::CalculatedMember ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMember</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <b>Object</b>. The name or index number of the object.</param>
+        <summary>Returns a single object from a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CalculatedMembers.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1214 @@
+﻿<Type Name="IAppEvents" FullName="Microsoft.Office.Interop.Excel.IAppEvents">
+  <TypeSignature Language="C#" Value="public interface IAppEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAppEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.IAppEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IAppEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IAppEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024413-0001-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterCalculate">
+      <MemberSignature Language="C#" Value="public void AfterCalculate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AfterCalculate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.AfterCalculate" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AfterCalculate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AfterCalculate();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewWorkbook">
+      <MemberSignature Language="C#" Value="public void NewWorkbook (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewWorkbook([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.NewWorkbook(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewWorkbook (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewWorkbook(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowActivate">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowActivate (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowActivate([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowActivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowActivate (Pvw As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowActivate(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowBeforeClose">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowBeforeClose (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw, Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason Reason, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowBeforeClose([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw, [in]valuetype Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason Reason, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowBeforeClose(Microsoft.Office.Interop.Excel.ProtectedViewWindow,Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowBeforeClose (Pvw As ProtectedViewWindow, Reason As XlProtectedViewCloseReason, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowBeforeClose(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw, Microsoft::Office::Interop::Excel::XlProtectedViewCloseReason Reason, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+        <Parameter Name="Reason" Type="Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <param name="Reason">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowBeforeEdit">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowBeforeEdit (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowBeforeEdit([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowBeforeEdit(Microsoft.Office.Interop.Excel.ProtectedViewWindow,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowBeforeEdit (Pvw As ProtectedViewWindow, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowBeforeEdit(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowDeactivate">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowDeactivate (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowDeactivate([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowDeactivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowDeactivate (Pvw As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowDeactivate(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowOpen">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowOpen (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowOpen([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowOpen(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowOpen (Pvw As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowOpen(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowResize">
+      <MemberSignature Language="C#" Value="public void ProtectedViewWindowResize (Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ProtectedViewWindowResize([in]class Microsoft.Office.Interop.Excel.ProtectedViewWindow Pvw) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.ProtectedViewWindowResize(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ProtectedViewWindowResize (Pvw As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ProtectedViewWindowResize(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ Pvw);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pvw" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="Pvw">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetActivate">
+      <MemberSignature Language="C#" Value="public void SheetActivate (object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetActivate([in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetActivate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetActivate (Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetActivate(System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeDelete">
+      <MemberSignature Language="C#" Value="public void SheetBeforeDelete (object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetBeforeDelete([in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetBeforeDelete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetBeforeDelete (Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetBeforeDelete(System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public void SheetBeforeDoubleClick (object Sh, Microsoft.Office.Interop.Excel.Range Target, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetBeforeDoubleClick([in]object Sh, [in]class Microsoft.Office.Interop.Excel.Range Target, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetBeforeDoubleClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetBeforeDoubleClick (Sh As Object, Target As Range, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetBeforeDoubleClick(System::Object ^ Sh, Microsoft::Office::Interop::Excel::Range ^ Target, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeRightClick">
+      <MemberSignature Language="C#" Value="public void SheetBeforeRightClick (object Sh, Microsoft.Office.Interop.Excel.Range Target, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetBeforeRightClick([in]object Sh, [in]class Microsoft.Office.Interop.Excel.Range Target, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetBeforeRightClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetBeforeRightClick (Sh As Object, Target As Range, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetBeforeRightClick(System::Object ^ Sh, Microsoft::Office::Interop::Excel::Range ^ Target, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetCalculate">
+      <MemberSignature Language="C#" Value="public void SheetCalculate (object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetCalculate([in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetCalculate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetCalculate (Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetCalculate(System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetChange">
+      <MemberSignature Language="C#" Value="public void SheetChange (object Sh, Microsoft.Office.Interop.Excel.Range Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetChange([in]object Sh, [in]class Microsoft.Office.Interop.Excel.Range Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetChange(System.Object,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetChange (Sh As Object, Target As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetChange(System::Object ^ Sh, Microsoft::Office::Interop::Excel::Range ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetDeactivate">
+      <MemberSignature Language="C#" Value="public void SheetDeactivate (object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetDeactivate([in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetDeactivate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetDeactivate (Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetDeactivate(System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetFollowHyperlink">
+      <MemberSignature Language="C#" Value="public void SheetFollowHyperlink (object Sh, Microsoft.Office.Interop.Excel.Hyperlink Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetFollowHyperlink([in]object Sh, [in]class Microsoft.Office.Interop.Excel.Hyperlink Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetFollowHyperlink(System.Object,Microsoft.Office.Interop.Excel.Hyperlink)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetFollowHyperlink (Sh As Object, Target As Hyperlink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetFollowHyperlink(System::Object ^ Sh, Microsoft::Office::Interop::Excel::Hyperlink ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Hyperlink" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetLensGalleryRenderComplete">
+      <MemberSignature Language="C#" Value="public void SheetLensGalleryRenderComplete (object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetLensGalleryRenderComplete([in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetLensGalleryRenderComplete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetLensGalleryRenderComplete (Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetLensGalleryRenderComplete(System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableAfterValueChange">
+      <MemberSignature Language="C#" Value="public void SheetPivotTableAfterValueChange (object Sh, Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, Microsoft.Office.Interop.Excel.Range TargetRange);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetPivotTableAfterValueChange([in]object Sh, [in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]class Microsoft.Office.Interop.Excel.Range TargetRange) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetPivotTableAfterValueChange(System.Object,Microsoft.Office.Interop.Excel.PivotTable,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetPivotTableAfterValueChange (Sh As Object, TargetPivotTable As PivotTable, TargetRange As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetPivotTableAfterValueChange(System::Object ^ Sh, Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, Microsoft::Office::Interop::Excel::Range ^ TargetRange);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="TargetRange" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="TargetRange">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeAllocateChanges">
+      <MemberSignature Language="C#" Value="public void SheetPivotTableBeforeAllocateChanges (object Sh, Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetPivotTableBeforeAllocateChanges([in]object Sh, [in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetPivotTableBeforeAllocateChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetPivotTableBeforeAllocateChanges (Sh As Object, TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetPivotTableBeforeAllocateChanges(System::Object ^ Sh, Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeCommitChanges">
+      <MemberSignature Language="C#" Value="public void SheetPivotTableBeforeCommitChanges (object Sh, Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetPivotTableBeforeCommitChanges([in]object Sh, [in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetPivotTableBeforeCommitChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetPivotTableBeforeCommitChanges (Sh As Object, TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetPivotTableBeforeCommitChanges(System::Object ^ Sh, Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeDiscardChanges">
+      <MemberSignature Language="C#" Value="public void SheetPivotTableBeforeDiscardChanges (object Sh, Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, int ValueChangeStart, int ValueChangeEnd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetPivotTableBeforeDiscardChanges([in]object Sh, [in]class Microsoft.Office.Interop.Excel.PivotTable TargetPivotTable, [in]int32 ValueChangeStart, [in]int32 ValueChangeEnd) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetPivotTableBeforeDiscardChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetPivotTableBeforeDiscardChanges (Sh As Object, TargetPivotTable As PivotTable, ValueChangeStart As Integer, ValueChangeEnd As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetPivotTableBeforeDiscardChanges(System::Object ^ Sh, Microsoft::Office::Interop::Excel::PivotTable ^ TargetPivotTable, int ValueChangeStart, int ValueChangeEnd);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="ValueChangeStart" Type="System.Int32" />
+        <Parameter Name="ValueChangeEnd" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="TargetPivotTable">To be added.</param>
+        <param name="ValueChangeStart">To be added.</param>
+        <param name="ValueChangeEnd">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableUpdate">
+      <MemberSignature Language="C#" Value="public void SheetPivotTableUpdate (object Sh, Microsoft.Office.Interop.Excel.PivotTable Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetPivotTableUpdate([in]object Sh, [in]class Microsoft.Office.Interop.Excel.PivotTable Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetPivotTableUpdate(System.Object,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetPivotTableUpdate (Sh As Object, Target As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetPivotTableUpdate(System::Object ^ Sh, Microsoft::Office::Interop::Excel::PivotTable ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetSelectionChange">
+      <MemberSignature Language="C#" Value="public void SheetSelectionChange (object Sh, Microsoft.Office.Interop.Excel.Range Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetSelectionChange([in]object Sh, [in]class Microsoft.Office.Interop.Excel.Range Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetSelectionChange(System.Object,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetSelectionChange (Sh As Object, Target As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetSelectionChange(System::Object ^ Sh, Microsoft::Office::Interop::Excel::Range ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetTableUpdate">
+      <MemberSignature Language="C#" Value="public void SheetTableUpdate (object Sh, Microsoft.Office.Interop.Excel.TableObject Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SheetTableUpdate([in]object Sh, [in]class Microsoft.Office.Interop.Excel.TableObject Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.SheetTableUpdate(System.Object,Microsoft.Office.Interop.Excel.TableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SheetTableUpdate (Sh As Object, Target As TableObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SheetTableUpdate(System::Object ^ Sh, Microsoft::Office::Interop::Excel::TableObject ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sh" Type="System.Object" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.TableObject" />
+      </Parameters>
+      <Docs>
+        <param name="Sh">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowActivate">
+      <MemberSignature Language="C#" Value="public void WindowActivate (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowActivate([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WindowActivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowActivate (Wb As Workbook, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowActivate(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowDeactivate">
+      <MemberSignature Language="C#" Value="public void WindowDeactivate (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowDeactivate([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WindowDeactivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowDeactivate (Wb As Workbook, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowDeactivate(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowResize">
+      <MemberSignature Language="C#" Value="public void WindowResize (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowResize([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WindowResize(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowResize (Wb As Workbook, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowResize(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookActivate">
+      <MemberSignature Language="C#" Value="public void WorkbookActivate (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookActivate([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookActivate(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookActivate (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookActivate(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAddinInstall">
+      <MemberSignature Language="C#" Value="public void WorkbookAddinInstall (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookAddinInstall([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookAddinInstall(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookAddinInstall (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookAddinInstall(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAddinUninstall">
+      <MemberSignature Language="C#" Value="public void WorkbookAddinUninstall (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookAddinUninstall([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookAddinUninstall(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookAddinUninstall (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookAddinUninstall(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterSave">
+      <MemberSignature Language="C#" Value="public void WorkbookAfterSave (Microsoft.Office.Interop.Excel.Workbook Wb, bool Success);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookAfterSave([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]bool Success) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookAfterSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookAfterSave (Wb As Workbook, Success As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookAfterSave(Microsoft::Office::Interop::Excel::Workbook ^ Wb, bool Success);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Success" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Success">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterXmlExport">
+      <MemberSignature Language="C#" Value="public void WorkbookAfterXmlExport (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.XmlMap Map, string Url, Microsoft.Office.Interop.Excel.XlXmlExportResult Result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookAfterXmlExport([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.XmlMap Map, [in]string Url, [in]valuetype Microsoft.Office.Interop.Excel.XlXmlExportResult Result) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookAfterXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,Microsoft.Office.Interop.Excel.XlXmlExportResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookAfterXmlExport (Wb As Workbook, Map As XmlMap, Url As String, Result As XlXmlExportResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookAfterXmlExport(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::XmlMap ^ Map, System::String ^ Url, Microsoft::Office::Interop::Excel::XlXmlExportResult Result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="Url" Type="System.String" />
+        <Parameter Name="Result" Type="Microsoft.Office.Interop.Excel.XlXmlExportResult" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Map">To be added.</param>
+        <param name="Url">To be added.</param>
+        <param name="Result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterXmlImport">
+      <MemberSignature Language="C#" Value="public void WorkbookAfterXmlImport (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.XmlMap Map, bool IsRefresh, Microsoft.Office.Interop.Excel.XlXmlImportResult Result);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookAfterXmlImport([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.XmlMap Map, [in]bool IsRefresh, [in]valuetype Microsoft.Office.Interop.Excel.XlXmlImportResult Result) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookAfterXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.Boolean,Microsoft.Office.Interop.Excel.XlXmlImportResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookAfterXmlImport (Wb As Workbook, Map As XmlMap, IsRefresh As Boolean, Result As XlXmlImportResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookAfterXmlImport(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::XmlMap ^ Map, bool IsRefresh, Microsoft::Office::Interop::Excel::XlXmlImportResult Result);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="IsRefresh" Type="System.Boolean" />
+        <Parameter Name="Result" Type="Microsoft.Office.Interop.Excel.XlXmlImportResult" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Map">To be added.</param>
+        <param name="IsRefresh">To be added.</param>
+        <param name="Result">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeClose">
+      <MemberSignature Language="C#" Value="public void WorkbookBeforeClose (Microsoft.Office.Interop.Excel.Workbook Wb, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookBeforeClose([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookBeforeClose(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookBeforeClose (Wb As Workbook, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookBeforeClose(Microsoft::Office::Interop::Excel::Workbook ^ Wb, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforePrint">
+      <MemberSignature Language="C#" Value="public void WorkbookBeforePrint (Microsoft.Office.Interop.Excel.Workbook Wb, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookBeforePrint([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookBeforePrint(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookBeforePrint (Wb As Workbook, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookBeforePrint(Microsoft::Office::Interop::Excel::Workbook ^ Wb, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeSave">
+      <MemberSignature Language="C#" Value="public void WorkbookBeforeSave (Microsoft.Office.Interop.Excel.Workbook Wb, bool SaveAsUI, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookBeforeSave([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]bool SaveAsUI, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookBeforeSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookBeforeSave (Wb As Workbook, SaveAsUI As Boolean, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookBeforeSave(Microsoft::Office::Interop::Excel::Workbook ^ Wb, bool SaveAsUI, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="SaveAsUI" Type="System.Boolean" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="SaveAsUI">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeXmlExport">
+      <MemberSignature Language="C#" Value="public void WorkbookBeforeXmlExport (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.XmlMap Map, string Url, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookBeforeXmlExport([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.XmlMap Map, [in]string Url, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookBeforeXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookBeforeXmlExport (Wb As Workbook, Map As XmlMap, Url As String, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookBeforeXmlExport(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::XmlMap ^ Map, System::String ^ Url, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="Url" Type="System.String" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Map">To be added.</param>
+        <param name="Url">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeXmlImport">
+      <MemberSignature Language="C#" Value="public void WorkbookBeforeXmlImport (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.XmlMap Map, string Url, bool IsRefresh, out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookBeforeXmlImport([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.XmlMap Map, [in]string Url, [in]bool IsRefresh, [out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookBeforeXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookBeforeXmlImport (Wb As Workbook, Map As XmlMap, Url As String, IsRefresh As Boolean, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookBeforeXmlImport(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::XmlMap ^ Map, System::String ^ Url, bool IsRefresh, [Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="Url" Type="System.String" />
+        <Parameter Name="IsRefresh" Type="System.Boolean" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Map">To be added.</param>
+        <param name="Url">To be added.</param>
+        <param name="IsRefresh">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookDeactivate">
+      <MemberSignature Language="C#" Value="public void WorkbookDeactivate (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookDeactivate([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookDeactivate(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookDeactivate (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookDeactivate(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookModelChange">
+      <MemberSignature Language="C#" Value="public void WorkbookModelChange (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.ModelChanges Changes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookModelChange([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.ModelChanges Changes) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookModelChange(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.ModelChanges)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookModelChange (Wb As Workbook, Changes As ModelChanges)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookModelChange(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::ModelChanges ^ Changes);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Changes" Type="Microsoft.Office.Interop.Excel.ModelChanges" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Changes">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookNewChart">
+      <MemberSignature Language="C#" Value="public void WorkbookNewChart (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.Chart Ch);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookNewChart([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.Chart Ch) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookNewChart(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Chart)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookNewChart (Wb As Workbook, Ch As Chart)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookNewChart(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::Chart ^ Ch);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Ch" Type="Microsoft.Office.Interop.Excel.Chart" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Ch">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookNewSheet">
+      <MemberSignature Language="C#" Value="public void WorkbookNewSheet (Microsoft.Office.Interop.Excel.Workbook Wb, object Sh);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookNewSheet([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]object Sh) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookNewSheet(Microsoft.Office.Interop.Excel.Workbook,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookNewSheet (Wb As Workbook, Sh As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookNewSheet(Microsoft::Office::Interop::Excel::Workbook ^ Wb, System::Object ^ Sh);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Sh" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Sh">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookOpen">
+      <MemberSignature Language="C#" Value="public void WorkbookOpen (Microsoft.Office.Interop.Excel.Workbook Wb);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookOpen([in]class Microsoft.Office.Interop.Excel.Workbook Wb) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookOpen(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookOpen (Wb As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookOpen(Microsoft::Office::Interop::Excel::Workbook ^ Wb);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookPivotTableCloseConnection">
+      <MemberSignature Language="C#" Value="public void WorkbookPivotTableCloseConnection (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.PivotTable Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookPivotTableCloseConnection([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.PivotTable Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookPivotTableCloseConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookPivotTableCloseConnection (Wb As Workbook, Target As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookPivotTableCloseConnection(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::PivotTable ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookPivotTableOpenConnection">
+      <MemberSignature Language="C#" Value="public void WorkbookPivotTableOpenConnection (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Interop.Excel.PivotTable Target);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookPivotTableOpenConnection([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]class Microsoft.Office.Interop.Excel.PivotTable Target) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookPivotTableOpenConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookPivotTableOpenConnection (Wb As Workbook, Target As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookPivotTableOpenConnection(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Interop::Excel::PivotTable ^ Target);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Target">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookRowsetComplete">
+      <MemberSignature Language="C#" Value="public void WorkbookRowsetComplete (Microsoft.Office.Interop.Excel.Workbook Wb, string Description, string Sheet, bool Success);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookRowsetComplete([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]string Description, [in]string Sheet, [in]bool Success) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookRowsetComplete(Microsoft.Office.Interop.Excel.Workbook,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookRowsetComplete (Wb As Workbook, Description As String, Sheet As String, Success As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookRowsetComplete(Microsoft::Office::Interop::Excel::Workbook ^ Wb, System::String ^ Description, System::String ^ Sheet, bool Success);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="Description" Type="System.String" />
+        <Parameter Name="Sheet" Type="System.String" />
+        <Parameter Name="Success" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="Description">To be added.</param>
+        <param name="Sheet">To be added.</param>
+        <param name="Success">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookSync">
+      <MemberSignature Language="C#" Value="public void WorkbookSync (Microsoft.Office.Interop.Excel.Workbook Wb, Microsoft.Office.Core.MsoSyncEventType SyncEventType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WorkbookSync([in]class Microsoft.Office.Interop.Excel.Workbook Wb, [in]valuetype Microsoft.Office.Core.MsoSyncEventType SyncEventType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IAppEvents.WorkbookSync(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Core.MsoSyncEventType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WorkbookSync (Wb As Workbook, SyncEventType As MsoSyncEventType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WorkbookSync(Microsoft::Office::Interop::Excel::Workbook ^ Wb, Microsoft::Office::Core::MsoSyncEventType SyncEventType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="SyncEventType" Type="Microsoft.Office.Core.MsoSyncEventType" />
+      </Parameters>
+      <Docs>
+        <param name="Wb">To be added.</param>
+        <param name="SyncEventType">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

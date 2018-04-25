@@ -1,0 +1,36 @@
+﻿<Type Name="QueryTable" FullName="Microsoft.Office.Interop.Excel.QueryTable">
+  <TypeSignature Language="C#" Value="public interface QueryTable : Microsoft.Office.Interop.Excel._QueryTable, Microsoft.Office.Interop.Excel.RefreshEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract QueryTable implements class Microsoft.Office.Interop.Excel._QueryTable, class Microsoft.Office.Interop.Excel.RefreshEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.QueryTable" />
+  <TypeSignature Language="VB.NET" Value="Public Interface QueryTable&#xA;Implements _QueryTable, RefreshEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class QueryTable : Microsoft::Office::Interop::Excel::_QueryTable, Microsoft::Office::Interop::Excel::RefreshEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel._QueryTable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.RefreshEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Excel.QueryTableClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024428-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a worksheet table built from data returned from an external data source, such as a SQL server or a Microsoft Access database. The <b>QueryTable</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.QueryTables" /> collection. </summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Excel._QueryTable" />.</para>
+      <para>Use <b>QueryTables</b>(<paramref name="index" />), where <paramref name="index" /> is the index number of the query table, to return a single <b>QueryTable</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

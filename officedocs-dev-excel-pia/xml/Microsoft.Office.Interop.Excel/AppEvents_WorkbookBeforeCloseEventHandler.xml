@@ -1,0 +1,36 @@
+﻿<Type Name="AppEvents_WorkbookBeforeCloseEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeCloseEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WorkbookBeforeCloseEventHandler(Workbook Wb, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WorkbookBeforeCloseEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeCloseEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WorkbookBeforeCloseEventHandler(Wb As Workbook, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WorkbookBeforeCloseEventHandler(Workbook ^ Wb, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">The workbook that's being closed.</param>
+    <param name="Cancel">
+      <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the workbook doesn't close when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeClose" /> event. The <b>WorkbookBeforeClose</b> event occurs immediately before any open workbook closes.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
