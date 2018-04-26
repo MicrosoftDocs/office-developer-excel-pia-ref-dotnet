@@ -9992,6 +9992,12 @@
 &lt;i&gt;Reset&lt;/i&gt;
 &lt;span class="label"&gt;Else         MsgBox "Cannot reset routing; not yet complete"     End If End With&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example resets the routing slip for Book1.xls if routing has been completed.</para>
+          <code>&lt;span class="label"&gt;With Workbooks("BOOK1.XLS").RoutingSlip     If .Status = xlRoutingComplete Then         .&lt;/span&gt;
+&lt;i&gt;Reset&lt;/i&gt;
+&lt;span class="label"&gt;Else         MsgBox "Cannot reset routing; not yet complete"     End If End With&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="RollZoom">
@@ -10221,6 +10227,15 @@
  method to specify a name for the file.</para>
           <para />
         </remarks>
+        <example>
+          <para>This example saves the active workbook.</para>
+          <code>&lt;span class="label"&gt;ActiveWorkbook.&lt;/span&gt;
+&lt;i&gt;Save&lt;/i&gt;</code>
+          <para>This example saves all open workbooks and then closes Microsoft Excel.</para>
+          <code>&lt;span class="label"&gt;For Each w In Application.Workbooks     w.&lt;/span&gt;
+&lt;i&gt;Save&lt;/i&gt;
+&lt;span class="label"&gt;Next w Application.Quit&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example saves the active workbook.</para>
           <code>&lt;span class="label"&gt;ActiveWorkbook.&lt;/span&gt;

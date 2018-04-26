@@ -1,0 +1,144 @@
+<Type Name="OutlookBarPaneEvents_SinkHelper" FullName="Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class OutlookBarPaneEvents_SinkHelper : Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OutlookBarPaneEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OutlookBarPaneEvents_SinkHelper&#xA;Implements OutlookBarPaneEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OutlookBarPaneEvents_SinkHelper sealed : Microsoft::Office::Interop::Outlook::OutlookBarPaneEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeGroupSwitch">
+      <MemberSignature Language="C#" Value="public override void BeforeGroupSwitch (Microsoft.Office.Interop.Outlook.OutlookBarGroup , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeGroupSwitch(class Microsoft.Office.Interop.Outlook.OutlookBarGroup , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper.BeforeGroupSwitch(Microsoft.Office.Interop.Outlook.OutlookBarGroup,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeGroupSwitch ( As OutlookBarGroup, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeGroupSwitch(Microsoft::Office::Interop::Outlook::OutlookBarGroup ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents.BeforeGroupSwitch(Microsoft.Office.Interop.Outlook.OutlookBarGroup,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.OutlookBarGroup" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeNavigate">
+      <MemberSignature Language="C#" Value="public override void BeforeNavigate (Microsoft.Office.Interop.Outlook.OutlookBarShortcut , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeNavigate(class Microsoft.Office.Interop.Outlook.OutlookBarShortcut , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper.BeforeNavigate(Microsoft.Office.Interop.Outlook.OutlookBarShortcut,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeNavigate ( As OutlookBarShortcut, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeNavigate(Microsoft::Office::Interop::Outlook::OutlookBarShortcut ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents.BeforeNavigate(Microsoft.Office.Interop.Outlook.OutlookBarShortcut,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.OutlookBarShortcut" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeGroupSwitchDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeGroupSwitchEventHandler m_BeforeGroupSwitchDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeGroupSwitchEventHandler m_BeforeGroupSwitchDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper.m_BeforeGroupSwitchDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeGroupSwitchDelegate As OutlookBarPaneEvents_BeforeGroupSwitchEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::OutlookBarPaneEvents_BeforeGroupSwitchEventHandler ^ m_BeforeGroupSwitchDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeGroupSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeNavigateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeNavigateEventHandler m_BeforeNavigateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeNavigateEventHandler m_BeforeNavigateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper.m_BeforeNavigateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeNavigateDelegate As OutlookBarPaneEvents_BeforeNavigateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::OutlookBarPaneEvents_BeforeNavigateEventHandler ^ m_BeforeNavigateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_BeforeNavigateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.OutlookBarPaneEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

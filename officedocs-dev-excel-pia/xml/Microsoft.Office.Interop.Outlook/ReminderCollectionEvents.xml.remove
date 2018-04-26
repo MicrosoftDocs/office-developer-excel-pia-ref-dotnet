@@ -1,0 +1,194 @@
+<Type Name="ReminderCollectionEvents" FullName="Microsoft.Office.Interop.Outlook.ReminderCollectionEvents">
+  <TypeSignature Language="C#" Value="public interface ReminderCollectionEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ReminderCollectionEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ReminderCollectionEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ReminderCollectionEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000630B2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeReminderShow">
+      <MemberSignature Language="C#" Value="public void BeforeReminderShow (out bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void BeforeReminderShow([out] bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.BeforeReminderShow(System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub BeforeReminderShow (ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void BeforeReminderShow([Runtime::InteropServices::Out] bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64147)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderAdd">
+      <MemberSignature Language="C#" Value="public void ReminderAdd (Microsoft.Office.Interop.Outlook.Reminder ReminderObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReminderAdd([in]class Microsoft.Office.Interop.Outlook.Reminder ReminderObject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.ReminderAdd(Microsoft.Office.Interop.Outlook.Reminder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReminderAdd (ReminderObject As Reminder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReminderAdd(Microsoft::Office::Interop::Outlook::Reminder ^ ReminderObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ReminderObject" Type="Microsoft.Office.Interop.Outlook.Reminder" />
+      </Parameters>
+      <Docs>
+        <param name="ReminderObject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderChange">
+      <MemberSignature Language="C#" Value="public void ReminderChange (Microsoft.Office.Interop.Outlook.Reminder ReminderObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReminderChange([in]class Microsoft.Office.Interop.Outlook.Reminder ReminderObject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.ReminderChange(Microsoft.Office.Interop.Outlook.Reminder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReminderChange (ReminderObject As Reminder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReminderChange(Microsoft::Office::Interop::Outlook::Reminder ^ ReminderObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ReminderObject" Type="Microsoft.Office.Interop.Outlook.Reminder" />
+      </Parameters>
+      <Docs>
+        <param name="ReminderObject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderFire">
+      <MemberSignature Language="C#" Value="public void ReminderFire (Microsoft.Office.Interop.Outlook.Reminder ReminderObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReminderFire([in]class Microsoft.Office.Interop.Outlook.Reminder ReminderObject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.ReminderFire(Microsoft.Office.Interop.Outlook.Reminder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReminderFire (ReminderObject As Reminder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReminderFire(Microsoft::Office::Interop::Outlook::Reminder ^ ReminderObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ReminderObject" Type="Microsoft.Office.Interop.Outlook.Reminder" />
+      </Parameters>
+      <Docs>
+        <param name="ReminderObject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReminderRemove">
+      <MemberSignature Language="C#" Value="public void ReminderRemove ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ReminderRemove() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.ReminderRemove" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReminderRemove ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReminderRemove();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64151)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Snooze">
+      <MemberSignature Language="C#" Value="public void Snooze (Microsoft.Office.Interop.Outlook.Reminder ReminderObject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Snooze([in]class Microsoft.Office.Interop.Outlook.Reminder ReminderObject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ReminderCollectionEvents.Snooze(Microsoft.Office.Interop.Outlook.Reminder)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Snooze (ReminderObject As Reminder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Snooze(Microsoft::Office::Interop::Outlook::Reminder ^ ReminderObject);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64152)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ReminderObject" Type="Microsoft.Office.Interop.Outlook.Reminder" />
+      </Parameters>
+      <Docs>
+        <param name="ReminderObject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

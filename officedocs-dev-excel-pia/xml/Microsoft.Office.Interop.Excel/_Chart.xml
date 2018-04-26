@@ -1998,6 +1998,60 @@ With myDocument.Shapes(1).Callout
 &lt;i&gt;Drop&lt;/i&gt;
 &lt;span class="label"&gt;&amp;lt; .Parent.Height / 2 Then             .PresetDrop msoCalloutDropTop         Else             .PresetDrop msoCalloutDropBottom         End If     End If End With&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example replaces the custom drop for shape one on myDocument with one of two preset drops, depending on whether the custom drop value is greater than or less than half the height of the callout text box. For the example to work, shape one must be a callout.</para>
+          <code>&lt;span class="label"&gt;Set myDocument = Worksheets(1)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+With myDocument.Shapes(1).Callout  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    If .DropType = msoCalloutDropCustom Then  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        If .&lt;/span&gt;
+&lt;i&gt;Drop&lt;/i&gt;
+&lt;span class="label"&gt;&amp;lt; .Parent.Height / 2 Then             .PresetDrop msoCalloutDropTop         Else             .PresetDrop msoCalloutDropBottom         End If     End If End With&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="Dummy24">
@@ -3221,6 +3275,16 @@ With myDocument.Shapes(1).Callout
           <para>Setting this property clears any range specified by the <see cref="P:Microsoft.Office.Interop.Excel.ControlFormat.ListFillRange" /> property.</para>
           <para />
         </remarks>
+        <example>
+          <para>This example sets the entries in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
+          <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;
+&lt;i&gt;List&lt;/i&gt;
+&lt;span class="label"&gt;= _     Array("cogs", "widgets", "sprockets", "gizmos")&lt;/span&gt;</code>
+          <para>This example sets entry four in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
+          <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;
+&lt;i&gt;List&lt;/i&gt;
+&lt;span class="label"&gt;(4) = "gadgets"&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example sets the entries in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
           <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;

@@ -896,6 +896,12 @@
 &lt;i&gt;Author&lt;/i&gt;
 &lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
+          <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;
+&lt;i&gt;Author&lt;/i&gt;
+&lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="AutoUpdateFrequency">
@@ -1604,6 +1610,12 @@
  collection that represents all the comments for the specified worksheet. Read-only.</summary>
         <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
+        <example>
+          <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
+          <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;
+&lt;i&gt;Author&lt;/i&gt;
+&lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
           <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;

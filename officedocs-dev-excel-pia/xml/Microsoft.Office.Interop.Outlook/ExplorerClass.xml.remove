@@ -1,0 +1,2121 @@
+<Type Name="ExplorerClass" FullName="Microsoft.Office.Interop.Outlook.ExplorerClass">
+  <TypeSignature Language="C#" Value="public class ExplorerClass : Microsoft.Office.Interop.Outlook.Explorer, Microsoft.Office.Interop.Outlook.ExplorerEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ExplorerClass extends System.Object implements class Microsoft.Office.Interop.Outlook._Explorer, class Microsoft.Office.Interop.Outlook.Explorer, class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event, class Microsoft.Office.Interop.Outlook.ExplorerEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.ExplorerClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExplorerClass&#xA;Implements Explorer, ExplorerEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExplorerClass : Microsoft::Office::Interop::Outlook::Explorer, Microsoft::Office::Interop::Outlook::ExplorerEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.Explorer</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.ExplorerEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Interop.Outlook.ExplorerEvents_10\0Microsoft.Office.Interop.Outlook.ExplorerEvents\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00063050-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccountSelector">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AccountSelector AccountSelector { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AccountSelector AccountSelector" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.AccountSelector" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AccountSelector As AccountSelector" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AccountSelector ^ AccountSelector { Microsoft::Office::Interop::Outlook::AccountSelector ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.AccountSelector</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64625)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64625)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AccountSelector</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Activate">
+      <MemberSignature Language="C#" Value="public virtual void Activate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Activate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Activate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Activate() = Microsoft::Office::Interop::Outlook::_Explorer::Activate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.Activate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8467)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveInlineResponse">
+      <MemberSignature Language="C#" Value="public virtual object ActiveInlineResponse { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ActiveInlineResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.ActiveInlineResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveInlineResponse As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ ActiveInlineResponse { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.ActiveInlineResponse</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64659)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64659)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveInlineResponseWordEditor">
+      <MemberSignature Language="C#" Value="public virtual object ActiveInlineResponseWordEditor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ActiveInlineResponseWordEditor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.ActiveInlineResponseWordEditor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveInlineResponseWordEditor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ ActiveInlineResponseWordEditor { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.ActiveInlineResponseWordEditor</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64660)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64660)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddToSelection">
+      <MemberSignature Language="C#" Value="public virtual void AddToSelection (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddToSelection([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.AddToSelection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub AddToSelection (Item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void AddToSelection(System::Object ^ Item) = Microsoft::Office::Interop::Outlook::_Explorer::AddToSelection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.AddToSelection(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64566)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Application" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Application ^ Application { Microsoft::Office::Interop::Outlook::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61440)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelection">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.AttachmentSelection AttachmentSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.AttachmentSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AttachmentSelection As AttachmentSelection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::AttachmentSelection ^ AttachmentSelection { Microsoft::Office::Interop::Outlook::AttachmentSelection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.AttachmentSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64632)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.AttachmentSelection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AttachmentSelectionChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler AttachmentSelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.AttachmentSelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event AttachmentSelectionChange As ExplorerEvents_10_AttachmentSelectionChangeEventHandler Implements AttachmentSelectionChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_AttachmentSelectionChangeEventHandler ^ AttachmentSelectionChange;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.AttachmentSelectionChange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_AttachmentSelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeFolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler BeforeFolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler BeforeFolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeFolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeFolderSwitch As ExplorerEvents_10_BeforeFolderSwitchEventHandler Implements BeforeFolderSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeFolderSwitchEventHandler ^ BeforeFolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeFolderSwitch</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeFolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemCopy">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler BeforeItemCopy;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler BeforeItemCopy" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeItemCopy" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeItemCopy As ExplorerEvents_10_BeforeItemCopyEventHandler Implements BeforeItemCopy" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemCopyEventHandler ^ BeforeItemCopy;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemCopy</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCopyEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemCut">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler BeforeItemCut;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler BeforeItemCut" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeItemCut" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeItemCut As ExplorerEvents_10_BeforeItemCutEventHandler Implements BeforeItemCut" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemCutEventHandler ^ BeforeItemCut;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemCut</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemCutEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeItemPaste">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler BeforeItemPaste;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler BeforeItemPaste" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeItemPaste" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeItemPaste As ExplorerEvents_10_BeforeItemPasteEventHandler Implements BeforeItemPaste" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeItemPasteEventHandler ^ BeforeItemPaste;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeItemPaste</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeItemPasteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMaximize">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler BeforeMaximize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler BeforeMaximize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeMaximize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeMaximize As ExplorerEvents_10_BeforeMaximizeEventHandler Implements BeforeMaximize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMaximizeEventHandler ^ BeforeMaximize;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMaximize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMaximizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMinimize">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler BeforeMinimize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler BeforeMinimize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeMinimize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeMinimize As ExplorerEvents_10_BeforeMinimizeEventHandler Implements BeforeMinimize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMinimizeEventHandler ^ BeforeMinimize;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMinimize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMinimizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeMove">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler BeforeMove;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler BeforeMove" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeMove" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeMove As ExplorerEvents_10_BeforeMoveEventHandler Implements BeforeMove" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeMoveEventHandler ^ BeforeMove;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeMove</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeMoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeSize">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler BeforeSize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler BeforeSize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeSize" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeSize As ExplorerEvents_10_BeforeSizeEventHandler Implements BeforeSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeSizeEventHandler ^ BeforeSize;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeSize</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeSizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler BeforeViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler BeforeViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.BeforeViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event BeforeViewSwitch As ExplorerEvents_10_BeforeViewSwitchEventHandler Implements BeforeViewSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_BeforeViewSwitchEventHandler ^ BeforeViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.BeforeViewSwitch</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_BeforeViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public virtual string Caption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Caption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Caption</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8465)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Class">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlObjectClass Class { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlObjectClass Class" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Class" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Class As OlObjectClass" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlObjectClass Class { Microsoft::Office::Interop::Outlook::OlObjectClass get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Class</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61450)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlObjectClass</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearSearch">
+      <MemberSignature Language="C#" Value="public virtual void ClearSearch ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearSearch() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ClearSearch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ClearSearch ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ClearSearch() = Microsoft::Office::Interop::Outlook::_Explorer::ClearSearch;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.ClearSearch</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64461)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearSelection">
+      <MemberSignature Language="C#" Value="public virtual void ClearSelection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearSelection() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ClearSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ClearSelection ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ClearSelection() = Microsoft::Office::Interop::Outlook::_Explorer::ClearSelection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.ClearSelection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64569)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public virtual void Close ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.Close" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Close ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Close() = Microsoft::Office::Interop::Outlook::_Explorer::Close;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.Close</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommandBars">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Core.CommandBars CommandBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.CommandBars CommandBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.CommandBars" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CommandBars As CommandBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Core::CommandBars ^ CommandBars { Microsoft::Office::Core::CommandBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.CommandBars</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8448)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.CommandBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentFolder">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.MAPIFolder CurrentFolder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.MAPIFolder CurrentFolder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.CurrentFolder" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property CurrentFolder As MAPIFolder" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::MAPIFolder ^ CurrentFolder { Microsoft::Office::Interop::Outlook::MAPIFolder ^ get(); void set(Microsoft::Office::Interop::Outlook::MAPIFolder ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.CurrentFolder</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8449)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.MAPIFolder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentView">
+      <MemberSignature Language="C#" Value="public virtual object CurrentView { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentView" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.CurrentView" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property CurrentView As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ CurrentView { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.CurrentView</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8704)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Deactivate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event Deactivate As ExplorerEvents_10_DeactivateEventHandler Implements Deactivate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_DeactivateEventHandler ^ Deactivate;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Deactivate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeselectFolder">
+      <MemberSignature Language="C#" Value="public virtual void DeselectFolder (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeselectFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.DeselectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub DeselectFolder (Folder As MAPIFolder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DeselectFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder) = Microsoft::Office::Interop::Outlook::_Explorer::DeselectFolder;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.DeselectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64178)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Display">
+      <MemberSignature Language="C#" Value="public virtual void Display ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Display() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.Display" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Display ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Display() = Microsoft::Office::Interop::Outlook::_Explorer::Display;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.Display</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8452)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_10_Event_Activate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler ExplorerEvents_10_Event_Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler ExplorerEvents_10_Event_Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_10_Event_Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_10_Event_Activate As ExplorerEvents_10_ActivateEventHandler Implements ExplorerEvents_10_Event_Activate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_ActivateEventHandler ^ ExplorerEvents_10_Event_Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_10_Event_Close">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler ExplorerEvents_10_Event_Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler ExplorerEvents_10_Event_Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_10_Event_Close" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_10_Event_Close As ExplorerEvents_10_CloseEventHandler Implements ExplorerEvents_10_Event_Close" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_CloseEventHandler ^ ExplorerEvents_10_Event_Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_Activate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler ExplorerEvents_Event_Activate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler ExplorerEvents_Event_Activate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_Activate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_Activate As ExplorerEvents_ActivateEventHandler Implements ExplorerEvents_Event_Activate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_ActivateEventHandler ^ ExplorerEvents_Event_Activate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_Activate">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_Activate (Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_Activate(class Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_Activate(Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_Activate ( As ExplorerEvents_ActivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_Activate(Microsoft::Office::Interop::Outlook::ExplorerEvents_ActivateEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_Activate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_BeforeFolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_BeforeFolderSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_BeforeFolderSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_BeforeFolderSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_BeforeFolderSwitch ( As ExplorerEvents_BeforeFolderSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_BeforeFolderSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeFolderSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_BeforeFolderSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_BeforeViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_BeforeViewSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_BeforeViewSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_BeforeViewSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_BeforeViewSwitch ( As ExplorerEvents_BeforeViewSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_BeforeViewSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeViewSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_BeforeViewSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_Close">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_Close (Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_Close(class Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_Close(Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_Close ( As ExplorerEvents_CloseEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_Close(Microsoft::Office::Interop::Outlook::ExplorerEvents_CloseEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_Close;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_Deactivate">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_Deactivate (Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_Deactivate(class Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_Deactivate(Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_Deactivate ( As ExplorerEvents_DeactivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_Deactivate(Microsoft::Office::Interop::Outlook::ExplorerEvents_DeactivateEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_Deactivate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_FolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_FolderSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_FolderSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_FolderSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_FolderSwitch ( As ExplorerEvents_FolderSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_FolderSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_FolderSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_FolderSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_SelectionChange">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_SelectionChange (Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_SelectionChange(class Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_SelectionChange(Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_SelectionChange ( As ExplorerEvents_SelectionChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_SelectionChange(Microsoft::Office::Interop::Outlook::ExplorerEvents_SelectionChangeEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_SelectionChange;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_add_ViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_add_ViewSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_add_ViewSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_add_ViewSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_add_ViewSwitch ( As ExplorerEvents_ViewSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_add_ViewSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_ViewSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::add_ViewSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_BeforeFolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler ExplorerEvents_Event_BeforeFolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler ExplorerEvents_Event_BeforeFolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_BeforeFolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_BeforeFolderSwitch As ExplorerEvents_BeforeFolderSwitchEventHandler Implements ExplorerEvents_Event_BeforeFolderSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeFolderSwitchEventHandler ^ ExplorerEvents_Event_BeforeFolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_BeforeViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler ExplorerEvents_Event_BeforeViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler ExplorerEvents_Event_BeforeViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_BeforeViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_BeforeViewSwitch As ExplorerEvents_BeforeViewSwitchEventHandler Implements ExplorerEvents_Event_BeforeViewSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeViewSwitchEventHandler ^ ExplorerEvents_Event_BeforeViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_Close">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler ExplorerEvents_Event_Close;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler ExplorerEvents_Event_Close" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_Close" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_Close As ExplorerEvents_CloseEventHandler Implements ExplorerEvents_Event_Close" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_CloseEventHandler ^ ExplorerEvents_Event_Close;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_Deactivate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler ExplorerEvents_Event_Deactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler ExplorerEvents_Event_Deactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_Deactivate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_Deactivate As ExplorerEvents_DeactivateEventHandler Implements ExplorerEvents_Event_Deactivate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_DeactivateEventHandler ^ ExplorerEvents_Event_Deactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_FolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler ExplorerEvents_Event_FolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler ExplorerEvents_Event_FolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_FolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_FolderSwitch As ExplorerEvents_FolderSwitchEventHandler Implements ExplorerEvents_Event_FolderSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_FolderSwitchEventHandler ^ ExplorerEvents_Event_FolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_Activate">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_Activate (Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_Activate(class Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_Activate(Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_Activate ( As ExplorerEvents_ActivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_Activate(Microsoft::Office::Interop::Outlook::ExplorerEvents_ActivateEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_Activate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_ActivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_BeforeFolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_BeforeFolderSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_BeforeFolderSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_BeforeFolderSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_BeforeFolderSwitch ( As ExplorerEvents_BeforeFolderSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_BeforeFolderSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeFolderSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_BeforeFolderSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeFolderSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_BeforeViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_BeforeViewSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_BeforeViewSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_BeforeViewSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_BeforeViewSwitch ( As ExplorerEvents_BeforeViewSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_BeforeViewSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_BeforeViewSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_BeforeViewSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_BeforeViewSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_Close">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_Close (Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_Close(class Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_Close(Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_Close ( As ExplorerEvents_CloseEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_Close(Microsoft::Office::Interop::Outlook::ExplorerEvents_CloseEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_Close;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_CloseEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_Deactivate">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_Deactivate (Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_Deactivate(class Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_Deactivate(Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_Deactivate ( As ExplorerEvents_DeactivateEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_Deactivate(Microsoft::Office::Interop::Outlook::ExplorerEvents_DeactivateEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_Deactivate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_DeactivateEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_FolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_FolderSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_FolderSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_FolderSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_FolderSwitch ( As ExplorerEvents_FolderSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_FolderSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_FolderSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_FolderSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_FolderSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_SelectionChange">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_SelectionChange (Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_SelectionChange(class Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_SelectionChange(Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_SelectionChange ( As ExplorerEvents_SelectionChangeEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_SelectionChange(Microsoft::Office::Interop::Outlook::ExplorerEvents_SelectionChangeEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_SelectionChange;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_remove_ViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual void ExplorerEvents_Event_remove_ViewSwitch (Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler );" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExplorerEvents_Event_remove_ViewSwitch(class Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler ) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_remove_ViewSwitch(Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExplorerEvents_Event_remove_ViewSwitch ( As ExplorerEvents_ViewSwitchEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExplorerEvents_Event_remove_ViewSwitch(Microsoft::Office::Interop::Outlook::ExplorerEvents_ViewSwitchEventHandler ^ ) = Microsoft::Office::Interop::Outlook::ExplorerEvents_Event::remove_ViewSwitch;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_SelectionChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler ExplorerEvents_Event_SelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler ExplorerEvents_Event_SelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_SelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_SelectionChange As ExplorerEvents_SelectionChangeEventHandler Implements ExplorerEvents_Event_SelectionChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_SelectionChangeEventHandler ^ ExplorerEvents_Event_SelectionChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_SelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExplorerEvents_Event_ViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler ExplorerEvents_Event_ViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler ExplorerEvents_Event_ViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ExplorerEvents_Event_ViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ExplorerEvents_Event_ViewSwitch As ExplorerEvents_ViewSwitchEventHandler Implements ExplorerEvents_Event_ViewSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_ViewSwitchEventHandler ^ ExplorerEvents_Event_ViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_ViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler FolderSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler FolderSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.FolderSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event FolderSwitch As ExplorerEvents_10_FolderSwitchEventHandler Implements FolderSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_FolderSwitchEventHandler ^ FolderSwitch;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.FolderSwitch</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_FolderSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Height">
+      <MemberSignature Language="C#" Value="public virtual int Height { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Height" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Height" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Height As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Height { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Height</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8468)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLDocument">
+      <MemberSignature Language="C#" Value="public virtual object HTMLDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HTMLDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.HTMLDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HTMLDocument As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ HTMLDocument { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.HTMLDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64146)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineResponse">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler InlineResponse;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler InlineResponse" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.InlineResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event InlineResponse As ExplorerEvents_10_InlineResponseEventHandler Implements InlineResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_InlineResponseEventHandler ^ InlineResponse;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.InlineResponse</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InlineResponseClose">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler InlineResponseClose;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler InlineResponseClose" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.InlineResponseClose" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event InlineResponseClose As ExplorerEvents_10_InlineResponseCloseEventHandler Implements InlineResponseClose" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_InlineResponseCloseEventHandler ^ InlineResponseClose;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.InlineResponseClose</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_InlineResponseCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderSelected">
+      <MemberSignature Language="C#" Value="public virtual bool IsFolderSelected (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsFolderSelected([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.IsFolderSelected(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsFolderSelected (Folder As MAPIFolder) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsFolderSelected(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder) = Microsoft::Office::Interop::Outlook::_Explorer::IsFolderSelected;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.IsFolderSelected(Microsoft.Office.Interop.Outlook.MAPIFolder)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64179)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsItemSelectableInView">
+      <MemberSignature Language="C#" Value="public virtual bool IsItemSelectableInView (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsItemSelectableInView([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.IsItemSelectableInView(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsItemSelectableInView (Item As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsItemSelectableInView(System::Object ^ Item) = Microsoft::Office::Interop::Outlook::_Explorer::IsItemSelectableInView;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.IsItemSelectableInView(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64565)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPaneVisible">
+      <MemberSignature Language="C#" Value="public virtual bool IsPaneVisible (Microsoft.Office.Interop.Outlook.OlPane Pane);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsPaneVisible([in]valuetype Microsoft.Office.Interop.Outlook.OlPane Pane) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsPaneVisible (Pane As OlPane) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsPaneVisible(Microsoft::Office::Interop::Outlook::OlPane Pane) = Microsoft::Office::Interop::Outlook::_Explorer::IsPaneVisible;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.IsPaneVisible(Microsoft.Office.Interop.Outlook.OlPane)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8707)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
+      </Parameters>
+      <Docs>
+        <param name="Pane">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="public virtual int Left { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Left" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Left" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Left As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Left { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Left</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8469)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NavigationPane">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NavigationPane NavigationPane { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NavigationPane NavigationPane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.NavigationPane" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property NavigationPane As NavigationPane" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NavigationPane ^ NavigationPane { Microsoft::Office::Interop::Outlook::NavigationPane ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.NavigationPane</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64435)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(64435)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NavigationPane</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Panes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Panes Panes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Panes Panes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Panes" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Panes As Panes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Panes ^ Panes { Microsoft::Office::Interop::Outlook::Panes ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Panes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8705)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8705)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Panes</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public virtual object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Parent</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61441)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveFromSelection">
+      <MemberSignature Language="C#" Value="public virtual void RemoveFromSelection (object Item);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveFromSelection([in]object Item) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.RemoveFromSelection(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub RemoveFromSelection (Item As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void RemoveFromSelection(System::Object ^ Item) = Microsoft::Office::Interop::Outlook::_Explorer::RemoveFromSelection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.RemoveFromSelection(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64567)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Search">
+      <MemberSignature Language="C#" Value="public virtual void Search (string Query, Microsoft.Office.Interop.Outlook.OlSearchScope SearchScope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Search([in]string Query, [in]valuetype Microsoft.Office.Interop.Outlook.OlSearchScope SearchScope) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.Search(System.String,Microsoft.Office.Interop.Outlook.OlSearchScope)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Search (Query As String, SearchScope As OlSearchScope)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Search(System::String ^ Query, Microsoft::Office::Interop::Outlook::OlSearchScope SearchScope) = Microsoft::Office::Interop::Outlook::_Explorer::Search;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.Search(System.String,Microsoft.Office.Interop.Outlook.OlSearchScope)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Query" Type="System.String" />
+        <Parameter Name="SearchScope" Type="Microsoft.Office.Interop.Outlook.OlSearchScope" />
+      </Parameters>
+      <Docs>
+        <param name="Query">To be added.</param>
+        <param name="SearchScope">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAllItems">
+      <MemberSignature Language="C#" Value="public virtual void SelectAllItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectAllItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.SelectAllItems" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SelectAllItems ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SelectAllItems() = Microsoft::Office::Interop::Outlook::_Explorer::SelectAllItems;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.SelectAllItems</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64568)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectFolder">
+      <MemberSignature Language="C#" Value="public virtual void SelectFolder (Microsoft.Office.Interop.Outlook.MAPIFolder Folder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectFolder([in]class Microsoft.Office.Interop.Outlook.MAPIFolder Folder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.SelectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SelectFolder (Folder As MAPIFolder)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SelectFolder(Microsoft::Office::Interop::Outlook::MAPIFolder ^ Folder) = Microsoft::Office::Interop::Outlook::_Explorer::SelectFolder;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.SelectFolder(Microsoft.Office.Interop.Outlook.MAPIFolder)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(64177)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Folder" Type="Microsoft.Office.Interop.Outlook.MAPIFolder" />
+      </Parameters>
+      <Docs>
+        <param name="Folder">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Selection">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.Selection Selection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.Selection Selection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Selection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Selection As Selection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::Selection ^ Selection { Microsoft::Office::Interop::Outlook::Selection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Selection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8706)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8706)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.Selection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler SelectionChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler SelectionChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.SelectionChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event SelectionChange As ExplorerEvents_10_SelectionChangeEventHandler Implements SelectionChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_SelectionChangeEventHandler ^ SelectionChange;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.SelectionChange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_SelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Session">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.NameSpace Session { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Outlook.NameSpace Session" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Session" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Session As NameSpace" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::NameSpace ^ Session { Microsoft::Office::Interop::Outlook::NameSpace ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Session</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(61451)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.NameSpace</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPane">
+      <MemberSignature Language="C#" Value="public virtual void ShowPane (Microsoft.Office.Interop.Outlook.OlPane Pane, bool Visible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowPane([in]valuetype Microsoft.Office.Interop.Outlook.OlPane Pane, [in]bool Visible) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.ExplorerClass.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ShowPane (Pane As OlPane, Visible As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ShowPane(Microsoft::Office::Interop::Outlook::OlPane Pane, bool Visible) = Microsoft::Office::Interop::Outlook::_Explorer::ShowPane;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook._Explorer.ShowPane(Microsoft.Office.Interop.Outlook.OlPane,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8708)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pane" Type="Microsoft.Office.Interop.Outlook.OlPane" />
+        <Parameter Name="Visible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Pane">To be added.</param>
+        <param name="Visible">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Top">
+      <MemberSignature Language="C#" Value="public virtual int Top { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Top" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Top" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Top As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Top { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Top</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8470)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Views">
+      <MemberSignature Language="C#" Value="public virtual object Views { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Views" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Views" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Views As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Views { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Views</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12553)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(12553)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewSwitch">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler ViewSwitch;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler ViewSwitch" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.Outlook.ExplorerClass.ViewSwitch" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event ViewSwitch As ExplorerEvents_10_ViewSwitchEventHandler Implements ViewSwitch" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::Outlook::ExplorerEvents_10_ViewSwitchEventHandler ^ ViewSwitch;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.ViewSwitch</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.ExplorerEvents_10_ViewSwitchEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Width">
+      <MemberSignature Language="C#" Value="public virtual int Width { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Width" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.Width" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Width As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Width { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.Width</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8471)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.Outlook.OlWindowState WindowState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Outlook.OlWindowState WindowState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Outlook.ExplorerClass.WindowState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property WindowState As OlWindowState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::Outlook::OlWindowState WindowState { Microsoft::Office::Interop::Outlook::OlWindowState get(); void set(Microsoft::Office::Interop::Outlook::OlWindowState value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.Outlook._Explorer.WindowState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(8466)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.OlWindowState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

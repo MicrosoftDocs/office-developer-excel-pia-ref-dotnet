@@ -1,0 +1,731 @@
+<Type Name="ApplicationEvents3" FullName="Microsoft.Office.Interop.Word.ApplicationEvents3">
+  <TypeSignature Language="C#" Value="public interface ApplicationEvents3" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ApplicationEvents3" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Word.ApplicationEvents3" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ApplicationEvents3" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ApplicationEvents3" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020A00-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DocumentBeforeClose">
+      <MemberSignature Language="C#" Value="public void DocumentBeforeClose (Microsoft.Office.Interop.Word.Document Doc, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DocumentBeforeClose([in]class Microsoft.Office.Interop.Word.Document Doc, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.DocumentBeforeClose(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforeClose (Doc As Document, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforeClose(Microsoft::Office::Interop::Word::Document ^ Doc, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentBeforePrint">
+      <MemberSignature Language="C#" Value="public void DocumentBeforePrint (Microsoft.Office.Interop.Word.Document Doc, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DocumentBeforePrint([in]class Microsoft.Office.Interop.Word.Document Doc, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.DocumentBeforePrint(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforePrint (Doc As Document, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforePrint(Microsoft::Office::Interop::Word::Document ^ Doc, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentBeforeSave">
+      <MemberSignature Language="C#" Value="public void DocumentBeforeSave (Microsoft.Office.Interop.Word.Document Doc, ref bool SaveAsUI, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DocumentBeforeSave([in]class Microsoft.Office.Interop.Word.Document Doc, [in]bool&amp; SaveAsUI, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.DocumentBeforeSave(Microsoft.Office.Interop.Word.Document,System.Boolean@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DocumentBeforeSave (Doc As Document, ByRef SaveAsUI As Boolean, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentBeforeSave(Microsoft::Office::Interop::Word::Document ^ Doc, bool % SaveAsUI, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="SaveAsUI" Type="System.Boolean&amp;" RefType="ref" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="SaveAsUI">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentChange">
+      <MemberSignature Language="C#" Value="public void DocumentChange ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DocumentChange() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.DocumentChange" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DocumentChange ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentChange();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentOpen">
+      <MemberSignature Language="C#" Value="public void DocumentOpen (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DocumentOpen([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.DocumentOpen(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DocumentOpen (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DocumentOpen(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EPostageInsert">
+      <MemberSignature Language="C#" Value="public void EPostageInsert (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EPostageInsert([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.EPostageInsert(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EPostageInsert (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EPostageInsert(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EPostagePropertyDialog">
+      <MemberSignature Language="C#" Value="public void EPostagePropertyDialog (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EPostagePropertyDialog([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.EPostagePropertyDialog(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub EPostagePropertyDialog (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void EPostagePropertyDialog(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeAfterMerge">
+      <MemberSignature Language="C#" Value="public void MailMergeAfterMerge (Microsoft.Office.Interop.Word.Document Doc, Microsoft.Office.Interop.Word.Document DocResult);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeAfterMerge([in]class Microsoft.Office.Interop.Word.Document Doc, [in]class Microsoft.Office.Interop.Word.Document DocResult) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeAfterMerge(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeAfterMerge (Doc As Document, DocResult As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeAfterMerge(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Document ^ DocResult);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="DocResult" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="DocResult">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeAfterRecordMerge">
+      <MemberSignature Language="C#" Value="public void MailMergeAfterRecordMerge (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeAfterRecordMerge([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeAfterRecordMerge(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeAfterRecordMerge (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeAfterRecordMerge(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeBeforeMerge">
+      <MemberSignature Language="C#" Value="public void MailMergeBeforeMerge (Microsoft.Office.Interop.Word.Document Doc, int StartRecord, int EndRecord, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeBeforeMerge([in]class Microsoft.Office.Interop.Word.Document Doc, [in]int32 StartRecord, [in]int32 EndRecord, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeBeforeMerge(Microsoft.Office.Interop.Word.Document,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeBeforeMerge (Doc As Document, StartRecord As Integer, EndRecord As Integer, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeBeforeMerge(Microsoft::Office::Interop::Word::Document ^ Doc, int StartRecord, int EndRecord, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(19)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="StartRecord" Type="System.Int32" />
+        <Parameter Name="EndRecord" Type="System.Int32" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="StartRecord">To be added.</param>
+        <param name="EndRecord">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeBeforeRecordMerge">
+      <MemberSignature Language="C#" Value="public void MailMergeBeforeRecordMerge (Microsoft.Office.Interop.Word.Document Doc, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeBeforeRecordMerge([in]class Microsoft.Office.Interop.Word.Document Doc, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeBeforeRecordMerge(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeBeforeRecordMerge (Doc As Document, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeBeforeRecordMerge(Microsoft::Office::Interop::Word::Document ^ Doc, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(20)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeDataSourceLoad">
+      <MemberSignature Language="C#" Value="public void MailMergeDataSourceLoad (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeDataSourceLoad([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeDataSourceLoad(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeDataSourceLoad (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeDataSourceLoad(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(21)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeDataSourceValidate">
+      <MemberSignature Language="C#" Value="public void MailMergeDataSourceValidate (Microsoft.Office.Interop.Word.Document Doc, ref bool Handled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeDataSourceValidate([in]class Microsoft.Office.Interop.Word.Document Doc, [in]bool&amp; Handled) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeDataSourceValidate(Microsoft.Office.Interop.Word.Document,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeDataSourceValidate (Doc As Document, ByRef Handled As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeDataSourceValidate(Microsoft::Office::Interop::Word::Document ^ Doc, bool % Handled);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(22)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Handled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeWizardSendToCustom">
+      <MemberSignature Language="C#" Value="public void MailMergeWizardSendToCustom (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeWizardSendToCustom([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeWizardSendToCustom(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeWizardSendToCustom (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeWizardSendToCustom(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(23)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailMergeWizardStateChange">
+      <MemberSignature Language="C#" Value="public void MailMergeWizardStateChange (Microsoft.Office.Interop.Word.Document Doc, ref int FromState, ref int ToState, ref bool Handled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void MailMergeWizardStateChange([in]class Microsoft.Office.Interop.Word.Document Doc, [in]int32&amp; FromState, [in]int32&amp; ToState, [in]bool&amp; Handled) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.MailMergeWizardStateChange(Microsoft.Office.Interop.Word.Document,System.Int32@,System.Int32@,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub MailMergeWizardStateChange (Doc As Document, ByRef FromState As Integer, ByRef ToState As Integer, ByRef Handled As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void MailMergeWizardStateChange(Microsoft::Office::Interop::Word::Document ^ Doc, int % FromState, int % ToState, bool % Handled);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(24)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="FromState" Type="System.Int32&amp;" RefType="ref" />
+        <Parameter Name="ToState" Type="System.Int32&amp;" RefType="ref" />
+        <Parameter Name="Handled" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="FromState">To be added.</param>
+        <param name="ToState">To be added.</param>
+        <param name="Handled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewDocument">
+      <MemberSignature Language="C#" Value="public void NewDocument (Microsoft.Office.Interop.Word.Document Doc);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewDocument([in]class Microsoft.Office.Interop.Word.Document Doc) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.NewDocument(Microsoft.Office.Interop.Word.Document)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewDocument (Doc As Document)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewDocument(Microsoft::Office::Interop::Word::Document ^ Doc);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="public void Quit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Quit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.Quit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Startup">
+      <MemberSignature Language="C#" Value="public void Startup ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Startup() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.Startup" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Startup ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Startup();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(65)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowActivate">
+      <MemberSignature Language="C#" Value="public void WindowActivate (Microsoft.Office.Interop.Word.Document Doc, Microsoft.Office.Interop.Word.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowActivate([in]class Microsoft.Office.Interop.Word.Document Doc, [in]class Microsoft.Office.Interop.Word.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowActivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowActivate (Doc As Document, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowActivate(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Word.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowBeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public void WindowBeforeDoubleClick (Microsoft.Office.Interop.Word.Selection Sel, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowBeforeDoubleClick([in]class Microsoft.Office.Interop.Word.Selection Sel, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowBeforeDoubleClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowBeforeDoubleClick (Sel As Selection, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowBeforeDoubleClick(Microsoft::Office::Interop::Word::Selection ^ Sel, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Sel">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowBeforeRightClick">
+      <MemberSignature Language="C#" Value="public void WindowBeforeRightClick (Microsoft.Office.Interop.Word.Selection Sel, ref bool Cancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowBeforeRightClick([in]class Microsoft.Office.Interop.Word.Selection Sel, [in]bool&amp; Cancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowBeforeRightClick(Microsoft.Office.Interop.Word.Selection,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowBeforeRightClick (Sel As Selection, ByRef Cancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowBeforeRightClick(Microsoft::Office::Interop::Word::Selection ^ Sel, bool % Cancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
+        <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="Sel">To be added.</param>
+        <param name="Cancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowDeactivate">
+      <MemberSignature Language="C#" Value="public void WindowDeactivate (Microsoft.Office.Interop.Word.Document Doc, Microsoft.Office.Interop.Word.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowDeactivate([in]class Microsoft.Office.Interop.Word.Document Doc, [in]class Microsoft.Office.Interop.Word.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowDeactivate(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowDeactivate (Doc As Document, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowDeactivate(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Word.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowSelectionChange">
+      <MemberSignature Language="C#" Value="public void WindowSelectionChange (Microsoft.Office.Interop.Word.Selection Sel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowSelectionChange([in]class Microsoft.Office.Interop.Word.Selection Sel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowSelectionChange(Microsoft.Office.Interop.Word.Selection)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowSelectionChange (Sel As Selection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowSelectionChange(Microsoft::Office::Interop::Word::Selection ^ Sel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Sel" Type="Microsoft.Office.Interop.Word.Selection" />
+      </Parameters>
+      <Docs>
+        <param name="Sel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowSize">
+      <MemberSignature Language="C#" Value="public void WindowSize (Microsoft.Office.Interop.Word.Document Doc, Microsoft.Office.Interop.Word.Window Wn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowSize([in]class Microsoft.Office.Interop.Word.Document Doc, [in]class Microsoft.Office.Interop.Word.Window Wn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Word.ApplicationEvents3.WindowSize(Microsoft.Office.Interop.Word.Document,Microsoft.Office.Interop.Word.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowSize (Doc As Document, Wn As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowSize(Microsoft::Office::Interop::Word::Document ^ Doc, Microsoft::Office::Interop::Word::Window ^ Wn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Word</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(25)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Doc" Type="Microsoft.Office.Interop.Word.Document" />
+        <Parameter Name="Wn" Type="Microsoft.Office.Interop.Word.Window" />
+      </Parameters>
+      <Docs>
+        <param name="Doc">To be added.</param>
+        <param name="Wn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

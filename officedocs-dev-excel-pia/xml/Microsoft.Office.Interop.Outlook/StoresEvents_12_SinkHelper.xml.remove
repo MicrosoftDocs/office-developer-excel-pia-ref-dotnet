@@ -1,0 +1,143 @@
+<Type Name="StoresEvents_12_SinkHelper" FullName="Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class StoresEvents_12_SinkHelper : Microsoft.Office.Interop.Outlook.StoresEvents_12" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed StoresEvents_12_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Outlook.StoresEvents_12" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class StoresEvents_12_SinkHelper&#xA;Implements StoresEvents_12" />
+  <TypeSignature Language="C++ CLI" Value="public ref class StoresEvents_12_SinkHelper sealed : Microsoft::Office::Interop::Outlook::StoresEvents_12" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Outlook.StoresEvents_12</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BeforeStoreRemove">
+      <MemberSignature Language="C#" Value="public override void BeforeStoreRemove (Microsoft.Office.Interop.Outlook.Store , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeStoreRemove(class Microsoft.Office.Interop.Outlook.Store , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper.BeforeStoreRemove(Microsoft.Office.Interop.Outlook.Store,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeStoreRemove ( As Store, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeStoreRemove(Microsoft::Office::Interop::Outlook::Store ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.StoresEvents_12.BeforeStoreRemove(Microsoft.Office.Interop.Outlook.Store,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.Store" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeStoreRemoveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler m_BeforeStoreRemoveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler m_BeforeStoreRemoveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper.m_BeforeStoreRemoveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeStoreRemoveDelegate As StoresEvents_12_BeforeStoreRemoveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::StoresEvents_12_BeforeStoreRemoveEventHandler ^ m_BeforeStoreRemoveDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_BeforeStoreRemoveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_StoreAddDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler m_StoreAddDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler m_StoreAddDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper.m_StoreAddDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_StoreAddDelegate As StoresEvents_12_StoreAddEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Outlook::StoresEvents_12_StoreAddEventHandler ^ m_StoreAddDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Outlook.StoresEvents_12_StoreAddEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StoreAdd">
+      <MemberSignature Language="C#" Value="public override void StoreAdd (Microsoft.Office.Interop.Outlook.Store );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void StoreAdd(class Microsoft.Office.Interop.Outlook.Store ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Outlook.StoresEvents_12_SinkHelper.StoreAdd(Microsoft.Office.Interop.Outlook.Store)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub StoreAdd ( As Store)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void StoreAdd(Microsoft::Office::Interop::Outlook::Store ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Outlook.StoresEvents_12.StoreAdd(Microsoft.Office.Interop.Outlook.Store)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Outlook.Store" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,51 @@
+<Type Name="OlkComboBoxEvents_MouseDownEventHandler" FullName="Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseDownEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void OlkComboBoxEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed OlkComboBoxEvents_MouseDownEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Outlook.OlkComboBoxEvents_MouseDownEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub OlkComboBoxEvents_MouseDownEventHandler(Button As OlMouseButton, Shift As OlShiftState, X As Single, Y As Single)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void OlkComboBoxEvents_MouseDownEventHandler(OlMouseButton Button, OlShiftState Shift, float X, float Y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Outlook</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="Microsoft.Office.Interop.Outlook.OlMouseButton" />
+    <Parameter Name="Shift" Type="Microsoft.Office.Interop.Outlook.OlShiftState" />
+    <Parameter Name="X" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_XPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+    <Parameter Name="Y" Type="System.Single">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComAliasName("stdole.OLE_YPOS_CONTAINER")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Parameter>
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">To be added.</param>
+    <param name="Shift">To be added.</param>
+    <param name="X">To be added.</param>
+    <param name="Y">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>
