@@ -27,22 +27,22 @@
       <para>This section describes how to:</para>
       <list type="bullet">
         <item>
-          <para>Return an existing shape.</para>
+          <description>Return an existing shape.</description>
         </item>
         <item>
-          <para>Return a shape within the selection.</para>
+          <description>Return a shape within the selection.</description>
         </item>
         <item>
-          <para>Return the shapes attached to the ends of a connector.</para>
+          <description>Return the shapes attached to the ends of a connector.</description>
         </item>
         <item>
-          <para>Return a newly created freeform.</para>
+          <description>Return a newly created freeform.</description>
         </item>
         <item>
-          <para>Return a single shape from within a group.</para>
+          <description>Return a single shape from within a group.</description>
         </item>
         <item>
-          <para>Return a newly formed group of shapes.</para>
+          <description>Return a newly formed group of shapes.</description>
         </item>
       </list>
       <para>Returning an Existing Shape</para>
@@ -1584,46 +1584,46 @@
           <para>The following table shows example values of the <b>Name</b> property and related properties given an OLAP data source with the unique name "[Europe].[France].[Paris]" and a non-OLAP data source with the item name "Paris".</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>Caption</b>
-              </para>
-              <para>Paris</para>
-              <para>Paris</para>
+              </term>
+              <description>Paris</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>Name</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>SourceName</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>(Same as SQL property value, read-only)</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>(Same as SQL property value, read-only)</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>Value</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
           </list>
           <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
           <list type="table">
             <item>
-              <para>expression.PivotItems("[Europe].[France].[Paris]")</para>
-              <para>Expression.PivotItems("Paris")</para>
+              <term>expression.PivotItems("[Europe].[France].[Paris]")</term>
+              <description>Expression.PivotItems("Paris")</description>
             </item>
           </list>
           <para>When using the <see cref="M:Microsoft.Office.Interop.Excel.PivotItems.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index name as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>[Europe].[France].[Paris]</para>
-              <para>Paris</para>
+              <term>[Europe].[France].[Paris]</term>
+              <description>Paris</description>
             </item>
           </list>
           <para />
@@ -2551,28 +2551,28 @@
           <para>The following table shows how the <b>Vertices</b> property associates the values in the array vertArray() with the coordinates of a triangle's vertices.</para>
           <list type="table">
             <item>
-              <para>vertArray(1, 1)</para>
-              <para>The horizontal distance from the first vertex to the left side of the document</para>
+              <term>vertArray(1, 1)</term>
+              <description>The horizontal distance from the first vertex to the left side of the document</description>
             </item>
             <item>
-              <para>vertArray(1, 2)</para>
-              <para>The vertical distance from the first vertex to the top of the document</para>
+              <term>vertArray(1, 2)</term>
+              <description>The vertical distance from the first vertex to the top of the document</description>
             </item>
             <item>
-              <para>vertArray(2, 1)</para>
-              <para>The horizontal distance from the second vertex to the left side of the document</para>
+              <term>vertArray(2, 1)</term>
+              <description>The horizontal distance from the second vertex to the left side of the document</description>
             </item>
             <item>
-              <para>vertArray(2, 2)</para>
-              <para>The vertical distance from the second vertex to the top of the document</para>
+              <term>vertArray(2, 2)</term>
+              <description>The vertical distance from the second vertex to the top of the document</description>
             </item>
             <item>
-              <para>vertArray(3, 1)</para>
-              <para>The horizontal distance from the third vertex to the left side of the document</para>
+              <term>vertArray(3, 1)</term>
+              <description>The horizontal distance from the third vertex to the left side of the document</description>
             </item>
             <item>
-              <para>vertArray(3, 2)</para>
-              <para>The vertical distance from the third vertex to the top of the document</para>
+              <term>vertArray(3, 2)</term>
+              <description>The vertical distance from the third vertex to the top of the document</description>
             </item>
           </list>
           <para />

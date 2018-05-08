@@ -327,16 +327,16 @@
           <para>By default, some of the worksheet functions from Microsoft Office Excel 2007 and earlier versions of Microsoft Excel use new algorithms that increase their accuracy. However, in some cases, the new algorithms decrease the performance of these functions relative to their performance in Microsoft Office Excel 2007 and earlier versions of Excel. To specify that these worksheet functions use the older algorithms to increase their performance, set the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.AccuracyVersion" /> property to 1. The following table describes the possible settings for the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.AccuracyVersion" /> property.</para>
           <list type="table">
             <item>
-              <para>0</para>
-              <para>Use the latest, most accurate algorithms (default)</para>
+              <term>0</term>
+              <description>Use the latest, most accurate algorithms (default)</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Use Microsoft Office Excel 2007 or earlier version algorithms</para>
+              <term>1</term>
+              <description>Use Microsoft Office Excel 2007 or earlier version algorithms</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Use Microsoft Excel 2010 algorithms</para>
+              <term>2</term>
+              <description>Use Microsoft Excel 2010 algorithms</description>
             </item>
           </list>
           <para>
@@ -344,300 +344,300 @@
           <para>The following table summarizes which functions are affected by setting the <see cref="P:Microsoft.Office.Interop.Excel._Workbook.AccuracyVersion" /> property to 1. The functions that are listed in the "Functions not affected" column will always use the latest accuracy algorithms or were not changed in Excel 2010. For function names that include a period (.) in their names, to determine the name of the corresponding function implemented in VBA as a method of the <see cref="T:Microsoft.Office.Interop.Excel.WorksheetFunction" /> object, substitute the underscore character ( _ ) for the period. For example, the VBA method that corresponds to the BETA.DIST function is the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Beta_Dist(System.Double,System.Double,System.Double,System.Boolean,System.Object,System.Object)" /> method.</para>
           <list type="table">
             <item>
-              <para>BETADIST</para>
-              <para>AGGREGATE</para>
+              <term>BETADIST</term>
+              <description>AGGREGATE</description>
             </item>
             <item>
-              <para>BETAINV</para>
-              <para>BETA.DIST</para>
+              <term>BETAINV</term>
+              <description>BETA.DIST</description>
             </item>
             <item>
-              <para>BINOMDIST</para>
-              <para>BETA.INV</para>
+              <term>BINOMDIST</term>
+              <description>BETA.INV</description>
             </item>
             <item>
-              <para>CHIDIST</para>
-              <para>BINOM.DIST</para>
+              <term>CHIDIST</term>
+              <description>BINOM.DIST</description>
             </item>
             <item>
-              <para>CHIINV</para>
-              <para>BINOM.INV</para>
+              <term>CHIINV</term>
+              <description>BINOM.INV</description>
             </item>
             <item>
-              <para>CHITEST</para>
-              <para>CEILING</para>
+              <term>CHITEST</term>
+              <description>CEILING</description>
             </item>
             <item>
-              <para>CONFIDENCE</para>
-              <para>CEILING.PRECISE</para>
+              <term>CONFIDENCE</term>
+              <description>CEILING.PRECISE</description>
             </item>
             <item>
-              <para>CRITBINOM</para>
-              <para>CHISQ.DIST</para>
+              <term>CRITBINOM</term>
+              <description>CHISQ.DIST</description>
             </item>
             <item>
-              <para>CUMIPMT</para>
-              <para>CHISQ.DIST.RT</para>
+              <term>CUMIPMT</term>
+              <description>CHISQ.DIST.RT</description>
             </item>
             <item>
-              <para>CUMPRINC</para>
-              <para>CHISQ.INV</para>
+              <term>CUMPRINC</term>
+              <description>CHISQ.INV</description>
             </item>
             <item>
-              <para>ERF</para>
-              <para>CHISQ.INV.RT</para>
+              <term>ERF</term>
+              <description>CHISQ.INV.RT</description>
             </item>
             <item>
-              <para>ERFC</para>
-              <para>CHISQ.TEST</para>
+              <term>ERFC</term>
+              <description>CHISQ.TEST</description>
             </item>
             <item>
-              <para>EXPONDIST</para>
-              <para>CONFIDENCE.NORM</para>
+              <term>EXPONDIST</term>
+              <description>CONFIDENCE.NORM</description>
             </item>
             <item>
-              <para>FDIST</para>
-              <para>CONFIDENCE.T</para>
+              <term>FDIST</term>
+              <description>CONFIDENCE.T</description>
             </item>
             <item>
-              <para>FINV</para>
-              <para>COVAR</para>
+              <term>FINV</term>
+              <description>COVAR</description>
             </item>
             <item>
-              <para>FTEST</para>
-              <para>COVARIANCE.P</para>
+              <term>FTEST</term>
+              <description>COVARIANCE.P</description>
             </item>
             <item>
-              <para>GAMMADIST</para>
-              <para>COVARIANCE.S</para>
+              <term>GAMMADIST</term>
+              <description>COVARIANCE.S</description>
             </item>
             <item>
-              <para>GAMMALN</para>
-              <para>ERF.PRECISE</para>
+              <term>GAMMALN</term>
+              <description>ERF.PRECISE</description>
             </item>
             <item>
-              <para>GAMMINV</para>
-              <para>ERFC.PRECISE</para>
+              <term>GAMMINV</term>
+              <description>ERFC.PRECISE</description>
             </item>
             <item>
-              <para>HYPGEOMDIST</para>
-              <para>EXPON.DIST</para>
+              <term>HYPGEOMDIST</term>
+              <description>EXPON.DIST</description>
             </item>
             <item>
-              <para>IPMT</para>
-              <para>F.DIST</para>
+              <term>IPMT</term>
+              <description>F.DIST</description>
             </item>
             <item>
-              <para>IRR</para>
-              <para>F.DIST.RT</para>
+              <term>IRR</term>
+              <description>F.DIST.RT</description>
             </item>
             <item>
-              <para>LOGINV</para>
-              <para>F.INV</para>
+              <term>LOGINV</term>
+              <description>F.INV</description>
             </item>
             <item>
-              <para>LOGNORMDIST</para>
-              <para>F.INV.RT</para>
+              <term>LOGNORMDIST</term>
+              <description>F.INV.RT</description>
             </item>
             <item>
-              <para>NEGBINOMDIST</para>
-              <para>F.TEST</para>
+              <term>NEGBINOMDIST</term>
+              <description>F.TEST</description>
             </item>
             <item>
-              <para>NORMDIST</para>
-              <para>FLOOR</para>
+              <term>NORMDIST</term>
+              <description>FLOOR</description>
             </item>
             <item>
-              <para>NORMINV</para>
-              <para>FLOOR.PRECISE</para>
+              <term>NORMINV</term>
+              <description>FLOOR.PRECISE</description>
             </item>
             <item>
-              <para>NORMSDIST</para>
-              <para>GAMMA.DIST</para>
+              <term>NORMSDIST</term>
+              <description>GAMMA.DIST</description>
             </item>
             <item>
-              <para>NORMSINV</para>
-              <para>GAMMA.INV</para>
+              <term>NORMSINV</term>
+              <description>GAMMA.INV</description>
             </item>
             <item>
-              <para>PMT</para>
-              <para>GAMMALN.PRECISE</para>
+              <term>PMT</term>
+              <description>GAMMALN.PRECISE</description>
             </item>
             <item>
-              <para>POISSON</para>
-              <para>HYPGEOM.DIST</para>
+              <term>POISSON</term>
+              <description>HYPGEOM.DIST</description>
             </item>
             <item>
-              <para>PPMT</para>
-              <para>ISO.CEILING</para>
+              <term>PPMT</term>
+              <description>ISO.CEILING</description>
             </item>
             <item>
-              <para>STDEV</para>
-              <para>LOGNORM.DIST</para>
+              <term>STDEV</term>
+              <description>LOGNORM.DIST</description>
             </item>
             <item>
-              <para>STDEVP</para>
-              <para>LOGNORM.INV</para>
+              <term>STDEVP</term>
+              <description>LOGNORM.INV</description>
             </item>
             <item>
-              <para>TDIST</para>
-              <para>MOD</para>
+              <term>TDIST</term>
+              <description>MOD</description>
             </item>
             <item>
-              <para>TINV</para>
-              <para>MODE</para>
+              <term>TINV</term>
+              <description>MODE</description>
             </item>
             <item>
-              <para>TTEST</para>
-              <para>MODE.MULT</para>
+              <term>TTEST</term>
+              <description>MODE.MULT</description>
             </item>
             <item>
-              <para>VAR</para>
-              <para>MODE.SNGL</para>
+              <term>VAR</term>
+              <description>MODE.SNGL</description>
             </item>
             <item>
-              <para>VARA</para>
-              <para>NEGBINOM.DIST</para>
+              <term>VARA</term>
+              <description>NEGBINOM.DIST</description>
             </item>
             <item>
-              <para>VARP</para>
-              <para>NETWORKDAYS.INTL</para>
+              <term>VARP</term>
+              <description>NETWORKDAYS.INTL</description>
             </item>
             <item>
-              <para>VARPA</para>
-              <para>NORM.DIST</para>
+              <term>VARPA</term>
+              <description>NORM.DIST</description>
             </item>
             <item>
-              <para>WEIBULL</para>
-              <para>NORM.INV</para>
+              <term>WEIBULL</term>
+              <description>NORM.INV</description>
             </item>
             <item>
-              <para>XIRR</para>
-              <para>NORM.S.DIST</para>
+              <term>XIRR</term>
+              <description>NORM.S.DIST</description>
             </item>
             <item>
-              <para>ZTEST</para>
-              <para>NORM.S.INV</para>
+              <term>ZTEST</term>
+              <description>NORM.S.INV</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTILE</para>
+              <term />
+              <description>PERCENTILE</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTILE.EXC</para>
+              <term />
+              <description>PERCENTILE.EXC</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTILE.INC</para>
+              <term />
+              <description>PERCENTILE.INC</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTRANK</para>
+              <term />
+              <description>PERCENTRANK</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTRANK.EXC</para>
+              <term />
+              <description>PERCENTRANK.EXC</description>
             </item>
             <item>
-              <para />
-              <para>PERCENTRANK.INC</para>
+              <term />
+              <description>PERCENTRANK.INC</description>
             </item>
             <item>
-              <para />
-              <para>POISSON.DIST</para>
+              <term />
+              <description>POISSON.DIST</description>
             </item>
             <item>
-              <para />
-              <para>QUARTILE</para>
+              <term />
+              <description>QUARTILE</description>
             </item>
             <item>
-              <para />
-              <para>QUARTILE.EXC</para>
+              <term />
+              <description>QUARTILE.EXC</description>
             </item>
             <item>
-              <para />
-              <para>QUARTILE.INC</para>
+              <term />
+              <description>QUARTILE.INC</description>
             </item>
             <item>
-              <para />
-              <para>RANK</para>
+              <term />
+              <description>RANK</description>
             </item>
             <item>
-              <para />
-              <para>RANK.AVG</para>
+              <term />
+              <description>RANK.AVG</description>
             </item>
             <item>
-              <para />
-              <para>RANK.EQ</para>
+              <term />
+              <description>RANK.EQ</description>
             </item>
             <item>
-              <para />
-              <para>STDEV.P</para>
+              <term />
+              <description>STDEV.P</description>
             </item>
             <item>
-              <para />
-              <para>STDEV.S</para>
+              <term />
+              <description>STDEV.S</description>
             </item>
             <item>
-              <para />
-              <para>T.DIST</para>
+              <term />
+              <description>T.DIST</description>
             </item>
             <item>
-              <para />
-              <para>T.DIST.2T</para>
+              <term />
+              <description>T.DIST.2T</description>
             </item>
             <item>
-              <para />
-              <para>T.DIST.RT</para>
+              <term />
+              <description>T.DIST.RT</description>
             </item>
             <item>
-              <para />
-              <para>T.DIST.RT</para>
+              <term />
+              <description>T.DIST.RT</description>
             </item>
             <item>
-              <para />
-              <para>T.INV</para>
+              <term />
+              <description>T.INV</description>
             </item>
             <item>
-              <para />
-              <para>T.INV.2T</para>
+              <term />
+              <description>T.INV.2T</description>
             </item>
             <item>
-              <para />
-              <para>T.INV.RT</para>
+              <term />
+              <description>T.INV.RT</description>
             </item>
             <item>
-              <para />
-              <para>T.TEST</para>
+              <term />
+              <description>T.TEST</description>
             </item>
             <item>
-              <para />
-              <para>VAR.P</para>
+              <term />
+              <description>VAR.P</description>
             </item>
             <item>
-              <para />
-              <para>VAR.S</para>
+              <term />
+              <description>VAR.S</description>
             </item>
             <item>
-              <para />
-              <para>WEEKDAY</para>
+              <term />
+              <description>WEEKDAY</description>
             </item>
             <item>
-              <para />
-              <para>WEEKNUM</para>
+              <term />
+              <description>WEEKNUM</description>
             </item>
             <item>
-              <para />
-              <para>WEIBULL.DIST</para>
+              <term />
+              <description>WEIBULL.DIST</description>
             </item>
             <item>
-              <para />
-              <para>WORKDAY.INTL</para>
+              <term />
+              <description>WORKDAY.INTL</description>
             </item>
             <item>
-              <para />
-              <para>Z.TEST</para>
+              <term />
+              <description>Z.TEST</description>
             </item>
           </list>
           <para />
@@ -890,6 +890,12 @@
         <summary>Returns or sets the author of the comment. Read-only <b>String</b>.</summary>
         <value>Returns <see cref="T:System.String" />.</value>
         <remarks>To be added.</remarks>
+        <example>
+          <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
+          <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;
+&lt;i&gt;Author&lt;/i&gt;
+&lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
           <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;
@@ -1622,6 +1628,12 @@
 &lt;i&gt;Author&lt;/i&gt;
 &lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example deletes all comments added by Jean Selva on the active sheet.</para>
+          <code>&lt;span class="label"&gt;For Each c in ActiveSheet.Comments     If c.&lt;/span&gt;
+&lt;i&gt;Author&lt;/i&gt;
+&lt;span class="label"&gt;= "Jean Selva" Then c.Delete Next&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="ConflictResolution">
@@ -2223,22 +2235,22 @@
           <para>Can be one of the following XlDisplayDrawingObjects constants.</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <paramref name="xlDisplayShapes" />
-              </para>
-              <para>Show all shapes.</para>
+              </term>
+              <description>Show all shapes.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <paramref name="xlPlaceholders" />
-              </para>
-              <para>Show only placeholders.</para>
+              </term>
+              <description>Show only placeholders.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <paramref name="xlHide" />
-              </para>
-              <para>Hide all shapes.</para>
+              </term>
+              <description>Hide all shapes.</description>
             </item>
           </list>
           <para />
@@ -3445,19 +3457,19 @@ or <see cref="F:Microsoft.Office.Interop.Excel.XlFixedFormatQuality.xlQualityMin
           <para>When you set this property to <b>True</b>, the workbook has the following characteristics:</para>
           <list type="bullet">
             <item>
-              <para>You won’t be prompted to save the workbook if changes are made while the workbook is open.</para>
+              <description>You won’t be prompted to save the workbook if changes are made while the workbook is open.</description>
             </item>
             <item>
-              <para>The workbook window won’t be visible.</para>
+              <description>The workbook window won’t be visible.</description>
             </item>
             <item>
-              <para>Any macros in the workbook won’t be visible in the Macro dialog box (displayed by pointing to Macro on the Tools menu and clicking Macros).</para>
+              <description>Any macros in the workbook won’t be visible in the Macro dialog box (displayed by pointing to Macro on the Tools menu and clicking Macros).</description>
             </item>
             <item>
-              <para>Macros in the workbook can still be run from the Macro dialog box even though they’re not visible. In addition, macro names don’t need to be qualified with the workbook name.</para>
+              <description>Macros in the workbook can still be run from the Macro dialog box even though they’re not visible. In addition, macro names don’t need to be qualified with the workbook name.</description>
             </item>
             <item>
-              <para>Holding down the SHIFT key when you open the workbook has no effect.</para>
+              <description>Holding down the SHIFT key when you open the workbook has no effect.</description>
             </item>
           </list>
           <para />
@@ -7247,10 +7259,10 @@ or <see cref="F:Microsoft.Office.Interop.Excel.XlFixedFormatQuality.xlQualityMin
           <para>The following conditions will cause the <b>XMLImport</b> method to generate run-time errors:</para>
           <list type="bullet">
             <item>
-              <para>The specified XML data contains syntax errors.</para>
+              <description>The specified XML data contains syntax errors.</description>
             </item>
             <item>
-              <para>The import process was cancelled because the specified data cannot fit into the worksheet.</para>
+              <description>The import process was cancelled because the specified data cannot fit into the worksheet.</description>
             </item>
           </list>
           <para>Use the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.XmlImportXml(System.String,Microsoft.Office.Interop.Excel.XmlMap@,System.Object,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object to import XML data that has been previously loaded into memory.</para>
@@ -7295,10 +7307,10 @@ or <see cref="F:Microsoft.Office.Interop.Excel.XlFixedFormatQuality.xlQualityMin
           <para>The following conditions will cause the <b>XMLImport</b> method to generate run-time errors:</para>
           <list type="bullet">
             <item>
-              <para>The specified XML data contains syntax errors.</para>
+              <description>The specified XML data contains syntax errors.</description>
             </item>
             <item>
-              <para>The import process was cancelled because the specified data cannot fit into the worksheet.</para>
+              <description>The import process was cancelled because the specified data cannot fit into the worksheet.</description>
             </item>
           </list>
           <para>Use the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.XmlImport(System.String,Microsoft.Office.Interop.Excel.XmlMap@,System.Object,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object to import an XML data file into the current workbook.</para>

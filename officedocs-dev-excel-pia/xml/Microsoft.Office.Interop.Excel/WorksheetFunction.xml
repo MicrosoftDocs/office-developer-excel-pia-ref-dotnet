@@ -157,24 +157,24 @@
           <para>The following table describes the values that can be used for <paramref name="Arg5" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para />
@@ -220,48 +220,48 @@
           <para>The following table describes the values that can be used for <paramref name="Arg5" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>The following list contains information to be aware of when working with ACCRINTM:</para>
           <list type="bullet">
             <item>
-              <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. </para>
+              <description>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. </description>
             </item>
             <item>
-              <para>Issue, maturity, and basis are truncated to integers. </para>
+              <description>Issue, maturity, and basis are truncated to integers. </description>
             </item>
             <item>
-              <para>If issue or maturity is not a valid date, ACCRINTM will generate an error. </para>
+              <description>If issue or maturity is not a valid date, ACCRINTM will generate an error. </description>
             </item>
             <item>
-              <para>If rate ≤ 0 or if par ≤ 0, ACCRINTM will generate an error. </para>
+              <description>If rate ≤ 0 or if par ≤ 0, ACCRINTM will generate an error. </description>
             </item>
             <item>
-              <para>If basis &lt; 0 or if basis &gt; 4, ACCRINTM will generate an error. </para>
+              <description>If basis &lt; 0 or if basis &gt; 4, ACCRINTM will generate an error. </description>
             </item>
             <item>
-              <para>If issue ≥ maturity, ACCRINTM will generate an error. </para>
+              <description>If issue ≥ maturity, ACCRINTM will generate an error. </description>
             </item>
             <item>
-              <para>ACCRINTM is calculated as follows: </para>
+              <description>ACCRINTM is calculated as follows: </description>
             </item>
           </list>
           <para>where:</para>
@@ -477,16 +477,16 @@
           <para>The following constraints apply to the Ref arguments (Arg3 - Arg 30) based on the <b>Function_num</b> value.</para>
           <list type="table">
             <item>
-              <para>1-13</para>
-              <para>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</para>
-              <para>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</para>
-              <para>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</para>
+              <term>1-13</term>
+              <description>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</description>
+              <description>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</description>
+              <description>Valid types:Any cell reference Unions Intersections Defined names Structured referencesInvalid types: Actual data Arrays</description>
             </item>
             <item>
-              <para>14-17</para>
-              <para>Valid types:Any cell reference Unions Intersections Defined names Structured references Actual data Arrays</para>
-              <para>Valid types:Any cell reference Unions Intersections Defined names Structured references Actual data Arrays</para>
-              <para>No references are allowed</para>
+              <term>14-17</term>
+              <description>Valid types:Any cell reference Unions Intersections Defined names Structured references Actual data Arrays</description>
+              <description>Valid types:Any cell reference Unions Intersections Defined names Structured references Actual data Arrays</description>
+              <description>No references are allowed</description>
             </item>
           </list>
           <para>If a second ref argument is required but not provided, AGGREGATE returns a #VALUE! error.</para>
@@ -536,20 +536,20 @@
           <para>If an asset is purchased in the middle of the accounting period, the prorated depreciation is taken into account. The method is similar to <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.AmorLinc(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />, except that a depreciation coefficient is applied in the calculation depending on the life of the assets.The following table describes the values used in <paramref name="Arg7" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>360 days (NASD method)</para>
+              <term>0 or omitted</term>
+              <description>360 days (NASD method)</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual</para>
+              <term>1</term>
+              <description>Actual</description>
             </item>
             <item>
-              <para>3</para>
-              <para>365 days in a year</para>
+              <term>3</term>
+              <description>365 days in a year</description>
             </item>
             <item>
-              <para>4</para>
-              <para>360 days in a year (European method)</para>
+              <term>4</term>
+              <description>360 days in a year (European method)</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.</para>
@@ -557,16 +557,16 @@
           <para>The depreciation coefficients are:</para>
           <list type="table">
             <item>
-              <para>Between 3 and 4 years</para>
-              <para>1.5</para>
+              <term>Between 3 and 4 years</term>
+              <description>1.5</description>
             </item>
             <item>
-              <para>Between 5 and 6 years</para>
-              <para>2</para>
+              <term>Between 5 and 6 years</term>
+              <description>2</description>
             </item>
             <item>
-              <para>More than 6 years</para>
-              <para>2.5</para>
+              <term>More than 6 years</term>
+              <description>2.5</description>
             </item>
           </list>
           <para>The depreciation rate will grow to 50 percent for the period preceding the last period and will grow to 100 percent for the last period.</para>
@@ -616,20 +616,20 @@
           <para>If an asset is purchased in the middle of the accounting period, the prorated depreciation is taken into account.The following table describes values used for <paramref name="Arg7" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>360 days (NASD method)</para>
+              <term>0 or omitted</term>
+              <description>360 days (NASD method)</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual</para>
+              <term>1</term>
+              <description>Actual</description>
             </item>
             <item>
-              <para>3</para>
-              <para>365 days in a year</para>
+              <term>3</term>
+              <description>365 days in a year</description>
             </item>
             <item>
-              <para>4</para>
-              <para>360 days in a year (European method)</para>
+              <term>4</term>
+              <description>360 days in a year (European method)</description>
             </item>
           </list>
           <para>
@@ -1135,13 +1135,13 @@
           <para>The <b>Average</b> method measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</para>
+              <description>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</description>
             </item>
             <item>
-              <para>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -1188,36 +1188,36 @@
           <para>Average_range does not have to be the same size and shape as range. The actual cells that are averaged are determined by using the top, left cell in average_range as the beginning cell, and then including cells that correspond in size and shape to range. For example:</para>
           <list type="table">
             <item>
-              <para>A1:A5</para>
-              <para>B1:B5</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B5</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:A5</para>
-              <para>B1:B3</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B3</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:D4</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:D4</description>
+              <description>C1:D4</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:C2</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:C2</description>
+              <description>C1:D4</description>
             </item>
           </list>
           <para>The <b>AverageIf</b> method measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</para>
+              <description>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</description>
             </item>
             <item>
-              <para>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -1317,36 +1317,36 @@
           <para>Each criteria_range does not have to be the same size and shape as average_range. The actual cells that are averaged are determined by using the top, left cell in that criteria_range as the beginning cell, and then including cells that correspond in size and shape to range. For example:</para>
           <list type="table">
             <item>
-              <para>A1:A5</para>
-              <para>B1:B5</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B5</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:A5</para>
-              <para>B1:B3</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B3</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:D4</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:D4</description>
+              <description>C1:D4</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:C2</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:C2</description>
+              <description>C1:D4</description>
             </item>
           </list>
           <para>The <b>AverageIfs</b> function measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</para>
+              <description>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</description>
             </item>
             <item>
-              <para>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -1620,16 +1620,16 @@
           <para>The beta distribution is commonly used to study variation in the percentage of something across samples, such as the fraction of the day people spend watching television:</para>
           <list type="bullet">
             <item>
-              <para>If any argument is nonnumeric, <b>Beta_Dist</b> returns the #VALUE! error value.</para>
+              <description>If any argument is nonnumeric, <b>Beta_Dist</b> returns the #VALUE! error value.</description>
             </item>
             <item>
-              <para>If alpha ≤ 0 or beta ≤ 0, <b>Beta_Dist</b> generates an error value.</para>
+              <description>If alpha ≤ 0 or beta ≤ 0, <b>Beta_Dist</b> generates an error value.</description>
             </item>
             <item>
-              <para>If x &lt; A, x &gt; B, or A = B, <b>Beta_Dist</b> generates an error value.</para>
+              <description>If x &lt; A, x &gt; B, or A = B, <b>Beta_Dist</b> generates an error value.</description>
             </item>
             <item>
-              <para>If you omit values for A and B (lower and upper bound), <b>Beta_Dist</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</para>
+              <description>If you omit values for A and B (lower and upper bound), <b>Beta_Dist</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</description>
             </item>
           </list>
           <para />
@@ -1673,16 +1673,16 @@
           <para>The beta distribution can be used in project planning to model probable completion times given an expected completion time and variability:</para>
           <list type="bullet">
             <item>
-              <para>If any argument is nonnumeric, <b>Beta_Inv</b> generates an error value.</para>
+              <description>If any argument is nonnumeric, <b>Beta_Inv</b> generates an error value.</description>
             </item>
             <item>
-              <para>If alpha ≤ 0 or beta ≤ 0, <b>Beta_Inv</b> generates an error value.</para>
+              <description>If alpha ≤ 0 or beta ≤ 0, <b>Beta_Inv</b> generates an error value.</description>
             </item>
             <item>
-              <para>If probability ≤ 0 or probability &gt; 1, <b>Beta_Inv</b> generates an error value.</para>
+              <description>If probability ≤ 0 or probability &gt; 1, <b>Beta_Inv</b> generates an error value.</description>
             </item>
             <item>
-              <para>If you omit values for A and B (lower and upper bound), <b>Beta_Inv</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</para>
+              <description>If you omit values for A and B (lower and upper bound), <b>Beta_Inv</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</description>
             </item>
           </list>
           <para>Given a value for probability, <b>Beta_Inv</b> seeks that value x such that Beta_Dist(x, alpha, beta, TRUE, A, B) = probability. Thus, precision of <b>Beta_Inv</b> depends on precision of <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Beta_Dist(System.Double,System.Double,System.Double,System.Boolean,System.Object,System.Object)" />. <b>Beta_Inv</b> uses an iterative search technique.</para>
@@ -1729,16 +1729,16 @@
           <para>The beta distribution is commonly used to study variation in the percentage of something across samples, such as the fraction of the day people spend watching television.</para>
           <list type="bullet">
             <item>
-              <para>If any argument is nonnumeric, <b>BetaDist</b> returns the #VALUE! error value.</para>
+              <description>If any argument is nonnumeric, <b>BetaDist</b> returns the #VALUE! error value.</description>
             </item>
             <item>
-              <para>If alpha ≤ 0 or beta ≤ 0, <b>BetaDist</b> generates an error value.</para>
+              <description>If alpha ≤ 0 or beta ≤ 0, <b>BetaDist</b> generates an error value.</description>
             </item>
             <item>
-              <para>If x &lt; A, x &gt; B, or A = B, <b>BetaDist</b> generates an error value.</para>
+              <description>If x &lt; A, x &gt; B, or A = B, <b>BetaDist</b> generates an error value.</description>
             </item>
             <item>
-              <para>If you omit values for A and B, <b>BetaDist</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</para>
+              <description>If you omit values for A and B, <b>BetaDist</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</description>
             </item>
           </list>
           <para />
@@ -1784,16 +1784,16 @@
           <para>The beta distribution can be used in project planning to model probable completion times given an expected completion time and variability.</para>
           <list type="bullet">
             <item>
-              <para>If any argument is nonnumeric, <b>BetaInv</b> generates an error value.</para>
+              <description>If any argument is nonnumeric, <b>BetaInv</b> generates an error value.</description>
             </item>
             <item>
-              <para>If alpha ≤ 0 or beta ≤ 0, <b>BetaInv</b> generates an error value. </para>
+              <description>If alpha ≤ 0 or beta ≤ 0, <b>BetaInv</b> generates an error value. </description>
             </item>
             <item>
-              <para>If probability ≤ 0 or probability &gt; 1, <b>BetaInv</b> generates an error value. </para>
+              <description>If probability ≤ 0 or probability &gt; 1, <b>BetaInv</b> generates an error value. </description>
             </item>
             <item>
-              <para>If you omit values for A and B, <b>BetaInv</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</para>
+              <description>If you omit values for A and B, <b>BetaInv</b> uses the standard cumulative beta distribution, so that A = 0 and B = 1.</description>
             </item>
           </list>
           <para>Given a value for probability, <b>BetaInv</b> seeks that value x such that BetaDist(x, alpha, beta, A, B) = probability. Thus, precision of <b>BetaInv</b> depends on precision of <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.BetaDist(System.Double,System.Double,System.Double,System.Object,System.Object)" />. <b>BetaInv</b> uses an iterative search technique. If the search has not converged after 100 iterations, the function generates an error value.</para>
@@ -1945,16 +1945,16 @@
           <para>Use the <b>Binom_Dist</b> method in problems with a fixed number of tests or trials, when the outcomes of any trial are only success or failure, when trials are independent, and when the probability of success is constant throughout the experiment. For example, the <b>Binom_Dist</b> method can calculate the probability that two of the next three babies born are male. </para>
           <list type="bullet">
             <item>
-              <para>Number_s and trials are truncated to integers. </para>
+              <description>Number_s and trials are truncated to integers. </description>
             </item>
             <item>
-              <para>If number_s, trials, or probability_s is nonnumeric, the <b>Binom_Dist</b> method generates an error. </para>
+              <description>If number_s, trials, or probability_s is nonnumeric, the <b>Binom_Dist</b> method generates an error. </description>
             </item>
             <item>
-              <para>If number_s &lt; 0 or number_s &gt; trials, the <b>Binom_Dist</b> method generates an error. </para>
+              <description>If number_s &lt; 0 or number_s &gt; trials, the <b>Binom_Dist</b> method generates an error. </description>
             </item>
             <item>
-              <para>If probability_s &lt; 0 or probability_s &gt; 1, the <b>Binom_Dist</b> method generates an error. The binomial probability mass function is: </para>
+              <description>If probability_s &lt; 0 or probability_s &gt; 1, the <b>Binom_Dist</b> method generates an error. The binomial probability mass function is: </description>
             </item>
           </list>
           <para>Where:</para>
@@ -2357,20 +2357,20 @@
           <para>Depending on the sign of the number and significance arguments, the <b>Ceiling_Precise</b> method rounds either away from or towards zero.</para>
           <list type="table">
             <item>
-              <para>-/-</para>
-              <para>Rounds toward zero.</para>
+              <term>-/-</term>
+              <description>Rounds toward zero.</description>
             </item>
             <item>
-              <para>+/+</para>
-              <para>Rounds away from zero.</para>
+              <term>+/+</term>
+              <description>Rounds away from zero.</description>
             </item>
             <item>
-              <para>-/+</para>
-              <para>Rounds toward zero.</para>
+              <term>-/+</term>
+              <description>Rounds toward zero.</description>
             </item>
             <item>
-              <para>+/-</para>
-              <para>Rounds away from zero.</para>
+              <term>+/-</term>
+              <description>Rounds away from zero.</description>
             </item>
           </list>
           <para>If either argument is nonnumeric, <b>Ceiling_Precise</b> generates an error. </para>
@@ -2654,16 +2654,16 @@
           <para>where:</para>
           <list type="bullet">
             <item>
-              <para>Aij = actual frequency in the i-th row, j-th column</para>
+              <description>Aij = actual frequency in the i-th row, j-th column</description>
             </item>
             <item>
-              <para>Eij = expected frequency in the i-th row, j-th column</para>
+              <description>Eij = expected frequency in the i-th row, j-th column</description>
             </item>
             <item>
-              <para>r = number or rows</para>
+              <description>r = number or rows</description>
             </item>
             <item>
-              <para>c = number of columns</para>
+              <description>c = number of columns</description>
             </item>
           </list>
           <para>A low value of χ2 is an indicator of independence. As can be seen from the formula, χ2 is always positive or 0, and is 0 only if Aij = Eij for every i,j.</para>
@@ -2713,16 +2713,16 @@
           <para>where:</para>
           <list type="bullet">
             <item>
-              <para>Aij = actual frequency in the i-th row, j-th column</para>
+              <description>Aij = actual frequency in the i-th row, j-th column</description>
             </item>
             <item>
-              <para>Eij = expected frequency in the i-th row, j-th column</para>
+              <description>Eij = expected frequency in the i-th row, j-th column</description>
             </item>
             <item>
-              <para>r = number or rows</para>
+              <description>r = number or rows</description>
             </item>
             <item>
-              <para>c = number of columns</para>
+              <description>c = number of columns</description>
             </item>
           </list>
           <para />
@@ -3146,301 +3146,301 @@
         <remarks>
           <list type="table">
             <item>
-              <para>Gram</para>
-              <para>"g"</para>
+              <term>Gram</term>
+              <description>"g"</description>
             </item>
             <item>
-              <para>Slug</para>
-              <para>"sg"</para>
+              <term>Slug</term>
+              <description>"sg"</description>
             </item>
             <item>
-              <para>Pound mass (avoirdupois)</para>
-              <para>"lbm"</para>
+              <term>Pound mass (avoirdupois)</term>
+              <description>"lbm"</description>
             </item>
             <item>
-              <para>U (atomic mass unit)</para>
-              <para>"u"</para>
+              <term>U (atomic mass unit)</term>
+              <description>"u"</description>
             </item>
             <item>
-              <para>Ounce mass (avoirdupois)</para>
-              <para>"ozm"</para>
-            </item>
-          </list>
-          <list type="table">
-            <item>
-              <para>Meter</para>
-              <para>"m"</para>
-            </item>
-            <item>
-              <para>Statute mile</para>
-              <para>"mi"</para>
-            </item>
-            <item>
-              <para>Nautical mile</para>
-              <para>"Nmi"</para>
-            </item>
-            <item>
-              <para>Inch</para>
-              <para>"in"</para>
-            </item>
-            <item>
-              <para>Foot</para>
-              <para>"ft"</para>
-            </item>
-            <item>
-              <para>Yard</para>
-              <para>"yd"</para>
-            </item>
-            <item>
-              <para>Angstrom</para>
-              <para>"ang"</para>
-            </item>
-            <item>
-              <para>Pica (1/72 in.)</para>
-              <para>"Pica"</para>
+              <term>Ounce mass (avoirdupois)</term>
+              <description>"ozm"</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>Year</para>
-              <para>"yr"</para>
+              <term>Meter</term>
+              <description>"m"</description>
             </item>
             <item>
-              <para>Day</para>
-              <para>"day"</para>
+              <term>Statute mile</term>
+              <description>"mi"</description>
             </item>
             <item>
-              <para>Hour</para>
-              <para>"hr"</para>
+              <term>Nautical mile</term>
+              <description>"Nmi"</description>
             </item>
             <item>
-              <para>Minute</para>
-              <para>"mn"</para>
+              <term>Inch</term>
+              <description>"in"</description>
             </item>
             <item>
-              <para>Second</para>
-              <para>"sec"</para>
-            </item>
-          </list>
-          <list type="table">
-            <item>
-              <para>Pascal</para>
-              <para>"Pa" (or "p")</para>
+              <term>Foot</term>
+              <description>"ft"</description>
             </item>
             <item>
-              <para>Atmosphere</para>
-              <para>"atm" (or "at")</para>
+              <term>Yard</term>
+              <description>"yd"</description>
             </item>
             <item>
-              <para>mm of Mercury</para>
-              <para>"mmHg"</para>
+              <term>Angstrom</term>
+              <description>"ang"</description>
+            </item>
+            <item>
+              <term>Pica (1/72 in.)</term>
+              <description>"Pica"</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>Newton</para>
-              <para>"N"</para>
+              <term>Year</term>
+              <description>"yr"</description>
             </item>
             <item>
-              <para>Dyne</para>
-              <para>"dyn" (or "dy")</para>
+              <term>Day</term>
+              <description>"day"</description>
             </item>
             <item>
-              <para>Pound force</para>
-              <para>"lbf"</para>
-            </item>
-          </list>
-          <list type="table">
-            <item>
-              <para>Joule</para>
-              <para>"J"</para>
+              <term>Hour</term>
+              <description>"hr"</description>
             </item>
             <item>
-              <para>Erg</para>
-              <para>"e"</para>
+              <term>Minute</term>
+              <description>"mn"</description>
             </item>
             <item>
-              <para>Thermodynamic calorie</para>
-              <para>"c"</para>
-            </item>
-            <item>
-              <para>IT calorie</para>
-              <para>"cal"</para>
-            </item>
-            <item>
-              <para>Electron volt</para>
-              <para>"eV" (or "ev")</para>
-            </item>
-            <item>
-              <para>Horsepower-hour</para>
-              <para>"HPh" (or "hh")</para>
-            </item>
-            <item>
-              <para>Watt-hour</para>
-              <para>"Wh" (or "wh")</para>
-            </item>
-            <item>
-              <para>Foot-pound</para>
-              <para>"flb"</para>
-            </item>
-            <item>
-              <para>BTU</para>
-              <para>"BTU" (or "btu")</para>
+              <term>Second</term>
+              <description>"sec"</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>Horsepower</para>
-              <para>"HP" (or "h")</para>
+              <term>Pascal</term>
+              <description>"Pa" (or "p")</description>
             </item>
             <item>
-              <para>Watt</para>
-              <para>"W" (or "w")</para>
-            </item>
-          </list>
-          <list type="table">
-            <item>
-              <para>Tesla</para>
-              <para>"T"</para>
+              <term>Atmosphere</term>
+              <description>"atm" (or "at")</description>
             </item>
             <item>
-              <para>Gauss</para>
-              <para>"ga"</para>
+              <term>mm of Mercury</term>
+              <description>"mmHg"</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>Degree Celsius</para>
-              <para>"C" (or "cel")</para>
+              <term>Newton</term>
+              <description>"N"</description>
             </item>
             <item>
-              <para>Degree Fahrenheit</para>
-              <para>"F" (or "fah")</para>
+              <term>Dyne</term>
+              <description>"dyn" (or "dy")</description>
             </item>
             <item>
-              <para>Kelvin</para>
-              <para>"K" (or "kel")</para>
+              <term>Pound force</term>
+              <description>"lbf"</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>Teaspoon</para>
-              <para>"tsp"</para>
+              <term>Joule</term>
+              <description>"J"</description>
             </item>
             <item>
-              <para>Tablespoon</para>
-              <para>"tbs"</para>
+              <term>Erg</term>
+              <description>"e"</description>
             </item>
             <item>
-              <para>Fluid ounce</para>
-              <para>"oz"</para>
+              <term>Thermodynamic calorie</term>
+              <description>"c"</description>
             </item>
             <item>
-              <para>Cup</para>
-              <para>"cup"</para>
+              <term>IT calorie</term>
+              <description>"cal"</description>
             </item>
             <item>
-              <para>U.S. pint</para>
-              <para>"pt" (or "us_pt")</para>
+              <term>Electron volt</term>
+              <description>"eV" (or "ev")</description>
             </item>
             <item>
-              <para>U.K. pint</para>
-              <para>"uk_pt"</para>
+              <term>Horsepower-hour</term>
+              <description>"HPh" (or "hh")</description>
             </item>
             <item>
-              <para>Quart</para>
-              <para>"qt"</para>
+              <term>Watt-hour</term>
+              <description>"Wh" (or "wh")</description>
             </item>
             <item>
-              <para>Gallon</para>
-              <para>"gal"</para>
+              <term>Foot-pound</term>
+              <description>"flb"</description>
             </item>
             <item>
-              <para>Liter</para>
-              <para>"l" (or "lt")</para>
+              <term>BTU</term>
+              <description>"BTU" (or "btu")</description>
+            </item>
+          </list>
+          <list type="table">
+            <item>
+              <term>Horsepower</term>
+              <description>"HP" (or "h")</description>
+            </item>
+            <item>
+              <term>Watt</term>
+              <description>"W" (or "w")</description>
+            </item>
+          </list>
+          <list type="table">
+            <item>
+              <term>Tesla</term>
+              <description>"T"</description>
+            </item>
+            <item>
+              <term>Gauss</term>
+              <description>"ga"</description>
+            </item>
+          </list>
+          <list type="table">
+            <item>
+              <term>Degree Celsius</term>
+              <description>"C" (or "cel")</description>
+            </item>
+            <item>
+              <term>Degree Fahrenheit</term>
+              <description>"F" (or "fah")</description>
+            </item>
+            <item>
+              <term>Kelvin</term>
+              <description>"K" (or "kel")</description>
+            </item>
+          </list>
+          <list type="table">
+            <item>
+              <term>Teaspoon</term>
+              <description>"tsp"</description>
+            </item>
+            <item>
+              <term>Tablespoon</term>
+              <description>"tbs"</description>
+            </item>
+            <item>
+              <term>Fluid ounce</term>
+              <description>"oz"</description>
+            </item>
+            <item>
+              <term>Cup</term>
+              <description>"cup"</description>
+            </item>
+            <item>
+              <term>U.S. pint</term>
+              <description>"pt" (or "us_pt")</description>
+            </item>
+            <item>
+              <term>U.K. pint</term>
+              <description>"uk_pt"</description>
+            </item>
+            <item>
+              <term>Quart</term>
+              <description>"qt"</description>
+            </item>
+            <item>
+              <term>Gallon</term>
+              <description>"gal"</description>
+            </item>
+            <item>
+              <term>Liter</term>
+              <description>"l" (or "lt")</description>
             </item>
           </list>
           <para>The following abbreviated unit prefixes can be prepended to any metric from_unit or to_unit.</para>
           <list type="table">
             <item>
-              <para>exa</para>
-              <para>1E+18</para>
-              <para>"E"</para>
+              <term>exa</term>
+              <description>1E+18</description>
+              <description>"E"</description>
             </item>
             <item>
-              <para>peta</para>
-              <para>1E+15</para>
-              <para>"P"</para>
+              <term>peta</term>
+              <description>1E+15</description>
+              <description>"P"</description>
             </item>
             <item>
-              <para>tera</para>
-              <para>1E+12</para>
-              <para>"T"</para>
+              <term>tera</term>
+              <description>1E+12</description>
+              <description>"T"</description>
             </item>
             <item>
-              <para>giga</para>
-              <para>1E+09</para>
-              <para>"G"</para>
+              <term>giga</term>
+              <description>1E+09</description>
+              <description>"G"</description>
             </item>
             <item>
-              <para>mega</para>
-              <para>1E+06</para>
-              <para>"M"</para>
+              <term>mega</term>
+              <description>1E+06</description>
+              <description>"M"</description>
             </item>
             <item>
-              <para>kilo</para>
-              <para>1E+03</para>
-              <para>"k"</para>
+              <term>kilo</term>
+              <description>1E+03</description>
+              <description>"k"</description>
             </item>
             <item>
-              <para>hecto</para>
-              <para>1E+02</para>
-              <para>"h"</para>
+              <term>hecto</term>
+              <description>1E+02</description>
+              <description>"h"</description>
             </item>
             <item>
-              <para>dekao</para>
-              <para>1E+01</para>
-              <para>"e"</para>
+              <term>dekao</term>
+              <description>1E+01</description>
+              <description>"e"</description>
             </item>
             <item>
-              <para>deci</para>
-              <para>1E-01</para>
-              <para>"d"</para>
+              <term>deci</term>
+              <description>1E-01</description>
+              <description>"d"</description>
             </item>
             <item>
-              <para>centi</para>
-              <para>1E-02</para>
-              <para>"c"</para>
+              <term>centi</term>
+              <description>1E-02</description>
+              <description>"c"</description>
             </item>
             <item>
-              <para>milli</para>
-              <para>1E-03</para>
-              <para>"m"</para>
+              <term>milli</term>
+              <description>1E-03</description>
+              <description>"m"</description>
             </item>
             <item>
-              <para>micro</para>
-              <para>1E-06</para>
-              <para>"u"</para>
+              <term>micro</term>
+              <description>1E-06</description>
+              <description>"u"</description>
             </item>
             <item>
-              <para>nano</para>
-              <para>1E-09</para>
-              <para>"n"</para>
+              <term>nano</term>
+              <description>1E-09</description>
+              <description>"n"</description>
             </item>
             <item>
-              <para>pico</para>
-              <para>1E-12</para>
-              <para>"p"</para>
+              <term>pico</term>
+              <description>1E-12</description>
+              <description>"p"</description>
             </item>
             <item>
-              <para>femto</para>
-              <para>1E-15</para>
-              <para>"f"</para>
+              <term>femto</term>
+              <description>1E-15</description>
+              <description>"f"</description>
             </item>
             <item>
-              <para>atto</para>
-              <para>1E-18</para>
-              <para>"a"</para>
+              <term>atto</term>
+              <description>1E-18</description>
+              <description>"a"</description>
             </item>
           </list>
           <para>If the input data types are incorrect, <b>Convert</b> generates an error. </para>
@@ -3965,24 +3965,24 @@
           <para>The following table contains the list of values for <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4033,24 +4033,24 @@
           <para>The following table contains the values used in <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4101,24 +4101,24 @@
           <para>The following table contains the values used in <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4169,24 +4169,24 @@
           <para>The following table contains the values used in <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4237,24 +4237,24 @@
           <para>The following table contains the values used in <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4305,24 +4305,24 @@
           <para>The following table contains the values used in <paramref name="Arg4" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -4635,12 +4635,12 @@
           <para>The following tables lists values used in <paramref name="Arg6" />.</para>
           <list type="table">
             <item>
-              <para>0 (zero)</para>
-              <para>Payment at the end of the period</para>
+              <term>0 (zero)</term>
+              <description>Payment at the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Payment at the beginning of the period</para>
+              <term>1</term>
+              <description>Payment at the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at an annual interest rate of 12 percent, use 12%/12 for rate and 4*12 for <paramref name="Arg2" />. If you make annual payments on the same loan, use 12% for rate and 4 for <paramref name="Arg2" />. </para>
@@ -4693,12 +4693,12 @@
           <para>The following tables lists values used in <paramref name="Arg6" />.</para>
           <list type="table">
             <item>
-              <para>0 (zero)</para>
-              <para>Payment at the end of the period</para>
+              <term>0 (zero)</term>
+              <description>Payment at the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Payment at the beginning of the period</para>
+              <term>1</term>
+              <description>Payment at the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at an annual interest rate of 12 percent, use 12%/12 for rate and 4*12 for <paramref name="Arg2" />. If you make annual payments on the same loan, use 12% for rate and 4 for <paramref name="Arg2" />. </para>
@@ -4747,12 +4747,12 @@
           <para>Where entryis the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -4826,15 +4826,15 @@
           <para>Use this function to help compute payments if your accounting system is based on twelve 30-day months.The following tables contains the values for <paramref name="Arg3" />.</para>
           <list type="table">
             <item>
-              <para>
-                <b>false</b> or omitted</para>
-              <para>U.S. (NASD) method. If the starting date is the 31st of a month, it becomes equal to the 30th of the same month. If the ending date is the 31st of a month and the starting date is earlier than the 30th of a month, the ending date becomes equal to the 1st of the next month; otherwise the ending date becomes equal to the 30th of the same month.</para>
+              <term>
+                <b>false</b> or omitted</term>
+              <description>U.S. (NASD) method. If the starting date is the 31st of a month, it becomes equal to the 30th of the same month. If the ending date is the 31st of a month and the starting date is earlier than the 30th of a month, the ending date becomes equal to the 1st of the next month; otherwise the ending date becomes equal to the 30th of the same month.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>true</b>
-              </para>
-              <para>European method. Starting dates and ending dates that occur on the 31st of a month become equal to the 30th of the same month.</para>
+              </term>
+              <description>European method. Starting dates and ending dates that occur on the 31st of a month become equal to the 30th of the same month.</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.</para>
@@ -4953,12 +4953,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5002,12 +5002,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5403,12 +5403,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5507,12 +5507,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5556,12 +5556,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5710,12 +5710,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5759,12 +5759,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5808,12 +5808,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -5857,12 +5857,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -6033,24 +6033,24 @@
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -6101,12 +6101,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -6150,12 +6150,12 @@
           <para>Where entry is the text or value you want to find. For example:</para>
           <list type="table">
             <item>
-              <para>="=Davolio"</para>
-              <para>=Davolio</para>
+              <term>="=Davolio"</term>
+              <description>=Davolio</description>
             </item>
             <item>
-              <para>="=3000"</para>
-              <para>=3000</para>
+              <term>="=3000"</term>
+              <description>=3000</description>
             </item>
           </list>
           <para>When filtering text data, Excel does not distinguish between uppercase and lowercase characters. However, you can use a formula to perform a case-sensitive search.</para>
@@ -7003,12 +7003,12 @@
             <b>Important</b>: <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Find(System.String,System.String,System.Object)" /> is intended for use with languages that use the single-byte character set (SBCS), whereas <b>FindB</b> is intended for use with languages that use the double-byte character set (DBCS). The default language setting on your computer affects the return value in the following way:</para>
           <list type="bullet">
             <item>
-              <para>
-                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Find(System.String,System.String,System.Object)" /> always counts each character, whether single-byte or double-byte, as 1, no matter what the default language setting is.</para>
+              <description>
+                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Find(System.String,System.String,System.Object)" /> always counts each character, whether single-byte or double-byte, as 1, no matter what the default language setting is.</description>
             </item>
             <item>
-              <para>
-                <b>FindB</b> counts each double-byte character as 2 when you have enabled the editing of a language that supports DBCS and then set it as the default language. Otherwise, <b>FindB</b> counts each character as 1.</para>
+              <description>
+                <b>FindB</b> counts each double-byte character as 2 when you have enabled the editing of a language that supports DBCS and then set it as the default language. Otherwise, <b>FindB</b> counts each character as 1.</description>
             </item>
           </list>
           <para>The languages that support DBCS include Japanese, Chinese (Simplified), Chinese (Traditional), and Korean. </para>
@@ -7285,20 +7285,20 @@
           <para>Depending on the sign of the number and significance arguments, the <b>Floor_Precise</b> method rounds either away from or towards zero.</para>
           <list type="table">
             <item>
-              <para>-/-</para>
-              <para>Rounds away from zero.</para>
+              <term>-/-</term>
+              <description>Rounds away from zero.</description>
             </item>
             <item>
-              <para>+/+</para>
-              <para>Rounds toward zero.</para>
+              <term>+/+</term>
+              <description>Rounds toward zero.</description>
             </item>
             <item>
-              <para>-/+</para>
-              <para>Rounds away from zero.</para>
+              <term>-/+</term>
+              <description>Rounds away from zero.</description>
             </item>
             <item>
-              <para>+/-</para>
-              <para>Rounds toward zero.</para>
+              <term>+/-</term>
+              <description>Rounds toward zero.</description>
             </item>
           </list>
           <para>If either argument is nonnumeric, the <b>Floor_Precise</b> method generates an error. </para>
@@ -7468,12 +7468,12 @@
           <para>For a more complete description of the arguments in <b>Fv</b> and for more information on annuity functions, see <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Pv(System.Double,System.Double,System.Double,System.Object,System.Object)" />.</para>
           <list type="table">
             <item>
-              <para>0</para>
-              <para>At the end of the period</para>
+              <term>0</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at 12 percent annual interest, use 12%/12 for rate and 4*12 for nper. If you make annual payments on the same loan, use 12% for rate and 4 for nper. </para>
@@ -9657,12 +9657,12 @@
           <para>The underlying algorithm used in the <b>Intercept</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Slope(System.Object,System.Object)" /> functions is different than the underlying algorithm used in the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> function. The difference between these algorithms can lead to different results when data is undetermined and collinear. For example, if the data points of the known_y's argument are 0 and the data points of the known_x's argument are 1: </para>
           <list type="bullet">
             <item>
-              <para>
-                <b>Intercept</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Slope(System.Object,System.Object)" /> return a #DIV/0! error. The <b>Intercept</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Slope(System.Object,System.Object)" /> algorithm is designed to look for one and only one answer, and in this case there can be more than one answer. </para>
+              <description>
+                <b>Intercept</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Slope(System.Object,System.Object)" /> return a #DIV/0! error. The <b>Intercept</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Slope(System.Object,System.Object)" /> algorithm is designed to look for one and only one answer, and in this case there can be more than one answer. </description>
             </item>
             <item>
-              <para>
-                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> returns a value of 0. The <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> algorithm is designed to return reasonable results for collinear data, and in this case at least one answer can be found.</para>
+              <description>
+                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> returns a value of 0. The <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> algorithm is designed to return reasonable results for collinear data, and in this case at least one answer can be found.</description>
             </item>
           </list>
           <para />
@@ -9705,24 +9705,24 @@
         <remarks>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -9782,12 +9782,12 @@
         <remarks>
           <list type="table">
             <item>
-              <para>0</para>
-              <para>At the end of the period</para>
+              <term>0</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at 12 percent annual interest, use 12%/12 for rate and 4*12 for nper. If you make annual payments on the same loan, use 12% for rate and 4 for nper. </para>
@@ -10573,36 +10573,36 @@
           <para>The additional regression statistics are as follows.</para>
           <list type="table">
             <item>
-              <para>se1,se2,...,sen</para>
-              <para>The standard error values for the coefficients m1,m2,...,mn.</para>
+              <term>se1,se2,...,sen</term>
+              <description>The standard error values for the coefficients m1,m2,...,mn.</description>
             </item>
             <item>
-              <para>seb</para>
-              <para>The standard error value for the constant b (seb = #N/A when const is <b>false</b>).</para>
+              <term>seb</term>
+              <description>The standard error value for the constant b (seb = #N/A when const is <b>false</b>).</description>
             </item>
             <item>
-              <para>r2</para>
-              <para>The coefficient of determination. Compares estimated and actual y-values, and ranges in value from 0 to 1. If it is 1, there is a perfect correlation in the sample — there is no difference between the estimated y-value and the actual y-value. At the other extreme, if the coefficient of determination is 0, the regression equation is not helpful in predicting a y-value. </para>
+              <term>r2</term>
+              <description>The coefficient of determination. Compares estimated and actual y-values, and ranges in value from 0 to 1. If it is 1, there is a perfect correlation in the sample — there is no difference between the estimated y-value and the actual y-value. At the other extreme, if the coefficient of determination is 0, the regression equation is not helpful in predicting a y-value. </description>
             </item>
             <item>
-              <para>sey</para>
-              <para>The standard error for the y estimate.</para>
+              <term>sey</term>
+              <description>The standard error for the y estimate.</description>
             </item>
             <item>
-              <para>F</para>
-              <para>The F statistic, or the F-observed value. Use the F statistic to determine whether the observed relationship between the dependent and independent variables occurs by chance.</para>
+              <term>F</term>
+              <description>The F statistic, or the F-observed value. Use the F statistic to determine whether the observed relationship between the dependent and independent variables occurs by chance.</description>
             </item>
             <item>
-              <para>df</para>
-              <para>The degrees of freedom. Use the degrees of freedom to help you find F-critical values in a statistical table. Compare the values you find in the table to the F statistic returned by <b>LinEst</b> to determine a confidence level for the model. </para>
+              <term>df</term>
+              <description>The degrees of freedom. Use the degrees of freedom to help you find F-critical values in a statistical table. Compare the values you find in the table to the F statistic returned by <b>LinEst</b> to determine a confidence level for the model. </description>
             </item>
             <item>
-              <para>ssreg</para>
-              <para>The regression sum of squares.</para>
+              <term>ssreg</term>
+              <description>The regression sum of squares.</description>
             </item>
             <item>
-              <para>ssresid</para>
-              <para>The residual sum of squares.</para>
+              <term>ssresid</term>
+              <description>The residual sum of squares.</description>
             </item>
           </list>
           <para>The following illustration shows the order in which the additional regression statistics are returned.</para>
@@ -10998,14 +10998,14 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>Look in a one-row or one-column range (known as a vector) for a value and return a value from the same position in a second one-row or one-column range</para>
-              <para>Vector form</para>
-              <para>Use the vector form when you have a large list of values to look up or when the values may change over time.</para>
+              <term>Look in a one-row or one-column range (known as a vector) for a value and return a value from the same position in a second one-row or one-column range</term>
+              <description>Vector form</description>
+              <description>Use the vector form when you have a large list of values to look up or when the values may change over time.</description>
             </item>
             <item>
-              <para>Look in the first row or column of an array for the specified value and return a value from the same position in the last row or column of the array</para>
-              <para>Array form</para>
-              <para>Use the array form when you have a small list of values and the values remain constant over time.</para>
+              <term>Look in the first row or column of an array for the specified value and return a value from the same position in the last row or column of the array</term>
+              <description>Array form</description>
+              <description>Use the array form when you have a small list of values and the values remain constant over time.</description>
             </item>
           </list>
           <para>
@@ -11360,13 +11360,13 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Note</b>: The <b>Median</b> function measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</para>
+              <description>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4.</description>
             </item>
             <item>
-              <para>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -11505,14 +11505,14 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>As an example of how a two-row, two-column matrix is calculated, suppose that the range A1:B2 contains the letters a, b, c, and d that represent any four numbers. The following table shows the inverse of the matrix A1:B2. </para>
           <list type="table">
             <item>
-              <para>Row 1</para>
-              <para>d/(a*d-b*c)</para>
-              <para>b/(b*c-a*d)</para>
+              <term>Row 1</term>
+              <description>d/(a*d-b*c)</description>
+              <description>b/(b*c-a*d)</description>
             </item>
             <item>
-              <para>Row 2</para>
-              <para>c/(b*c-a*d)</para>
-              <para>a/(a*d-b*c)</para>
+              <term>Row 2</term>
+              <description>c/(b*c-a*d)</description>
+              <description>a/(a*d-b*c)</description>
             </item>
           </list>
           <para>
@@ -11704,13 +11704,13 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Note</b>: The <b>Mode</b> function measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average which is the arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4. </para>
+              <description>Median which is the middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4. </description>
             </item>
             <item>
-              <para>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode which is the most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -11902,13 +11902,13 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Note</b>: The <b>Mode_Sngl</b> function measures central tendency, which is the location of the center of a group of numbers in a statistical distribution. The three most common measures of central tendency are:</para>
           <list type="bullet">
             <item>
-              <para>Average The arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </para>
+              <description>Average The arithmetic mean, and is calculated by adding a group of numbers and then dividing by the count of those numbers. For example, the average of 2, 3, 3, 5, 7, and 10 is 30 divided by 6, which is 5. </description>
             </item>
             <item>
-              <para>Median The middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4. </para>
+              <description>Median The middle number of a group of numbers; that is, half the numbers have values that are greater than the median, and half the numbers have values that are less than the median. For example, the median of 2, 3, 3, 5, 7, and 10 is 4. </description>
             </item>
             <item>
-              <para>Mode The most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</para>
+              <description>Mode The most frequently occurring number in a group of numbers. For example, the mode of 2, 3, 3, 5, 7, and 10 is 3.</description>
             </item>
           </list>
           <para>For a symmetrical distribution of a group of numbers, these three measures of central tendency are all the same. For a skewed distribution of a group of numbers, they can be different.</para>
@@ -12646,12 +12646,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>At the end of the period</para>
+              <term>0 or omitted</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para />
@@ -12981,24 +12981,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -13084,24 +13084,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -13161,24 +13161,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -13237,24 +13237,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -13904,12 +13904,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>For a more complete description of the arguments in <b>Pmt</b>, see the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Pv(System.Double,System.Double,System.Double,System.Object,System.Object)" /> function.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>At the end of the period</para>
+              <term>0 or omitted</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>The payment returned by <b>Pmt</b> includes principal and interest but no taxes, reserve payments, or fees sometimes associated with loans. </para>
@@ -14088,12 +14088,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>For a more complete description of the arguments in <b>Ppmt</b>, see <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Pv(System.Double,System.Double,System.Double,System.Object,System.Object)" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>At the end of the period</para>
+              <term>0 or omitted</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at 12 percent annual interest, use 12%/12 for rate and 4*12 for nper. If you make annual payments on the same loan, use 12% for rate and 4 for nper.</para>
@@ -14143,24 +14143,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -14222,24 +14222,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -14301,24 +14301,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -14535,40 +14535,40 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>At the end of the period</para>
+              <term>0 or omitted</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>Make sure that you are consistent about the units you use for specifying rate and nper. If you make monthly payments on a four-year loan at 12 percent annual interest, use 12%/12 for rate and 4*12 for nper. If you make annual payments on the same loan, use 12% for rate and 4 for nper. </para>
           <para>The following functions apply to annuities: </para>
           <list type="table">
             <item>
-              <para>CUMIPMT</para>
-              <para>PPMT</para>
+              <term>CUMIPMT</term>
+              <description>PPMT</description>
             </item>
             <item>
-              <para>CUMPRINC</para>
-              <para>PV</para>
+              <term>CUMPRINC</term>
+              <description>PV</description>
             </item>
             <item>
-              <para>FV</para>
-              <para>RATE</para>
+              <term>FV</term>
+              <description>RATE</description>
             </item>
             <item>
-              <para>FVSCHEDULE</para>
-              <para>XIRR</para>
+              <term>FVSCHEDULE</term>
+              <description>XIRR</description>
             </item>
             <item>
-              <para>IPMT</para>
-              <para>XNPV</para>
+              <term>IPMT</term>
+              <description>XNPV</description>
             </item>
             <item>
-              <para>PMT</para>
-              <para />
+              <term>PMT</term>
+              <description />
             </item>
           </list>
           <para>An annuity is a series of constant cash payments made over a continuous period. For example, a car loan or a mortgage is an annuity. For more information, see the description for each annuity function. </para>
@@ -14616,24 +14616,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: This function has been replaced with one or more new functions that may provide improved accuracy and whose names better reflect their usage. This function is still available for compatibility with earlier versions of Excel. However, if backward compatibility is not required, you should consider using the new functions from now on, because they more accurately describe their functionality. For more information about the new functions, see the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Quartile_Inc(System.Object,System.Double)" /> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Quartile_Exc(System.Object,System.Double)" /> methods.</para>
           <list type="table">
             <item>
-              <para>0</para>
-              <para>Minimum value</para>
+              <term>0</term>
+              <description>Minimum value</description>
             </item>
             <item>
-              <para>1</para>
-              <para>First quartile (25th percentile)</para>
+              <term>1</term>
+              <description>First quartile (25th percentile)</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Median value (50th percentile)</para>
+              <term>2</term>
+              <description>Median value (50th percentile)</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Third quartile (75th percentile)</para>
+              <term>3</term>
+              <description>Third quartile (75th percentile)</description>
             </item>
             <item>
-              <para>4</para>
-              <para>Maximum value</para>
+              <term>4</term>
+              <description>Maximum value</description>
             </item>
           </list>
           <para>If array is empty, <b>Quartile</b> returns the #NUM! error value. </para>
@@ -14969,12 +14969,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>For a complete description of the arguments nper, pmt, pv, fv, and type, see <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Pv(System.Double,System.Double,System.Double,System.Object,System.Object)" />.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>At the end of the period</para>
+              <term>0 or omitted</term>
+              <description>At the end of the period</description>
             </item>
             <item>
-              <para>1</para>
-              <para>At the beginning of the period</para>
+              <term>1</term>
+              <description>At the beginning of the period</description>
             </item>
           </list>
           <para>If you omit guess, it is assumed to be 10 percent. </para>
@@ -15022,24 +15022,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -15204,36 +15204,36 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>Classic.</para>
+              <term>0 or omitted</term>
+              <description>Classic.</description>
             </item>
             <item>
-              <para>1</para>
-              <para>More concise.</para>
+              <term>1</term>
+              <description>More concise.</description>
             </item>
             <item>
-              <para>2</para>
-              <para>More concise.</para>
+              <term>2</term>
+              <description>More concise.</description>
             </item>
             <item>
-              <para>3</para>
-              <para>More concise.</para>
+              <term>3</term>
+              <description>More concise.</description>
             </item>
             <item>
-              <para>4</para>
-              <para>Simplified.</para>
+              <term>4</term>
+              <description>Simplified.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>true</b>
-              </para>
-              <para>Classic.</para>
+              </term>
+              <description>Classic.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>false</b>
-              </para>
-              <para>Simplified.</para>
+              </term>
+              <description>Simplified.</description>
             </item>
           </list>
           <para>If number is negative, the #VALUE! error value is returned. </para>
@@ -16069,12 +16069,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>The underlying algorithm used in the <b>Slope</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Intercept(System.Object,System.Object)" /> functions is different than the underlying algorithm used in the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> function. The difference between these algorithms can lead to different results when data is undetermined and collinear. For example, if the data points of the known_y's argument are 0 and the data points of the known_x's argument are 1: </para>
           <list type="bullet">
             <item>
-              <para>
-                <b>Slope</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Intercept(System.Object,System.Object)" /> return a #DIV/0! error. The <b>Slope</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Intercept(System.Object,System.Object)" /> algorithm is designed to look for one and only one answer, and in this case there can be more than one answer. </para>
+              <description>
+                <b>Slope</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Intercept(System.Object,System.Object)" /> return a #DIV/0! error. The <b>Slope</b> and <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.Intercept(System.Object,System.Object)" /> algorithm is designed to look for one and only one answer, and in this case there can be more than one answer. </description>
             </item>
             <item>
-              <para>
-                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> returns a value of 0. The <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> algorithm is designed to return reasonable results for collinear data, and in this case at least one answer can be found.</para>
+              <description>
+                <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> returns a value of 0. The <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.LinEst(System.Object,System.Object,System.Object,System.Object)" /> algorithm is designed to return reasonable results for collinear data, and in this case at least one answer can be found.</description>
             </item>
           </list>
           <para />
@@ -16884,24 +16884,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>Sum_range does not have to be the same size and shape as range. The actual cells that are added are determined by using the top, left cell in sum_range as the beginning cell, and then including cells that correspond in size and shape to range. For example:</para>
           <list type="table">
             <item>
-              <para>A1:A5</para>
-              <para>B1:B5</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B5</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:A5</para>
-              <para>B1:B3</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B3</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:D4</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:D4</description>
+              <description>C1:D4</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:C2</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:C2</description>
+              <description>C1:D4</description>
             </item>
           </list>
           <para>You can use the wildcard characters, question mark (?) and asterisk (*), in criteria. A question mark matches any single character; an asterisk matches any sequence of characters. If you want to find an actual question mark or asterisk, type a tilde (~) preceding the character.</para>
@@ -16997,24 +16997,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
           <para>Each criteria_range does not have to be the same size and shape as sum_range. The actual cells that are added are determined by using the top, left cell in that criteria_range as the beginning cell, and then including cells that correspond in size and shape to sum_range. For example:</para>
           <list type="table">
             <item>
-              <para>A1:A5</para>
-              <para>B1:B5</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B5</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:A5</para>
-              <para>B1:B3</para>
-              <para>B1:B5</para>
+              <term>A1:A5</term>
+              <description>B1:B3</description>
+              <description>B1:B5</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:D4</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:D4</description>
+              <description>C1:D4</description>
             </item>
             <item>
-              <para>A1:B4</para>
-              <para>C1:C2</para>
-              <para>C1:D4</para>
+              <term>A1:B4</term>
+              <description>C1:C2</description>
+              <description>C1:D4</description>
             </item>
           </list>
           <para />
@@ -18300,16 +18300,16 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: This function has been replaced with one or more new functions that may provide improved accuracy and whose names better reflect their usage. This function is still available for compatibility with earlier versions of Excel. However, if backward compatibility is not required, you should consider using the new functions from now on, because they more accurately describe their functionality. For more information about the new function, see the <see cref="M:Microsoft.Office.Interop.Excel.WorksheetFunction.T_Test(System.Object,System.Object,System.Double,System.Double)" /> method.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>Paired</para>
+              <term>1</term>
+              <description>Paired</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Two-sample equal variance (homoscedastic)</para>
+              <term>2</term>
+              <description>Two-sample equal variance (homoscedastic)</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Two-sample unequal variance (heteroscedastic)</para>
+              <term>3</term>
+              <description>Two-sample unequal variance (heteroscedastic)</description>
             </item>
           </list>
           <para>If array1 and array2 have a different number of data points, and type = 1 (paired), <b>TTest</b> returns the #N/A error value. </para>
@@ -18968,44 +18968,44 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
         <remarks>
           <list type="table">
             <item>
-              <para>1 or omitted</para>
-              <para>Numbers 1 (Sunday) through 7 (Saturday). Behaves like previous versions of Microsoft Excel.</para>
+              <term>1 or omitted</term>
+              <description>Numbers 1 (Sunday) through 7 (Saturday). Behaves like previous versions of Microsoft Excel.</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Numbers 1 (Monday) through 7 (Sunday).</para>
+              <term>2</term>
+              <description>Numbers 1 (Monday) through 7 (Sunday).</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Numbers 0 (Monday) through 6 (Sunday).</para>
+              <term>3</term>
+              <description>Numbers 0 (Monday) through 6 (Sunday).</description>
             </item>
             <item>
-              <para>11</para>
-              <para>Numbers 1 (Monday) through 7 (Sunday).</para>
+              <term>11</term>
+              <description>Numbers 1 (Monday) through 7 (Sunday).</description>
             </item>
             <item>
-              <para>12</para>
-              <para>Numbers 1 (Tuesday) through 7 (Monday)</para>
+              <term>12</term>
+              <description>Numbers 1 (Tuesday) through 7 (Monday)</description>
             </item>
             <item>
-              <para>13</para>
-              <para>Numbers 1 (Wednesday) through 7 (Tuesday)</para>
+              <term>13</term>
+              <description>Numbers 1 (Wednesday) through 7 (Tuesday)</description>
             </item>
             <item>
-              <para>14</para>
-              <para>Numbers 1 (Thursday) through 7 (Wednesday)</para>
+              <term>14</term>
+              <description>Numbers 1 (Thursday) through 7 (Wednesday)</description>
             </item>
             <item>
-              <para>15</para>
-              <para>Numbers 1 (Friday) through 7 (Thursday)</para>
+              <term>15</term>
+              <description>Numbers 1 (Friday) through 7 (Thursday)</description>
             </item>
             <item>
-              <para>16</para>
-              <para>Numbers 1 (Saturday) through 7 (Friday)</para>
+              <term>16</term>
+              <description>Numbers 1 (Saturday) through 7 (Friday)</description>
             </item>
             <item>
-              <para>17</para>
-              <para>Numbers 1 (Sunday) through 7 (Saturday)</para>
+              <term>17</term>
+              <description>Numbers 1 (Sunday) through 7 (Saturday)</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.</para>
@@ -19045,12 +19045,12 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: The <b>WeekNum</b> function considers the week containing January 1 to be the first week of the year. However, there is a European standard that defines the first week as the one with the majority of days (four or more) falling in the new year. This means that for years in which there are three days or less in the first week of January, the <b>WeekNum</b> function returns week numbers that are incorrect according to the European standard.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>Week begins on Sunday. Weekdays are numbered 1 through 7.</para>
+              <term>1</term>
+              <description>Week begins on Sunday. Weekdays are numbered 1 through 7.</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Week begins on Monday. Weekdays are numbered 1 through 7.</para>
+              <term>2</term>
+              <description>Week begins on Monday. Weekdays are numbered 1 through 7.</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default.</para>
@@ -19453,24 +19453,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -19519,24 +19519,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>
@@ -19590,24 +19590,24 @@ INDEX(LOGEST(known_y's,known_x's),2)</para>
             <b>Important</b>: Dates should be entered by using the DATE function, or as results of other formulas or functions. For example, use DATE(2008,5,23) for the 23rd day of May, 2008. Problems can occur if dates are entered as text.</para>
           <list type="table">
             <item>
-              <para>0 or omitted</para>
-              <para>US (NASD) 30/360</para>
+              <term>0 or omitted</term>
+              <description>US (NASD) 30/360</description>
             </item>
             <item>
-              <para>1</para>
-              <para>Actual/actual</para>
+              <term>1</term>
+              <description>Actual/actual</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Actual/360</para>
+              <term>2</term>
+              <description>Actual/360</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Actual/365</para>
+              <term>3</term>
+              <description>Actual/365</description>
             </item>
             <item>
-              <para>4</para>
-              <para>European 30/360</para>
+              <term>4</term>
+              <description>European 30/360</description>
             </item>
           </list>
           <para>Microsoft Excel stores dates as sequential serial numbers so they can be used in calculations. By default, January 1, 1900 is serial number 1, and January 1, 2008 is serial number 39448 because it is 39,448 days after January 1, 1900. Microsoft Excel for the Macintosh uses a different date system as its default. </para>

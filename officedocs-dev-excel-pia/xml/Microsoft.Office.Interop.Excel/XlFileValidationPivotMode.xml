@@ -18,16 +18,16 @@
       <para>The effect of the <b>xlFileValidationPivotDefault</b> setting is controlled by the PivotOptions registry value, which is set in the following registry subkey: HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Excel\Security\FileValidation. The PivotOptions value is a DWORD value that can be set as listed in the following table.</para>
       <list type="table">
         <item>
-          <para>0</para>
-          <para>Never validate PivotTable report data caches. (Not recommended)</para>
+          <term>0</term>
+          <description>Never validate PivotTable report data caches. (Not recommended)</description>
         </item>
         <item>
-          <para>1</para>
-          <para>Validate PivotTable report data caches in the following cases (Default setting):The file was opened from the Internet.The file is an e-mail attachment.The file was opened by using the Open in Protected View command of the Open dialog box.The file was opened from a known unsafe location where Internet content is cached locally, or from a user-defined untrusted location. The data cache is parsed on load when the file is opened.</para>
+          <term>1</term>
+          <description>Validate PivotTable report data caches in the following cases (Default setting):The file was opened from the Internet.The file is an e-mail attachment.The file was opened by using the Open in Protected View command of the Open dialog box.The file was opened from a known unsafe location where Internet content is cached locally, or from a user-defined untrusted location. The data cache is parsed on load when the file is opened.</description>
         </item>
         <item>
-          <para>2</para>
-          <para>Validate all PivotTable report data caches.</para>
+          <term>2</term>
+          <description>Validate all PivotTable report data caches.</description>
         </item>
       </list>
       <para />

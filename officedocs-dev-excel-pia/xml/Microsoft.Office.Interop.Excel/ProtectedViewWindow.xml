@@ -24,7 +24,23 @@
     <summary>Represents a Protected View window.</summary>
     <remarks>
       <para>A Protected View window is used to display a workbook from a potentially unsafe location. Unsafe locations are defined as the following:</para>
-      <para>Files opened from the Internet.Attachments opened from Microsoft Outlook 2010.Files blocked by File Block Policy.Files that fail Office File Validation.Files explicitly opened in Protected View by using the Open in Protected View command of the Open button in the Open dialog box.</para>
+      <list type="number">
+        <item>
+          <description>Files opened from the Internet.</description>
+        </item>
+        <item>
+          <description>Attachments opened from Microsoft Outlook 2010.</description>
+        </item>
+        <item>
+          <description>Files blocked by File Block Policy.</description>
+        </item>
+        <item>
+          <description>Files that fail Office File Validation.</description>
+        </item>
+        <item>
+          <description>Files explicitly opened in Protected View by using the Open in Protected View command of the Open button in the Open dialog box.</description>
+        </item>
+      </list>
       <para>Workbooks displayed in a Protected View window cannot be edited and are restricted from running active content such as Visual Basic for Applications macros and data connections.</para>
       <para>To return a single <see cref="T:Microsoft.Office.Interop.Excel.ProtectedViewWindow" /> object from the <see cref="T:Microsoft.Office.Interop.Excel.ProtectedViewWindows" /> collection, use ProtectedViewWindows(Index), where Index is the index number of the window you want to open. You can also access the <see cref="T:Microsoft.Office.Interop.Excel.ProtectedViewWindow" /> object that represents the active Protected View window by using the <see cref="P:Microsoft.Office.Interop.Excel.Application.ActiveProtectedViewWindow" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object.</para>
       <para>After you access a <see cref="T:Microsoft.Office.Interop.Excel.ProtectedViewWindow" /> object, use the <see cref="P:Microsoft.Office.Interop.Excel.ProtectedViewWindow.Workbook" /> property to access the <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object that represents the workbook file that is open in the Protected View window. Because a Protected View window is designed to protect the user from potentially malicious code, the operations you can perform by using a <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object returned by a <see cref="T:Microsoft.Office.Interop.Excel.ProtectedViewWindow" /> object will be limited. Most operations that are not allowed will return "Run-time error 1004: This command is not available when Excel is sandboxed."</para>
@@ -182,12 +198,12 @@
           <para>You can specify one of the values, listed in the following table, in the <paramref name="UpdateLinks" /> parameter to determine whether external references (links) are updated when the workbook is opened.</para>
           <list type="table">
             <item>
-              <para>0</para>
-              <para>External references (links) will not be updated when the workbook is opened.</para>
+              <term>0</term>
+              <description>External references (links) will not be updated when the workbook is opened.</description>
             </item>
             <item>
-              <para>3</para>
-              <para>External references (links) will be updated when the workbook is opened.</para>
+              <term>3</term>
+              <description>External references (links) will be updated when the workbook is opened.</description>
             </item>
           </list>
           <para />

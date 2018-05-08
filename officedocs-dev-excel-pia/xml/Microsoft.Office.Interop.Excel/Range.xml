@@ -2723,24 +2723,24 @@
           <para>The return value of this property can be <b>xlNone</b> if the range contains no labels, or one of the following <b>XlFormulaLabel</b> constants:</para>
           <list type="bullet">
             <item>
-              <para>
+              <description>
                 <b>xlColumnLabels</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlMixedLabels</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlNoLabels</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlRowLabels</b>
-              </para>
+              </description>
             </item>
           </list>
           <para />
@@ -3553,49 +3553,49 @@
             <b>XlLocationInTable</b> can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlLocationInTable" /> constants:</para>
           <list type="bullet">
             <item>
-              <para>
+              <description>
                 <b>xlRowHeader</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlColumnHeader</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlPageHeader</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlDataHeader</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlRowItem</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlColumnItem</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlPageItem</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlDataItem</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlTableBody</b>
-              </para>
+              </description>
             </item>
           </list>
           <para />
@@ -3794,38 +3794,38 @@
           <para>The following table shows example values of the <b>Name</b> property and related properties given an OLAP data source with the unique name "[Europe].[France].[Paris]" and a non-OLAP data source with the item name "Paris".</para>
           <list type="table">
             <item>
-              <para>Caption</para>
-              <para>Paris</para>
-              <para>Paris</para>
+              <term>Caption</term>
+              <description>Paris</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>Name</para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              <term>Name</term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>SourceName</para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>(Same as SQL property value, read-only)</para>
+              <term>SourceName</term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>(Same as SQL property value, read-only)</description>
             </item>
             <item>
-              <para>Value</para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              <term>Value</term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
           </list>
           <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
           <list type="table">
             <item>
-              <para>expression.PivotItems("[Europe].[France].[Paris]")</para>
-              <para>expression.PivotItems("Paris")</para>
+              <term>expression.PivotItems("[Europe].[France].[Paris]")</term>
+              <description>expression.PivotItems("Paris")</description>
             </item>
           </list>
           <para>When using the <see cref="M:Microsoft.Office.Interop.Excel.PivotItems.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index name as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>[Europe].[France].[Paris]</para>
-              <para>Paris</para>
+              <term>[Europe].[France].[Paris]</term>
+              <description>Paris</description>
             </item>
           </list>
           <para />
@@ -4139,19 +4139,19 @@
           <para>The return value can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPageBreak" /><b />constants:</para>
           <list type="bullet">
             <item>
-              <para>
+              <description>
                 <b>xlPageBreakAutomatic</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlPageBreakManual</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlPageBreakNone</b>
-              </para>
+              </description>
             </item>
           </list>
           <para>This property can return the location of either automatic or manual page breaks, but it can only set the location of manual breaks (it can only be set to <b>xlPageBreakManual</b> or <b>xlPageBreakNone</b>).</para>
@@ -4964,11 +4964,11 @@
           <para>Other differences between <b>RowHeight</b> and <b>Height</b> include the following:</para>
           <list type="bullet">
             <item>
-              <para>
-                <b>Height</b> is read-only.</para>
+              <description>
+                <b>Height</b> is read-only.</description>
             </item>
             <item>
-              <para>If you return the <b>RowHeight</b> property of several rows, you will either get the row height of each of the rows (if all the rows are the same height) or <b>Null</b> (if they’re different heights). If you return the <b>Height</b> property of several rows, you will get the total height of all the rows.</para>
+              <description>If you return the <b>RowHeight</b> property of several rows, you will either get the row height of each of the rows (if all the rows are the same height) or <b>Null</b> (if they’re different heights). If you return the <b>Height</b> property of several rows, you will get the total height of all the rows.</description>
             </item>
           </list>
           <para />
@@ -5278,19 +5278,19 @@
           <para>If the specified range isn’t in a PivotTable report, the following statements are true:</para>
           <list type="bullet">
             <item>
-              <para>The range must be in a single summary row or column.</para>
+              <description>The range must be in a single summary row or column.</description>
             </item>
             <item>
-              <para>This property returns <b>False</b> if any of the children of the row or column are hidden.</para>
+              <description>This property returns <b>False</b> if any of the children of the row or column are hidden.</description>
             </item>
             <item>
-              <para>Setting this property to <b>True</b> is equivalent to showing all the children of the summary row or column.</para>
+              <description>Setting this property to <b>True</b> is equivalent to showing all the children of the summary row or column.</description>
             </item>
             <item>
-              <para>Setting this property to <b>False</b> is equivalent to hiding all the children of the summary row or column.</para>
+              <description>Setting this property to <b>False</b> is equivalent to hiding all the children of the summary row or column.</description>
             </item>
             <item>
-              <para>If the specified range is in a PivotTable report, it’s possible to set this property for more than one cell at a time if the range is contiguous. This property can be returned only if the range is a single cell.</para>
+              <description>If the specified range is in a PivotTable report, it’s possible to set this property for more than one cell at a time if the range is contiguous. This property can be returned only if the range is a single cell.</description>
             </item>
           </list>
           <para>This property isn’t available for OLAP data sources.</para>
@@ -5905,44 +5905,44 @@
           <para>The following table shows the results of importing text into Excel for various import settings. Numeric results are displayed in the rightmost column.</para>
           <list type="table">
             <item>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>Comma</para>
-              <para>Period</para>
-              <para>123.123,45</para>
-              <para>123,123.45 (numeric)</para>
+              <term>Period</term>
+              <description>Comma</description>
+              <description>Comma</description>
+              <description>Period</description>
+              <description>123.123,45</description>
+              <description>123,123.45 (numeric)</description>
             </item>
             <item>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>Comma</para>
-              <para>Comma</para>
-              <para>123.123,45</para>
-              <para>123.123,45 (text)</para>
+              <term>Period</term>
+              <description>Comma</description>
+              <description>Comma</description>
+              <description>Comma</description>
+              <description>123.123,45</description>
+              <description>123.123,45 (text)</description>
             </item>
             <item>
-              <para>Comma</para>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>Period</para>
-              <para>123,123.45</para>
-              <para>123,123.45 (numeric)</para>
+              <term>Comma</term>
+              <description>Period</description>
+              <description>Comma</description>
+              <description>Period</description>
+              <description>123,123.45</description>
+              <description>123,123.45 (numeric)</description>
             </item>
             <item>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>123 123.45</para>
-              <para>123 123.45 (text)</para>
+              <term>Period</term>
+              <description>Comma</description>
+              <description>Period</description>
+              <description>Comma</description>
+              <description>123 123.45</description>
+              <description>123 123.45 (text)</description>
             </item>
             <item>
-              <para>Period</para>
-              <para>Comma</para>
-              <para>Period</para>
-              <para>Space</para>
-              <para>123 123.45</para>
-              <para>123,123.45 (numeric)</para>
+              <term>Period</term>
+              <description>Comma</description>
+              <description>Period</description>
+              <description>Space</description>
+              <description>123 123.45</description>
+              <description>123,123.45 (numeric)</description>
             </item>
           </list>
           <para />
@@ -6235,29 +6235,29 @@
           <para>The returned vertical alignment specifier can be one of the following read/write <b>Object</b> values:</para>
           <list type="bullet">
             <item>
-              <para>
+              <description>
                 <b>xlBottom</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlCenter</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlDistributed</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlJustify</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>
+              <description>
                 <b>xlTop</b>
-              </para>
+              </description>
             </item>
           </list>
           <para />

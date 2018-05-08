@@ -1209,16 +1209,16 @@
             <b>MsoAutomationSecurity</b> can be one of these <b>MsoAutomationSecurity</b> constants:</para>
           <list type="bullet">
             <item>
-              <para>
-                <b>msoAutomationSecurityByUI</b>  Uses the security setting specified in the <b>Security</b> dialog box.</para>
+              <description>
+                <b>msoAutomationSecurityByUI</b>  Uses the security setting specified in the <b>Security</b> dialog box.</description>
             </item>
             <item>
-              <para>
-                <b>msoAutomationSecurityForceDisable</b>  Disables all macros in all files opened programmatically without showing any security alerts.</para>
+              <description>
+                <b>msoAutomationSecurityForceDisable</b>  Disables all macros in all files opened programmatically without showing any security alerts.</description>
             </item>
             <item>
-              <para>
-                <b>msoAutomationSecurityLow</b>  Enables all macros. This is the default value when the application is started.</para>
+              <description>
+                <b>msoAutomationSecurityLow</b>  Enables all macros. This is the default value when the application is started.</description>
             </item>
           </list>
           <para>Setting <see cref="P:Microsoft.Office.Interop.Excel._Application.ScreenUpdating" /> to <b>False</b> does not affect alerts and will not affect security warnings. The <see cref="P:Microsoft.Office.Interop.Excel._Application.DisplayAlerts" /> setting will not apply to security warnings. For example, if the user sets <b>DisplayAlerts</b> equal to <b>False</b> and <b>AutomationSecurity</b> to <b>msoAutomationSecurityByUI</b>, while the user is on medium security level, then there will be security warnings while the macro is running. This allows the macro to trap file open errors, while still showing the security warning if the file open succeeds.</para>
@@ -1670,24 +1670,24 @@
           <para>This property returns information about how Visual Basic was called, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>A custom function entered in a single cell</para>
-              <para>A <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object specifying that cell</para>
+              <term>A custom function entered in a single cell</term>
+              <description>A <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object specifying that cell</description>
             </item>
             <item>
-              <para>A custom function that is part of an array formula in a range of cells</para>
-              <para>A <b>Range</b> object specifying that range of cells</para>
+              <term>A custom function that is part of an array formula in a range of cells</term>
+              <description>A <b>Range</b> object specifying that range of cells</description>
             </item>
             <item>
-              <para>An Auto_Open, Auto_Close, Auto_Activate, or Auto_Deactivate macro</para>
-              <para>The name of the document as text</para>
+              <term>An Auto_Open, Auto_Close, Auto_Activate, or Auto_Deactivate macro</term>
+              <description>The name of the document as text</description>
             </item>
             <item>
-              <para>A macro set by either the <see cref="P:Microsoft.Office.Interop.Excel._Application.OnDoubleClick" /> or <see cref="P:Microsoft.Office.Interop.Excel._Application.OnEntry" /> property</para>
-              <para>The name of the chart object identifier or cell reference (if applicable) to which the macro applies</para>
+              <term>A macro set by either the <see cref="P:Microsoft.Office.Interop.Excel._Application.OnDoubleClick" /> or <see cref="P:Microsoft.Office.Interop.Excel._Application.OnEntry" /> property</term>
+              <description>The name of the chart object identifier or cell reference (if applicable) to which the macro applies</description>
             </item>
             <item>
-              <para>The Macro dialog box (Tools menu), or any caller not described above</para>
-              <para>The #REF! error value</para>
+              <term>The Macro dialog box (Tools menu), or any caller not described above</term>
+              <description>The #REF! error value</description>
             </item>
           </list>
           <para />
@@ -2713,36 +2713,36 @@
             <see cref="T:Microsoft.Office.Interop.Excel.XlCutCopyMode" /> can be one of these <b>XlCutCopyMode</b> constants.</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>False</b>
-              </para>
-              <para>Not in Cut or Copy mode</para>
+              </term>
+              <description>Not in Cut or Copy mode</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCopy</b>
-              </para>
-              <para>In Copy mode</para>
+              </term>
+              <description>In Copy mode</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCut</b>
-              </para>
-              <para>In Cut mode</para>
+              </term>
+              <description>In Cut mode</description>
             </item>
           </list>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>False</b>
-              </para>
-              <para>Cancels Cut or Copy mode and removes the moving border.</para>
+              </term>
+              <description>Cancels Cut or Copy mode and removes the moving border.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>True</b>
-              </para>
-              <para>Cancels Cut or Copy mode and removes the moving border.</para>
+              </term>
+              <description>Cancels Cut or Copy mode and removes the moving border.</description>
             </item>
           </list>
           <para />
@@ -2786,22 +2786,22 @@
         <remarks>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlOn</b>
-              </para>
-              <para>Data Entry mode is turned on.</para>
+              </term>
+              <description>Data Entry mode is turned on.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlOff</b>
-              </para>
-              <para>Data Entry mode is turned off.</para>
+              </term>
+              <description>Data Entry mode is turned off.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlStrict</b>
-              </para>
-              <para>Data Entry mode is turned on and pressing ESC won't turn it off.</para>
+              </term>
+              <description>Data Entry mode is turned on and pressing ESC won't turn it off.</description>
             </item>
           </list>
           <para />
@@ -2873,111 +2873,111 @@
           <para>To specify characters that aren't displayed when you press the corresponding key (for example, ENTER or TAB), use the codes listed in the following table. Each code in the table represents one key on the keyboard.</para>
           <list type="table">
             <item>
-              <para>BACKSPACE</para>
-              <para>{BACKSPACE} or {BS}</para>
+              <term>BACKSPACE</term>
+              <description>{BACKSPACE} or {BS}</description>
             </item>
             <item>
-              <para>BREAK</para>
-              <para>{BREAK}</para>
+              <term>BREAK</term>
+              <description>{BREAK}</description>
             </item>
             <item>
-              <para>CAPS LOCK</para>
-              <para>{CAPSLOCK}</para>
+              <term>CAPS LOCK</term>
+              <description>{CAPSLOCK}</description>
             </item>
             <item>
-              <para>CLEAR</para>
-              <para>{CLEAR}</para>
+              <term>CLEAR</term>
+              <description>{CLEAR}</description>
             </item>
             <item>
-              <para>DELETE or DEL</para>
-              <para>{DELETE} or {DEL}</para>
+              <term>DELETE or DEL</term>
+              <description>{DELETE} or {DEL}</description>
             </item>
             <item>
-              <para>DOWN ARROW</para>
-              <para>{DOWN}</para>
+              <term>DOWN ARROW</term>
+              <description>{DOWN}</description>
             </item>
             <item>
-              <para>END</para>
-              <para>{END}</para>
+              <term>END</term>
+              <description>{END}</description>
             </item>
             <item>
-              <para>ENTER</para>
-              <para>~ (tilde)</para>
+              <term>ENTER</term>
+              <description>~ (tilde)</description>
             </item>
             <item>
-              <para>ENTER (numeric keypad)</para>
-              <para>{ENTER}</para>
+              <term>ENTER (numeric keypad)</term>
+              <description>{ENTER}</description>
             </item>
             <item>
-              <para>ESC</para>
-              <para>{ESCAPE} or {ESC}</para>
+              <term>ESC</term>
+              <description>{ESCAPE} or {ESC}</description>
             </item>
             <item>
-              <para>F1 through F15</para>
-              <para>{F1} through {F15}</para>
+              <term>F1 through F15</term>
+              <description>{F1} through {F15}</description>
             </item>
             <item>
-              <para>HELP</para>
-              <para>{HELP}</para>
+              <term>HELP</term>
+              <description>{HELP}</description>
             </item>
             <item>
-              <para>HOME</para>
-              <para>{HOME}</para>
+              <term>HOME</term>
+              <description>{HOME}</description>
             </item>
             <item>
-              <para>INS</para>
-              <para>{INSERT}</para>
+              <term>INS</term>
+              <description>{INSERT}</description>
             </item>
             <item>
-              <para>LEFT ARROW</para>
-              <para>{LEFT}</para>
+              <term>LEFT ARROW</term>
+              <description>{LEFT}</description>
             </item>
             <item>
-              <para>NUM LOCK</para>
-              <para>{NUMLOCK}</para>
+              <term>NUM LOCK</term>
+              <description>{NUMLOCK}</description>
             </item>
             <item>
-              <para>PAGE DOWN</para>
-              <para>{PGDN}</para>
+              <term>PAGE DOWN</term>
+              <description>{PGDN}</description>
             </item>
             <item>
-              <para>PAGE UP</para>
-              <para>{PGUP}</para>
+              <term>PAGE UP</term>
+              <description>{PGUP}</description>
             </item>
             <item>
-              <para>RETURN</para>
-              <para>{RETURN}</para>
+              <term>RETURN</term>
+              <description>{RETURN}</description>
             </item>
             <item>
-              <para>RIGHT ARROW</para>
-              <para>{RIGHT}</para>
+              <term>RIGHT ARROW</term>
+              <description>{RIGHT}</description>
             </item>
             <item>
-              <para>SCROLL LOCK</para>
-              <para>{SCROLLLOCK}</para>
+              <term>SCROLL LOCK</term>
+              <description>{SCROLLLOCK}</description>
             </item>
             <item>
-              <para>TAB</para>
-              <para>{TAB}</para>
+              <term>TAB</term>
+              <description>{TAB}</description>
             </item>
             <item>
-              <para>UP ARROW</para>
-              <para>{UP}</para>
+              <term>UP ARROW</term>
+              <description>{UP}</description>
             </item>
           </list>
           <para>You can also specify keys combined with SHIFT and/or CTRL and/or ALT. To specify a key combined with one or more of the keys just mentioned, use the following table.</para>
           <list type="table">
             <item>
-              <para>SHIFT</para>
-              <para>+ (plus sign)</para>
+              <term>SHIFT</term>
+              <description>+ (plus sign)</description>
             </item>
             <item>
-              <para>CTRL</para>
-              <para>^ (caret)</para>
+              <term>CTRL</term>
+              <description>^ (caret)</description>
             </item>
             <item>
-              <para>ALT</para>
-              <para>% (percent sign)</para>
+              <term>ALT</term>
+              <description>% (percent sign)</description>
             </item>
           </list>
           <para />
@@ -4959,16 +4959,16 @@
             <b>XlEnableCancelKey</b> can be one of these <b>XlEnableCancelKey</b> constants:</para>
           <list type="bullet">
             <item>
-              <para>
-                <b>xlDisabled</b>  Cancel key trapping is completely disabled.</para>
+              <description>
+                <b>xlDisabled</b>  Cancel key trapping is completely disabled.</description>
             </item>
             <item>
-              <para>
-                <b>xlErrorHandler</b>  The interrupt is sent to the running procedure as an error, trappable by an error handler set up with an On Error GoTo statement. The trappable error code is 18.</para>
+              <description>
+                <b>xlErrorHandler</b>  The interrupt is sent to the running procedure as an error, trappable by an error handler set up with an On Error GoTo statement. The trappable error code is 18.</description>
             </item>
             <item>
-              <para>
-                <b>xlInterrupt</b>  The current procedure is interrupted, and the user can debug or end the procedure.</para>
+              <description>
+                <b>xlInterrupt</b>  The current procedure is interrupted, and the user can debug or end the procedure.</description>
             </item>
           </list>
           <para>Use this property very carefully. If you use <b>xlDisabled</b>, there's no way to interrupt a runaway loop or other code that is not self-terminating. Likewise, if you use <b>xlErrorHandler</b> but your error handler always returns using the <b>Resume</b> statement, there's no way to stop runaway code.</para>
@@ -5279,16 +5279,16 @@
           <para>The following types of names in Microsoft Excel can be used with this method:</para>
           <list type="bullet">
             <item>
-              <para>A1-style references. You can use any reference to a single cell in A1-style notation. All references are considered to be absolute references.</para>
+              <description>A1-style references. You can use any reference to a single cell in A1-style notation. All references are considered to be absolute references.</description>
             </item>
             <item>
-              <para>Ranges. You can use the range, intersect, and union operators (colon, space, and comma, respectively) with references.</para>
+              <description>Ranges. You can use the range, intersect, and union operators (colon, space, and comma, respectively) with references.</description>
             </item>
             <item>
-              <para>Defined names. You can specify any name in the language of the macro.</para>
+              <description>Defined names. You can specify any name in the language of the macro.</description>
             </item>
             <item>
-              <para>External references. You can use the ! operator to refer to a cell or to a name defined in another workbook — for example, Evaluate("[BOOK1.XLS]Sheet1!A1").</para>
+              <description>External references. You can use the ! operator to refer to a cell or to a name defined in another workbook — for example, Evaluate("[BOOK1.XLS]Sheet1!A1").</description>
             </item>
           </list>
           <para>
@@ -5455,16 +5455,16 @@
             <b>MsoFeatureInstall</b> can be one of these <b>MsoFeatureInstall</b> constants:</para>
           <list type="bullet">
             <item>
-              <para>
-                <b>msoFeatureInstallNone</b>  Generates a generic Automation error at run time when uninstalled features are called. This is the default constant.</para>
+              <description>
+                <b>msoFeatureInstallNone</b>  Generates a generic Automation error at run time when uninstalled features are called. This is the default constant.</description>
             </item>
             <item>
-              <para>
-                <b>msoFeatureInstallOnDemand</b>  Prompts the user to install new features.</para>
+              <description>
+                <b>msoFeatureInstallOnDemand</b>  Prompts the user to install new features.</description>
             </item>
             <item>
-              <para>
-                <b>msoFeatureInstallOnDemandWithUI</b>  Displays a progress meter during installation; doesn’t prompt the user to install new features.</para>
+              <description>
+                <b>msoFeatureInstallOnDemandWithUI</b>  Displays a progress meter during installation; doesn’t prompt the user to install new features.</description>
             </item>
           </list>
           <para>You can use the <b>msoFeatureInstallOnDemandWithUI</b> constant to prevent users from thinking that the application isn't responding while a feature is being installed. Use the <b>msoFeatureInstallNone</b> constant if you want the developer to be the only one who can install features.</para>
@@ -5511,16 +5511,16 @@
           <para>If you don’t specify arguments, this property returns an array that contains information about all the installed file converters. Each row in the array contains information about a single file converter, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>The long name of the converter</para>
+              <term>1</term>
+              <description>The long name of the converter</description>
             </item>
             <item>
-              <para>2</para>
-              <para>The path of the converter DLL or code resource</para>
+              <term>2</term>
+              <description>The path of the converter DLL or code resource</description>
             </item>
             <item>
-              <para>3</para>
-              <para>The file-extension search string</para>
+              <term>3</term>
+              <description>The file-extension search string</description>
             </item>
           </list>
           <para />
@@ -6243,16 +6243,16 @@
           <para>This method differs from the <see cref="M:Microsoft.Office.Interop.Excel._Worksheet.Select(System.Object)" /> method in the following ways:</para>
           <list type="bullet">
             <item>
-              <para>If you specify a range on a sheet that’s not on top, Microsoft Excel will switch to that sheet before selecting. (If you use <b>Select</b> with a range on a sheet that’s not on top, the range will be selected but the sheet won’t be activated).</para>
+              <description>If you specify a range on a sheet that’s not on top, Microsoft Excel will switch to that sheet before selecting. (If you use <b>Select</b> with a range on a sheet that’s not on top, the range will be selected but the sheet won’t be activated).</description>
             </item>
             <item>
-              <para>This method has a <paramref name="Scroll" /> argument that lets you scroll through the destination window.</para>
+              <description>This method has a <paramref name="Scroll" /> argument that lets you scroll through the destination window.</description>
             </item>
             <item>
-              <para>When you use the <b>Goto</b> method, the previous selection (before the <b>Goto</b> method runs) is added to the array of previous selections (for more information, see the <see cref="P:Microsoft.Office.Interop.Excel._Application.PreviousSelections(System.Object)" /> property). You can use this feature to quickly jump between as many as four selections.</para>
+              <description>When you use the <b>Goto</b> method, the previous selection (before the <b>Goto</b> method runs) is added to the array of previous selections (for more information, see the <see cref="P:Microsoft.Office.Interop.Excel._Application.PreviousSelections(System.Object)" /> property). You can use this feature to quickly jump between as many as four selections.</description>
             </item>
             <item>
-              <para>The <b>Select</b> method has a <paramref name="Replace" /> argument; the <b>Goto</b> method doesn’t.</para>
+              <description>The <b>Select</b> method has a <paramref name="Replace" /> argument; the <b>Goto</b> method doesn’t.</description>
             </item>
           </list>
           <para />
@@ -6656,436 +6656,436 @@
           <para>Brackets and Braces</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlLeftBrace</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used instead of the left brace ({) in array literals.</para>
+              </description>
+              <description>Character used instead of the left brace ({) in array literals.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLeftBracket</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used instead of the left bracket ([) in R1C1-style relative references.</para>
+              </description>
+              <description>Character used instead of the left bracket ([) in R1C1-style relative references.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLowerCaseColumnLetter</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Lowercase column letter.</para>
+              </description>
+              <description>Lowercase column letter.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLowerCaseRowLetter</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Lowercase row letter.</para>
+              </description>
+              <description>Lowercase row letter.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlRightBrace</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used instead of the right brace (}) in array literals.</para>
+              </description>
+              <description>Character used instead of the right brace (}) in array literals.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlRightBracket</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used instead of the right bracket (]) in R1C1-style references.</para>
+              </description>
+              <description>Character used instead of the right bracket (]) in R1C1-style references.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlUpperCaseColumnLetter</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Uppercase column letter.</para>
+              </description>
+              <description>Uppercase column letter.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlUpperCaseRowLetter</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Uppercase row letter (for R1C1-style references).</para>
+              </description>
+              <description>Uppercase row letter (for R1C1-style references).</description>
             </item>
           </list>
           <para>Country/Region Settings</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlCountryCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Country/Region version of Microsoft Excel.</para>
+              </description>
+              <description>Country/Region version of Microsoft Excel.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCountrySetting</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Current country/region setting in the Windows Control Panel.</para>
+              </description>
+              <description>Current country/region setting in the Windows Control Panel.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlGeneralFormatName</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Name of the General number format.</para>
+              </description>
+              <description>Name of the General number format.</description>
             </item>
           </list>
           <para>Currency</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyBefore</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if the currency symbol precedes the currency values; <b>False</b> if it follows them.</para>
+              </description>
+              <description>
+                <b>True</b> if the currency symbol precedes the currency values; <b>False</b> if it follows them.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Currency symbol.</para>
+              </description>
+              <description>Currency symbol.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyDigits</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Number of decimal digits to be used in currency formats.</para>
+              </description>
+              <description>Number of decimal digits to be used in currency formats.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyLeadingZeros</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if leading zeros are displayed for zero currency values.</para>
+              </description>
+              <description>
+                <b>True</b> if leading zeros are displayed for zero currency values.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyMinusSign</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if you’re using a minus sign for negative numbers; <b>False</b> if you’re using parentheses.</para>
+              </description>
+              <description>
+                <b>True</b> if you’re using a minus sign for negative numbers; <b>False</b> if you’re using parentheses.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyNegative</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Currency format for negative currency values:0 = (symbolx) or (xsymbol)1 = -symbolx or -xsymbol2 = symbol-x or x-symbol3 = symbolx- or xsymbol-where symbol is the currency symbol of the country or region. Note that the position of the currency symbol is determined by <b>xlCurrencyBefore</b>.</para>
+              </description>
+              <description>Currency format for negative currency values:0 = (symbolx) or (xsymbol)1 = -symbolx or -xsymbol2 = symbol-x or x-symbol3 = symbolx- or xsymbol-where symbol is the currency symbol of the country or region. Note that the position of the currency symbol is determined by <b>xlCurrencyBefore</b>.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencySpaceBefore</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if a space is added before the currency symbol.</para>
+              </description>
+              <description>
+                <b>True</b> if a space is added before the currency symbol.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCurrencyTrailingZeros</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if trailing zeros are displayed for zero currency values.</para>
+              </description>
+              <description>
+                <b>True</b> if trailing zeros are displayed for zero currency values.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlNoncurrencyDigits</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Number of decimal digits to be used in non-currency formats.</para>
+              </description>
+              <description>Number of decimal digits to be used in non-currency formats.</description>
             </item>
           </list>
           <para>Date and Time</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xl24HourClock</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if you’re using 24-hour time; <b>False</b> if you’re using 12-hour time.</para>
+              </description>
+              <description>
+                <b>True</b> if you’re using 24-hour time; <b>False</b> if you’re using 12-hour time.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xl4DigitYears</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if you’re using four-digit years; <b>False</b> if you’re using two-digit years.</para>
+              </description>
+              <description>
+                <b>True</b> if you’re using four-digit years; <b>False</b> if you’re using two-digit years.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDateOrder</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Order of date elements:0 = month-day-year1 = day-month-year2 = year-month-day</para>
+              </description>
+              <description>Order of date elements:0 = month-day-year1 = day-month-year2 = year-month-day</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDateSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Date separator (/).</para>
+              </description>
+              <description>Date separator (/).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDayCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Day symbol (d).</para>
+              </description>
+              <description>Day symbol (d).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDayLeadingZero</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>True if a leading zero is displayed in days.</para>
+              </description>
+              <description>True if a leading zero is displayed in days.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlHourCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Hour symbol (h).</para>
+              </description>
+              <description>Hour symbol (h).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMDY</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if the date order is month-day-year for dates displayed in the long form; <b>False</b> if the date order is day-month-year.</para>
+              </description>
+              <description>
+                <b>True</b> if the date order is month-day-year for dates displayed in the long form; <b>False</b> if the date order is day-month-year.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMinuteCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Minute symbol (m).</para>
+              </description>
+              <description>Minute symbol (m).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMonthCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Month symbol (m).</para>
+              </description>
+              <description>Month symbol (m).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMonthLeadingZero</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if a leading zero is displayed in months (when months are displayed as numbers).</para>
+              </description>
+              <description>
+                <b>True</b> if a leading zero is displayed in months (when months are displayed as numbers).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMonthNameChars</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Always returns three characters for backward compatibility. Abbreviated month names are read from Microsoft Windows and can be any length.</para>
+              </description>
+              <description>Always returns three characters for backward compatibility. Abbreviated month names are read from Microsoft Windows and can be any length.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlSecondCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Second symbol (s).</para>
+              </description>
+              <description>Second symbol (s).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlTimeSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Time separator (:).</para>
+              </description>
+              <description>Time separator (:).</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlTimeLeadingZero</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if a leading zero is displayed in times.</para>
+              </description>
+              <description>
+                <b>True</b> if a leading zero is displayed in times.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlWeekdayNameChars</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Integer</b>
-              </para>
-              <para>Always returns three characters for backward compatibility. Abbreviated weekday names are read from Microsoft Windows and can be any length.</para>
+              </description>
+              <description>Always returns three characters for backward compatibility. Abbreviated weekday names are read from Microsoft Windows and can be any length.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlYearCode</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Year symbol in number formats (y).</para>
+              </description>
+              <description>Year symbol in number formats (y).</description>
             </item>
           </list>
           <para>Measurement Systems</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlMetric</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if you’re using the metric system; <b>False</b> if you’re using the English measurement system.</para>
+              </description>
+              <description>
+                <b>True</b> if you’re using the metric system; <b>False</b> if you’re using the English measurement system.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlNonEnglishFunctions</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>Boolean</b>
-              </para>
-              <para>
-                <b>True</b> if you’re not displaying functions in English.</para>
+              </description>
+              <description>
+                <b>True</b> if you’re not displaying functions in English.</description>
             </item>
           </list>
           <para>Separators</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlAlternateArraySeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Alternate array item separator to be used if the current array separator is the same as the decimal separator.</para>
+              </description>
+              <description>Alternate array item separator to be used if the current array separator is the same as the decimal separator.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlColumnSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used to separate columns in array literals.</para>
+              </description>
+              <description>Character used to separate columns in array literals.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDecimalSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Decimal separator.</para>
+              </description>
+              <description>Decimal separator.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlListSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>List separator.</para>
+              </description>
+              <description>List separator.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlRowSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Character used to separate rows in array literals.</para>
+              </description>
+              <description>Character used to separate rows in array literals.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlThousandsSeparator</b>
-              </para>
-              <para>
+              </term>
+              <description>
                 <b>String</b>
-              </para>
-              <para>Zero or thousands separator.</para>
+              </description>
+              <description>Zero or thousands separator.</description>
             </item>
           </list>
           <para>Symbols, separators, and currency formats shown in the preceding table may differ from those used in your language or geographic location and may not be available to you, depending on the language support (U.S. English, for example) that you’ve selected or installed.</para>
@@ -7474,160 +7474,160 @@
           <para>The following table lists which integers are mapped to the built-in categories that can be used in the Category parameter.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>
+              <term>1</term>
+              <description>
                 <b>Financial</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>2</para>
-              <para>
+              <term>2</term>
+              <description>
                 <b>Date &amp; Time</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>3</para>
-              <para>
+              <term>3</term>
+              <description>
                 <b>Math &amp; Trig</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>4</para>
-              <para>
+              <term>4</term>
+              <description>
                 <b>Statistical</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>5</para>
-              <para>
+              <term>5</term>
+              <description>
                 <b>Lookup &amp; Reference</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>6</para>
-              <para>
+              <term>6</term>
+              <description>
                 <b>Database</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>7</para>
-              <para>
+              <term>7</term>
+              <description>
                 <b>Text</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>8</para>
-              <para>
+              <term>8</term>
+              <description>
                 <b>Logical</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>9</para>
-              <para>
+              <term>9</term>
+              <description>
                 <b>Information</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>10</para>
-              <para>
+              <term>10</term>
+              <description>
                 <b>Commands</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>11</para>
-              <para>
+              <term>11</term>
+              <description>
                 <b>Customizing</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>12</para>
-              <para>
+              <term>12</term>
+              <description>
                 <b>Macro Control</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>13</para>
-              <para>
+              <term>13</term>
+              <description>
                 <b>DDE/External</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>14</para>
-              <para>
+              <term>14</term>
+              <description>
                 <b>User Defined</b>
-              </para>
+              </description>
             </item>
             <item>
-              <para>15</para>
-              <para>First custom category</para>
+              <term>15</term>
+              <description>First custom category</description>
             </item>
             <item>
-              <para>16</para>
-              <para>Second custom category</para>
+              <term>16</term>
+              <description>Second custom category</description>
             </item>
             <item>
-              <para>17</para>
-              <para>Third custom category</para>
+              <term>17</term>
+              <description>Third custom category</description>
             </item>
             <item>
-              <para>18</para>
-              <para>Fourth custom category</para>
+              <term>18</term>
+              <description>Fourth custom category</description>
             </item>
             <item>
-              <para>19</para>
-              <para>Fifth custom category</para>
+              <term>19</term>
+              <description>Fifth custom category</description>
             </item>
             <item>
-              <para>20</para>
-              <para>Sixth custom category</para>
+              <term>20</term>
+              <description>Sixth custom category</description>
             </item>
             <item>
-              <para>21</para>
-              <para>Seventh custom category</para>
+              <term>21</term>
+              <description>Seventh custom category</description>
             </item>
             <item>
-              <para>22</para>
-              <para>Eighth custom category</para>
+              <term>22</term>
+              <description>Eighth custom category</description>
             </item>
             <item>
-              <para>23</para>
-              <para>Ninth custom category</para>
+              <term>23</term>
+              <description>Ninth custom category</description>
             </item>
             <item>
-              <para>24</para>
-              <para>Tenth custom category</para>
+              <term>24</term>
+              <description>Tenth custom category</description>
             </item>
             <item>
-              <para>25</para>
-              <para>Eleventh custom category</para>
+              <term>25</term>
+              <description>Eleventh custom category</description>
             </item>
             <item>
-              <para>26</para>
-              <para>Twelfth custom category</para>
+              <term>26</term>
+              <description>Twelfth custom category</description>
             </item>
             <item>
-              <para>27</para>
-              <para>Thirteenth custom category</para>
+              <term>27</term>
+              <description>Thirteenth custom category</description>
             </item>
             <item>
-              <para>28</para>
-              <para>Fourteenth custom category</para>
+              <term>28</term>
+              <description>Fourteenth custom category</description>
             </item>
             <item>
-              <para>29</para>
-              <para>Fifteenth custom category</para>
+              <term>29</term>
+              <description>Fifteenth custom category</description>
             </item>
             <item>
-              <para>30</para>
-              <para>Sixteenth custom category</para>
+              <term>30</term>
+              <description>Sixteenth custom category</description>
             </item>
             <item>
-              <para>31</para>
-              <para>Seventeenth custom category</para>
+              <term>31</term>
+              <description>Seventeenth custom category</description>
             </item>
             <item>
-              <para>32</para>
-              <para>Eighteenth custom category</para>
+              <term>32</term>
+              <description>Eighteenth custom category</description>
             </item>
           </list>
           <para />
@@ -8801,111 +8801,111 @@
           <para>To specify characters that aren't displayed when you press the corresponding key (ENTER or TAB, for example), use the codes listed in the following table. Each code in the table represents one key on the keyboard.</para>
           <list type="table">
             <item>
-              <para>BACKSPACE</para>
-              <para>{BACKSPACE} or {BS}</para>
+              <term>BACKSPACE</term>
+              <description>{BACKSPACE} or {BS}</description>
             </item>
             <item>
-              <para>BREAK</para>
-              <para>{BREAK}</para>
+              <term>BREAK</term>
+              <description>{BREAK}</description>
             </item>
             <item>
-              <para>CAPS LOCK</para>
-              <para>{CAPSLOCK}</para>
+              <term>CAPS LOCK</term>
+              <description>{CAPSLOCK}</description>
             </item>
             <item>
-              <para>CLEAR</para>
-              <para>{CLEAR}</para>
+              <term>CLEAR</term>
+              <description>{CLEAR}</description>
             </item>
             <item>
-              <para>DELETE or DEL</para>
-              <para>{DELETE} or {DEL}</para>
+              <term>DELETE or DEL</term>
+              <description>{DELETE} or {DEL}</description>
             </item>
             <item>
-              <para>DOWN ARROW</para>
-              <para>{DOWN}</para>
+              <term>DOWN ARROW</term>
+              <description>{DOWN}</description>
             </item>
             <item>
-              <para>END</para>
-              <para>{END}</para>
+              <term>END</term>
+              <description>{END}</description>
             </item>
             <item>
-              <para>ENTER</para>
-              <para>~ (tilde)</para>
+              <term>ENTER</term>
+              <description>~ (tilde)</description>
             </item>
             <item>
-              <para>ENTER (numeric keypad)</para>
-              <para>{ENTER}</para>
+              <term>ENTER (numeric keypad)</term>
+              <description>{ENTER}</description>
             </item>
             <item>
-              <para>ESC</para>
-              <para>{ESCAPE} or {ESC}</para>
+              <term>ESC</term>
+              <description>{ESCAPE} or {ESC}</description>
             </item>
             <item>
-              <para>F1 through F15</para>
-              <para>{F1} through {F15}</para>
+              <term>F1 through F15</term>
+              <description>{F1} through {F15}</description>
             </item>
             <item>
-              <para>HELP</para>
-              <para>{HELP}</para>
+              <term>HELP</term>
+              <description>{HELP}</description>
             </item>
             <item>
-              <para>HOME</para>
-              <para>{HOME}</para>
+              <term>HOME</term>
+              <description>{HOME}</description>
             </item>
             <item>
-              <para>INS</para>
-              <para>{INSERT}</para>
+              <term>INS</term>
+              <description>{INSERT}</description>
             </item>
             <item>
-              <para>LEFT ARROW</para>
-              <para>{LEFT}</para>
+              <term>LEFT ARROW</term>
+              <description>{LEFT}</description>
             </item>
             <item>
-              <para>NUM LOCK</para>
-              <para>{NUMLOCK}</para>
+              <term>NUM LOCK</term>
+              <description>{NUMLOCK}</description>
             </item>
             <item>
-              <para>PAGE DOWN</para>
-              <para>{PGDN}</para>
+              <term>PAGE DOWN</term>
+              <description>{PGDN}</description>
             </item>
             <item>
-              <para>PAGE UP</para>
-              <para>{PGUP}</para>
+              <term>PAGE UP</term>
+              <description>{PGUP}</description>
             </item>
             <item>
-              <para>RETURN</para>
-              <para>{RETURN}</para>
+              <term>RETURN</term>
+              <description>{RETURN}</description>
             </item>
             <item>
-              <para>RIGHT ARROW</para>
-              <para>{RIGHT}</para>
+              <term>RIGHT ARROW</term>
+              <description>{RIGHT}</description>
             </item>
             <item>
-              <para>SCROLL LOCK</para>
-              <para>{SCROLLLOCK}</para>
+              <term>SCROLL LOCK</term>
+              <description>{SCROLLLOCK}</description>
             </item>
             <item>
-              <para>TAB</para>
-              <para>{TAB}</para>
+              <term>TAB</term>
+              <description>{TAB}</description>
             </item>
             <item>
-              <para>UP ARROW</para>
-              <para>{UP}</para>
+              <term>UP ARROW</term>
+              <description>{UP}</description>
             </item>
           </list>
           <para>You can also specify keys combined with SHIFT and/or CTRL and/or ALT. To specify a key combined with another key or keys, use the following table.</para>
           <list type="table">
             <item>
-              <para>SHIFT</para>
-              <para>+ (plus sign)</para>
+              <term>SHIFT</term>
+              <description>+ (plus sign)</description>
             </item>
             <item>
-              <para>CTRL</para>
-              <para>^ (caret)</para>
+              <term>CTRL</term>
+              <description>^ (caret)</description>
             </item>
             <item>
-              <para>ALT</para>
-              <para>% (percent sign)</para>
+              <term>ALT</term>
+              <description>% (percent sign)</description>
             </item>
           </list>
           <para>To assign a procedure to one of the special characters (+, ^, %, and so on), enclose the character in braces.</para>
@@ -9843,16 +9843,16 @@
           <para>If you don’t specify these arguments, this property returns an array that contains a list of all registered functions. Each row in the array contains information about a single function, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>The name of the DLL or code resource</para>
+              <term>1</term>
+              <description>The name of the DLL or code resource</description>
             </item>
             <item>
-              <para>2</para>
-              <para>The name of the procedure in the DLL or code resource</para>
+              <term>2</term>
+              <description>The name of the procedure in the DLL or code resource</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Strings specifying the data types of the return values and the number and data types of the arguments</para>
+              <term>3</term>
+              <description>Strings specifying the data types of the return values and the number and data types of the arguments</description>
             </item>
           </list>
           <para>If there are no registered functions, this property returns <b>Null</b>.</para>
@@ -9986,6 +9986,12 @@
       <Docs>
         <summary>Resets the routing slip so that a new routing can be initiated with the same slip (using the same recipient list and delivery information). The routing must be completed before you use this method. Using this method at other times causes an error.</summary>
         <remarks>To be added.</remarks>
+        <example>
+          <para>This example resets the routing slip for Book1.xls if routing has been completed.</para>
+          <code>&lt;span class="label"&gt;With Workbooks("BOOK1.XLS").RoutingSlip     If .Status = xlRoutingComplete Then         .&lt;/span&gt;
+&lt;i&gt;Reset&lt;/i&gt;
+&lt;span class="label"&gt;Else         MsgBox "Cannot reset routing; not yet complete"     End If End With&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example resets the routing slip for Book1.xls if routing has been completed.</para>
           <code>&lt;span class="label"&gt;With Workbooks("BOOK1.XLS").RoutingSlip     If .Status = xlRoutingComplete Then         .&lt;/span&gt;
@@ -10245,6 +10251,15 @@
 &lt;i&gt;Save&lt;/i&gt;
 &lt;span class="label"&gt;Next w Application.Quit&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example saves the active workbook.</para>
+          <code>&lt;span class="label"&gt;ActiveWorkbook.&lt;/span&gt;
+&lt;i&gt;Save&lt;/i&gt;</code>
+          <para>This example saves all open workbooks and then closes Microsoft Excel.</para>
+          <code>&lt;span class="label"&gt;For Each w In Application.Workbooks     w.&lt;/span&gt;
+&lt;i&gt;Save&lt;/i&gt;
+&lt;span class="label"&gt;Next w Application.Quit&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="SaveISO8601Dates">
@@ -10428,111 +10443,111 @@
           <para>To specify characters that aren't displayed when you press the corresponding key (for example, ENTER or TAB), use the codes listed in the following table. Each code in the table represents one key on the keyboard.</para>
           <list type="table">
             <item>
-              <para>BACKSPACE</para>
-              <para>{BACKSPACE} or {BS}</para>
+              <term>BACKSPACE</term>
+              <description>{BACKSPACE} or {BS}</description>
             </item>
             <item>
-              <para>BREAK</para>
-              <para>{BREAK}</para>
+              <term>BREAK</term>
+              <description>{BREAK}</description>
             </item>
             <item>
-              <para>CAPS LOCK</para>
-              <para>{CAPSLOCK}</para>
+              <term>CAPS LOCK</term>
+              <description>{CAPSLOCK}</description>
             </item>
             <item>
-              <para>CLEAR</para>
-              <para>{CLEAR}</para>
+              <term>CLEAR</term>
+              <description>{CLEAR}</description>
             </item>
             <item>
-              <para>DELETE or DEL</para>
-              <para>{DELETE} or {DEL}</para>
+              <term>DELETE or DEL</term>
+              <description>{DELETE} or {DEL}</description>
             </item>
             <item>
-              <para>DOWN ARROW</para>
-              <para>{DOWN}</para>
+              <term>DOWN ARROW</term>
+              <description>{DOWN}</description>
             </item>
             <item>
-              <para>END</para>
-              <para>{END}</para>
+              <term>END</term>
+              <description>{END}</description>
             </item>
             <item>
-              <para>ENTER</para>
-              <para>~ (tilde)</para>
+              <term>ENTER</term>
+              <description>~ (tilde)</description>
             </item>
             <item>
-              <para>ENTER (numeric keypad)</para>
-              <para>{ENTER}</para>
+              <term>ENTER (numeric keypad)</term>
+              <description>{ENTER}</description>
             </item>
             <item>
-              <para>ESC</para>
-              <para>{ESCAPE} or {ESC}</para>
+              <term>ESC</term>
+              <description>{ESCAPE} or {ESC}</description>
             </item>
             <item>
-              <para>F1 through F15</para>
-              <para>{F1} through {F15}</para>
+              <term>F1 through F15</term>
+              <description>{F1} through {F15}</description>
             </item>
             <item>
-              <para>HELP</para>
-              <para>{HELP}</para>
+              <term>HELP</term>
+              <description>{HELP}</description>
             </item>
             <item>
-              <para>HOME</para>
-              <para>{HOME}</para>
+              <term>HOME</term>
+              <description>{HOME}</description>
             </item>
             <item>
-              <para>INS</para>
-              <para>{INSERT}</para>
+              <term>INS</term>
+              <description>{INSERT}</description>
             </item>
             <item>
-              <para>LEFT ARROW</para>
-              <para>{LEFT}</para>
+              <term>LEFT ARROW</term>
+              <description>{LEFT}</description>
             </item>
             <item>
-              <para>NUM LOCK</para>
-              <para>{NUMLOCK}</para>
+              <term>NUM LOCK</term>
+              <description>{NUMLOCK}</description>
             </item>
             <item>
-              <para>PAGE DOWN</para>
-              <para>{PGDN}</para>
+              <term>PAGE DOWN</term>
+              <description>{PGDN}</description>
             </item>
             <item>
-              <para>PAGE UP</para>
-              <para>{PGUP}</para>
+              <term>PAGE UP</term>
+              <description>{PGUP}</description>
             </item>
             <item>
-              <para>RETURN</para>
-              <para>{RETURN}</para>
+              <term>RETURN</term>
+              <description>{RETURN}</description>
             </item>
             <item>
-              <para>RIGHT ARROW</para>
-              <para>{RIGHT}</para>
+              <term>RIGHT ARROW</term>
+              <description>{RIGHT}</description>
             </item>
             <item>
-              <para>SCROLL LOCK</para>
-              <para>{SCROLLLOCK}</para>
+              <term>SCROLL LOCK</term>
+              <description>{SCROLLLOCK}</description>
             </item>
             <item>
-              <para>TAB</para>
-              <para>{TAB}</para>
+              <term>TAB</term>
+              <description>{TAB}</description>
             </item>
             <item>
-              <para>UP ARROW</para>
-              <para>{UP}</para>
+              <term>UP ARROW</term>
+              <description>{UP}</description>
             </item>
           </list>
           <para>You can also specify keys combined with SHIFT and/or CTRL and/or ALT. To specify a key combined with another key or keys, use the following table.</para>
           <list type="table">
             <item>
-              <para>SHIFT</para>
-              <para>+ (plus sign)</para>
+              <term>SHIFT</term>
+              <description>+ (plus sign)</description>
             </item>
             <item>
-              <para>CTRL</para>
-              <para>^ (caret)</para>
+              <term>CTRL</term>
+              <description>^ (caret)</description>
             </item>
             <item>
-              <para>ALT</para>
-              <para>% (percent sign)</para>
+              <term>ALT</term>
+              <description>% (percent sign)</description>
             </item>
           </list>
           <para />

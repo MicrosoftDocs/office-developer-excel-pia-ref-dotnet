@@ -2052,6 +2052,60 @@ With myDocument.Shapes(1).Callout
 &lt;i&gt;Drop&lt;/i&gt;
 &lt;span class="label"&gt;&amp;lt; .Parent.Height / 2 Then             .PresetDrop msoCalloutDropTop         Else             .PresetDrop msoCalloutDropBottom         End If     End If End With&lt;/span&gt;</code>
         </example>
+        <example>
+          <para>This example replaces the custom drop for shape one on myDocument with one of two preset drops, depending on whether the custom drop value is greater than or less than half the height of the callout text box. For the example to work, shape one must be a callout.</para>
+          <code>&lt;span class="label"&gt;Set myDocument = Worksheets(1)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+With myDocument.Shapes(1).Callout  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    If .DropType = msoCalloutDropCustom Then  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+        If .&lt;/span&gt;
+&lt;i&gt;Drop&lt;/i&gt;
+&lt;span class="label"&gt;&amp;lt; .Parent.Height / 2 Then             .PresetDrop msoCalloutDropTop         Else             .PresetDrop msoCalloutDropBottom         End If     End If End With&lt;/span&gt;</code>
+        </example>
       </Docs>
     </Member>
     <Member MemberName="Dummy24">
@@ -2422,260 +2476,260 @@ With myDocument.Shapes(1).Callout
           <para>The value of <paramref name="ElementID" /> after the method returns determines whether <paramref name="Arg1" /> and <paramref name="Arg2" /> contain any information, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlAxis</b>
-              </para>
-              <para>AxisIndex</para>
-              <para>AxisType</para>
+              </term>
+              <description>AxisIndex</description>
+              <description>AxisType</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlAxisTitle</b>
-              </para>
-              <para>AxisIndex</para>
-              <para>AxisType</para>
+              </term>
+              <description>AxisIndex</description>
+              <description>AxisType</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDisplayUnitLabel</b>
-              </para>
-              <para>AxisIndex</para>
-              <para>AxisType</para>
+              </term>
+              <description>AxisIndex</description>
+              <description>AxisType</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMajorGridlines</b>
-              </para>
-              <para>AxisIndex</para>
-              <para>AxisType</para>
+              </term>
+              <description>AxisIndex</description>
+              <description>AxisType</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlMinorGridlines</b>
-              </para>
-              <para>AxisIndex</para>
-              <para>AxisType</para>
+              </term>
+              <description>AxisIndex</description>
+              <description>AxisType</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlPivotChartDropZone</b>
-              </para>
-              <para>DropZoneType</para>
-              <para>None</para>
+              </term>
+              <description>DropZoneType</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlPivotChartFieldButton</b>
-              </para>
-              <para>DropZoneType</para>
-              <para>PivotFieldIndex</para>
+              </term>
+              <description>DropZoneType</description>
+              <description>PivotFieldIndex</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDownBars</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDropLines</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlHiLoLines</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlRadarAxisLabels</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlSeriesLines</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlUpBars</b>
-              </para>
-              <para>GroupIndex</para>
-              <para>None</para>
+              </term>
+              <description>GroupIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlChartArea</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlChartTitle</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlCorners</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDataTable</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlFloor</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLegend</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlNothing</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlPlotArea</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlWalls</b>
-              </para>
-              <para>None</para>
-              <para>None</para>
+              </term>
+              <description>None</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlDataLabel</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>PointIndex</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>PointIndex</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlErrorBars</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>None</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLegendEntry</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>None</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlLegendKey</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>None</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlSeries</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>PointIndex</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>PointIndex</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlShape</b>
-              </para>
-              <para>ShapeIndex</para>
-              <para>None</para>
+              </term>
+              <description>ShapeIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlTrendline</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>TrendLineIndex</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>TrendLineIndex</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlXErrorBars</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>None</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>None</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlYErrorBars</b>
-              </para>
-              <para>SeriesIndex</para>
-              <para>None</para>
+              </term>
+              <description>SeriesIndex</description>
+              <description>None</description>
             </item>
           </list>
           <para>The following table describes the meaning of <paramref name="Arg1" /> and <paramref name="Arg2" /> after the method returns.</para>
           <list type="table">
             <item>
-              <para>AxisIndex</para>
-              <para>Specifies whether the axis is primary or secondary. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisGroup" /> constants: <b>xlPrimary</b> or <b>xlSecondary</b>.</para>
+              <term>AxisIndex</term>
+              <description>Specifies whether the axis is primary or secondary. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisGroup" /> constants: <b>xlPrimary</b> or <b>xlSecondary</b>.</description>
             </item>
             <item>
-              <para>AxisType</para>
-              <para>Specifies the axis type. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisType" /> constants: <b>xlCategory</b>, <b>xlSeriesAxis</b>, or <b>xlValue</b>.</para>
+              <term>AxisType</term>
+              <description>Specifies the axis type. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlAxisType" /> constants: <b>xlCategory</b>, <b>xlSeriesAxis</b>, or <b>xlValue</b>.</description>
             </item>
             <item>
-              <para>DropZoneType</para>
-              <para>Specifies the drop zone type: column, data, page, or row field. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldOrientation" /> constants: <b>xlColumnField</b>, <b>xlDataField</b>, <b>xlPageField</b>, or <b>xlRowField</b>. The column and row field constants specify the series and category fields respectively.</para>
+              <term>DropZoneType</term>
+              <description>Specifies the drop zone type: column, data, page, or row field. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldOrientation" /> constants: <b>xlColumnField</b>, <b>xlDataField</b>, <b>xlPageField</b>, or <b>xlRowField</b>. The column and row field constants specify the series and category fields respectively.</description>
             </item>
             <item>
-              <para>GroupIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.ChartGroups" /> collection for a specific chart group.</para>
+              <term>GroupIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.ChartGroups" /> collection for a specific chart group.</description>
             </item>
             <item>
-              <para>PivotFieldIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection for a specific column (series), data, page, or row (category) field. -1 if the drop zone type is <b>xlDataField</b>.</para>
+              <term>PivotFieldIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection for a specific column (series), data, page, or row (category) field. -1 if the drop zone type is <b>xlDataField</b>.</description>
             </item>
             <item>
-              <para>PointIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Points" /> collection for a specific point within a series. A value of –1 indicates that all data points are selected.</para>
+              <term>PointIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Points" /> collection for a specific point within a series. A value of –1 indicates that all data points are selected.</description>
             </item>
             <item>
-              <para>SeriesIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> collection for a specific series.</para>
+              <term>SeriesIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> collection for a specific series.</description>
             </item>
             <item>
-              <para>ShapeIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection for a specific shape.</para>
+              <term>ShapeIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Shapes" /> collection for a specific shape.</description>
             </item>
             <item>
-              <para>TrendlineIndex</para>
-              <para>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Trendlines" /> collection for a specific trendline within a series.</para>
+              <term>TrendlineIndex</term>
+              <description>Specifies the offset within the <see cref="T:Microsoft.Office.Interop.Excel.Trendlines" /> collection for a specific trendline within a series.</description>
             </item>
           </list>
           <para />
@@ -3275,6 +3329,16 @@ With myDocument.Shapes(1).Callout
           <para>Setting this property clears any range specified by the <see cref="P:Microsoft.Office.Interop.Excel.ControlFormat.ListFillRange" /> property.</para>
           <para />
         </remarks>
+        <example>
+          <para>This example sets the entries in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
+          <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;
+&lt;i&gt;List&lt;/i&gt;
+&lt;span class="label"&gt;= _     Array("cogs", "widgets", "sprockets", "gizmos")&lt;/span&gt;</code>
+          <para>This example sets entry four in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
+          <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;
+&lt;i&gt;List&lt;/i&gt;
+&lt;span class="label"&gt;(4) = "gadgets"&lt;/span&gt;</code>
+        </example>
         <example>
           <para>This example sets the entries in a list box on worksheet one. If Shapes(2) doesn’t represent a list box, this example fails.</para>
           <code>&lt;span class="label"&gt;Worksheets(1).Shapes(2).ControlFormat.&lt;/span&gt;
@@ -4985,16 +5049,16 @@ With myDocument.Shapes(1).Callout
           <para>For charts, the following commands in the Layout tab correspond to the <see cref="M:Microsoft.Office.Interop.Excel._Chart.SetElement(Microsoft.Office.Core.MsoChartElementType)" /> method:</para>
           <list type="bullet">
             <item>
-              <para>Everything in the Labels group.</para>
+              <description>Everything in the Labels group.</description>
             </item>
             <item>
-              <para>Everything in the Axes group.</para>
+              <description>Everything in the Axes group.</description>
             </item>
             <item>
-              <para>Everything in the Analysis group.</para>
+              <description>Everything in the Analysis group.</description>
             </item>
             <item>
-              <para>PlotArea, Chart Wall, and Chart Floor buttons.</para>
+              <description>PlotArea, Chart Wall, and Chart Floor buttons.</description>
             </item>
           </list>
           <para />

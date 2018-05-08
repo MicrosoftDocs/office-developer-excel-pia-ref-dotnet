@@ -29,31 +29,31 @@
       <para>To return a <b>DiagramNode</b> object, use one of the following:</para>
       <list type="bullet">
         <item>
-          <para>The <b>DiagramNode</b> object's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.AddNode(Microsoft.Office.Core.MsoRelativeNodePosition,Microsoft.Office.Core.MsoDiagramNodeType)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.CloneNode(System.Boolean,Microsoft.Office.Interop.Excel.DiagramNode,Microsoft.Office.Core.MsoRelativeNodePosition)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.NextNode" />, or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.PrevNode" /> methods or its <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Root" /> property</para>
+          <description>The <b>DiagramNode</b> object's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.AddNode(Microsoft.Office.Core.MsoRelativeNodePosition,Microsoft.Office.Core.MsoDiagramNodeType)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.CloneNode(System.Boolean,Microsoft.Office.Interop.Excel.DiagramNode,Microsoft.Office.Core.MsoRelativeNodePosition)" />, <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.NextNode" />, or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNode.PrevNode" /> methods or its <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Root" /> property</description>
         </item>
         <item>
-          <para>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodeChildren" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.AddNode(System.Object,Microsoft.Office.Core.MsoDiagramNodeType)" /> or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.Item(System.Object)" /> methods or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.FirstChild" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.LastChild" /> properties</para>
+          <description>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodeChildren" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.AddNode(System.Object,Microsoft.Office.Core.MsoDiagramNodeType)" /> or <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodeChildren.Item(System.Object)" /> methods or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.FirstChild" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNodeChildren.LastChild" /> properties</description>
         </item>
         <item>
-          <para>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodes" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodes.Item(System.Object)" /> method</para>
+          <description>The <see cref="T:Microsoft.Office.Interop.Excel.DiagramNodes" /> collection's <see cref="M:Microsoft.Office.Interop.Excel.DiagramNodes.Item(System.Object)" /> method</description>
         </item>
         <item>
-          <para>The <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object's or <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" /> collection's <b>DiagramNode</b> property</para>
+          <description>The <see cref="T:Microsoft.Office.Interop.Excel.Shape" /> object's or <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" /> collection's <b>DiagramNode</b> property</description>
         </item>
       </list>
       <para>A diagram node can terminate, or it can contain other child diagrams, child diagram nodes, or child shapes. Refer to these with the following:</para>
       <list type="bullet">
         <item>
-          <para>To refer to a child diagram, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Diagram" /> property.</para>
+          <description>To refer to a child diagram, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Diagram" /> property.</description>
         </item>
         <item>
-          <para>To refer to an individual child diagram node, use the <b>AddNode</b>, <b>CloneNode</b>, <b>NextNode</b> or <b>PrevNode</b> methods or the <b>Root</b> property.</para>
+          <description>To refer to an individual child diagram node, use the <b>AddNode</b>, <b>CloneNode</b>, <b>NextNode</b> or <b>PrevNode</b> methods or the <b>Root</b> property.</description>
         </item>
         <item>
-          <para>To refer to a collection of child diagram nodes, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Children" /> property.</para>
+          <description>To refer to a collection of child diagram nodes, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Children" /> property.</description>
         </item>
         <item>
-          <para>To refer to a shape, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Shape" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.TextShape" /> properties.</para>
+          <description>To refer to a shape, use the <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.Shape" /> or <see cref="P:Microsoft.Office.Interop.Excel.DiagramNode.TextShape" /> properties.</description>
         </item>
       </list>
       <para />

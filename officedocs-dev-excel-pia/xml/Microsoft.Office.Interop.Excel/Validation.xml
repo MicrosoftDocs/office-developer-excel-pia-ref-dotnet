@@ -65,30 +65,30 @@
           <para>The Add method requires different arguments, depending on the validation type, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlValidateCustom</b>
-              </para>
-              <para>
-                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain an expression that evaluates to <b>True</b> when data entry is valid and <b>False</b> when data entry is invalid.</para>
+              </term>
+              <description>
+                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain an expression that evaluates to <b>True</b> when data entry is valid and <b>False</b> when data entry is invalid.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlInputOnly</b>
-              </para>
-              <para>
-                <paramref name="AlertStyle" />, <paramref name="Formula1" />, or <paramref name="Formula2" /> are used.</para>
+              </term>
+              <description>
+                <paramref name="AlertStyle" />, <paramref name="Formula1" />, or <paramref name="Formula2" /> are used.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlValidateList</b>
-              </para>
-              <para>
-                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain either a comma-delimited list of values or a worksheet reference to this list.</para>
+              </term>
+              <description>
+                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain either a comma-delimited list of values or a worksheet reference to this list.</description>
             </item>
             <item>
-              <para>
-                <b>xlValidateWholeNumber</b>, <b>xlValidateDate</b>, <b>xlValidateDecimal</b>, <b>xlValidateTextLength</b>, or <b>xlValidateTime</b></para>
-              <para>One of either <paramref name="Formula1" /> or <paramref name="Formula2" /> must be specified, or both may be specified.</para>
+              <term>
+                <b>xlValidateWholeNumber</b>, <b>xlValidateDate</b>, <b>xlValidateDecimal</b>, <b>xlValidateTextLength</b>, or <b>xlValidateTime</b></term>
+              <description>One of either <paramref name="Formula1" /> or <paramref name="Formula2" /> must be specified, or both may be specified.</description>
             </item>
           </list>
           <para />
@@ -534,31 +534,31 @@
           <para>The <b>Modify</b> method requires different arguments, depending on the validation type, as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>xlInputOnly</b>
-              </para>
-              <para>
-                <paramref name="AlertStyle" />, <paramref name="Formula1" />, and <paramref name="Formula2" /> are not used.</para>
+              </term>
+              <description>
+                <paramref name="AlertStyle" />, <paramref name="Formula1" />, and <paramref name="Formula2" /> are not used.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlValidateCustom</b>
-              </para>
-              <para>
-                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain an expression that evaluates to <b>True</b> when data entry is valid and <b>False</b> when data entry is invalid.</para>
+              </term>
+              <description>
+                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain an expression that evaluates to <b>True</b> when data entry is valid and <b>False</b> when data entry is invalid.</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>xlValidateList</b>
-              </para>
-              <para>
-                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain either a comma-delimited list of values or a worksheet reference to the list.</para>
+              </term>
+              <description>
+                <paramref name="Formula1" /> is required; <paramref name="Formula2" /> is ignored. <paramref name="Formula1" /> must contain either a comma-delimited list of values or a worksheet reference to the list.</description>
             </item>
             <item>
-              <para>
-                <b>xlValidateDate</b>, <b>xlValidateDecimal</b>, <b>xlValidateTextLength</b>, <b>xlValidateTime</b>, or <b>xlValidateWholeNumber</b></para>
-              <para>
-                <paramref name="Formula1" /> or <paramref name="Formula2" />, or both, must be specified.</para>
+              <term>
+                <b>xlValidateDate</b>, <b>xlValidateDecimal</b>, <b>xlValidateTextLength</b>, <b>xlValidateTime</b>, or <b>xlValidateWholeNumber</b></term>
+              <description>
+                <paramref name="Formula1" /> or <paramref name="Formula2" />, or both, must be specified.</description>
             </item>
           </list>
           <para />

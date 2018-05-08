@@ -118,64 +118,64 @@
           <para>Applying and saving changes applies only to PivotTable reports with OLAP data sources. The following descriptions of the possible states of the <see cref="P:Microsoft.Office.Interop.Excel.PivotCell.CellChanged" /> property apply only to PivotTables with OLAP data sources.</para>
           <list type="bullet">
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> - the cell has not been edited or recalculated (if the cell contains a formula) since the PivotTable was created, or since the last save or discard changes operation was performed.</para>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> - the cell has not been edited or recalculated (if the cell contains a formula) since the PivotTable was created, or since the last save or discard changes operation was performed.</description>
             </item>
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> - the cell has been edited or recalculated since the PivotTable was created, or since the last apply changes or save changes operation was performed, but that change has not yet been applied (the UPDATE CUBE statement has not been run for it).</para>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> - the cell has been edited or recalculated since the PivotTable was created, or since the last apply changes or save changes operation was performed, but that change has not yet been applied (the UPDATE CUBE statement has not been run for it).</description>
             </item>
             <item>
-              <para>
-                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" />- the cell has been edited or recalculated since the PivotTable was created, or since the last apply changes, save changes, or discard changes operation was performed, and that change has been applied (the UPDATE CUBE statement has been run for it).</para>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" />- the cell has been edited or recalculated since the PivotTable was created, or since the last apply changes, save changes, or discard changes operation was performed, and that change has been applied (the UPDATE CUBE statement has been run for it).</description>
             </item>
           </list>
           <para>The following table describes how different actions by the user affect the setting of the <see cref="P:Microsoft.Office.Interop.Excel.PivotCell.CellChanged" /> property in a PivotTable with an OLAP data source.</para>
           <list type="table">
             <item>
-              <para>Types a value or formula into a cell or multiple cells.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</para>
+              <term>Types a value or formula into a cell or multiple cells.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</description>
             </item>
             <item>
-              <para>Recalculates a cell or multiple cells with a formula, either manually (F9) or automatically by Excel.</para>
-              <para>N/A</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</para>
+              <term>Recalculates a cell or multiple cells with a formula, either manually (F9) or automatically by Excel.</term>
+              <description>N/A</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for those cells.</description>
             </item>
             <item>
-              <para>Saves (commits) changes.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells without a formula.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells with a formula.</para>
+              <term>Saves (commits) changes.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells without a formula.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells with a formula.</description>
             </item>
             <item>
-              <para>Discards all changes.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells without a formula.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells with a formula.</para>
+              <term>Discards all changes.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells without a formula.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all edited cells with a formula.</description>
             </item>
             <item>
-              <para>Discards change in single cell.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</para>
+              <term>Discards change in single cell.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</description>
             </item>
             <item>
-              <para>Clears multiple cells in one operation.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all those cells.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all those cells.</para>
+              <term>Clears multiple cells in one operation.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all those cells.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for all those cells.</description>
             </item>
             <item>
-              <para>Clears a cell.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</para>
+              <term>Clears a cell.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellNotChanged" /> for that cell only.</description>
             </item>
             <item>
-              <para>Performs an undo operation that changes the value back to a previously edited value, before that value was applied.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for all edited cells without a formula.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for all edited cells with a formula.</para>
+              <term>Performs an undo operation that changes the value back to a previously edited value, before that value was applied.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for all edited cells without a formula.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChanged" /> for all edited cells with a formula.</description>
             </item>
             <item>
-              <para>Performs an undo operation that changes the value back to a previously edited value, after that value was applied.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells without a formula.</para>
-              <para>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells with a formula.</para>
+              <term>Performs an undo operation that changes the value back to a previously edited value, after that value was applied.</term>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells without a formula.</description>
+              <description>Set to <see cref="F:Microsoft.Office.Interop.Excel.XlCellChangedState.xlCellChangeApplied" /> for all edited cells with a formula.</description>
             </item>
           </list>
           <para />

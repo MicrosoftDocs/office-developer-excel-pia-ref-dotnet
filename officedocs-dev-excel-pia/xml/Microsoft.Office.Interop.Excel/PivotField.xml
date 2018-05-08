@@ -27,28 +27,28 @@
       <para>In some cases, it may be easier to use one of the properties that returns a subset of the PivotTable fields. The following properties are available:</para>
       <list type="bullet">
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.CubeFields" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.CubeFields" /> property</description>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.DataFields(System.Object)" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.DataFields(System.Object)" /> property</description>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.HiddenFields(System.Object)" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.HiddenFields(System.Object)" /> property</description>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.PageFields(System.Object)" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.PageFields(System.Object)" /> property</description>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.RowFields(System.Object)" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.RowFields(System.Object)" /> property</description>
         </item>
         <item>
-          <para>
-            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.VisibleFields(System.Object)" /> property</para>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.VisibleFields(System.Object)" /> property</description>
         </item>
       </list>
       <para />
@@ -404,52 +404,52 @@ When the <b>AutoSortCustomSubtotal</b> property is set to 1 (Automatic), the dat
 The <b>AutoSortCustomSubtotal</b> property can have one of the index values listed in the following table.</para>
           <list type="table">
             <item>
-              <para>1</para>
-              <para>Automatic</para>
+              <term>1</term>
+              <description>Automatic</description>
             </item>
             <item>
-              <para>2</para>
-              <para>Sum</para>
+              <term>2</term>
+              <description>Sum</description>
             </item>
             <item>
-              <para>3</para>
-              <para>Count</para>
+              <term>3</term>
+              <description>Count</description>
             </item>
             <item>
-              <para>4</para>
-              <para>Average</para>
+              <term>4</term>
+              <description>Average</description>
             </item>
             <item>
-              <para>5</para>
-              <para>Max</para>
+              <term>5</term>
+              <description>Max</description>
             </item>
             <item>
-              <para>6</para>
-              <para>Min</para>
+              <term>6</term>
+              <description>Min</description>
             </item>
             <item>
-              <para>7</para>
-              <para>Product</para>
+              <term>7</term>
+              <description>Product</description>
             </item>
             <item>
-              <para>8</para>
-              <para>Count Nums</para>
+              <term>8</term>
+              <description>Count Nums</description>
             </item>
             <item>
-              <para>9</para>
-              <para>StdDev</para>
+              <term>9</term>
+              <description>StdDev</description>
             </item>
             <item>
-              <para>10</para>
-              <para>StdDevp</para>
+              <term>10</term>
+              <description>StdDevp</description>
             </item>
             <item>
-              <para>11</para>
-              <para>Var</para>
+              <term>11</term>
+              <description>Var</description>
             </item>
             <item>
-              <para>12</para>
-              <para>Varp</para>
+              <term>12</term>
+              <description>Varp</description>
             </item>
           </list>
           <para>Sorting is supported only by custom subtotals that are actually displayed in the PivotTable, so trying to set <b>AutoSortCustomSubtotal</b> to a value representing a custom subtotal not in the PivotTable view will return a run-time error.</para>
@@ -854,181 +854,181 @@ The <b>AutoSortCustomSubtotal</b> property can have one of the index values list
           <para>The following table lists the different label filter types that will be deleted by this method.</para>
           <list type="table">
             <item>
-              <para />
+              <term />
             </item>
             <item>
-              <para>xlCaptionEquals</para>
+              <term>xlCaptionEquals</term>
             </item>
             <item>
-              <para>xlCaptionDoesNotEqual</para>
+              <term>xlCaptionDoesNotEqual</term>
             </item>
             <item>
-              <para>xlCaptionIsGreaterThan</para>
+              <term>xlCaptionIsGreaterThan</term>
             </item>
             <item>
-              <para>xlCaptionIsGreaterThanOrEqualTo</para>
+              <term>xlCaptionIsGreaterThanOrEqualTo</term>
             </item>
             <item>
-              <para>xlCaptionIsLessThan</para>
+              <term>xlCaptionIsLessThan</term>
             </item>
             <item>
-              <para>xlCaptionIsLessThanOrEqualTo</para>
+              <term>xlCaptionIsLessThanOrEqualTo</term>
             </item>
             <item>
-              <para>xlCaptionBeginsWith</para>
+              <term>xlCaptionBeginsWith</term>
             </item>
             <item>
-              <para>xlCaptionDoesNotBeginWith</para>
+              <term>xlCaptionDoesNotBeginWith</term>
             </item>
             <item>
-              <para>xlCaptionEndsWith</para>
+              <term>xlCaptionEndsWith</term>
             </item>
             <item>
-              <para>xlCaptionDoesNotEndWith</para>
+              <term>xlCaptionDoesNotEndWith</term>
             </item>
             <item>
-              <para>xlCaptionContains</para>
+              <term>xlCaptionContains</term>
             </item>
             <item>
-              <para>xlCaptionDoesNotContain </para>
+              <term>xlCaptionDoesNotContain </term>
             </item>
             <item>
-              <para>xlCaptionIsBetween</para>
+              <term>xlCaptionIsBetween</term>
             </item>
             <item>
-              <para>xlCaptionIsNotBetween</para>
+              <term>xlCaptionIsNotBetween</term>
             </item>
             <item>
-              <para />
+              <term />
             </item>
             <item>
-              <para />
+              <term />
             </item>
           </list>
           <para>The following table lists the different date filter types that will be deleted by this method.</para>
           <list type="table">
             <item>
-              <para />
+              <term />
             </item>
             <item>
-              <para>xlSpecificDate</para>
+              <term>xlSpecificDate</term>
             </item>
             <item>
-              <para>xlNotSpecificDate</para>
+              <term>xlNotSpecificDate</term>
             </item>
             <item>
-              <para>xlBefore</para>
+              <term>xlBefore</term>
             </item>
             <item>
-              <para>xlBeforeOrEqualTo</para>
+              <term>xlBeforeOrEqualTo</term>
             </item>
             <item>
-              <para>xlAfter</para>
+              <term>xlAfter</term>
             </item>
             <item>
-              <para>xlAfterOrEqualTo</para>
+              <term>xlAfterOrEqualTo</term>
             </item>
             <item>
-              <para>xlDateBetween</para>
+              <term>xlDateBetween</term>
             </item>
             <item>
-              <para>xlDateNotBetween</para>
+              <term>xlDateNotBetween</term>
             </item>
             <item>
-              <para>xlDateToday</para>
+              <term>xlDateToday</term>
             </item>
             <item>
-              <para>xlDateYesterday</para>
+              <term>xlDateYesterday</term>
             </item>
             <item>
-              <para>xlDateTomorrow</para>
+              <term>xlDateTomorrow</term>
             </item>
             <item>
-              <para>xlDateThisWeek</para>
+              <term>xlDateThisWeek</term>
             </item>
             <item>
-              <para>xlDateLastWeek</para>
+              <term>xlDateLastWeek</term>
             </item>
             <item>
-              <para>xlDateNextWeek</para>
+              <term>xlDateNextWeek</term>
             </item>
             <item>
-              <para>xlDateThisMonth</para>
+              <term>xlDateThisMonth</term>
             </item>
             <item>
-              <para>xlDateLastMonth</para>
+              <term>xlDateLastMonth</term>
             </item>
             <item>
-              <para>xlDateNextMonth</para>
+              <term>xlDateNextMonth</term>
             </item>
             <item>
-              <para>xlDateThisQuarter</para>
+              <term>xlDateThisQuarter</term>
             </item>
             <item>
-              <para>xlDateLastQuarter</para>
+              <term>xlDateLastQuarter</term>
             </item>
             <item>
-              <para>xlDateNextQuarter</para>
+              <term>xlDateNextQuarter</term>
             </item>
             <item>
-              <para>xlDateThisYear</para>
+              <term>xlDateThisYear</term>
             </item>
             <item>
-              <para>xlDateLastYear</para>
+              <term>xlDateLastYear</term>
             </item>
             <item>
-              <para>xlDateNextYear</para>
+              <term>xlDateNextYear</term>
             </item>
             <item>
-              <para>xlYearToDate</para>
+              <term>xlYearToDate</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodQuarter1</para>
+              <term>xlAllDatesInPeriodQuarter1</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodQuarter2</para>
+              <term>xlAllDatesInPeriodQuarter2</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodQuarter3</para>
+              <term>xlAllDatesInPeriodQuarter3</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodQuarter4</para>
+              <term>xlAllDatesInPeriodQuarter4</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodJanuary</para>
+              <term>xlAllDatesInPeriodJanuary</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodFebruary</para>
+              <term>xlAllDatesInPeriodFebruary</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodMarch</para>
+              <term>xlAllDatesInPeriodMarch</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodApril</para>
+              <term>xlAllDatesInPeriodApril</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodMay</para>
+              <term>xlAllDatesInPeriodMay</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodJune</para>
+              <term>xlAllDatesInPeriodJune</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodJuly</para>
+              <term>xlAllDatesInPeriodJuly</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodAugust</para>
+              <term>xlAllDatesInPeriodAugust</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodSeptember</para>
+              <term>xlAllDatesInPeriodSeptember</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodOctober</para>
+              <term>xlAllDatesInPeriodOctober</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodNovember</para>
+              <term>xlAllDatesInPeriodNovember</term>
             </item>
             <item>
-              <para>xlAllDatesInPeriodDecember</para>
+              <term>xlAllDatesInPeriodDecember</term>
             </item>
           </list>
           <para />
@@ -1090,55 +1090,55 @@ The <b>AutoSortCustomSubtotal</b> property can have one of the index values list
           <para>The following table lists the different value filter types that will be deleted by this method.</para>
           <list type="table">
             <item>
-              <para />
+              <term />
             </item>
             <item>
-              <para>xlTopCount</para>
+              <term>xlTopCount</term>
             </item>
             <item>
-              <para>xlBottomCount</para>
+              <term>xlBottomCount</term>
             </item>
             <item>
-              <para>xlTopPercent</para>
+              <term>xlTopPercent</term>
             </item>
             <item>
-              <para>xlBottomPercent</para>
+              <term>xlBottomPercent</term>
             </item>
             <item>
-              <para>xlTopSum</para>
+              <term>xlTopSum</term>
             </item>
             <item>
-              <para>xlBottomSum</para>
+              <term>xlBottomSum</term>
             </item>
             <item>
-              <para>xlValueEquals</para>
+              <term>xlValueEquals</term>
             </item>
             <item>
-              <para>xlValueDoesNotEqual</para>
+              <term>xlValueDoesNotEqual</term>
             </item>
             <item>
-              <para>xlValueIsGreaterThan</para>
+              <term>xlValueIsGreaterThan</term>
             </item>
             <item>
-              <para>xlValueIsGreaterThanOrEqualTo</para>
+              <term>xlValueIsGreaterThanOrEqualTo</term>
             </item>
             <item>
-              <para>xlValueIsLessThan</para>
+              <term>xlValueIsLessThan</term>
             </item>
             <item>
-              <para>xlValueIsLessThanOrEqualTo</para>
+              <term>xlValueIsLessThanOrEqualTo</term>
             </item>
             <item>
-              <para>xlValueIsBetween</para>
+              <term>xlValueIsBetween</term>
             </item>
             <item>
-              <para>xlValueIsNotBetween </para>
+              <term>xlValueIsNotBetween </term>
             </item>
             <item>
-              <para />
+              <term />
             </item>
             <item>
-              <para />
+              <term />
             </item>
           </list>
           <para />
@@ -1371,16 +1371,16 @@ The <b>AutoSortCustomSubtotal</b> property can have one of the index values list
           <para>The <b>DataRange</b> property returns the following, depending on the object:</para>
           <list type="table">
             <item>
-              <para>Data field</para>
-              <para>Data contained in the field</para>
+              <term>Data field</term>
+              <description>Data contained in the field</description>
             </item>
             <item>
-              <para>Row, column, or page field</para>
-              <para>Items in the field</para>
+              <term>Row, column, or page field</term>
+              <description>Items in the field</description>
             </item>
             <item>
-              <para>Item</para>
-              <para>Data qualified by the item</para>
+              <term>Item</term>
+              <description>Data qualified by the item</description>
             </item>
           </list>
           <para />
@@ -2871,16 +2871,16 @@ When <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilt
           <para>This property cannot be set if any of the following conditions are true:</para>
           <list type="bullet">
             <item>
-              <para>The field is grouped.</para>
+              <description>The field is grouped.</description>
             </item>
             <item>
-              <para>The data source isn’t external.</para>
+              <description>The data source isn’t external.</description>
             </item>
             <item>
-              <para>The cache is shared by two or more PivotTable reports.</para>
+              <description>The cache is shared by two or more PivotTable reports.</description>
             </item>
             <item>
-              <para>The field is a data type that cannot be server based (a memo field or an OLE object).</para>
+              <description>The field is a data type that cannot be server based (a memo field or an OLE object).</description>
             </item>
           </list>
           <para />

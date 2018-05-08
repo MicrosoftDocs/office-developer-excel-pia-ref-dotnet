@@ -219,16 +219,16 @@
           <para>The <b>DataRange</b> property returns the following, depending on the object:</para>
           <list type="table">
             <item>
-              <para>Data field</para>
-              <para>Data contained in the field</para>
+              <term>Data field</term>
+              <description>Data contained in the field</description>
             </item>
             <item>
-              <para>Row, column, or page field</para>
-              <para>Items in the field</para>
+              <term>Row, column, or page field</term>
+              <description>Items in the field</description>
             </item>
             <item>
-              <para>Item</para>
-              <para>Data qualified by the item</para>
+              <term>Item</term>
+              <description>Data qualified by the item</description>
             </item>
           </list>
           <para />
@@ -650,16 +650,16 @@
           <para>If the specified range isn’t in a PivotTable report, the following statements are true:</para>
           <list type="bullet">
             <item>
-              <para>The range must be in a single summary row or column.</para>
+              <description>The range must be in a single summary row or column.</description>
             </item>
             <item>
-              <para>This property returns <b>False</b> if any of the children of the row or column are hidden.</para>
+              <description>This property returns <b>False</b> if any of the children of the row or column are hidden.</description>
             </item>
             <item>
-              <para>Setting this property to <b>True</b> is equivalent to unhiding all the children of the summary row or column.</para>
+              <description>Setting this property to <b>True</b> is equivalent to unhiding all the children of the summary row or column.</description>
             </item>
             <item>
-              <para>Setting this property to <b>False</b> is equivalent to hiding all the children of the summary row or column.</para>
+              <description>Setting this property to <b>False</b> is equivalent to hiding all the children of the summary row or column.</description>
             </item>
           </list>
           <para>If the specified range is in a PivotTable report, it’s possible to set this property for more than one cell at a time if the range is contiguous. This property can be returned only if the range is a single cell.</para>

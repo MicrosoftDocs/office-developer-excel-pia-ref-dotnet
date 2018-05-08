@@ -1419,46 +1419,46 @@
           <para>The following table shows example values of the <b>Name</b> property and related properties given an OLAP data source with the unique name "[Europe].[France].[Paris]" and a non-OLAP data source with the item name "Paris".</para>
           <list type="table">
             <item>
-              <para>
+              <term>
                 <b>Caption</b>
-              </para>
-              <para>Paris</para>
-              <para>Paris</para>
+              </term>
+              <description>Paris</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>Name</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>SourceName</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>(Same as SQL property value, read-only)</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>(Same as SQL property value, read-only)</description>
             </item>
             <item>
-              <para>
+              <term>
                 <b>Value</b>
-              </para>
-              <para>[Europe].[France].[Paris] (read-only)</para>
-              <para>Paris</para>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
             </item>
           </list>
           <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
           <list type="table">
             <item>
-              <para>expression.PivotItems("[Europe].[France].[Paris]")</para>
-              <para>expression.PivotItems("Paris")</para>
+              <term>expression.PivotItems("[Europe].[France].[Paris]")</term>
+              <description>expression.PivotItems("Paris")</description>
             </item>
           </list>
           <para>When using the <see cref="M:Microsoft.Office.Interop.Excel.PivotItems.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index name as shown in the following table.</para>
           <list type="table">
             <item>
-              <para>[Europe].[France].[Paris]</para>
-              <para>Paris</para>
+              <term>[Europe].[France].[Paris]</term>
+              <description>Paris</description>
             </item>
           </list>
           <para />

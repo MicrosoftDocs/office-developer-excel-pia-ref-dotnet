@@ -282,22 +282,22 @@
           <para>If the <b>PivotCache</b> object that the method is called from has no attached PivotTable:</para>
           <list type="bullet">
             <item>
-              <para>A workbook-level PivotTable is created from the existing PivotCache.</para>
+              <description>A workbook-level PivotTable is created from the existing PivotCache.</description>
             </item>
             <item>
-              <para>A standalone PivotChart will be created with a reference to the newly created PivotTable.</para>
+              <description>A standalone PivotChart will be created with a reference to the newly created PivotTable.</description>
             </item>
           </list>
           <para>If the PivotCache already has an associated PivotTable:</para>
           <list type="bullet">
             <item>
-              <para>The PivotCache is cloned</para>
+              <description>The PivotCache is cloned</description>
             </item>
             <item>
-              <para>A new workbook-level PivotTable is created based on the cloned PivotCache.</para>
+              <description>A new workbook-level PivotTable is created based on the cloned PivotCache.</description>
             </item>
             <item>
-              <para>A standalone PivotChart is created with a reference to the new workbook-level PivotTable.</para>
+              <description>A standalone PivotChart is created with a reference to the new workbook-level PivotTable.</description>
             </item>
           </list>
           <para />
@@ -1199,20 +1199,20 @@
           <para>The following table shows the values returned by the <b>SourceDate</b> property:</para>
           <list type="table">
             <item>
-              <para>Microsoft Excel list or database</para>
-              <para>The cell reference as text.</para>
+              <term>Microsoft Excel list or database</term>
+              <description>The cell reference as text.</description>
             </item>
             <item>
-              <para>External data source</para>
-              <para>An array. Each row consists of a SQL connection string with the remaining elements as the query string, broken down into 255-character segments.</para>
+              <term>External data source</term>
+              <description>An array. Each row consists of a SQL connection string with the remaining elements as the query string, broken down into 255-character segments.</description>
             </item>
             <item>
-              <para>Multiple consolidation ranges</para>
-              <para>A two-dimensional array. Each row consists of a reference and its associated page field items.</para>
+              <term>Multiple consolidation ranges</term>
+              <description>A two-dimensional array. Each row consists of a reference and its associated page field items.</description>
             </item>
             <item>
-              <para>Another PivotTable report</para>
-              <para>One of the above three kinds of information.</para>
+              <term>Another PivotTable report</term>
+              <description>One of the above three kinds of information.</description>
             </item>
           </list>
           <para>This property is not available for OLE DB data sources.</para>
