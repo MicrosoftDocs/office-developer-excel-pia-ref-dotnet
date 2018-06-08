@@ -1,0 +1,1363 @@
+﻿<Type Name="ListObject" FullName="Microsoft.Office.Interop.Excel.ListObject">
+  <TypeSignature Language="C#" Value="public interface ListObject" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ListObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ListObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ListObject" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ListObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024471-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a list object on a worksheet.</summary>
+    <remarks>
+      <para>The <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.ListObjects" /> collection. The <see cref="T:Microsoft.Office.Interop.Excel.ListObjects" /> collection contains all the list objects on a worksheet.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Worksheet.ListObjects" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> to return a <see cref="T:Microsoft.Office.Interop.Excel.ListObjects" /> collection.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Active">
+      <MemberSignature Language="C#" Value="public bool Active { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Active" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Active" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Active As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Active { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2312)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2312)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value indicating whether a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object in a worksheet is active — that is, whether the active cell is inside the range of the <b>ListObject</b> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Because there is no <b>Activate</b> method for the <b>ListObject</b> object, you can activate a <b>ListObject</b> object only by activating a cell range within the list.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlternativeText">
+      <MemberSignature Language="C#" Value="public string AlternativeText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AlternativeText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.AlternativeText" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlternativeText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AlternativeText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1891)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1891)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1891)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the descriptive (alternative) text string for the specified table.</summary>
+        <value>The descriptive (alternative) text string for the specified table.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The value of the <see cref="P:Microsoft.Office.Interop.Excel.ListObject.AlternativeText" /> property corresponds to the setting of the Title box in the Alternative Text dialog box, which is displayed by right-clicking a table, pointing to Table, and then clicking Alternative Text.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AutoFilter AutoFilter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.AutoFilter AutoFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.AutoFilter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoFilter As AutoFilter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::AutoFilter ^ AutoFilter { Microsoft::Office::Interop::Excel::AutoFilter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(793)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(793)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AutoFilter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Filters a list using the <see cref="T:Microsoft.Office.Interop.Excel.AutoFilter" />. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.AutoFilter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Comment">
+      <MemberSignature Language="C#" Value="public string Comment { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Comment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Comment" />
+      <MemberSignature Language="VB.NET" Value="Public Property Comment As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Comment { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(910)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(910)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(910)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the comment associated with the list object. Read/write <b>String</b>.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>
+          <para>The comment text cannot exceed 255 characters.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataBodyRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range DataBodyRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range DataBodyRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.DataBodyRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataBodyRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ DataBodyRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(705)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(705)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object that represents the range that contains the data area in the list between the header row and the insert row.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object and clears the cell data from the worksheet.</summary>
+        <remarks>
+          <para>If the list is linked to a SharePoint site, deleting it does not affect data on the server that is running Windows SharePoint Services. Any uncommitted changes made to the local list are not sent to the SharePoint list. (There is no warning that these uncommitted changes are lost.)</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2677)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2677)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2677)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the display name for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>String</b>.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayRightToLeft">
+      <MemberSignature Language="C#" Value="public bool DisplayRightToLeft { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayRightToLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.DisplayRightToLeft" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayRightToLeft As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayRightToLeft { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1774)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1774)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines if the specified window, worksheet, or <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object is displayed from right to left instead of from left to right.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property returns <b>True</b> if the specified window, worksheet, or <b>ListObject</b> is displayed from right to left instead of from left to right and <b>False</b> if the object is displayed from left to right.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportToVisio">
+      <MemberSignature Language="C#" Value="public void ExportToVisio ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExportToVisio() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.ExportToVisio" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ExportToVisio ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ExportToVisio();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2680)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Exports a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object to Visio.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HeaderRowRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range HeaderRowRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range HeaderRowRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.HeaderRowRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeaderRowRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ HeaderRowRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2313)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2313)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object that represents the range of the header row for a list.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertRowRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range InsertRowRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range InsertRowRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.InsertRowRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InsertRowRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ InsertRowRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2314)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2314)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object representing the Insert row, if any, of a specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the Insert row is not visible because the list is inactive, the <b>Nothing</b> object will be returned.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListColumns">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListColumns ListColumns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ListColumns ListColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ListColumns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListColumns As ListColumns" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ListColumns ^ ListColumns { Microsoft::Office::Interop::Excel::ListColumns ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2315)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2315)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListColumns</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ListColumns" /> collection that represents all the columns in a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListRows">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListRows ListRows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ListRows ListRows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ListRows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListRows As ListRows" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ListRows ^ ListRows { Microsoft::Office::Interop::Excel::ListRows ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2316)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2316)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListRows</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ListRows" /> object that represents all the rows of data in the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>ListRows</b> object returned does not include the header, total, or Insert rows.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Publish">
+      <MemberSignature Language="C#" Value="public string Publish (object Target, bool LinkSource);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string Publish([in]object Target, [in]bool LinkSource) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Publish(System.Object,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Publish (Target As Object, LinkSource As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Publish(System::Object ^ Target, bool LinkSource);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1895)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Target" Type="System.Object" />
+        <Parameter Name="LinkSource" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="Target">Required <b>Object</b>. Contains an <b>Array</b> of <b>Strings</b>. The following table describes the elements of this array:Element#Contents0URL of SharePoint server1ListName (Display Name)2Description of the list. Optional.</param>
+        <param name="LinkSource">Required <b>Boolean</b>.</param>
+        <summary>Publishes the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object to a server that is running Microsoft Windows SharePoint Services.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>This property returns a S<b>tring</b> which is the URL of the published list on the SharePoint site.</para>
+          <para>If the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object is not currently linked to a list on a SharePoint site, setting <paramref name="LinkSource" /> to <b>True</b> will create a new list on the specified SharePoint site. If the <b>ListObject</b> object is currently linked to a SharePoint site, setting <paramref name="LinkSource" /> argument to <b>True</b> will replace the existing link (you can only link the list to one SharePoint site). If the <b>ListObject</b> object is not currently linked, setting <paramref name="LinkSource" /> to <b>False</b> will leave the <b>ListObject</b> object unlinked. If the <b>ListObject</b> object is currently linked to a SharePoint site, setting <paramref name="LinkSource" /> to <b>False</b> will keep the <b>ListObject</b> object linked to the current SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryTable">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.QueryTable QueryTable { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.QueryTable QueryTable" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.QueryTable" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryTable As QueryTable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::QueryTable ^ QueryTable { Microsoft::Office::Interop::Excel::QueryTable ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1386)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1386)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.QueryTable</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.QueryTable" /> object that provides a link for the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object to the list server.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Range">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range Range { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range Range" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Range" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Range As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ Range { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(197)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(197)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object that represents the range to which the specified list object applies.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Refresh">
+      <MemberSignature Language="C#" Value="public void Refresh ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Refresh() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Refresh" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Refresh ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Refresh();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1417)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the current data and schema for the list from the server that is running Microsoft Windows SharePoint Services.</summary>
+        <remarks>
+          <para>This method can be used only with lists that are linked to a SharePoint site. If the SharePoint site is not available, calling this method will return an error.</para>
+          <para>Calling the <b>Refresh</b> method does not commit changes to the list in the Excel workbook. Uncommitted changes in the list in Excel are discarded when the <b>Refresh</b> method is called. To avoid losing any uncommitted changes, call the <see cref="M:Microsoft.Office.Interop.Excel.ListObject.UpdateChanges(Microsoft.Office.Interop.Excel.XlListConflict)" /> method of the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object before calling the <b>Refresh</b> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Resize">
+      <MemberSignature Language="C#" Value="public void Resize (Microsoft.Office.Interop.Excel.Range Range);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Resize([in]class Microsoft.Office.Interop.Excel.Range Range) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Resize(Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Resize(Microsoft::Office::Interop::Excel::Range ^ Range);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(256)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Range" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="Range">Required <b>Range</b>.</param>
+        <summary>The <b>Resize</b> method allows a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object to be resized over a new range.</summary>
+        <remarks>
+          <para>No cells are inserted or moved by this property.</para>
+          <para>This property returns <b>Nothing</b>.</para>
+          <para>For lists that are linked to a server that is running Microsoft Windows SharePoint Services, you can resize the list using this method by providing a <paramref name="Range" /> argument that differs from the current range of the ListObject only in the number of rows it contains. Attempting to resize lists linked to Windows SharePoint Services by adding or deleting columns (in the <paramref name="Range" /> argument) results in a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SharePointURL">
+      <MemberSignature Language="C#" Value="public string SharePointURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SharePointURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.SharePointURL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SharePointURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SharePointURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2320)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2320)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a S<b>tring</b> representing the URL of the SharePoint list for a given <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Accessing this property generates a run-time error if the list is not linked to a SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAutoFilter">
+      <MemberSignature Language="C#" Value="public bool ShowAutoFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowAutoFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowAutoFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowAutoFilter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowAutoFilter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2317)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2317)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2317)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value indicating whether the AutoFilter will be displayed.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>ShowAutoFilter</b> property defaults to <b>True</b> for a new <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAutoFilterDropDown">
+      <MemberSignature Language="C#" Value="public bool ShowAutoFilterDropDown { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowAutoFilterDropDown" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowAutoFilterDropDown" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowAutoFilterDropDown As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowAutoFilterDropDown { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3096)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3096)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> when the AutoFilter drop down for the <b>ListObject</b> object is displayed. <b>Boolean</b> (<b>bool</b> in C#) Read/Write</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowHeaders">
+      <MemberSignature Language="C#" Value="public bool ShowHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowHeaders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowHeaders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2678)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2678)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2678)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets if the header information should be displayed for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleColumnStripes">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleColumnStripes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleColumnStripes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowTableStyleColumnStripes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleColumnStripes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleColumnStripes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2565)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2565)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2565)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets if the Column Stripes table style is used for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleFirstColumn">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleFirstColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleFirstColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowTableStyleFirstColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleFirstColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleFirstColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2679)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2679)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2679)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets if the first column is formatted for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleLastColumn">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleLastColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleLastColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowTableStyleLastColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleLastColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleLastColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2563)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2563)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2563)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets if the last column is displayed for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleRowStripes">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleRowStripes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleRowStripes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowTableStyleRowStripes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleRowStripes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleRowStripes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2564)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2564)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2564)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets if the Row Stripes table style is used for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTotals">
+      <MemberSignature Language="C#" Value="public bool ShowTotals { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTotals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.ShowTotals" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTotals As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTotals { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2318)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2318)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2318)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> value to indicate whether the Total row is visible.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slicers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Slicers Slicers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Slicers Slicers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Slicers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Slicers As Slicers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Slicers ^ Slicers { Microsoft::Office::Interop::Excel::Slicers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2881)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2881)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Slicers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a list of the table slicers associated with a <b>ListObject</b>. Read-only</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A <b>ListObject</b> is essentially a table.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sort">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Sort Sort { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Sort Sort" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Sort" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sort As Sort" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Sort ^ Sort { Microsoft::Office::Interop::Excel::Sort ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(880)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(880)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Sort</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the sort column or columns, and sort order for the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> collection.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.Sort" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.SourceType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceType As XlListObjectSourceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlListObjectSourceType SourceType { Microsoft::Office::Interop::Excel::XlListObjectSourceType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(685)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(685)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlListObjectSourceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns one of the <see cref="T:Microsoft.Office.Interop.Excel.XlListObjectSourceType" /> constants indicating the current source of the list.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="public string Summary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Summary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.Summary" />
+      <MemberSignature Language="VB.NET" Value="Public Property Summary As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Summary { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(273)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(273)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(273)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the description associated with the alternative text string for the specified table.</summary>
+        <value>The description associated with the alternative text string for the specified table.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The value of the <see cref="P:Microsoft.Office.Interop.Excel.ListObject.Summary" /> property corresponds to the setting of the Description box in the Alternative Text dialog box, which is displayed by right-clicking a table, pointing to Table, and then clicking Alternative Text.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableObject">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.TableObject TableObject { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.TableObject TableObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.TableObject" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableObject As TableObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::TableObject ^ TableObject { Microsoft::Office::Interop::Excel::TableObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3095)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3095)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.TableObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.TableObject" /> object. Read-only</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>TableObject</b> object is a worksheet table built from data returned from a PowerPivot model.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableStyle">
+      <MemberSignature Language="C#" Value="public object TableStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TableStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.TableStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property TableStyle As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TableStyle { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1504)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the table style for the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object. Read/write <b>Object</b>.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalsRowRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range TotalsRowRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range TotalsRowRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.TotalsRowRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalsRowRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ TotalsRowRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2319)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2319)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object representing the Total row, if any, from a specified <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlink">
+      <MemberSignature Language="C#" Value="public void Unlink ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Unlink() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Unlink" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unlink ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unlink();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2308)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes the link to a Microsoft Windows SharePoint Services site from a list.</summary>
+        <remarks>
+          <para>This property returns <b>Nothing</b>.</para>
+          <para>After this method is called and the list is unlinked, it cannot be reversed.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Unlist">
+      <MemberSignature Language="C#" Value="public void Unlist ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Unlist() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.Unlist" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Unlist ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Unlist();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2309)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Removes the list functionality from a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <remarks>
+          <para>After you use this method, the range of cells that made up the list will be a regular range of data.</para>
+          <para>This property returns <b>Nothing</b>.</para>
+          <para>Running this method leaves the cell data, formatting, and formulas in the worksheet. The Total row is also left intact. This method removes any link to a Microsoft Windows SharePoint Services site. AutoFilter and the Insert row are also removed from the list.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateChanges">
+      <MemberSignature Language="C#" Value="public void UpdateChanges (Microsoft.Office.Interop.Excel.XlListConflict iConflictType = Microsoft.Office.Interop.Excel.XlListConflict.xlListConflictDialog);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateChanges([in]valuetype Microsoft.Office.Interop.Excel.XlListConflict iConflictType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObject.UpdateChanges(Microsoft.Office.Interop.Excel.XlListConflict)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateChanges (Optional iConflictType As XlListConflict = Microsoft.Office.Interop.Excel.XlListConflict.xlListConflictDialog)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2310)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="iConflictType" Type="Microsoft.Office.Interop.Excel.XlListConflict" />
+      </Parameters>
+      <Docs>
+        <param name="iConflictType">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlListConflict" />. Conflict resolution options.</param>
+        <summary>Updates the list on a Microsoft Windows SharePoint Services site with the changes made to the list in the worksheet.</summary>
+        <remarks>
+          <para>This property returns <b>Nothing</b>.</para>
+          <para>This method applies only to lists linked to a SharePoint site. If the SharePoint site is not available, an error is generated.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XmlMap">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XmlMap XmlMap { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.XmlMap XmlMap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObject.XmlMap" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property XmlMap As XmlMap" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XmlMap ^ XmlMap { Microsoft::Office::Interop::Excel::XmlMap ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2253)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2253)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XmlMap</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.XmlMap" /> object that represents the schema map used for the specified list.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>XML features, except for saving files in the XML Spreadsheet format, are available only in Microsoft Office Professional Edition 2003 and Microsoft Office Excel 2003.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,494 @@
+﻿<Type Name="AutoCorrect" FullName="Microsoft.Office.Interop.Excel.AutoCorrect">
+  <TypeSignature Language="C#" Value="public interface AutoCorrect" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract AutoCorrect" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AutoCorrect" />
+  <TypeSignature Language="VB.NET" Value="Public Interface AutoCorrect" />
+  <TypeSignature Language="C++ CLI" Value="public interface class AutoCorrect" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000208D4-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains Microsoft Excel AutoCorrect attributes (capitalization of names of days, correction of two initial capital letters, automatic correction list, and so on).</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Application.AutoCorrect" /> property to return the <b>AutoCorrect</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddReplacement">
+      <MemberSignature Language="C#" Value="public object AddReplacement (string What, string Replacement);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object AddReplacement([in]string What, [in]string Replacement) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AutoCorrect.AddReplacement(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddReplacement (What As String, Replacement As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ AddReplacement(System::String ^ What, System::String ^ Replacement);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="What" Type="System.String" />
+        <Parameter Name="Replacement" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="What">Required <b>String</b>. The text to be replaced. If this string already exists in the array of AutoCorrect replacements, the existing substitute text is replaced by the new text.</param>
+        <param name="Replacement">Required <b>String</b>. The replacement text.</param>
+        <summary>Adds an entry to the array of AutoCorrect replacements.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoExpandListRange">
+      <MemberSignature Language="C#" Value="public bool AutoExpandListRange { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoExpandListRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.AutoExpandListRange" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoExpandListRange As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoExpandListRange { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2294)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2294)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>A <b>Boolean</b> value indicating whether automatic expansion is enabled for lists.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When you type in a cell of an empty row or column next to a list, the list will expand to include that row or column if automatic expansion is enabled.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoFillFormulasInLists">
+      <MemberSignature Language="C#" Value="public bool AutoFillFormulasInLists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AutoFillFormulasInLists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.AutoFillFormulasInLists" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoFillFormulasInLists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AutoFillFormulasInLists { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2642)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2642)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2642)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Affects the creation of calculated columns created by automatic fill-down lists. Read/write <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>The property does not affect existing calculated columns or calculated columns created where auto-fill did not occur.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CapitalizeNamesOfDays">
+      <MemberSignature Language="C#" Value="public bool CapitalizeNamesOfDays { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CapitalizeNamesOfDays" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.CapitalizeNamesOfDays" />
+      <MemberSignature Language="VB.NET" Value="Public Property CapitalizeNamesOfDays As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CapitalizeNamesOfDays { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the first letter of day names is capitalized automatically.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CorrectCapsLock">
+      <MemberSignature Language="C#" Value="public bool CorrectCapsLock { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CorrectCapsLock" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.CorrectCapsLock" />
+      <MemberSignature Language="VB.NET" Value="Public Property CorrectCapsLock As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectCapsLock { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1620)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1620)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1620)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel automatically corrects accidental use of the CAPS LOCK key.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CorrectSentenceCap">
+      <MemberSignature Language="C#" Value="public bool CorrectSentenceCap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CorrectSentenceCap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.CorrectSentenceCap" />
+      <MemberSignature Language="VB.NET" Value="Public Property CorrectSentenceCap As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CorrectSentenceCap { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1619)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1619)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1619)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel automatically corrects sentence (first word) capitalization.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteReplacement">
+      <MemberSignature Language="C#" Value="public object DeleteReplacement (string What);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DeleteReplacement([in]string What) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AutoCorrect.DeleteReplacement(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteReplacement (What As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ DeleteReplacement(System::String ^ What);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1147)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="What" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="What">Required <b>String</b>. The text to be replaced, as it appears in the row to be deleted from the array of AutoCorrect replacements. If this string doesn't exist in the array of AutoCorrect replacements, this method fails.</param>
+        <summary>Deletes an entry from the array of AutoCorrect replacements.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayAutoCorrectOptions">
+      <MemberSignature Language="C#" Value="public bool DisplayAutoCorrectOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayAutoCorrectOptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.DisplayAutoCorrectOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayAutoCorrectOptions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayAutoCorrectOptions { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1926)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1926)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1926)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows the user to display or hide the AutoCorrect Options button. The default value is <b>True</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>DisplayAutoCorrectOptions</b> property is a Microsoft Office-wide setting. Changing this property in Microsoft Excel will affect the other Office applications also.</para>
+          <para>In Excel the AutoCorrect Options button only appears when a hyperlink is automatically created.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplacementList">
+      <MemberSignature Language="C#" Value="public object ReplacementList[object Index] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ReplacementList(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.ReplacementList(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplacementList(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ReplacementList[System::Object ^] { System::Object ^ get(System::Object ^ Index); void set(System::Object ^ Index, System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1151)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1151)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1151)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The row index of the array of AutoCorrect replacements to be returned. The row is returned as a one-dimensional array with two elements: The first element is the text in column 1, and the second element is the text in column 2.</param>
+        <summary>Returns the array of AutoCorrect replacements.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If <paramref name="Index" /> is not specified, this method returns a two-dimensional array. Each row in the array contains one replacement, as shown in the following table.</para>
+          <list type="table">
+            <item>
+              <term>1</term>
+              <description>The text to be replaced</description>
+            </item>
+            <item>
+              <term>2</term>
+              <description>The replacement text</description>
+            </item>
+          </list>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.AutoCorrect.AddReplacement(System.String,System.String)" /> method to add an entry to the replacement list.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplaceText">
+      <MemberSignature Language="C#" Value="public bool ReplaceText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReplaceText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.ReplaceText" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReplaceText As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReplaceText { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if text in the list of AutoCorrect replacements is replaced automatically.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TwoInitialCapitals">
+      <MemberSignature Language="C#" Value="public bool TwoInitialCapitals { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TwoInitialCapitals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.AutoCorrect.TwoInitialCapitals" />
+      <MemberSignature Language="VB.NET" Value="Public Property TwoInitialCapitals As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TwoInitialCapitals { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if words that begin with two capital letters are corrected automatically.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

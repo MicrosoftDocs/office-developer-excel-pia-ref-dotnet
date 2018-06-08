@@ -1,0 +1,692 @@
+﻿<Type Name="DisplayFormat" FullName="Microsoft.Office.Interop.Excel.DisplayFormat">
+  <TypeSignature Language="C#" Value="public interface DisplayFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DisplayFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DisplayFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DisplayFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DisplayFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244C2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the display settings for an associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object.</summary>
+    <remarks>
+      <para>Read-only.</para>
+      <para>Actions such as changing the conditional formatting or table style of a range can cause what is displayed in the current user interface to be inconsistent with the values in the corresponding properties of the <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object. Use the properties of the <see cref="T:Microsoft.Office.Interop.Excel.DisplayFormat" /> object to return the values as they are displayed in the current user interface.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddIndent">
+      <MemberSignature Language="C#" Value="public object AddIndent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object AddIndent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.AddIndent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AddIndent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ AddIndent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1063)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1063)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if Microsoft Excel automatically indents text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object when the text alignment in a cell is set to equal distribution (either horizontally or vertically), as it is displayed in the current user interface.</summary>
+        <value>Indicates if Microsoft Excel automatically indents text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object when the text alignment in a cell is set to equal distribution (either horizontally or vertically), as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if text is automatically indented when the text alignment in the cell is set, either horizontally or vertically, to equal distribution.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the creator of the specified object.</summary>
+        <value>An <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Borders">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Borders Borders { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Borders Borders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Borders" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Borders As Borders" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Borders ^ Borders { Microsoft::Office::Interop::Excel::Borders ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(435)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(435)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Borders</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.Borders" /> object that represents the borders of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface. </summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.Borders" /> object that represents the borders of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Characters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Characters Characters[object Start, object Length] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Characters Characters(object, object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Characters(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Characters(Optional Start As Object, Optional Length As Object) As Characters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Characters ^ Characters[System::Object ^, System::Object ^] { Microsoft::Office::Interop::Excel::Characters ^ get(System::Object ^ Start, System::Object ^ Length); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(603)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(603)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Characters</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Start" Type="System.Object" />
+        <Parameter Name="Length" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Start">The first character to be returned. If this argument is either 1 or omitted, this property returns a range of characters starting with the first character.</param>
+        <param name="Length">The number of characters to be returned. If this argument is omitted, this property returns the remainder of the string (everything after the <paramref name="Start" /> character).</param>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.Characters" /> object that represents a range of characters within the text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.Characters" /> object that represents a range of characters within the text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a 32-bit <b>integer</b> that indicates the application in which this object was created.</summary>
+        <value>A 32-bit <b>integer</b> that indicates the application in which this object was created.</value>
+        <remarks>
+          <para>Read-only <b>long</b>.</para>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. The <see cref="P:Microsoft.Office.Interop.Excel.DisplayFormat.Creator" /> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Font">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Font Font { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Font Font" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Font" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Font ^ Font { Microsoft::Office::Interop::Excel::Font ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(146)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Font</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.Font" /> object that represents the font of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> as it is displayed in the current user interface.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.Font" /> object that represents the font of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormulaHidden">
+      <MemberSignature Language="C#" Value="public object FormulaHidden { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object FormulaHidden" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.FormulaHidden" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FormulaHidden As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ FormulaHidden { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(262)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(262)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if the formula of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object is hidden when the worksheet is protected as it is displayed in the current user interface.</summary>
+        <value>Indicates if the formula of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object is hidden when the worksheet is protected as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if the formula is hidden when the worksheet is protected, a null reference (Nothing in Visual Basic) if the range contains some cells with <see cref="P:Microsoft.Office.Interop.Excel.DisplayFormat.FormulaHidden" /> equal to <b>true</b> and some cells with <see cref="P:Microsoft.Office.Interop.Excel.DisplayFormat.FormulaHidden" /> equal to <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalAlignment">
+      <MemberSignature Language="C#" Value="public object HorizontalAlignment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HorizontalAlignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.HorizontalAlignment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HorizontalAlignment As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HorizontalAlignment { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(136)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(136)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the horizontal alignment of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The horizontal alignment of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IndentLevel">
+      <MemberSignature Language="C#" Value="public object IndentLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object IndentLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.IndentLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IndentLevel As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ IndentLevel { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(201)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the indent level of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The indent level of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interior">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Interior Interior { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Interior Interior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Interior" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As Interior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Interior ^ Interior { Microsoft::Office::Interop::Excel::Interior ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Interior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets an <see cref="T:Microsoft.Office.Interop.Excel.Interior" /> object that represents the interior of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>An <see cref="T:Microsoft.Office.Interop.Excel.Interior" /> object that represents the interior of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locked">
+      <MemberSignature Language="C#" Value="public object Locked { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Locked" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Locked" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locked As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Locked { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(269)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(269)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object is locked as it is displayed in the current user interface.</summary>
+        <value>Indicates if the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object is locked as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if the range is locked, <b>false</b> if the range can be modified when the sheet is protected, or a null reference (Nothing in Visual Basic) if the range contains both locked and unlocked cells.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergeCells">
+      <MemberSignature Language="C#" Value="public object MergeCells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MergeCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.MergeCells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MergeCells As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MergeCells { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(208)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(208)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object contains merged cells as it is displayed in the current user interface.</summary>
+        <value>Indicates if the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object contains merged cells as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if the range contains merged cells.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberFormat">
+      <MemberSignature Language="C#" Value="public object NumberFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object NumberFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.NumberFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberFormat As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ NumberFormat { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the format code of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The format code of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>This property returns a null reference (Nothing in Visual Basic) if all cells in the specified range do not have the same number format.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberFormatLocal">
+      <MemberSignature Language="C#" Value="public object NumberFormatLocal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object NumberFormatLocal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.NumberFormatLocal" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NumberFormatLocal As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ NumberFormatLocal { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1097)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1097)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the format code of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> as a string in the language of the user as it is displayed in the current user interface.</summary>
+        <value>The format code of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> as a string in the language of the user as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public object Orientation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Orientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Orientation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Orientation As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Orientation { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the text orientation of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The text orientation of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent object for the specified object.</summary>
+        <value>The parent object for the specified object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadingOrder">
+      <MemberSignature Language="C#" Value="public int ReadingOrder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ReadingOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.ReadingOrder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadingOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ReadingOrder { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(975)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(975)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the reading order of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The reading order of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShrinkToFit">
+      <MemberSignature Language="C#" Value="public object ShrinkToFit { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ShrinkToFit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.ShrinkToFit" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShrinkToFit As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ShrinkToFit { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(209)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(209)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if Microsoft Excel automatically shrinks text to fit in the available column width of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>Indicates if Microsoft Excel automatically shrinks text to fit in the available column width of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if text automatically shrinks to fit in the available column width.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Style">
+      <MemberSignature Language="C#" Value="public object Style { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Style" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.Style" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Style As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Style { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(260)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(260)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value, containing a <see cref="T:Microsoft.Office.Interop.Excel.Style" /> object, that represents the style of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>A value, containing a <see cref="T:Microsoft.Office.Interop.Excel.Style" /> object, that represents the style of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalAlignment">
+      <MemberSignature Language="C#" Value="public object VerticalAlignment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object VerticalAlignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.VerticalAlignment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VerticalAlignment As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ VerticalAlignment { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(137)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(137)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that represents the vertical alignment of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</summary>
+        <value>The vertical alignment of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WrapText">
+      <MemberSignature Language="C#" Value="public object WrapText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object WrapText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.DisplayFormat.WrapText" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WrapText As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ WrapText { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(276)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(276)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a value that indicates if Microsoft Excel wraps the text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface. </summary>
+        <value>Indicates if Microsoft Excel wraps the text of the associated <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object as it is displayed in the current user interface.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>Returns <b>true</b> if text is wrapped in all cells within the range.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

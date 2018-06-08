@@ -1,0 +1,104 @@
+﻿<Type Name="ISpeech" FullName="Microsoft.Office.Interop.Excel.ISpeech">
+  <TypeSignature Language="C#" Value="public interface ISpeech" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISpeech" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ISpeech" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISpeech" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISpeech" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024466-0001-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Direction">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSpeakDirection Direction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSpeakDirection Direction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ISpeech.Direction" />
+      <MemberSignature Language="VB.NET" Value="Public Property Direction As XlSpeakDirection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSpeakDirection Direction { Microsoft::Office::Interop::Excel::XlSpeakDirection get(); void set(Microsoft::Office::Interop::Excel::XlSpeakDirection value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(168)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSpeakDirection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Speak">
+      <MemberSignature Language="C#" Value="public void Speak (string Text, object SpeakAsync, object SpeakXML, object Purge);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Speak([in]string Text, [in]object SpeakAsync, [in]object SpeakXML, [in]object Purge) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ISpeech.Speak(System.String,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Speak (Text As String, Optional SpeakAsync As Object, Optional SpeakXML As Object, Optional Purge As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Text" Type="System.String" />
+        <Parameter Name="SpeakAsync" Type="System.Object" />
+        <Parameter Name="SpeakXML" Type="System.Object" />
+        <Parameter Name="Purge" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Text">To be added.</param>
+        <param name="SpeakAsync">To be added.</param>
+        <param name="SpeakXML">To be added.</param>
+        <param name="Purge">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpeakCellOnEnter">
+      <MemberSignature Language="C#" Value="public bool SpeakCellOnEnter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SpeakCellOnEnter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ISpeech.SpeakCellOnEnter" />
+      <MemberSignature Language="VB.NET" Value="Public Property SpeakCellOnEnter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SpeakCellOnEnter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2235)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,35 @@
+﻿<Type Name="AppEvents_WorkbookAfterSaveEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterSaveEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WorkbookAfterSaveEventHandler(Workbook Wb, bool Success);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WorkbookAfterSaveEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterSaveEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WorkbookAfterSaveEventHandler(Wb As Workbook, Success As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WorkbookAfterSaveEventHandler(Workbook ^ Wb, bool Success);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Success" Type="System.Boolean" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">The workbook being saved.</param>
+    <param name="Success">Returns <b>true</b> if the save operation was successful; otherwise <b>false</b>.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookAfterSave" /> event. The <b>WorkbookAfterSave</b> event occurs after the workbook is saved.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

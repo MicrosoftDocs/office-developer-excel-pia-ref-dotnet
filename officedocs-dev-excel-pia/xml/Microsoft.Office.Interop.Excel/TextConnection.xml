@@ -1,0 +1,713 @@
+﻿<Type Name="TextConnection" FullName="Microsoft.Office.Interop.Excel.TextConnection">
+  <TypeSignature Language="C#" Value="public interface TextConnection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextConnection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.TextConnection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextConnection" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextConnection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244D3-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Contains Service Contract settings that enable Excel to connect to a Data Feed data source.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an Application <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Excel application. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Connection">
+      <MemberSignature Language="C#" Value="public object Connection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Connection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.Connection" />
+      <MemberSignature Language="VB.NET" Value="Public Property Connection As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Connection { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1432)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1432)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1432)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a string that contains text file names that enable Excel to connect to text data sources. <b>Object</b> (<b>object</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which the specified object was created. Read-only <b>Integer</b> (<b>int</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Because the object was created in Excel, this property returns the hexadecimal value, 5843454C, which represents the string "XCEL".</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> (<b>object</b> in C#) that represents the parent object of the specified <b>TextConnection</b> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileColumnDataTypes">
+      <MemberSignature Language="C#" Value="public object TextFileColumnDataTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TextFileColumnDataTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileColumnDataTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileColumnDataTypes As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TextFileColumnDataTypes { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1865)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1865)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an ordered array of constants that specify the data types applied to the corresponding columns in the text file that you’re importing into a query table. The default constant for each column is <b>xlGeneral</b>. <b>Object</b> (<b>object</b> in C#). Read/Write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileCommaDelimiter">
+      <MemberSignature Language="C#" Value="public bool TextFileCommaDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileCommaDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileCommaDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileCommaDelimiter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileCommaDelimiter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1862)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1862)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1862)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the comma is the delimiter when you import a text file into a query table. <b>False</b> if you want to use some other character as the delimiter. The default value is <b>False</b>. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileConsecutiveDelimiter">
+      <MemberSignature Language="C#" Value="public bool TextFileConsecutiveDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileConsecutiveDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileConsecutiveDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileConsecutiveDelimiter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileConsecutiveDelimiter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1859)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1859)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1859)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if consecutive delimiters are treated as a single delimiter when you import a text file into a query table. The default value is <b>False</b>. <b>Boolean</b> (<b>bool</b> in C#) Read/Write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileDecimalSeparator">
+      <MemberSignature Language="C#" Value="public string TextFileDecimalSeparator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextFileDecimalSeparator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileDecimalSeparator" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileDecimalSeparator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextFileDecimalSeparator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1870)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1870)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1870)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the decimal separator character that Excel uses when you import a text file into a query table. The default is the system decimal separator character. Read/Write <b>String</b> (<b>string</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileFixedColumnWidths">
+      <MemberSignature Language="C#" Value="public object TextFileFixedColumnWidths { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TextFileFixedColumnWidths" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileFixedColumnWidths" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileFixedColumnWidths As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TextFileFixedColumnWidths { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1866)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1866)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1866)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an array of integers that correspond to the widths of the columns (in characters) in the text file that you’re importing into a query table. Valid widths are from 1 through 32767 characters. Read/Write <b>Object</b> (<b>object</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileHeaderRow">
+      <MemberSignature Language="C#" Value="public bool TextFileHeaderRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileHeaderRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileHeaderRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileHeaderRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileHeaderRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets value that specifies whether or not the first row (from the starting row) should be treated as a header row. <b>Boolean</b> (<b>bool</b> in C#) Read/Write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileOtherDelimiter">
+      <MemberSignature Language="C#" Value="public string TextFileOtherDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextFileOtherDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileOtherDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileOtherDelimiter As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextFileOtherDelimiter { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1864)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1864)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1864)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the character used as the delimiter when you import a text file into a query table. The default value is <b>Nothing</b> (a null reference (Nothing in Visual Basic) in C#). Read/Write <b>String</b> (<b>string</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileParseType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTextParsingType TextFileParseType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTextParsingType TextFileParseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileParseType" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileParseType As XlTextParsingType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTextParsingType TextFileParseType { Microsoft::Office::Interop::Excel::XlTextParsingType get(); void set(Microsoft::Office::Interop::Excel::XlTextParsingType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1857)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1857)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1857)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTextParsingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the column format for the data in the text file that you’re importing into a query table. Read/Write <see cref="T:Microsoft.Office.Interop.Excel.XlTextParsingType" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFilePlatform">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPlatform TextFilePlatform { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPlatform TextFilePlatform" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFilePlatform" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFilePlatform As XlPlatform" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPlatform TextFilePlatform { Microsoft::Office::Interop::Excel::XlPlatform get(); void set(Microsoft::Office::Interop::Excel::XlPlatform value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1855)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1855)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1855)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPlatform</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the origin of the text file you’re importing into the query table. This property determines which code page is used during the data import. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlPlatform" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFilePromptOnRefresh">
+      <MemberSignature Language="C#" Value="public bool TextFilePromptOnRefresh { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFilePromptOnRefresh" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFilePromptOnRefresh" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFilePromptOnRefresh As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFilePromptOnRefresh { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1869)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1869)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1869)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if you want to specify the name of the imported text file each time the query table is refreshed. The Import Text File dialog box allows you to specify the path and file name. The default value is <b>False</b>. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileSemicolonDelimiter">
+      <MemberSignature Language="C#" Value="public bool TextFileSemicolonDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileSemicolonDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileSemicolonDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileSemicolonDelimiter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileSemicolonDelimiter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1861)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1861)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1861)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the semicolon is the delimiter when you import a text file into a query table, and if the value of the <see cref="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileParseType" /> property is <b>xlDelimited</b>. The default value is <b>False</b>. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileSpaceDelimiter">
+      <MemberSignature Language="C#" Value="public bool TextFileSpaceDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileSpaceDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileSpaceDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileSpaceDelimiter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileSpaceDelimiter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1863)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1863)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1863)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the space character is the delimiter when you import a text file into a query table. The default value is <b>False</b>. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileStartRow">
+      <MemberSignature Language="C#" Value="public int TextFileStartRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TextFileStartRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileStartRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileStartRow As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TextFileStartRow { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1856)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1856)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1856)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the row number at which text parsing will begin when you import a text file into a query table. Valid values are integers from 1 through 32767. The default value is 1. Read/Write <b>Integer</b> (<b>int</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileTabDelimiter">
+      <MemberSignature Language="C#" Value="public bool TextFileTabDelimiter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileTabDelimiter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileTabDelimiter" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileTabDelimiter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileTabDelimiter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1860)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1860)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1860)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the tab character is the delimiter when you import a text file into a query table. The default value is <b>False</b>. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileTextQualifier">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTextQualifier TextFileTextQualifier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTextQualifier TextFileTextQualifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileTextQualifier" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileTextQualifier As XlTextQualifier" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTextQualifier TextFileTextQualifier { Microsoft::Office::Interop::Excel::XlTextQualifier get(); void set(Microsoft::Office::Interop::Excel::XlTextQualifier value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1858)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1858)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1858)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTextQualifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the text qualifier when you import a text file into a query table. The text qualifier specifies that the enclosed data is in text format. Read/Write <see cref="T:Microsoft.Office.Interop.Excel.XlTextQualifier" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileThousandsSeparator">
+      <MemberSignature Language="C#" Value="public string TextFileThousandsSeparator { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextFileThousandsSeparator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileThousandsSeparator" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileThousandsSeparator As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextFileThousandsSeparator { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1871)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1871)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1871)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> for Excel to treat numbers imported as text that begin with a "-" symbol as a negative symbol. <b>False</b> for Excel to treat numbers imported as text that begin with a "-" symbol as text. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileTrailingMinusNumbers">
+      <MemberSignature Language="C#" Value="public bool TextFileTrailingMinusNumbers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TextFileTrailingMinusNumbers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileTrailingMinusNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileTrailingMinusNumbers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TextFileTrailingMinusNumbers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2164)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> for Excel to treat numbers imported as text that begin with a "-" symbol as a negative symbol. <b>False</b> for Excel to treat numbers imported as text that begin with a "-" symbol as text. Read/Write <b>Boolean</b> (<b>bool</b> in C#).</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextFileVisualLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlTextVisualLayoutType TextFileVisualLayout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlTextVisualLayoutType TextFileVisualLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextConnection.TextFileVisualLayout" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextFileVisualLayout As XlTextVisualLayoutType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlTextVisualLayoutType TextFileVisualLayout { Microsoft::Office::Interop::Excel::XlTextVisualLayoutType get(); void set(Microsoft::Office::Interop::Excel::XlTextVisualLayoutType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2245)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2245)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2245)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlTextVisualLayoutType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <see cref="T:Microsoft.Office.Interop.Excel.XlTextVisualLayoutType" /> enumeration that indicates whether the visual layout of the text being imported is left-to-right or right-to-left. Read/Write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

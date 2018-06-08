@@ -1,0 +1,540 @@
+﻿<Type Name="SmartTagAction" FullName="Microsoft.Office.Interop.Excel.SmartTagAction">
+  <TypeSignature Language="C#" Value="public interface SmartTagAction" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SmartTagAction" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.SmartTagAction" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SmartTagAction" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SmartTagAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002445E-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the actions that can be performed with smart tags.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.SmartTagActions.Item(System.Object)" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.SmartTagActions" /> collection to return a <b>SmartTagAction</b> object.</para>
+      <para>Once a <b>SmartTagAction</b> object has been returned, you can activate a smart tag to automatically annotate data using the <see cref="M:Microsoft.Office.Interop.Excel.SmartTagAction.Execute" /> method.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveXControl">
+      <MemberSignature Language="C#" Value="public object ActiveXControl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ActiveXControl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.ActiveXControl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveXControl As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ActiveXControl { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2303)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2303)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> that represents an ActiveX control displayed in the Document Actions task pane.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CheckboxState">
+      <MemberSignature Language="C#" Value="public bool CheckboxState { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CheckboxState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.CheckboxState" />
+      <MemberSignature Language="VB.NET" Value="Public Property CheckboxState As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CheckboxState { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2299)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2299)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Boolean</b> value that indicates whether a check box in a smart document is selected.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting the <b>CheckboxState</b> property to <b>True</b> selects the check box. Setting this property to <b>False</b> clears the check box.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Execute">
+      <MemberSignature Language="C#" Value="public void Execute ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Execute() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.SmartTagAction.Execute" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Execute ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Execute();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2211)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Activates a smart tag action that is associated with the smart tag type on a cell.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExpandHelp">
+      <MemberSignature Language="C#" Value="public bool ExpandHelp { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ExpandHelp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.ExpandHelp" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExpandHelp As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ExpandHelp { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2298)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2298)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2298)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns a <b>Boolean</b> value that represents whether the specified smart document Help text control is expanded or collapsed in the Document Actions task pane. <b>True</b> indicates that the control is expanded. <b>False</b> indicates that the control is collapsed.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListSelection">
+      <MemberSignature Language="C#" Value="public int ListSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ListSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.ListSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property ListSelection As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ListSelection { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2301)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2301)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns an <b>Integer</b> value that represents the index number of the selected item in a smart document list box control.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the object.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The following table shows example values of the <b>Name</b> property and related properties given an  data source with the unique name "[Europe].[France].[Paris]" and a non-OLAP data source with the item name "Paris".</para>
+          <list type="table">
+            <item>
+              <term>
+                <b>Caption</b>
+              </term>
+              <description>Paris</description>
+              <description>Paris</description>
+            </item>
+            <item>
+              <term>
+                <b>Name</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
+            </item>
+            <item>
+              <term>
+                <b>SourceName</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>(Same as SQL property value, read-only)</description>
+            </item>
+            <item>
+              <term>
+                <b>Value</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
+            </item>
+          </list>
+          <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
+          <list type="table">
+            <item>
+              <term>Expression.PivotItems("[Europe].[France].[Paris]")</term>
+              <description>expression.PivotItems("Paris")</description>
+            </item>
+          </list>
+          <para>When using the <see cref="M:Microsoft.Office.Interop.Excel.PivotItems.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index name as shown in the following table.</para>
+          <list type="table">
+            <item>
+              <term>[Europe].[France].[Paris]</term>
+              <description>Paris</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresentInPane">
+      <MemberSignature Language="C#" Value="public bool PresentInPane { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PresentInPane" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.PresentInPane" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresentInPane As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PresentInPane { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2297)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2297)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value that represents whether a smart document control is currently displayed in the Document Actions task pane.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioGroupSelection">
+      <MemberSignature Language="C#" Value="public int RadioGroupSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 RadioGroupSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.RadioGroupSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property RadioGroupSelection As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int RadioGroupSelection { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2302)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2302)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns an <b>Integer</b> that represents the index number of the selected item in a group of radio button controls in a smart document.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextboxText">
+      <MemberSignature Language="C#" Value="public string TextboxText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextboxText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.TextboxText" />
+      <MemberSignature Language="VB.NET" Value="Public Property TextboxText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextboxText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2300)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2300)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Sets or returns a <b>String</b> that represents the text in a smart document textbox control.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSmartTagControlType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSmartTagControlType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SmartTagAction.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As XlSmartTagControlType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSmartTagControlType Type { Microsoft::Office::Interop::Excel::XlSmartTagControlType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSmartTagControlType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.XlSmartTagControlType" /> that represents the type of Smart Document control displayed in the Document Actions task pane.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlSmartTagControlType" /> can be one of the following <b>XlSmartTagControlType</b> constants:</para>
+          <para>
+            <b>xlSmartTagControlActiveX</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlButton</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlCheckbox</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlCombo</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlHelp</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlHelpURL</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlImage</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlLabel</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlLink</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlListbox</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlRadioGroup</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlSeparator</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlSmartTag</b>
+          </para>
+          <para>
+            <b>xlSmartTagControlTextbox</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

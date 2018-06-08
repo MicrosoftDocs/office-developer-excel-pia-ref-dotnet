@@ -1,0 +1,39 @@
+﻿<Type Name="ChartEvents_MouseUpEventHandler" FullName="Microsoft.Office.Interop.Excel.ChartEvents_MouseUpEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void ChartEvents_MouseUpEventHandler(int Button, int Shift, int x, int y);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ChartEvents_MouseUpEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartEvents_MouseUpEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub ChartEvents_MouseUpEventHandler(Button As Integer, Shift As Integer, x As Integer, y As Integer)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void ChartEvents_MouseUpEventHandler(int Button, int Shift, int x, int y);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Button" Type="System.Int32" />
+    <Parameter Name="Shift" Type="System.Int32" />
+    <Parameter Name="x" Type="System.Int32" />
+    <Parameter Name="y" Type="System.Int32" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Button">The mouse button that was released. Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlMouseButton" /> constants: <b>xlNoButton</b>, <b>xlPrimaryButton</b>, <b>xlSecondaryButton</b>, or <b>xlMiddleButton</b>.</param>
+    <param name="Shift">The state of the SHIFT, CTRL, and ALT keys when the event occurred. Can be one of or a sum of the following values.ValueMeaning0 (zero)No keys1SHIFT key2CTRL key4ALT key</param>
+    <param name="x">The X coordinate of the mouse pointer in chart object client coordinates.</param>
+    <param name="y">The Y coordinate of the mouse pointer in chart object client coordinates.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.ChartEvents_Event.MouseUp" /> event. The <b>MouseUp</b> event occurs when a mouse button is released while the pointer is over a chart.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

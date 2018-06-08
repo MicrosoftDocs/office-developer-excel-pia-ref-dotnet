@@ -1,0 +1,96 @@
+﻿<Type Name="XlFilterStatus" FullName="Microsoft.Office.Interop.Excel.XlFilterStatus">
+  <TypeSignature Language="C#" Value="public enum XlFilterStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlFilterStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlFilterStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlFilterStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlFilterStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Used to return a status from filter functions.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlFilterStatusDateHasTime">
+      <MemberSignature Language="C#" Value="xlFilterStatusDateHasTime" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFilterStatus xlFilterStatusDateHasTime = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFilterStatus.xlFilterStatusDateHasTime" />
+      <MemberSignature Language="VB.NET" Value="xlFilterStatusDateHasTime" />
+      <MemberSignature Language="C++ CLI" Value="xlFilterStatusDateHasTime" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFilterStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>SetFilterDateRange(…): StartDate or EndDate have a time portion.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFilterStatusDateWrongOrder">
+      <MemberSignature Language="C#" Value="xlFilterStatusDateWrongOrder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFilterStatus xlFilterStatusDateWrongOrder = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFilterStatus.xlFilterStatusDateWrongOrder" />
+      <MemberSignature Language="VB.NET" Value="xlFilterStatusDateWrongOrder" />
+      <MemberSignature Language="C++ CLI" Value="xlFilterStatusDateWrongOrder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFilterStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>SetFilterDateRange(…): StartDate &gt; EndDate</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFilterStatusInvalidDate">
+      <MemberSignature Language="C#" Value="xlFilterStatusInvalidDate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFilterStatus xlFilterStatusInvalidDate = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFilterStatus.xlFilterStatusInvalidDate" />
+      <MemberSignature Language="VB.NET" Value="xlFilterStatusInvalidDate" />
+      <MemberSignature Language="C++ CLI" Value="xlFilterStatusInvalidDate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFilterStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>SetFilterDateRange(…): StartDate or EndDate are not valid dates.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlFilterStatusOK">
+      <MemberSignature Language="C#" Value="xlFilterStatusOK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlFilterStatus xlFilterStatusOK = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlFilterStatus.xlFilterStatusOK" />
+      <MemberSignature Language="VB.NET" Value="xlFilterStatusOK" />
+      <MemberSignature Language="C++ CLI" Value="xlFilterStatusOK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlFilterStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Signifies OK or successful.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

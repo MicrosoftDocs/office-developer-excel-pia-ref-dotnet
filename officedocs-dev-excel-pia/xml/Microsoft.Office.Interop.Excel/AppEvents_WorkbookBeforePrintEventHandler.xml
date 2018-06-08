@@ -1,0 +1,36 @@
+﻿<Type Name="AppEvents_WorkbookBeforePrintEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforePrintEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WorkbookBeforePrintEventHandler(Workbook Wb, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WorkbookBeforePrintEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforePrintEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WorkbookBeforePrintEventHandler(Wb As Workbook, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WorkbookBeforePrintEventHandler(Workbook ^ Wb, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">The workbook.</param>
+    <param name="Cancel">
+      <b>False</b> when the event occurs. If the event procedure sets this argument to <b>True</b>, the workbook isn't printed when the procedure is finished.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforePrint" /> event. The <b>WorkbookBeforePrint</b> event occurs before any open workbook is printed.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

@@ -1,0 +1,77 @@
+﻿<Type Name="XlSaveConflictResolution" FullName="Microsoft.Office.Interop.Excel.XlSaveConflictResolution">
+  <TypeSignature Language="C#" Value="public enum XlSaveConflictResolution" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlSaveConflictResolution extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlSaveConflictResolution" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlSaveConflictResolution" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlSaveConflictResolution" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the way conflicts are to be resolved whenever a shared workbook is updated.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlLocalSessionChanges">
+      <MemberSignature Language="C#" Value="xlLocalSessionChanges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSaveConflictResolution xlLocalSessionChanges = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSaveConflictResolution.xlLocalSessionChanges" />
+      <MemberSignature Language="VB.NET" Value="xlLocalSessionChanges" />
+      <MemberSignature Language="C++ CLI" Value="xlLocalSessionChanges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSaveConflictResolution</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The local user's changes are always accepted.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOtherSessionChanges">
+      <MemberSignature Language="C#" Value="xlOtherSessionChanges" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSaveConflictResolution xlOtherSessionChanges = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSaveConflictResolution.xlOtherSessionChanges" />
+      <MemberSignature Language="VB.NET" Value="xlOtherSessionChanges" />
+      <MemberSignature Language="C++ CLI" Value="xlOtherSessionChanges" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSaveConflictResolution</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The local user's changes are always rejected.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlUserResolution">
+      <MemberSignature Language="C#" Value="xlUserResolution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlSaveConflictResolution xlUserResolution = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlSaveConflictResolution.xlUserResolution" />
+      <MemberSignature Language="VB.NET" Value="xlUserResolution" />
+      <MemberSignature Language="C++ CLI" Value="xlUserResolution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSaveConflictResolution</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A dialog box asks the user to resolve the conflict.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

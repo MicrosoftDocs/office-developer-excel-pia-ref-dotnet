@@ -1,0 +1,77 @@
+﻿<Type Name="XlEnableCancelKey" FullName="Microsoft.Office.Interop.Excel.XlEnableCancelKey">
+  <TypeSignature Language="C#" Value="public enum XlEnableCancelKey" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlEnableCancelKey extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlEnableCancelKey" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlEnableCancelKey" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlEnableCancelKey" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies how Microsoft Excel handles CTRL+BREAK (or ESC or COMMAND+PERIOD) user interruptions to the running procedure.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlDisabled">
+      <MemberSignature Language="C#" Value="xlDisabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlEnableCancelKey xlDisabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlEnableCancelKey.xlDisabled" />
+      <MemberSignature Language="VB.NET" Value="xlDisabled" />
+      <MemberSignature Language="C++ CLI" Value="xlDisabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlEnableCancelKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Cancel key trapping is completely disabled.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlErrorHandler">
+      <MemberSignature Language="C#" Value="xlErrorHandler" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlEnableCancelKey xlErrorHandler = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlEnableCancelKey.xlErrorHandler" />
+      <MemberSignature Language="VB.NET" Value="xlErrorHandler" />
+      <MemberSignature Language="C++ CLI" Value="xlErrorHandler" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlEnableCancelKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>The interrupt is sent to the running procedure as an error, trappable by an error handler set up with an <b>On Error GoTo</b> statement. The trappable error code is 18.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInterrupt">
+      <MemberSignature Language="C#" Value="xlInterrupt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlEnableCancelKey xlInterrupt = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlEnableCancelKey.xlInterrupt" />
+      <MemberSignature Language="VB.NET" Value="xlInterrupt" />
+      <MemberSignature Language="C++ CLI" Value="xlInterrupt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlEnableCancelKey</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>The current procedure is interrupted, and the user can debug or end the procedure.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

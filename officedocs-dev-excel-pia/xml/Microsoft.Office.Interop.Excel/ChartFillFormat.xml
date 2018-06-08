@@ -1,0 +1,859 @@
+﻿<Type Name="ChartFillFormat" FullName="Microsoft.Office.Interop.Excel.ChartFillFormat">
+  <TypeSignature Language="C#" Value="public interface ChartFillFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ChartFillFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ChartFillFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ChartFillFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ChartFillFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024435-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Used only with charts. Represents fill formatting for chart elements.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.ChartArea.Fill" /> property to return a <see cref="T:Microsoft.Office.Interop.Excel.ChartFillFormat" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BackColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ChartColorFormat BackColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ChartColorFormat BackColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.BackColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BackColor As ChartColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ChartColorFormat ^ BackColor { Microsoft::Office::Interop::Excel::ChartColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1638)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1638)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ChartColorFormat" /> object that represents the specified fill background color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForeColor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ChartColorFormat ForeColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ChartColorFormat ForeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.ForeColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ForeColor As ChartColorFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ChartColorFormat ^ ForeColor { Microsoft::Office::Interop::Excel::ChartColorFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1639)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1639)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartColorFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ChartColorFormat" /> object that represents the specified foreground fill or solid color.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientColorType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoGradientColorType GradientColorType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoGradientColorType GradientColorType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.GradientColorType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientColorType As MsoGradientColorType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientColorType GradientColorType { Microsoft::Office::Core::MsoGradientColorType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1640)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1640)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientColorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the gradient color type for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoGradientColorType" /> can be one of the following <b>MsoGradientColorType</b> constants:</para>
+          <para>
+            <b>msoGradientColorMixed</b>
+          </para>
+          <para>
+            <b>msoGradientOneColor</b>
+          </para>
+          <para>
+            <b>msoGradientPresetColors</b>
+          </para>
+          <para>
+            <b>msoGradientTwoColors</b>
+          </para>
+          <para>
+            <b>MsoGradientColorMixed</b> indicates a combination of the other states in the specified range. Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" />, <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,Microsoft.Office.Core.MsoPresetGradientType)" />, or <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.TwoColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32)" /> method to set the gradient type for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientDegree">
+      <MemberSignature Language="C#" Value="public float GradientDegree { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 GradientDegree" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.GradientDegree" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientDegree As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float GradientDegree { float get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1641)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1641)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the gradient degree of the specified one-color shaded fill as a floating-point value from 0.0 (dark) through 1.0 (light).</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" /> method to set the gradient degree for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoGradientStyle GradientStyle { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoGradientStyle GradientStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.GradientStyle" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientStyle As MsoGradientStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoGradientStyle GradientStyle { Microsoft::Office::Core::MsoGradientStyle get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1642)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1642)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoGradientStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the gradient style for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoGradientStyle" /> can be one of the following <b>MsoGradientStyle</b> constants:</para>
+          <para>
+            <b>msoGradientDiagonalDown</b>
+          </para>
+          <para>
+            <b>msoGradientDiagonalUp</b>
+          </para>
+          <para>
+            <b>msoGradientFromCenter</b>
+          </para>
+          <para>
+            <b>msoGradientFromCorner</b>
+          </para>
+          <para>
+            <b>msoGradientFromTitle</b>
+          </para>
+          <para>
+            <b>msoGradientHorizontal</b>
+          </para>
+          <para>
+            <b>msoGradientMixed</b>
+          </para>
+          <para>
+            <b>msoGradientVertical</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GradientVariant">
+      <MemberSignature Language="C#" Value="public int GradientVariant { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 GradientVariant" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.GradientVariant" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GradientVariant As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int GradientVariant { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1643)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1643)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the shade variant for the specified fill as an integer value from 1 through 4.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The values for the <b>GradientVariant</b> property correspond to the gradient variants (numbered from left to right and from top to bottom) on the Gradient tab in the Fill Effects dialog box.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" /> or <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.TwoColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32)" /> method to set the gradient variant for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OneColorGradient">
+      <MemberSignature Language="C#" Value="public void OneColorGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant, float Degree);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OneColorGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant, [in]float32 Degree) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.OneColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,System.Single)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OneColorGradient (Style As MsoGradientStyle, Variant As Integer, Degree As Single)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OneColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, float Degree);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1621)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="Microsoft.Office.Core.MsoGradientStyle" />
+        <Parameter Name="Variant" Type="System.Int32" />
+        <Parameter Name="Degree" Type="System.Single" />
+      </Parameters>
+      <Docs>
+        <param name="Style">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.Can be one of the following <b>MsoGradientStyle</b> constants:<b>msoGradientDiagonalDown</b><b>msoGradientDiagonalUp</b><b>msoGradientFromCenter</b><b>msoGradientFromCorner</b><b>msoGradientFromTitle</b><b>msoGradientHorizontal</b><b>msoGradientMixed</b><b>msoGradientVertical</b></param>
+        <param name="Variant">Required <b>Integer</b>. The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If <paramref name="GradientStyle" /> is <b>msoGradientFromCenter</b>, the <paramref name="Variant" /> argument can only be 1 or 2.</param>
+        <param name="Degree">Required <b>Single</b>. The gradient degree. Can be a value from 0.0 (dark) through 1.0 (light).</param>
+        <summary>Sets the specified fill to a one-color gradient.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pattern">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPatternType Pattern { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPatternType Pattern" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Pattern" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Pattern As MsoPatternType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPatternType Pattern { Microsoft::Office::Core::MsoPatternType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(95)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPatternType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the fill pattern.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Pattern</b> property can be one of the <see cref="T:Microsoft.Office.Core.MsoPatternType" /> constants.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.Patterned(Microsoft.Office.Core.MsoPatternType)" /> method to set the pattern type for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Patterned">
+      <MemberSignature Language="C#" Value="public void Patterned (Microsoft.Office.Core.MsoPatternType Pattern);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Patterned([in]valuetype Microsoft.Office.Core.MsoPatternType Pattern) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.Patterned(Microsoft.Office.Core.MsoPatternType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Patterned (Pattern As MsoPatternType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Patterned(Microsoft::Office::Core::MsoPatternType Pattern);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1628)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Pattern" Type="Microsoft.Office.Core.MsoPatternType" />
+      </Parameters>
+      <Docs>
+        <param name="Pattern">Required <see cref="T:Microsoft.Office.Core.MsoPatternType" />.</param>
+        <summary>Sets the specified fill to a pattern.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetGradient">
+      <MemberSignature Language="C#" Value="public void PresetGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant, Microsoft.Office.Core.MsoPresetGradientType PresetGradientType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant, [in]valuetype Microsoft.Office.Core.MsoPresetGradientType PresetGradientType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,Microsoft.Office.Core.MsoPresetGradientType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PresetGradient (Style As MsoGradientStyle, Variant As Integer, PresetGradientType As MsoPresetGradientType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant, Microsoft::Office::Core::MsoPresetGradientType PresetGradientType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1636)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="Microsoft.Office.Core.MsoGradientStyle" />
+        <Parameter Name="Variant" Type="System.Int32" />
+        <Parameter Name="PresetGradientType" Type="Microsoft.Office.Core.MsoPresetGradientType" />
+      </Parameters>
+      <Docs>
+        <param name="Style">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.Can be one of the following <b>MsoGradientStyle</b> constants.<b>msoGradientDiagonalDown</b><b>msoGradientDiagonalUp</b><b>msoGradientFromCenter</b><b>msoGradientFromCorner</b><b>msoGradientFromTitle</b><b>msoGradientHorizontal</b><b>msoGradientMixed</b><b>msoGradientVertical</b></param>
+        <param name="Variant">Required <b>Integer</b>. The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If <paramref name="GradientStyle" /> is <b>msoGradientFromCenter</b>, the <paramref name="Variant" /> argument can only be 1 or 2.</param>
+        <param name="PresetGradientType">Required <see cref="T:Microsoft.Office.Core.MsoPresetGradientType" />.</param>
+        <summary>Sets the specified fill to a preset gradient.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetGradientType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetGradientType PresetGradientType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetGradientType PresetGradientType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetGradientType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetGradientType As MsoPresetGradientType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetGradientType PresetGradientType { Microsoft::Office::Core::MsoPresetGradientType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1637)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1637)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetGradientType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the preset gradient type for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>PresetGradiantType</b> property can be one of the <see cref="T:Microsoft.Office.Core.MsoPresetGradientType" /> constants.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32,Microsoft.Office.Core.MsoPresetGradientType)" /> method to set the preset gradient type for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetTexture">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetTexture PresetTexture { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetTexture PresetTexture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetTexture" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PresetTexture As MsoPresetTexture" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTexture PresetTexture { Microsoft::Office::Core::MsoPresetTexture get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1626)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1626)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTexture</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the preset texture for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>PresetTexture</b> property can be one of the <see cref="T:Microsoft.Office.Core.MsoPresetTexture" /> constants.</para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetTextured(Microsoft.Office.Core.MsoPresetTexture)" /> method to set the preset texture for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PresetTextured">
+      <MemberSignature Language="C#" Value="public void PresetTextured (Microsoft.Office.Core.MsoPresetTexture PresetTexture);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PresetTextured([in]valuetype Microsoft.Office.Core.MsoPresetTexture PresetTexture) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.PresetTextured(Microsoft.Office.Core.MsoPresetTexture)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PresetTextured (PresetTexture As MsoPresetTexture)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PresetTextured(Microsoft::Office::Core::MsoPresetTexture PresetTexture);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1625)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PresetTexture" Type="Microsoft.Office.Core.MsoPresetTexture" />
+      </Parameters>
+      <Docs>
+        <param name="PresetTexture">Required <see cref="T:Microsoft.Office.Core.MsoPresetTexture" />.</param>
+        <summary>Sets the specified fill format to a preset texture.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solid">
+      <MemberSignature Language="C#" Value="public void Solid ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Solid() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.Solid" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Solid ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Solid();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1627)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Sets the specified fill to a uniform color.</summary>
+        <remarks>
+          <para>Use the <b>Solid</b> method to convert a gradient, textured, patterned, or background fill back to a solid fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextureName">
+      <MemberSignature Language="C#" Value="public string TextureName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TextureName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.TextureName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TextureName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1644)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1644)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the custom texture file for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> or <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserTextured(System.String)" /> method to set the texture file for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextureType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTextureType TextureType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTextureType TextureType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.TextureType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextureType As MsoTextureType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextureType TextureType { Microsoft::Office::Core::MsoTextureType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1645)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1645)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextureType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the texture type for the specified fill.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoTextureType" /> can be one of the following <b>MsoTextureType</b> constants:</para>
+          <para>
+            <b>msoTexturePreset</b>
+          </para>
+          <para>
+            <b>msoTextureTypeMixed</b>
+          </para>
+          <para>
+            <b>msoTextureUserDefined</b>
+          </para>
+          <para>Use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserTextured(System.String)" /> method to set the texture type for the fill.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TwoColorGradient">
+      <MemberSignature Language="C#" Value="public void TwoColorGradient (Microsoft.Office.Core.MsoGradientStyle Style, int Variant);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void TwoColorGradient([in]valuetype Microsoft.Office.Core.MsoGradientStyle Style, [in]int32 Variant) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.TwoColorGradient(Microsoft.Office.Core.MsoGradientStyle,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub TwoColorGradient (Style As MsoGradientStyle, Variant As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void TwoColorGradient(Microsoft::Office::Core::MsoGradientStyle Style, int Variant);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1624)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Style" Type="Microsoft.Office.Core.MsoGradientStyle" />
+        <Parameter Name="Variant" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="Style">Required <see cref="T:Microsoft.Office.Core.MsoGradientStyle" />.Can be one of the following <b>MsoGradientStyle</b> constants:<b>msoGradientDiagonalDown</b><b>msoGradientDiagonalUp</b><b>msoGradientFromCenter</b><b>msoGradientFromCorner</b><b>msoGradientFromTitle</b><b>msoGradientHorizontal</b><b>msoGradientMixed</b><b>msoGradientVertical</b></param>
+        <param name="Variant">Required <b>Integer</b>. The gradient variant. Can be a value from 1 through 4, corresponding to one of the four variants on the Gradient tab in the Fill Effects dialog box. If <paramref name="Style" /> is <b>msoGradientFromCenter</b>, the <paramref name="Variant" /> argument can only be 1 or 2.</param>
+        <summary>Sets the specified fill to a two-color gradient.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoFillType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoFillType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As MsoFillType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoFillType Type { Microsoft::Office::Core::MsoFillType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoFillType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the fill type.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoFillType" /> can be one of the following constants:</para>
+          <para>
+            <b>msoFillGradient</b>
+          </para>
+          <para>
+            <b>msoFillMixed</b>
+          </para>
+          <para>
+            <b>msoFillPatterned</b>
+          </para>
+          <para>
+            <b>msoFillPicture</b>
+          </para>
+          <para>
+            <b>msoFillSolid</b>
+          </para>
+          <para>
+            <b>msoFillTextured</b>
+          </para>
+          <para>
+            <b>xlAutomatic</b>
+          </para>
+          <para>
+            <b>xlNone</b>
+          </para>
+          <para>The<b>msoFillBackground</b> constant is not used in Microsoft Excel.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserPicture">
+      <MemberSignature Language="C#" Value="public void UserPicture (object PictureFile, object PictureFormat, object PictureStackUnit, object PicturePlacement);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserPicture([in]object PictureFile, [in]object PictureFormat, [in]object PictureStackUnit, [in]object PicturePlacement) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UserPicture (Optional PictureFile As Object, Optional PictureFormat As Object, Optional PictureStackUnit As Object, Optional PicturePlacement As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1629)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PictureFile" Type="System.Object" />
+        <Parameter Name="PictureFormat" Type="System.Object" />
+        <Parameter Name="PictureStackUnit" Type="System.Object" />
+        <Parameter Name="PicturePlacement" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PictureFile">Required <b>Object</b>.</param>
+        <param name="PictureFormat">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlChartPictureType" />.Can be one of the following <b>XlChartPictureType</b> constants:<b>xlStack</b><b>xlStackScale</b><b>xlStretch</b></param>
+        <param name="PictureStackUnit">Optional <b>Integer</b>. The picture stack or scale unit (depends on the <paramref name="PictureFormat" /> argument).</param>
+        <param name="PicturePlacement">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlChartPicturePlacement" />.Can be one of the following <b>XlChartPicturePlacement</b> constants:<b>xlAllFaces</b><b>xlEnd</b><b>xlEndSides</b><b>xlFront</b><b>xlFrontEnd</b><b>xlFrontSides</b><b>xlSides</b></param>
+        <summary>Fills the specified shape with an image.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserTextured">
+      <MemberSignature Language="C#" Value="public void UserTextured (string TextureFile);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UserTextured([in]string TextureFile) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserTextured(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UserTextured (TextureFile As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void UserTextured(System::String ^ TextureFile);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1634)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="TextureFile" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="TextureFile">Required <b>String</b>. The name of the picture file.</param>
+        <summary>Fills the specified shape with small tiles of an image.</summary>
+        <remarks>
+          <para>If you want to fill the shape with one large image, use the <see cref="M:Microsoft.Office.Interop.Excel.ChartFillFormat.UserPicture(System.Object,System.Object,System.Object,System.Object)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ChartFillFormat.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visible As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState Visible { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(558)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(558)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(558)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Determines whether the object is visible.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Core.MsoTriState" /> can be one of the following <b>MsoTriState</b> constants:</para>
+          <para>
+            <b>msoCTrue</b>
+          </para>
+          <para>
+            <b>msoFalse</b>
+          </para>
+          <para>
+            <b>msoTriStateMixed</b>
+          </para>
+          <para>
+            <b>msoTriStateToggle</b>
+          </para>
+          <para>
+            <b>msoTrue</b> The object is visible.</para>
+          <para>If you set the <b>Visible</b> property for a name to <b>False</b>, the name won't appear in the Define Name dialog box.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,2219 @@
+﻿<Type Name="AppEvents_SinkHelper" FullName="Microsoft.Office.Interop.Excel.AppEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class AppEvents_SinkHelper : Microsoft.Office.Interop.Excel.AppEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Excel.AppEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AppEvents_SinkHelper&#xA;Implements AppEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AppEvents_SinkHelper sealed : Microsoft::Office::Interop::Excel::AppEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.AppEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterCalculate">
+      <MemberSignature Language="C#" Value="public override void AfterCalculate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void AfterCalculate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.AfterCalculate" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub AfterCalculate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AfterCalculate();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.AfterCalculate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_AfterCalculateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_AfterCalculateEventHandler m_AfterCalculateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_AfterCalculateEventHandler m_AfterCalculateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_AfterCalculateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_AfterCalculateDelegate As AppEvents_AfterCalculateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_AfterCalculateEventHandler ^ m_AfterCalculateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_AfterCalculateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_NewWorkbookDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_NewWorkbookEventHandler m_NewWorkbookDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_NewWorkbookEventHandler m_NewWorkbookDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_NewWorkbookDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_NewWorkbookDelegate As AppEvents_NewWorkbookEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_NewWorkbookEventHandler ^ m_NewWorkbookDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_NewWorkbookEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowActivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowActivateEventHandler m_ProtectedViewWindowActivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowActivateEventHandler m_ProtectedViewWindowActivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowActivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowActivateDelegate As AppEvents_ProtectedViewWindowActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowActivateEventHandler ^ m_ProtectedViewWindowActivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowBeforeCloseDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeCloseEventHandler m_ProtectedViewWindowBeforeCloseDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeCloseEventHandler m_ProtectedViewWindowBeforeCloseDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowBeforeCloseDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowBeforeCloseDelegate As AppEvents_ProtectedViewWindowBeforeCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowBeforeCloseEventHandler ^ m_ProtectedViewWindowBeforeCloseDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowBeforeEditDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeEditEventHandler m_ProtectedViewWindowBeforeEditDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeEditEventHandler m_ProtectedViewWindowBeforeEditDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowBeforeEditDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowBeforeEditDelegate As AppEvents_ProtectedViewWindowBeforeEditEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowBeforeEditEventHandler ^ m_ProtectedViewWindowBeforeEditDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowBeforeEditEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowDeactivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowDeactivateEventHandler m_ProtectedViewWindowDeactivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowDeactivateEventHandler m_ProtectedViewWindowDeactivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowDeactivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowDeactivateDelegate As AppEvents_ProtectedViewWindowDeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowDeactivateEventHandler ^ m_ProtectedViewWindowDeactivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowDeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowOpenDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowOpenEventHandler m_ProtectedViewWindowOpenDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowOpenEventHandler m_ProtectedViewWindowOpenDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowOpenDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowOpenDelegate As AppEvents_ProtectedViewWindowOpenEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowOpenEventHandler ^ m_ProtectedViewWindowOpenDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowOpenEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_ProtectedViewWindowResizeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowResizeEventHandler m_ProtectedViewWindowResizeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowResizeEventHandler m_ProtectedViewWindowResizeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_ProtectedViewWindowResizeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_ProtectedViewWindowResizeDelegate As AppEvents_ProtectedViewWindowResizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_ProtectedViewWindowResizeEventHandler ^ m_ProtectedViewWindowResizeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_ProtectedViewWindowResizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetActivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetActivateEventHandler m_SheetActivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetActivateEventHandler m_SheetActivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetActivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetActivateDelegate As AppEvents_SheetActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetActivateEventHandler ^ m_SheetActivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetBeforeDeleteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDeleteEventHandler m_SheetBeforeDeleteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDeleteEventHandler m_SheetBeforeDeleteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetBeforeDeleteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetBeforeDeleteDelegate As AppEvents_SheetBeforeDeleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetBeforeDeleteEventHandler ^ m_SheetBeforeDeleteDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDeleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetBeforeDoubleClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDoubleClickEventHandler m_SheetBeforeDoubleClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDoubleClickEventHandler m_SheetBeforeDoubleClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetBeforeDoubleClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetBeforeDoubleClickDelegate As AppEvents_SheetBeforeDoubleClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetBeforeDoubleClickEventHandler ^ m_SheetBeforeDoubleClickDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeDoubleClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetBeforeRightClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeRightClickEventHandler m_SheetBeforeRightClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeRightClickEventHandler m_SheetBeforeRightClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetBeforeRightClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetBeforeRightClickDelegate As AppEvents_SheetBeforeRightClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetBeforeRightClickEventHandler ^ m_SheetBeforeRightClickDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetBeforeRightClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetCalculateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetCalculateEventHandler m_SheetCalculateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetCalculateEventHandler m_SheetCalculateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetCalculateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetCalculateDelegate As AppEvents_SheetCalculateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetCalculateEventHandler ^ m_SheetCalculateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetCalculateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetChangeEventHandler m_SheetChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetChangeEventHandler m_SheetChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetChangeDelegate As AppEvents_SheetChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetChangeEventHandler ^ m_SheetChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetDeactivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetDeactivateEventHandler m_SheetDeactivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetDeactivateEventHandler m_SheetDeactivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetDeactivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetDeactivateDelegate As AppEvents_SheetDeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetDeactivateEventHandler ^ m_SheetDeactivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetDeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetFollowHyperlinkDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetFollowHyperlinkEventHandler m_SheetFollowHyperlinkDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetFollowHyperlinkEventHandler m_SheetFollowHyperlinkDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetFollowHyperlinkDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetFollowHyperlinkDelegate As AppEvents_SheetFollowHyperlinkEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetFollowHyperlinkEventHandler ^ m_SheetFollowHyperlinkDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetFollowHyperlinkEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetLensGalleryRenderCompleteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetLensGalleryRenderCompleteEventHandler m_SheetLensGalleryRenderCompleteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetLensGalleryRenderCompleteEventHandler m_SheetLensGalleryRenderCompleteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetLensGalleryRenderCompleteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetLensGalleryRenderCompleteDelegate As AppEvents_SheetLensGalleryRenderCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetLensGalleryRenderCompleteEventHandler ^ m_SheetLensGalleryRenderCompleteDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetLensGalleryRenderCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetPivotTableAfterValueChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableAfterValueChangeEventHandler m_SheetPivotTableAfterValueChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableAfterValueChangeEventHandler m_SheetPivotTableAfterValueChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetPivotTableAfterValueChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetPivotTableAfterValueChangeDelegate As AppEvents_SheetPivotTableAfterValueChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetPivotTableAfterValueChangeEventHandler ^ m_SheetPivotTableAfterValueChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableAfterValueChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetPivotTableBeforeAllocateChangesDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler m_SheetPivotTableBeforeAllocateChangesDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler m_SheetPivotTableBeforeAllocateChangesDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetPivotTableBeforeAllocateChangesDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetPivotTableBeforeAllocateChangesDelegate As AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler ^ m_SheetPivotTableBeforeAllocateChangesDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeAllocateChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetPivotTableBeforeCommitChangesDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeCommitChangesEventHandler m_SheetPivotTableBeforeCommitChangesDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeCommitChangesEventHandler m_SheetPivotTableBeforeCommitChangesDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetPivotTableBeforeCommitChangesDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetPivotTableBeforeCommitChangesDelegate As AppEvents_SheetPivotTableBeforeCommitChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetPivotTableBeforeCommitChangesEventHandler ^ m_SheetPivotTableBeforeCommitChangesDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeCommitChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetPivotTableBeforeDiscardChangesDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeDiscardChangesEventHandler m_SheetPivotTableBeforeDiscardChangesDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeDiscardChangesEventHandler m_SheetPivotTableBeforeDiscardChangesDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetPivotTableBeforeDiscardChangesDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetPivotTableBeforeDiscardChangesDelegate As AppEvents_SheetPivotTableBeforeDiscardChangesEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetPivotTableBeforeDiscardChangesEventHandler ^ m_SheetPivotTableBeforeDiscardChangesDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableBeforeDiscardChangesEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetPivotTableUpdateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableUpdateEventHandler m_SheetPivotTableUpdateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableUpdateEventHandler m_SheetPivotTableUpdateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetPivotTableUpdateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetPivotTableUpdateDelegate As AppEvents_SheetPivotTableUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetPivotTableUpdateEventHandler ^ m_SheetPivotTableUpdateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetPivotTableUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetSelectionChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetSelectionChangeEventHandler m_SheetSelectionChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetSelectionChangeEventHandler m_SheetSelectionChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetSelectionChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetSelectionChangeDelegate As AppEvents_SheetSelectionChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetSelectionChangeEventHandler ^ m_SheetSelectionChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetSelectionChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_SheetTableUpdateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_SheetTableUpdateEventHandler m_SheetTableUpdateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_SheetTableUpdateEventHandler m_SheetTableUpdateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_SheetTableUpdateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_SheetTableUpdateDelegate As AppEvents_SheetTableUpdateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_SheetTableUpdateEventHandler ^ m_SheetTableUpdateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_SheetTableUpdateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WindowActivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WindowActivateEventHandler m_WindowActivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WindowActivateEventHandler m_WindowActivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WindowActivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WindowActivateDelegate As AppEvents_WindowActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WindowActivateEventHandler ^ m_WindowActivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WindowActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WindowDeactivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WindowDeactivateEventHandler m_WindowDeactivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WindowDeactivateEventHandler m_WindowDeactivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WindowDeactivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WindowDeactivateDelegate As AppEvents_WindowDeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WindowDeactivateEventHandler ^ m_WindowDeactivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WindowDeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WindowResizeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WindowResizeEventHandler m_WindowResizeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WindowResizeEventHandler m_WindowResizeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WindowResizeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WindowResizeDelegate As AppEvents_WindowResizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WindowResizeEventHandler ^ m_WindowResizeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WindowResizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookActivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookActivateEventHandler m_WorkbookActivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookActivateEventHandler m_WorkbookActivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookActivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookActivateDelegate As AppEvents_WorkbookActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookActivateEventHandler ^ m_WorkbookActivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookAddinInstallDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinInstallEventHandler m_WorkbookAddinInstallDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinInstallEventHandler m_WorkbookAddinInstallDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookAddinInstallDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookAddinInstallDelegate As AppEvents_WorkbookAddinInstallEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookAddinInstallEventHandler ^ m_WorkbookAddinInstallDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinInstallEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookAddinUninstallDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinUninstallEventHandler m_WorkbookAddinUninstallDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinUninstallEventHandler m_WorkbookAddinUninstallDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookAddinUninstallDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookAddinUninstallDelegate As AppEvents_WorkbookAddinUninstallEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookAddinUninstallEventHandler ^ m_WorkbookAddinUninstallDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookAddinUninstallEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookAfterSaveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterSaveEventHandler m_WorkbookAfterSaveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterSaveEventHandler m_WorkbookAfterSaveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookAfterSaveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookAfterSaveDelegate As AppEvents_WorkbookAfterSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookAfterSaveEventHandler ^ m_WorkbookAfterSaveDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookAfterXmlExportDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlExportEventHandler m_WorkbookAfterXmlExportDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlExportEventHandler m_WorkbookAfterXmlExportDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookAfterXmlExportDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookAfterXmlExportDelegate As AppEvents_WorkbookAfterXmlExportEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookAfterXmlExportEventHandler ^ m_WorkbookAfterXmlExportDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlExportEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookAfterXmlImportDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlImportEventHandler m_WorkbookAfterXmlImportDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlImportEventHandler m_WorkbookAfterXmlImportDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookAfterXmlImportDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookAfterXmlImportDelegate As AppEvents_WorkbookAfterXmlImportEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookAfterXmlImportEventHandler ^ m_WorkbookAfterXmlImportDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookAfterXmlImportEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookBeforeCloseDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeCloseEventHandler m_WorkbookBeforeCloseDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeCloseEventHandler m_WorkbookBeforeCloseDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookBeforeCloseDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookBeforeCloseDelegate As AppEvents_WorkbookBeforeCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookBeforeCloseEventHandler ^ m_WorkbookBeforeCloseDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookBeforePrintDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforePrintEventHandler m_WorkbookBeforePrintDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforePrintEventHandler m_WorkbookBeforePrintDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookBeforePrintDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookBeforePrintDelegate As AppEvents_WorkbookBeforePrintEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookBeforePrintEventHandler ^ m_WorkbookBeforePrintDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforePrintEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookBeforeSaveDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeSaveEventHandler m_WorkbookBeforeSaveDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeSaveEventHandler m_WorkbookBeforeSaveDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookBeforeSaveDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookBeforeSaveDelegate As AppEvents_WorkbookBeforeSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookBeforeSaveEventHandler ^ m_WorkbookBeforeSaveDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookBeforeXmlExportDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlExportEventHandler m_WorkbookBeforeXmlExportDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlExportEventHandler m_WorkbookBeforeXmlExportDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookBeforeXmlExportDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookBeforeXmlExportDelegate As AppEvents_WorkbookBeforeXmlExportEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookBeforeXmlExportEventHandler ^ m_WorkbookBeforeXmlExportDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlExportEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookBeforeXmlImportDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlImportEventHandler m_WorkbookBeforeXmlImportDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlImportEventHandler m_WorkbookBeforeXmlImportDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookBeforeXmlImportDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookBeforeXmlImportDelegate As AppEvents_WorkbookBeforeXmlImportEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookBeforeXmlImportEventHandler ^ m_WorkbookBeforeXmlImportDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlImportEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookDeactivateDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookDeactivateEventHandler m_WorkbookDeactivateDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookDeactivateEventHandler m_WorkbookDeactivateDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookDeactivateDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookDeactivateDelegate As AppEvents_WorkbookDeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookDeactivateEventHandler ^ m_WorkbookDeactivateDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookDeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookModelChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookModelChangeEventHandler m_WorkbookModelChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookModelChangeEventHandler m_WorkbookModelChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookModelChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookModelChangeDelegate As AppEvents_WorkbookModelChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookModelChangeEventHandler ^ m_WorkbookModelChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookModelChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookNewChartDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewChartEventHandler m_WorkbookNewChartDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewChartEventHandler m_WorkbookNewChartDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookNewChartDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookNewChartDelegate As AppEvents_WorkbookNewChartEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookNewChartEventHandler ^ m_WorkbookNewChartDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewChartEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookNewSheetDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewSheetEventHandler m_WorkbookNewSheetDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewSheetEventHandler m_WorkbookNewSheetDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookNewSheetDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookNewSheetDelegate As AppEvents_WorkbookNewSheetEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookNewSheetEventHandler ^ m_WorkbookNewSheetDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookNewSheetEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookOpenDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookOpenEventHandler m_WorkbookOpenDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookOpenEventHandler m_WorkbookOpenDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookOpenDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookOpenDelegate As AppEvents_WorkbookOpenEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookOpenEventHandler ^ m_WorkbookOpenDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookOpenEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookPivotTableCloseConnectionDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableCloseConnectionEventHandler m_WorkbookPivotTableCloseConnectionDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableCloseConnectionEventHandler m_WorkbookPivotTableCloseConnectionDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookPivotTableCloseConnectionDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookPivotTableCloseConnectionDelegate As AppEvents_WorkbookPivotTableCloseConnectionEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookPivotTableCloseConnectionEventHandler ^ m_WorkbookPivotTableCloseConnectionDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableCloseConnectionEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookPivotTableOpenConnectionDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableOpenConnectionEventHandler m_WorkbookPivotTableOpenConnectionDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableOpenConnectionEventHandler m_WorkbookPivotTableOpenConnectionDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookPivotTableOpenConnectionDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookPivotTableOpenConnectionDelegate As AppEvents_WorkbookPivotTableOpenConnectionEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookPivotTableOpenConnectionEventHandler ^ m_WorkbookPivotTableOpenConnectionDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookPivotTableOpenConnectionEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookRowsetCompleteDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookRowsetCompleteEventHandler m_WorkbookRowsetCompleteDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookRowsetCompleteEventHandler m_WorkbookRowsetCompleteDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookRowsetCompleteDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookRowsetCompleteDelegate As AppEvents_WorkbookRowsetCompleteEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookRowsetCompleteEventHandler ^ m_WorkbookRowsetCompleteDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookRowsetCompleteEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_WorkbookSyncDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AppEvents_WorkbookSyncEventHandler m_WorkbookSyncDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.AppEvents_WorkbookSyncEventHandler m_WorkbookSyncDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.m_WorkbookSyncDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_WorkbookSyncDelegate As AppEvents_WorkbookSyncEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::AppEvents_WorkbookSyncEventHandler ^ m_WorkbookSyncDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AppEvents_WorkbookSyncEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewWorkbook">
+      <MemberSignature Language="C#" Value="public override void NewWorkbook (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void NewWorkbook(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.NewWorkbook(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub NewWorkbook ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void NewWorkbook(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.NewWorkbook(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowActivate">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowActivate (Microsoft.Office.Interop.Excel.ProtectedViewWindow );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowActivate(class Microsoft.Office.Interop.Excel.ProtectedViewWindow ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowActivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowActivate ( As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowActivate(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowActivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowBeforeClose">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowBeforeClose (Microsoft.Office.Interop.Excel.ProtectedViewWindow , Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowBeforeClose(class Microsoft.Office.Interop.Excel.ProtectedViewWindow , valuetype Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowBeforeClose(Microsoft.Office.Interop.Excel.ProtectedViewWindow,Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowBeforeClose ( As ProtectedViewWindow,  As XlProtectedViewCloseReason, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowBeforeClose(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ , Microsoft::Office::Interop::Excel::XlProtectedViewCloseReason , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowBeforeClose(Microsoft.Office.Interop.Excel.ProtectedViewWindow,Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XlProtectedViewCloseReason" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowBeforeEdit">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowBeforeEdit (Microsoft.Office.Interop.Excel.ProtectedViewWindow , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowBeforeEdit(class Microsoft.Office.Interop.Excel.ProtectedViewWindow , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowBeforeEdit(Microsoft.Office.Interop.Excel.ProtectedViewWindow,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowBeforeEdit ( As ProtectedViewWindow, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowBeforeEdit(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowBeforeEdit(Microsoft.Office.Interop.Excel.ProtectedViewWindow,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowDeactivate">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowDeactivate (Microsoft.Office.Interop.Excel.ProtectedViewWindow );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowDeactivate(class Microsoft.Office.Interop.Excel.ProtectedViewWindow ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowDeactivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowDeactivate ( As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowDeactivate(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowDeactivate(Microsoft.Office.Interop.Excel.ProtectedViewWindow)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowOpen">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowOpen (Microsoft.Office.Interop.Excel.ProtectedViewWindow );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowOpen(class Microsoft.Office.Interop.Excel.ProtectedViewWindow ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowOpen(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowOpen ( As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowOpen(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowOpen(Microsoft.Office.Interop.Excel.ProtectedViewWindow)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectedViewWindowResize">
+      <MemberSignature Language="C#" Value="public override void ProtectedViewWindowResize (Microsoft.Office.Interop.Excel.ProtectedViewWindow );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void ProtectedViewWindowResize(class Microsoft.Office.Interop.Excel.ProtectedViewWindow ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.ProtectedViewWindowResize(Microsoft.Office.Interop.Excel.ProtectedViewWindow)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub ProtectedViewWindowResize ( As ProtectedViewWindow)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void ProtectedViewWindowResize(Microsoft::Office::Interop::Excel::ProtectedViewWindow ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.ProtectedViewWindowResize(Microsoft.Office.Interop.Excel.ProtectedViewWindow)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ProtectedViewWindow" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetActivate">
+      <MemberSignature Language="C#" Value="public override void SheetActivate (object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetActivate(object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetActivate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetActivate ( As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetActivate(System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetActivate(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeDelete">
+      <MemberSignature Language="C#" Value="public override void SheetBeforeDelete (object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetBeforeDelete(object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetBeforeDelete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetBeforeDelete ( As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetBeforeDelete(System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetBeforeDelete(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeDoubleClick">
+      <MemberSignature Language="C#" Value="public override void SheetBeforeDoubleClick (object , Microsoft.Office.Interop.Excel.Range , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetBeforeDoubleClick(object , class Microsoft.Office.Interop.Excel.Range , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetBeforeDoubleClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetBeforeDoubleClick ( As Object,  As Range, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetBeforeDoubleClick(System::Object ^ , Microsoft::Office::Interop::Excel::Range ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetBeforeDoubleClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetBeforeRightClick">
+      <MemberSignature Language="C#" Value="public override void SheetBeforeRightClick (object , Microsoft.Office.Interop.Excel.Range , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetBeforeRightClick(object , class Microsoft.Office.Interop.Excel.Range , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetBeforeRightClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetBeforeRightClick ( As Object,  As Range, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetBeforeRightClick(System::Object ^ , Microsoft::Office::Interop::Excel::Range ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetBeforeRightClick(System.Object,Microsoft.Office.Interop.Excel.Range,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Range" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetCalculate">
+      <MemberSignature Language="C#" Value="public override void SheetCalculate (object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetCalculate(object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetCalculate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetCalculate ( As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetCalculate(System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetCalculate(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetChange">
+      <MemberSignature Language="C#" Value="public override void SheetChange (object , Microsoft.Office.Interop.Excel.Range );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetChange(object , class Microsoft.Office.Interop.Excel.Range ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetChange(System.Object,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetChange ( As Object,  As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetChange(System::Object ^ , Microsoft::Office::Interop::Excel::Range ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetChange(System.Object,Microsoft.Office.Interop.Excel.Range)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetDeactivate">
+      <MemberSignature Language="C#" Value="public override void SheetDeactivate (object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetDeactivate(object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetDeactivate(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetDeactivate ( As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetDeactivate(System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetDeactivate(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetFollowHyperlink">
+      <MemberSignature Language="C#" Value="public override void SheetFollowHyperlink (object , Microsoft.Office.Interop.Excel.Hyperlink );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetFollowHyperlink(object , class Microsoft.Office.Interop.Excel.Hyperlink ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetFollowHyperlink(System.Object,Microsoft.Office.Interop.Excel.Hyperlink)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetFollowHyperlink ( As Object,  As Hyperlink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetFollowHyperlink(System::Object ^ , Microsoft::Office::Interop::Excel::Hyperlink ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetFollowHyperlink(System.Object,Microsoft.Office.Interop.Excel.Hyperlink)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Hyperlink" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetLensGalleryRenderComplete">
+      <MemberSignature Language="C#" Value="public override void SheetLensGalleryRenderComplete (object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetLensGalleryRenderComplete(object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetLensGalleryRenderComplete(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetLensGalleryRenderComplete ( As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetLensGalleryRenderComplete(System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetLensGalleryRenderComplete(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableAfterValueChange">
+      <MemberSignature Language="C#" Value="public override void SheetPivotTableAfterValueChange (object , Microsoft.Office.Interop.Excel.PivotTable , Microsoft.Office.Interop.Excel.Range );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetPivotTableAfterValueChange(object , class Microsoft.Office.Interop.Excel.PivotTable , class Microsoft.Office.Interop.Excel.Range ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetPivotTableAfterValueChange(System.Object,Microsoft.Office.Interop.Excel.PivotTable,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetPivotTableAfterValueChange ( As Object,  As PivotTable,  As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetPivotTableAfterValueChange(System::Object ^ , Microsoft::Office::Interop::Excel::PivotTable ^ , Microsoft::Office::Interop::Excel::Range ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetPivotTableAfterValueChange(System.Object,Microsoft.Office.Interop.Excel.PivotTable,Microsoft.Office.Interop.Excel.Range)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeAllocateChanges">
+      <MemberSignature Language="C#" Value="public override void SheetPivotTableBeforeAllocateChanges (object , Microsoft.Office.Interop.Excel.PivotTable , int , int , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetPivotTableBeforeAllocateChanges(object , class Microsoft.Office.Interop.Excel.PivotTable , int32 , int32 , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetPivotTableBeforeAllocateChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetPivotTableBeforeAllocateChanges ( As Object,  As PivotTable,  As Integer,  As Integer, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetPivotTableBeforeAllocateChanges(System::Object ^ , Microsoft::Office::Interop::Excel::PivotTable ^ , int , int , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetPivotTableBeforeAllocateChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="" Type="System.Int32" />
+        <Parameter Name="" Type="System.Int32" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeCommitChanges">
+      <MemberSignature Language="C#" Value="public override void SheetPivotTableBeforeCommitChanges (object , Microsoft.Office.Interop.Excel.PivotTable , int , int , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetPivotTableBeforeCommitChanges(object , class Microsoft.Office.Interop.Excel.PivotTable , int32 , int32 , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetPivotTableBeforeCommitChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetPivotTableBeforeCommitChanges ( As Object,  As PivotTable,  As Integer,  As Integer, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetPivotTableBeforeCommitChanges(System::Object ^ , Microsoft::Office::Interop::Excel::PivotTable ^ , int , int , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetPivotTableBeforeCommitChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="" Type="System.Int32" />
+        <Parameter Name="" Type="System.Int32" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableBeforeDiscardChanges">
+      <MemberSignature Language="C#" Value="public override void SheetPivotTableBeforeDiscardChanges (object , Microsoft.Office.Interop.Excel.PivotTable , int , int );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetPivotTableBeforeDiscardChanges(object , class Microsoft.Office.Interop.Excel.PivotTable , int32 , int32 ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetPivotTableBeforeDiscardChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetPivotTableBeforeDiscardChanges ( As Object,  As PivotTable,  As Integer,  As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetPivotTableBeforeDiscardChanges(System::Object ^ , Microsoft::Office::Interop::Excel::PivotTable ^ , int , int );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetPivotTableBeforeDiscardChanges(System.Object,Microsoft.Office.Interop.Excel.PivotTable,System.Int32,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+        <Parameter Name="" Type="System.Int32" />
+        <Parameter Name="" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetPivotTableUpdate">
+      <MemberSignature Language="C#" Value="public override void SheetPivotTableUpdate (object , Microsoft.Office.Interop.Excel.PivotTable );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetPivotTableUpdate(object , class Microsoft.Office.Interop.Excel.PivotTable ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetPivotTableUpdate(System.Object,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetPivotTableUpdate ( As Object,  As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetPivotTableUpdate(System::Object ^ , Microsoft::Office::Interop::Excel::PivotTable ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetPivotTableUpdate(System.Object,Microsoft.Office.Interop.Excel.PivotTable)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetSelectionChange">
+      <MemberSignature Language="C#" Value="public override void SheetSelectionChange (object , Microsoft.Office.Interop.Excel.Range );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetSelectionChange(object , class Microsoft.Office.Interop.Excel.Range ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetSelectionChange(System.Object,Microsoft.Office.Interop.Excel.Range)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetSelectionChange ( As Object,  As Range)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetSelectionChange(System::Object ^ , Microsoft::Office::Interop::Excel::Range ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetSelectionChange(System.Object,Microsoft.Office.Interop.Excel.Range)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Range" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SheetTableUpdate">
+      <MemberSignature Language="C#" Value="public override void SheetTableUpdate (object , Microsoft.Office.Interop.Excel.TableObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void SheetTableUpdate(object , class Microsoft.Office.Interop.Excel.TableObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.SheetTableUpdate(System.Object,Microsoft.Office.Interop.Excel.TableObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub SheetTableUpdate ( As Object,  As TableObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void SheetTableUpdate(System::Object ^ , Microsoft::Office::Interop::Excel::TableObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.SheetTableUpdate(System.Object,Microsoft.Office.Interop.Excel.TableObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Object" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.TableObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowActivate">
+      <MemberSignature Language="C#" Value="public override void WindowActivate (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.Window );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WindowActivate(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.Window ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WindowActivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowActivate ( As Workbook,  As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowActivate(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::Window ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WindowActivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowDeactivate">
+      <MemberSignature Language="C#" Value="public override void WindowDeactivate (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.Window );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WindowDeactivate(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.Window ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WindowDeactivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowDeactivate ( As Workbook,  As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowDeactivate(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::Window ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WindowDeactivate(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowResize">
+      <MemberSignature Language="C#" Value="public override void WindowResize (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.Window );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WindowResize(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.Window ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WindowResize(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WindowResize ( As Workbook,  As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WindowResize(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::Window ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WindowResize(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Window)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Window" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookActivate">
+      <MemberSignature Language="C#" Value="public override void WorkbookActivate (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookActivate(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookActivate(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookActivate ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookActivate(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookActivate(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAddinInstall">
+      <MemberSignature Language="C#" Value="public override void WorkbookAddinInstall (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookAddinInstall(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookAddinInstall(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookAddinInstall ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookAddinInstall(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookAddinInstall(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAddinUninstall">
+      <MemberSignature Language="C#" Value="public override void WorkbookAddinUninstall (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookAddinUninstall(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookAddinUninstall(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookAddinUninstall ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookAddinUninstall(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookAddinUninstall(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterSave">
+      <MemberSignature Language="C#" Value="public override void WorkbookAfterSave (Microsoft.Office.Interop.Excel.Workbook , bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookAfterSave(class Microsoft.Office.Interop.Excel.Workbook , bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookAfterSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookAfterSave ( As Workbook,  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookAfterSave(Microsoft::Office::Interop::Excel::Workbook ^ , bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookAfterSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterXmlExport">
+      <MemberSignature Language="C#" Value="public override void WorkbookAfterXmlExport (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.XmlMap , string , Microsoft.Office.Interop.Excel.XlXmlExportResult );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookAfterXmlExport(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.XmlMap , string , valuetype Microsoft.Office.Interop.Excel.XlXmlExportResult ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookAfterXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,Microsoft.Office.Interop.Excel.XlXmlExportResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookAfterXmlExport ( As Workbook,  As XmlMap,  As String,  As XlXmlExportResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookAfterXmlExport(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::XmlMap ^ , System::String ^ , Microsoft::Office::Interop::Excel::XlXmlExportResult );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookAfterXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,Microsoft.Office.Interop.Excel.XlXmlExportResult)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="" Type="System.String" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XlXmlExportResult" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookAfterXmlImport">
+      <MemberSignature Language="C#" Value="public override void WorkbookAfterXmlImport (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.XmlMap , bool , Microsoft.Office.Interop.Excel.XlXmlImportResult );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookAfterXmlImport(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.XmlMap , bool , valuetype Microsoft.Office.Interop.Excel.XlXmlImportResult ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookAfterXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.Boolean,Microsoft.Office.Interop.Excel.XlXmlImportResult)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookAfterXmlImport ( As Workbook,  As XmlMap,  As Boolean,  As XlXmlImportResult)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookAfterXmlImport(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::XmlMap ^ , bool , Microsoft::Office::Interop::Excel::XlXmlImportResult );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookAfterXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.Boolean,Microsoft.Office.Interop.Excel.XlXmlImportResult)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="" Type="System.Boolean" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XlXmlImportResult" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeClose">
+      <MemberSignature Language="C#" Value="public override void WorkbookBeforeClose (Microsoft.Office.Interop.Excel.Workbook , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookBeforeClose(class Microsoft.Office.Interop.Excel.Workbook , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookBeforeClose(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookBeforeClose ( As Workbook, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookBeforeClose(Microsoft::Office::Interop::Excel::Workbook ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookBeforeClose(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforePrint">
+      <MemberSignature Language="C#" Value="public override void WorkbookBeforePrint (Microsoft.Office.Interop.Excel.Workbook , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookBeforePrint(class Microsoft.Office.Interop.Excel.Workbook , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookBeforePrint(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookBeforePrint ( As Workbook, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookBeforePrint(Microsoft::Office::Interop::Excel::Workbook ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookBeforePrint(Microsoft.Office.Interop.Excel.Workbook,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeSave">
+      <MemberSignature Language="C#" Value="public override void WorkbookBeforeSave (Microsoft.Office.Interop.Excel.Workbook , bool , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookBeforeSave(class Microsoft.Office.Interop.Excel.Workbook , bool , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookBeforeSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookBeforeSave ( As Workbook,  As Boolean, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookBeforeSave(Microsoft::Office::Interop::Excel::Workbook ^ , bool , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookBeforeSave(Microsoft.Office.Interop.Excel.Workbook,System.Boolean,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.Boolean" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeXmlExport">
+      <MemberSignature Language="C#" Value="public override void WorkbookBeforeXmlExport (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.XmlMap , string , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookBeforeXmlExport(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.XmlMap , string , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookBeforeXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookBeforeXmlExport ( As Workbook,  As XmlMap,  As String, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookBeforeXmlExport(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::XmlMap ^ , System::String ^ , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookBeforeXmlExport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="" Type="System.String" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookBeforeXmlImport">
+      <MemberSignature Language="C#" Value="public override void WorkbookBeforeXmlImport (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.XmlMap , string , bool , ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookBeforeXmlImport(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.XmlMap , string , bool , bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookBeforeXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookBeforeXmlImport ( As Workbook,  As XmlMap,  As String,  As Boolean, ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookBeforeXmlImport(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::XmlMap ^ , System::String ^ , bool , bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookBeforeXmlImport(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.XmlMap,System.String,System.Boolean,System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+        <Parameter Name="" Type="System.String" />
+        <Parameter Name="" Type="System.Boolean" />
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookDeactivate">
+      <MemberSignature Language="C#" Value="public override void WorkbookDeactivate (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookDeactivate(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookDeactivate(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookDeactivate ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookDeactivate(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookDeactivate(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookModelChange">
+      <MemberSignature Language="C#" Value="public override void WorkbookModelChange (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.ModelChanges );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookModelChange(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.ModelChanges ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookModelChange(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.ModelChanges)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookModelChange ( As Workbook,  As ModelChanges)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookModelChange(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::ModelChanges ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookModelChange(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.ModelChanges)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.ModelChanges" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookNewChart">
+      <MemberSignature Language="C#" Value="public override void WorkbookNewChart (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.Chart );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookNewChart(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.Chart ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookNewChart(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Chart)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookNewChart ( As Workbook,  As Chart)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookNewChart(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::Chart ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookNewChart(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.Chart)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Chart" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookNewSheet">
+      <MemberSignature Language="C#" Value="public override void WorkbookNewSheet (Microsoft.Office.Interop.Excel.Workbook , object );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookNewSheet(class Microsoft.Office.Interop.Excel.Workbook , object ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookNewSheet(Microsoft.Office.Interop.Excel.Workbook,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookNewSheet ( As Workbook,  As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookNewSheet(Microsoft::Office::Interop::Excel::Workbook ^ , System::Object ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookNewSheet(Microsoft.Office.Interop.Excel.Workbook,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookOpen">
+      <MemberSignature Language="C#" Value="public override void WorkbookOpen (Microsoft.Office.Interop.Excel.Workbook );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookOpen(class Microsoft.Office.Interop.Excel.Workbook ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookOpen(Microsoft.Office.Interop.Excel.Workbook)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookOpen ( As Workbook)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookOpen(Microsoft::Office::Interop::Excel::Workbook ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookOpen(Microsoft.Office.Interop.Excel.Workbook)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookPivotTableCloseConnection">
+      <MemberSignature Language="C#" Value="public override void WorkbookPivotTableCloseConnection (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.PivotTable );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookPivotTableCloseConnection(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.PivotTable ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookPivotTableCloseConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookPivotTableCloseConnection ( As Workbook,  As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookPivotTableCloseConnection(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::PivotTable ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookPivotTableCloseConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookPivotTableOpenConnection">
+      <MemberSignature Language="C#" Value="public override void WorkbookPivotTableOpenConnection (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Interop.Excel.PivotTable );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookPivotTableOpenConnection(class Microsoft.Office.Interop.Excel.Workbook , class Microsoft.Office.Interop.Excel.PivotTable ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookPivotTableOpenConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookPivotTableOpenConnection ( As Workbook,  As PivotTable)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookPivotTableOpenConnection(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Interop::Excel::PivotTable ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookPivotTableOpenConnection(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Interop.Excel.PivotTable)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookRowsetComplete">
+      <MemberSignature Language="C#" Value="public override void WorkbookRowsetComplete (Microsoft.Office.Interop.Excel.Workbook , string , string , bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookRowsetComplete(class Microsoft.Office.Interop.Excel.Workbook , string , string , bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookRowsetComplete(Microsoft.Office.Interop.Excel.Workbook,System.String,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookRowsetComplete ( As Workbook,  As String,  As String,  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookRowsetComplete(Microsoft::Office::Interop::Excel::Workbook ^ , System::String ^ , System::String ^ , bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookRowsetComplete(Microsoft.Office.Interop.Excel.Workbook,System.String,System.String,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="System.String" />
+        <Parameter Name="" Type="System.String" />
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkbookSync">
+      <MemberSignature Language="C#" Value="public override void WorkbookSync (Microsoft.Office.Interop.Excel.Workbook , Microsoft.Office.Core.MsoSyncEventType );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void WorkbookSync(class Microsoft.Office.Interop.Excel.Workbook , valuetype Microsoft.Office.Core.MsoSyncEventType ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.AppEvents_SinkHelper.WorkbookSync(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Core.MsoSyncEventType)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub WorkbookSync ( As Workbook,  As MsoSyncEventType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void WorkbookSync(Microsoft::Office::Interop::Excel::Workbook ^ , Microsoft::Office::Core::MsoSyncEventType );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.AppEvents.WorkbookSync(Microsoft.Office.Interop.Excel.Workbook,Microsoft.Office.Core.MsoSyncEventType)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.Excel.Workbook" />
+        <Parameter Name="" Type="Microsoft.Office.Core.MsoSyncEventType" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

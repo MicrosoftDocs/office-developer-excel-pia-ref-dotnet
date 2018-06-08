@@ -1,0 +1,37 @@
+﻿<Type Name="WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler(object Sh, PivotTable TargetPivotTable, Range TargetRange);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler(Sh As Object, TargetPivotTable As PivotTable, TargetRange As Range)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_SheetPivotTableAfterValueChangeEventHandler(System::Object ^ Sh, PivotTable ^ TargetPivotTable, Range ^ TargetRange);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Sh" Type="System.Object" />
+    <Parameter Name="TargetPivotTable" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+    <Parameter Name="TargetRange" Type="Microsoft.Office.Interop.Excel.Range" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Sh">The worksheet that contains the PivotTable.</param>
+    <param name="TargetPivotTable">The PivotTable that contains the edited or recalculated cells.</param>
+    <param name="TargetRange">The range that contains all the edited or recalcuated cells.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.SheetPivotTableAfterValueChange" /> event. The <b>SheetPivotTableAfterValueChange</b> event occurs after a cell or range of cells inside a PivotTable are edited or recalculated (for cells that contain formulas).</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

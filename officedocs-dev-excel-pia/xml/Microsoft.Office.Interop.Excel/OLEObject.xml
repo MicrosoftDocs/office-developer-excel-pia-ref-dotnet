@@ -1,0 +1,37 @@
+﻿<Type Name="OLEObject" FullName="Microsoft.Office.Interop.Excel.OLEObject">
+  <TypeSignature Language="C#" Value="public interface OLEObject : Microsoft.Office.Interop.Excel._OLEObject, Microsoft.Office.Interop.Excel.OLEObjectEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract OLEObject implements class Microsoft.Office.Interop.Excel._OLEObject, class Microsoft.Office.Interop.Excel.OLEObjectEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.OLEObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface OLEObject&#xA;Implements _OLEObject, OLEObjectEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class OLEObject : Microsoft::Office::Interop::Excel::_OLEObject, Microsoft::Office::Interop::Excel::OLEObjectEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel._OLEObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.OLEObjectEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Excel.OLEObjectClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000208A2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents an ActiveX control or a linked or embedded OLE object on a worksheet. The <b>OLEObject</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.OLEObjects" /> collection. The <b>OLEObjects</b> collection contains all the OLE objects on a single worksheet.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Excel._OLEObject" />.</para>
+      <para>Use <b>OLEObjects</b>(<paramref name="index" />), where <paramref name="index" /> is the name or number of the object, to return an <b>OLEObject</b> object.</para>
+      <para>The properties and methods of the <b>OLEObject</b> object are duplicated on each ActiveX control on a worksheet. This enables access to these properties by using the control’s name.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

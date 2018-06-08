@@ -1,0 +1,227 @@
+﻿<Type Name="SparkHorizontalAxis" FullName="Microsoft.Office.Interop.Excel.SparkHorizontalAxis">
+  <TypeSignature Language="C#" Value="public interface SparkHorizontalAxis" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SparkHorizontalAxis" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.SparkHorizontalAxis" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SparkHorizontalAxis" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SparkHorizontalAxis" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244BB-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the settings for the horizontal axes of a group of sparklines.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.SparkAxes.Horizontal" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.SparkAxes" /> object to return the <see cref="T:Microsoft.Office.Interop.Excel.SparkHorizontalAxis" /> object for group of sparklines. The horizontal axis is displayed only if the data for the sparkline has both negative and positive values on the vertical axis.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the creator of the specified object.</summary>
+        <value>An <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Axis">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.SparkColor Axis { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.SparkColor Axis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.Axis" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Axis As SparkColor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::SparkColor ^ Axis { Microsoft::Office::Interop::Excel::SparkColor ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(67)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(67)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.SparkColor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that specifies the color of the horizontal axis of the sparkline.</summary>
+        <value>A <see cref="T:Microsoft.Office.Interop.Excel.SparkColor" /> object that specifies the color of the horizontal axis of the sparkline.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets a 32-bit <b>integer</b> that indicates the application in which this object was created.</summary>
+        <value>A 32-bit <b>integer</b> that indicates the application in which this object was created.</value>
+        <remarks>
+          <para>Read-only <b>long</b>.</para>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. The <see cref="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.Creator" /> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, excelnv1 has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDateAxis">
+      <MemberSignature Language="C#" Value="public bool IsDateAxis { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDateAxis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.IsDateAxis" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDateAxis As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDateAxis { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2963)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2963)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets whether the horizontal axis of the sparkline is based on date values.</summary>
+        <value>
+          <b>true</b> if the horizontal axis of the sparkline is based on date values; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>
+            <b>true</b> if the horizontal axis is based on date values; otherwise <b>false</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets the parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</summary>
+        <value>The parent <see cref="T:Microsoft.Office.Interop.Excel.SparklineGroup" /> object for the specified object.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightToLeftPlotOrder">
+      <MemberSignature Language="C#" Value="public bool RightToLeftPlotOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RightToLeftPlotOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.RightToLeftPlotOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property RightToLeftPlotOrder As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RightToLeftPlotOrder { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2964)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2964)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2964)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the points on the horizontal axis are plotted in right-to-left order.</summary>
+        <value>
+          <b>true</b> if the points on the horizontal axis are plotted in right-to-left order; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>Set the <see cref="P:Microsoft.Office.Interop.Excel.SparkHorizontalAxis.RightToLeftPlotOrder" /> property to <b>true</b> to plot the values on the horizontal axis in right-to-left order.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

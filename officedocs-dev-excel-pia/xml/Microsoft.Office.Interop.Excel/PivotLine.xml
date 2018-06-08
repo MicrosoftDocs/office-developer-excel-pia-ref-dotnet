@@ -1,0 +1,247 @@
+﻿<Type Name="PivotLine" FullName="Microsoft.Office.Interop.Excel.PivotLine">
+  <TypeSignature Language="C#" Value="public interface PivotLine" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PivotLine" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.PivotLine" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PivotLine" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PivotLine" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024480-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" /> object is a line of rows or columns in an Excel <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />.</summary>
+    <remarks>
+      <para>A <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" /> contains only visible items, so collapsed children of items and items in hidden levels are not present in the <see cref="T:Microsoft.Office.Interop.Excel.PivotLines" /> collection.</para>
+      <para>A <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" /> always has a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> in all positions. This means that the <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />s representing subtotals in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> contain fewer <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" />s than regular <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />s.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an  <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object that represents the Microsoft Office Excel  application. When used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the specified object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel._Application" />
+        </value>
+        <remarks>
+          <para>You can use this property with an OLE Automation object to return the application of that object.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit <b>Integer</b> that indicates the application in which this object was created. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.  The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotLineType LineType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotLineType LineType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.LineType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineType As XlPivotLineType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotLineType LineType { Microsoft::Office::Interop::Excel::XlPivotLineType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2683)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2683)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotLineType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a constant that indicates the type of <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.XlPivotLineType" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />. Read-only.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotLineCells">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotLineCells PivotLineCells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotLineCells PivotLineCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.PivotLineCells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotLineCells As PivotLineCells" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotLineCells ^ PivotLineCells { Microsoft::Office::Interop::Excel::PivotLineCells ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2684)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2684)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotLineCells</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a collection of <see cref="T:Microsoft.Office.Interop.Excel.PivotCell" /> objects in a <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />. Read-only.</summary>
+        <value>
+          <see cref="P:Microsoft.Office.Interop.Excel.PivotLine.PivotLineCells" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotLineCellsFull">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotLineCells PivotLineCellsFull { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotLineCells PivotLineCellsFull" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.PivotLineCellsFull" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotLineCellsFull As PivotLineCells" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotLineCells ^ PivotLineCellsFull { Microsoft::Office::Interop::Excel::PivotLineCells ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3098)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3098)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotLineCells</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves all of the <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" /> cells including those that are hidden in compact form.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotLine.Position" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the position of the <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

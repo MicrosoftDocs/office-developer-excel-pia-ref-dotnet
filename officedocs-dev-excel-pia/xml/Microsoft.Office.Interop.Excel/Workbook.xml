@@ -1,0 +1,60 @@
+﻿<Type Name="Workbook" FullName="Microsoft.Office.Interop.Excel.Workbook">
+  <TypeSignature Language="C#" Value="public interface Workbook : Microsoft.Office.Interop.Excel._Workbook, Microsoft.Office.Interop.Excel.WorkbookEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Workbook implements class Microsoft.Office.Interop.Excel._Workbook, class Microsoft.Office.Interop.Excel.WorkbookEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Workbook" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Workbook&#xA;Implements _Workbook, WorkbookEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Workbook : Microsoft::Office::Interop::Excel::_Workbook, Microsoft::Office::Interop::Excel::WorkbookEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel._Workbook</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.WorkbookEvents_Event</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.Excel.WorkbookClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000208DA-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a Microsoft Excel workbook.</summary>
+    <remarks>
+      <para>This is a .NET interface derived from a COM coclass that is required by managed code for interoperability with the corresponding COM object. Use this derived interface to access all method, property, and event members of the COM object. However, if a method or event you want to use shares the same name under the same COM object, cast to the corresponding primary interface to call the method, and cast to the latest events interface to connect to the event. Refer to this topic for information about the COM object. For information about the method and property members of the COM object, see <see cref="T:Microsoft.Office.Interop.Excel._Workbook" />.</para>
+      <para>The <see cref="T:Microsoft.Office.Interop.Excel.Workbook" /> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.Workbooks" /> collection. The <b>Workbooks</b> collection contains all the <b>Workbook</b> objects currently open in Microsoft Excel.</para>
+      <para>The following properties for returning a <b>Workbook</b> object are described in this section:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel._Application.Workbooks" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel._Application.ActiveWorkbook" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel._Application.ThisWorkbook" /> property</description>
+        </item>
+      </list>
+      <para>Workbooks Property</para>
+      <para>Use <b>Workbooks</b>(<paramref name="index" />), where <paramref name="index" /> is the workbook name or index number, to return a single <b>Workbook</b> object.</para>
+      <para>The index number denotes the order in which the workbooks were opened or created. Workbooks(1) is the first workbook created, and Workbooks(Workbooks.Count) is the last one created. Activating a workbook doesn’t change its index number. All workbooks are included in the index count, even if they’re hidden.</para>
+      <para>The <see cref="P:Microsoft.Office.Interop.Excel._Workbook.Name" /> property returns the workbook name. You cannot set the name by using this property; if you need to change the name, use the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.SaveAs(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlSaveAsAccessMode,System.Object,System.Object,System.Object,System.Object,System.Object)" /> method to save the workbook under a different name.</para>
+      <para>ActiveWorkbook Property</para>
+      <para>The <b>ActiveWorkbook</b> property returns the workbook that’s currently active.</para>
+      <para>ThisWorkbook Property</para>
+      <para>The <b>ThisWorkbook</b> property returns the workbook where the Visual Basic code is running. In most cases, this is the same as the active workbook. However, if the Visual Basic code is part of an add-in, the <b>ThisWorkbook</b> property won’t return the active workbook. In this case, the active workbook is the workbook calling the add-in, so the <b>ThisWorkbook</b> property returns the add-in workbook. </para>
+      <para>If you’ll be creating an add-in from your Visual Basic code, you should use the <b>ThisWorkbook</b> property to qualify any statement that must be run on the workbook you compile into the add-in.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,41 @@
+﻿<Type Name="AppEvents_WorkbookBeforeXmlImportEventHandler" FullName="Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlImportEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void AppEvents_WorkbookBeforeXmlImportEventHandler(Workbook Wb, XmlMap Map, string Url, bool IsRefresh, out bool Cancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AppEvents_WorkbookBeforeXmlImportEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.AppEvents_WorkbookBeforeXmlImportEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub AppEvents_WorkbookBeforeXmlImportEventHandler(Wb As Workbook, Map As XmlMap, Url As String, IsRefresh As Boolean, ByRef Cancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void AppEvents_WorkbookBeforeXmlImportEventHandler(Workbook ^ Wb, XmlMap ^ Map, System::String ^ Url, bool IsRefresh, [Runtime::InteropServices::Out] bool % Cancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Wb" Type="Microsoft.Office.Interop.Excel.Workbook" />
+    <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+    <Parameter Name="Url" Type="System.String" />
+    <Parameter Name="IsRefresh" Type="System.Boolean" />
+    <Parameter Name="Cancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Wb">Required <see cref="T:Microsoft.Office.Interop.Excel.Workbook" />. The target workbook.</param>
+    <param name="Map">Required <see cref="T:Microsoft.Office.Interop.Excel.XmlMap" />. The XML map that will be used to import data.</param>
+    <param name="Url">Required <b>String</b>. The location of the XML file to be imported.</param>
+    <param name="IsRefresh">Required <b>Boolean</b>. <b>True</b> if the event was triggered by refreshing an existing connection to XML data; <b>False</b> if a new mapping will be created.</param>
+    <param name="Cancel">Required <b>Boolean</b>. Set to <b>True</b> to cancel the import or refresh operation.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookBeforeXmlImport" /> event. The <b>WorkbookBeforeXmlImport</b> event occurs before an existing XML data connection is refreshed, or new XML data is imported into any open Microsoft Excel workbook.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

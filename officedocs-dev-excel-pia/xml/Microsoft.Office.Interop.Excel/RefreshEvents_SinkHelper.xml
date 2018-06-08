@@ -1,0 +1,142 @@
+﻿<Type Name="RefreshEvents_SinkHelper" FullName="Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper">
+  <TypeSignature Language="C#" Value="public sealed class RefreshEvents_SinkHelper : Microsoft.Office.Interop.Excel.RefreshEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed RefreshEvents_SinkHelper extends System.Object implements class Microsoft.Office.Interop.Excel.RefreshEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RefreshEvents_SinkHelper&#xA;Implements RefreshEvents" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RefreshEvents_SinkHelper sealed : Microsoft::Office::Interop::Excel::RefreshEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.Excel.RefreshEvents</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AfterRefresh">
+      <MemberSignature Language="C#" Value="public override void AfterRefresh (bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void AfterRefresh(bool ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper.AfterRefresh(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub AfterRefresh ( As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void AfterRefresh(bool );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.RefreshEvents.AfterRefresh(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeforeRefresh">
+      <MemberSignature Language="C#" Value="public override void BeforeRefresh (ref bool );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void BeforeRefresh(bool&amp; ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper.BeforeRefresh(System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub BeforeRefresh (ByRef  As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void BeforeRefresh(bool % );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.Excel.RefreshEvents.BeforeRefresh(System.Boolean@)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="System.Boolean&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_AfterRefreshDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler m_AfterRefreshDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler m_AfterRefreshDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper.m_AfterRefreshDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_AfterRefreshDelegate As RefreshEvents_AfterRefreshEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::RefreshEvents_AfterRefreshEventHandler ^ m_AfterRefreshDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.RefreshEvents_AfterRefreshEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_BeforeRefreshDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler m_BeforeRefreshDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler m_BeforeRefreshDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper.m_BeforeRefreshDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_BeforeRefreshDelegate As RefreshEvents_BeforeRefreshEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::Excel::RefreshEvents_BeforeRefreshEventHandler ^ m_BeforeRefreshDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.RefreshEvents_BeforeRefreshEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.RefreshEvents_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

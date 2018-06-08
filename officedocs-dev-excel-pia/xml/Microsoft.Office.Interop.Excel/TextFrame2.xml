@@ -1,0 +1,774 @@
+﻿<Type Name="TextFrame2" FullName="Microsoft.Office.Interop.Excel.TextFrame2">
+  <TypeSignature Language="C#" Value="public interface TextFrame2 : Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract TextFrame2 implements class Microsoft.Office.Core._IMsoDispObj" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.TextFrame2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface TextFrame2&#xA;Implements _IMsoDispObj" />
+  <TypeSignature Language="C++ CLI" Value="public interface class TextFrame2 : Microsoft::Office::Core::_IMsoDispObj" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Core._IMsoDispObj</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000C0398-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the text frame in a <see cref="T:Microsoft.Office.Interop.Excel.Shape" />,  <see cref="T:Microsoft.Office.Interop.Excel.ShapeRange" />, or    <see cref="T:Microsoft.Office.Interop.Excel.ChartFormat" /> object. </summary>
+    <remarks>
+      <para>This object contains the text in the text frame as well as the properties and methods that control the alignment and anchoring of the text frame. Use the <b>TextFrame2</b> property to return a <see cref="T:Microsoft.Office.Interop.Excel.TextFrame2" /> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public object Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Application { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Application</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743808)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel._Application" />
+        </value>
+        <remarks>
+          <para>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object that represents the creator of the specified object (you can use this property with an OLE Automation object to return the application of that object). </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSize">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoAutoSize AutoSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoAutoSize AutoSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.AutoSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoSize As MsoAutoSize" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoAutoSize AutoSize { Microsoft::Office::Core::MsoAutoSize get(); void set(Microsoft::Office::Core::MsoAutoSize value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoAutoSize</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The size of the specified object that changes automatically to fit text within its boundaries. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoAutoSize" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Column">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextColumn2 Column { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextColumn2 Column" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Column" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Column As TextColumn2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextColumn2 ^ Column { Microsoft::Office::Core::TextColumn2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(115)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextColumn2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Core.TextColumn2" /> object that represents the columns within the text frame. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextColumn2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public int Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Creator { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Core._IMsoDispObj.Creator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1610743809)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. The <see cref="P:Microsoft.Office.Interop.Excel.TextFrame2.Creator" /> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteText">
+      <MemberSignature Language="C#" Value="public void DeleteText ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteText() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.TextFrame2.DeleteText" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteText ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DeleteText();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the text from a text frame and all the associated text properties.</summary>
+        <remarks>
+          <para>The associated text properties include <see cref="T:Microsoft.Office.Interop.Excel.Font" /> attributes such as bold, underline, and so on.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasText">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState HasText { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState HasText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.HasText" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasText As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState HasText { Microsoft::Office::Core::MsoTriState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(113)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns whether the specified text frame has text. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HorizontalAnchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoHorizontalAnchor HorizontalAnchor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoHorizontalAnchor HorizontalAnchor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.HorizontalAnchor" />
+      <MemberSignature Language="VB.NET" Value="Public Property HorizontalAnchor As MsoHorizontalAnchor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoHorizontalAnchor HorizontalAnchor { Microsoft::Office::Core::MsoHorizontalAnchor get(); void set(Microsoft::Office::Core::MsoHorizontalAnchor value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(105)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoHorizontalAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the horizontal anchor type for the specified text. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoHorizontalAnchor" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarginBottom">
+      <MemberSignature Language="C#" Value="public float MarginBottom { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 MarginBottom" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.MarginBottom" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarginBottom As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float MarginBottom { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the distance (in points) between the bottom of the text frame and the bottom of the inscribed rectangle of the shape that contains the text. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarginLeft">
+      <MemberSignature Language="C#" Value="public float MarginLeft { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 MarginLeft" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.MarginLeft" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarginLeft As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float MarginLeft { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the distance (in points) between the left edge of the text frame and the left edge of the inscribed rectangle of the shape that contains the text. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarginRight">
+      <MemberSignature Language="C#" Value="public float MarginRight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 MarginRight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.MarginRight" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarginRight As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float MarginRight { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(102)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the distance (in points) between the right edge of the text frame and the right edge of the inscribed rectangle of the shape that contains the text. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarginTop">
+      <MemberSignature Language="C#" Value="public float MarginTop { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float32 MarginTop" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.MarginTop" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarginTop As Single" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property float MarginTop { float get(); void set(float value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Single</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the distance (in points) between the top of the text frame and the top of the inscribed rectangle of the shape that contains the text. Read/write.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NoTextRotation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState NoTextRotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState NoTextRotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.NoTextRotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property NoTextRotation As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState NoTextRotation { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that specifies if the text on a shape is rotated if the shape itself is being rotated. Read/write</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>Returns or sets MsoTriState enumerations with the following values:</para>
+          <list type="number">
+            <item>
+              <description>
+                <b>msoCTrue</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>msoFalse</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>msoTriStateMixed</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>msoTriStateToggle</b>
+              </description>
+            </item>
+            <item>
+              <description>
+                <b>msoTrue</b>
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTextOrientation Orientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTextOrientation Orientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Orientation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Orientation As MsoTextOrientation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTextOrientation Orientation { Microsoft::Office::Core::MsoTextOrientation get(); void set(Microsoft::Office::Core::MsoTextOrientation value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(104)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTextOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a value that represents the text frame orientation. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTextOrientation" />
+        </value>
+        <remarks>
+          <para>The value of this property can be set to an integer value from –90 to 90 degrees, or to one of the <see cref="T:Microsoft.Office.Core.MsoTextOrientation" /> constants.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PathFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPathFormat PathFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPathFormat PathFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.PathFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property PathFormat As MsoPathFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPathFormat PathFormat { Microsoft::Office::Core::MsoPathFormat get(); void set(Microsoft::Office::Core::MsoPathFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(107)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPathFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the path type for the specified text frame. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPathFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Ruler">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.Ruler2 Ruler { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.Ruler2 Ruler" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.Ruler" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Ruler As Ruler2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::Ruler2 ^ Ruler { Microsoft::Office::Core::Ruler2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.Ruler2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the ruler for the specified text. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.Ruler2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TextRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.TextRange2 TextRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Core.TextRange2 TextRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.TextRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TextRange As TextRange2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::TextRange2 ^ TextRange { Microsoft::Office::Core::TextRange2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(114)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.TextRange2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Core.TextRange2" /> object that represents the text in the object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.TextRange2" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThreeD">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ThreeDFormat ThreeD { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ThreeDFormat ThreeD" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.ThreeD" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ThreeD As ThreeDFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ThreeDFormat ^ ThreeD { Microsoft::Office::Interop::Excel::ThreeDFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ThreeDFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" /> object that contains 3-D–effect formatting properties for the specified text. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.ThreeDFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerticalAnchor">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoVerticalAnchor VerticalAnchor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoVerticalAnchor VerticalAnchor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.VerticalAnchor" />
+      <MemberSignature Language="VB.NET" Value="Public Property VerticalAnchor As MsoVerticalAnchor" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoVerticalAnchor VerticalAnchor { Microsoft::Office::Core::MsoVerticalAnchor get(); void set(Microsoft::Office::Core::MsoVerticalAnchor value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(106)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoVerticalAnchor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the vertical anchor type for the specified text. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoVerticalAnchor" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WarpFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoWarpFormat WarpFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoWarpFormat WarpFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.WarpFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property WarpFormat As MsoWarpFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoWarpFormat WarpFormat { Microsoft::Office::Core::MsoWarpFormat get(); void set(Microsoft::Office::Core::MsoWarpFormat value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoWarpFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the warp type for the specified text frame. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoWarpFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordArtformat">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoPresetTextEffect WordArtformat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoPresetTextEffect WordArtformat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.WordArtformat" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordArtformat As MsoPresetTextEffect" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoPresetTextEffect WordArtformat { Microsoft::Office::Core::MsoPresetTextEffect get(); void set(Microsoft::Office::Core::MsoPresetTextEffect value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(109)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoPresetTextEffect</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the Word Art type for the specified text frame. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoPresetTextEffect" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WordWrap">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Core.MsoTriState WordWrap { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Core.MsoTriState WordWrap" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.TextFrame2.WordWrap" />
+      <MemberSignature Language="VB.NET" Value="Public Property WordWrap As MsoTriState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Core::MsoTriState WordWrap { Microsoft::Office::Core::MsoTriState get(); void set(Microsoft::Office::Core::MsoTriState value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Core.MsoTriState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets text break lines within or past the boundaries of the shape. Read/write.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Core.MsoTriState" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

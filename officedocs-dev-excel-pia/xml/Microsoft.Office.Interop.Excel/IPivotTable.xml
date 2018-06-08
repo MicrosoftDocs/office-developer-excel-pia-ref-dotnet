@@ -1,0 +1,3668 @@
+﻿<Type Name="IPivotTable" FullName="Microsoft.Office.Interop.Excel.IPivotTable">
+  <TypeSignature Language="C#" Value="public interface IPivotTable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPivotTable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.IPivotTable" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPivotTable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPivotTable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020872-0001-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4112)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Reserved for internal use.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property _Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_PivotSelect">
+      <MemberSignature Language="C#" Value="public void _PivotSelect (string Name, Microsoft.Office.Interop.Excel.XlPTSelectionMode Mode = Microsoft.Office.Interop.Excel.XlPTSelectionMode.xlDataAndLabel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _PivotSelect([in]string Name, [in]valuetype Microsoft.Office.Interop.Excel.XlPTSelectionMode Mode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable._PivotSelect(System.String,Microsoft.Office.Interop.Excel.XlPTSelectionMode)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub _PivotSelect (Name As String, Optional Mode As XlPTSelectionMode = Microsoft.Office.Interop.Excel.XlPTSelectionMode.xlDataAndLabel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Mode" Type="Microsoft.Office.Interop.Excel.XlPTSelectionMode" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Mode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveFilters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotFilters ActiveFilters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotFilters ActiveFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ActiveFilters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActiveFilters As PivotFilters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotFilters ^ ActiveFilters { Microsoft::Office::Interop::Excel::PivotFilters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2559)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotFilters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddDataField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotField AddDataField (object Field, object Caption, object Function);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.PivotField AddDataField([in]object Field, [in]object Caption, [in]object Function) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.AddDataField(System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddDataField (Field As Object, Optional Caption As Object, Optional Function As Object) As PivotField" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotField</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Field" Type="System.Object" />
+        <Parameter Name="Caption" Type="System.Object" />
+        <Parameter Name="Function" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Field">To be added.</param>
+        <param name="Caption">To be added.</param>
+        <param name="Function">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddFields">
+      <MemberSignature Language="C#" Value="public object AddFields (object RowFields, object ColumnFields, object PageFields, object AddToTable);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object AddFields([in]object RowFields, [in]object ColumnFields, [in]object PageFields, [in]object AddToTable) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.AddFields(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddFields (Optional RowFields As Object, Optional ColumnFields As Object, Optional PageFields As Object, Optional AddToTable As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RowFields" Type="System.Object" />
+        <Parameter Name="ColumnFields" Type="System.Object" />
+        <Parameter Name="PageFields" Type="System.Object" />
+        <Parameter Name="AddToTable" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="RowFields">To be added.</param>
+        <param name="ColumnFields">To be added.</param>
+        <param name="PageFields">To be added.</param>
+        <param name="AddToTable">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocateChanges">
+      <MemberSignature Language="C#" Value="public void AllocateChanges ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AllocateChanges() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.AllocateChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AllocateChanges ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AllocateChanges();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Allocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAllocation Allocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAllocation Allocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Allocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Allocation As XlAllocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAllocation Allocation { Microsoft::Office::Interop::Excel::XlAllocation get(); void set(Microsoft::Office::Interop::Excel::XlAllocation value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2873)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAllocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationMethod">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAllocationMethod AllocationMethod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAllocationMethod AllocationMethod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.AllocationMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllocationMethod As XlAllocationMethod" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAllocationMethod AllocationMethod { Microsoft::Office::Interop::Excel::XlAllocationMethod get(); void set(Microsoft::Office::Interop::Excel::XlAllocationMethod value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2875)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAllocationMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationValue">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAllocationValue AllocationValue { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAllocationValue AllocationValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.AllocationValue" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllocationValue As XlAllocationValue" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAllocationValue AllocationValue { Microsoft::Office::Interop::Excel::XlAllocationValue get(); void set(Microsoft::Office::Interop::Excel::XlAllocationValue value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2874)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAllocationValue</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllocationWeightExpression">
+      <MemberSignature Language="C#" Value="public string AllocationWeightExpression { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AllocationWeightExpression" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.AllocationWeightExpression" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllocationWeightExpression As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AllocationWeightExpression { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2876)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowMultipleFilters">
+      <MemberSignature Language="C#" Value="public bool AllowMultipleFilters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultipleFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.AllowMultipleFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowMultipleFilters As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowMultipleFilters { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2570)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AlternativeText">
+      <MemberSignature Language="C#" Value="public string AlternativeText { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AlternativeText" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.AlternativeText" />
+      <MemberSignature Language="VB.NET" Value="Public Property AlternativeText As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AlternativeText { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1891)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheIndex">
+      <MemberSignature Language="C#" Value="public int CacheIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CacheIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CacheIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property CacheIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CacheIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1483)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatedFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedFields CalculatedFields ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.CalculatedFields CalculatedFields() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.CalculatedFields" />
+      <MemberSignature Language="VB.NET" Value="Public Function CalculatedFields () As CalculatedFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::CalculatedFields ^ CalculatedFields();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedFields</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatedMembers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedMembers CalculatedMembers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.CalculatedMembers CalculatedMembers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CalculatedMembers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CalculatedMembers As CalculatedMembers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::CalculatedMembers ^ CalculatedMembers { Microsoft::Office::Interop::Excel::CalculatedMembers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2125)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedMembers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatedMembersInFilters">
+      <MemberSignature Language="C#" Value="public bool CalculatedMembersInFilters { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CalculatedMembersInFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CalculatedMembersInFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Property CalculatedMembersInFilters As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CalculatedMembersInFilters { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2884)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeConnection">
+      <MemberSignature Language="C#" Value="public void ChangeConnection (Microsoft.Office.Interop.Excel.WorkbookConnection conn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangeConnection([in]class Microsoft.Office.Interop.Excel.WorkbookConnection conn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ChangeConnection(Microsoft.Office.Interop.Excel.WorkbookConnection)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ChangeConnection (conn As WorkbookConnection)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangeConnection(Microsoft::Office::Interop::Excel::WorkbookConnection ^ conn);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="conn" Type="Microsoft.Office.Interop.Excel.WorkbookConnection" />
+      </Parameters>
+      <Docs>
+        <param name="conn">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeList">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotTableChangeList ChangeList { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotTableChangeList ChangeList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ChangeList" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeList As PivotTableChangeList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotTableChangeList ^ ChangeList { Microsoft::Office::Interop::Excel::PivotTableChangeList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2880)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotTableChangeList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangePivotCache">
+      <MemberSignature Language="C#" Value="public void ChangePivotCache (object PivotCache);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ChangePivotCache([in]object PivotCache) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ChangePivotCache(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ChangePivotCache (PivotCache As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ChangePivotCache(System::Object ^ PivotCache);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PivotCache" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PivotCache">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAllFilters">
+      <MemberSignature Language="C#" Value="public void ClearAllFilters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearAllFilters() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ClearAllFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearAllFilters ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAllFilters();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearTable">
+      <MemberSignature Language="C#" Value="public void ClearTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ClearTable" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearTable ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnFields">
+      <MemberSignature Language="C#" Value="public object ColumnFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ColumnFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ColumnFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColumnFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColumnFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(713)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnGrand">
+      <MemberSignature Language="C#" Value="public bool ColumnGrand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ColumnGrand" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ColumnGrand" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColumnGrand As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ColumnGrand { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(694)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColumnRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range ColumnRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range ColumnRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ColumnRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ColumnRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ ColumnRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(702)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitChanges">
+      <MemberSignature Language="C#" Value="public void CommitChanges ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CommitChanges() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.CommitChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CommitChanges ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CommitChanges();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompactLayoutColumnHeader">
+      <MemberSignature Language="C#" Value="public string CompactLayoutColumnHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompactLayoutColumnHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CompactLayoutColumnHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompactLayoutColumnHeader As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompactLayoutColumnHeader { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2572)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompactLayoutRowHeader">
+      <MemberSignature Language="C#" Value="public string CompactLayoutRowHeader { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CompactLayoutRowHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CompactLayoutRowHeader" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompactLayoutRowHeader As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CompactLayoutRowHeader { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2571)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompactRowIndent">
+      <MemberSignature Language="C#" Value="public int CompactRowIndent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 CompactRowIndent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CompactRowIndent" />
+      <MemberSignature Language="VB.NET" Value="Public Property CompactRowIndent As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int CompactRowIndent { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2553)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConvertToFormulas">
+      <MemberSignature Language="C#" Value="public void ConvertToFormulas (bool ConvertFilters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ConvertToFormulas([in]bool ConvertFilters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ConvertToFormulas(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ConvertToFormulas (ConvertFilters As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ConvertToFormulas(bool ConvertFilters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ConvertFilters" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="ConvertFilters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateCubeFile">
+      <MemberSignature Language="C#" Value="public string CreateCubeFile (string File, object Measures, object Levels, object Members, object Properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string CreateCubeFile([in]string File, [in]object Measures, [in]object Levels, [in]object Members, [in]object Properties) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.CreateCubeFile(System.String,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateCubeFile (File As String, Optional Measures As Object, Optional Levels As Object, Optional Members As Object, Optional Properties As Object) As String" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="File" Type="System.String" />
+        <Parameter Name="Measures" Type="System.Object" />
+        <Parameter Name="Levels" Type="System.Object" />
+        <Parameter Name="Members" Type="System.Object" />
+        <Parameter Name="Properties" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="File">To be added.</param>
+        <param name="Measures">To be added.</param>
+        <param name="Levels">To be added.</param>
+        <param name="Members">To be added.</param>
+        <param name="Properties">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CubeFields CubeFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.CubeFields CubeFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.CubeFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CubeFields As CubeFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::CubeFields ^ CubeFields { Microsoft::Office::Interop::Excel::CubeFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1839)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CubeFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataBodyRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range DataBodyRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range DataBodyRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DataBodyRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataBodyRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ DataBodyRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(705)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataFields">
+      <MemberSignature Language="C#" Value="public object DataFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DataFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DataFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DataFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(715)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataLabelRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range DataLabelRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range DataLabelRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DataLabelRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataLabelRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ DataLabelRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(704)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataPivotField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotField DataPivotField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotField DataPivotField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DataPivotField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataPivotField As PivotField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotField ^ DataPivotField { Microsoft::Office::Interop::Excel::PivotField ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotField</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiscardChanges">
+      <MemberSignature Language="C#" Value="public void DiscardChanges ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DiscardChanges() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.DiscardChanges" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DiscardChanges ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DiscardChanges();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayContextTooltips">
+      <MemberSignature Language="C#" Value="public bool DisplayContextTooltips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayContextTooltips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayContextTooltips" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayContextTooltips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayContextTooltips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2551)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayEmptyColumn">
+      <MemberSignature Language="C#" Value="public bool DisplayEmptyColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayEmptyColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayEmptyColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayEmptyColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayEmptyColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2137)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayEmptyRow">
+      <MemberSignature Language="C#" Value="public bool DisplayEmptyRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayEmptyRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayEmptyRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayEmptyRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayEmptyRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2136)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayErrorString">
+      <MemberSignature Language="C#" Value="public bool DisplayErrorString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayErrorString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayErrorString" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayErrorString As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayErrorString { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1485)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayFieldCaptions">
+      <MemberSignature Language="C#" Value="public bool DisplayFieldCaptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayFieldCaptions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayFieldCaptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayFieldCaptions As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayFieldCaptions { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2555)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayImmediateItems">
+      <MemberSignature Language="C#" Value="public bool DisplayImmediateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayImmediateItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayImmediateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayImmediateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayImmediateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2126)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayMemberPropertyTooltips">
+      <MemberSignature Language="C#" Value="public bool DisplayMemberPropertyTooltips { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayMemberPropertyTooltips" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayMemberPropertyTooltips" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayMemberPropertyTooltips As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayMemberPropertyTooltips { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2550)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayNullString">
+      <MemberSignature Language="C#" Value="public bool DisplayNullString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayNullString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.DisplayNullString" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayNullString As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayNullString { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1486)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrillDown">
+      <MemberSignature Language="C#" Value="public void DrillDown (Microsoft.Office.Interop.Excel.PivotItem PivotItem, object PivotLine);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DrillDown([in]class Microsoft.Office.Interop.Excel.PivotItem PivotItem, [in]object PivotLine) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.DrillDown(Microsoft.Office.Interop.Excel.PivotItem,System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PivotItem" Type="Microsoft.Office.Interop.Excel.PivotItem" />
+        <Parameter Name="PivotLine" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PivotItem">To be added.</param>
+        <param name="PivotLine">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrillTo">
+      <MemberSignature Language="C#" Value="public void DrillTo (Microsoft.Office.Interop.Excel.PivotItem PivotItem, Microsoft.Office.Interop.Excel.CubeField CubeField, object PivotLine);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DrillTo([in]class Microsoft.Office.Interop.Excel.PivotItem PivotItem, [in]class Microsoft.Office.Interop.Excel.CubeField CubeField, [in]object PivotLine) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.DrillTo(Microsoft.Office.Interop.Excel.PivotItem,Microsoft.Office.Interop.Excel.CubeField,System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PivotItem" Type="Microsoft.Office.Interop.Excel.PivotItem" />
+        <Parameter Name="CubeField" Type="Microsoft.Office.Interop.Excel.CubeField" />
+        <Parameter Name="PivotLine" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PivotItem">To be added.</param>
+        <param name="CubeField">To be added.</param>
+        <param name="PivotLine">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrillUp">
+      <MemberSignature Language="C#" Value="public void DrillUp (Microsoft.Office.Interop.Excel.PivotItem PivotItem, object PivotLine, object LevelUniqueName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DrillUp([in]class Microsoft.Office.Interop.Excel.PivotItem PivotItem, [in]object PivotLine, [in]object LevelUniqueName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.DrillUp(Microsoft.Office.Interop.Excel.PivotItem,System.Object,System.Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PivotItem" Type="Microsoft.Office.Interop.Excel.PivotItem" />
+        <Parameter Name="PivotLine" Type="System.Object" />
+        <Parameter Name="LevelUniqueName" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PivotItem">To be added.</param>
+        <param name="PivotLine">To be added.</param>
+        <param name="LevelUniqueName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy15">
+      <MemberSignature Language="C#" Value="public object Dummy15 (object Arg1, object Arg2, object Arg3, object Arg4, object Arg5, object Arg6, object Arg7, object Arg8, object Arg9, object Arg10, object Arg11, object Arg12, object Arg13, object Arg14, object Arg15, object Arg16, object Arg17, object Arg18, object Arg19, object Arg20, object Arg21, object Arg22, object Arg23, object Arg24, object Arg25, object Arg26, object Arg27, object Arg28, object Arg29, object Arg30);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Dummy15([in]object Arg1, [in]object Arg2, [in]object Arg3, [in]object Arg4, [in]object Arg5, [in]object Arg6, [in]object Arg7, [in]object Arg8, [in]object Arg9, [in]object Arg10, [in]object Arg11, [in]object Arg12, [in]object Arg13, [in]object Arg14, [in]object Arg15, [in]object Arg16, [in]object Arg17, [in]object Arg18, [in]object Arg19, [in]object Arg20, [in]object Arg21, [in]object Arg22, [in]object Arg23, [in]object Arg24, [in]object Arg25, [in]object Arg26, [in]object Arg27, [in]object Arg28, [in]object Arg29, [in]object Arg30) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.Dummy15(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Dummy15 (Arg1 As Object, Optional Arg2 As Object, Optional Arg3 As Object, Optional Arg4 As Object, Optional Arg5 As Object, Optional Arg6 As Object, Optional Arg7 As Object, Optional Arg8 As Object, Optional Arg9 As Object, Optional Arg10 As Object, Optional Arg11 As Object, Optional Arg12 As Object, Optional Arg13 As Object, Optional Arg14 As Object, Optional Arg15 As Object, Optional Arg16 As Object, Optional Arg17 As Object, Optional Arg18 As Object, Optional Arg19 As Object, Optional Arg20 As Object, Optional Arg21 As Object, Optional Arg22 As Object, Optional Arg23 As Object, Optional Arg24 As Object, Optional Arg25 As Object, Optional Arg26 As Object, Optional Arg27 As Object, Optional Arg28 As Object, Optional Arg29 As Object, Optional Arg30 As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Arg1" Type="System.Object" />
+        <Parameter Name="Arg2" Type="System.Object" />
+        <Parameter Name="Arg3" Type="System.Object" />
+        <Parameter Name="Arg4" Type="System.Object" />
+        <Parameter Name="Arg5" Type="System.Object" />
+        <Parameter Name="Arg6" Type="System.Object" />
+        <Parameter Name="Arg7" Type="System.Object" />
+        <Parameter Name="Arg8" Type="System.Object" />
+        <Parameter Name="Arg9" Type="System.Object" />
+        <Parameter Name="Arg10" Type="System.Object" />
+        <Parameter Name="Arg11" Type="System.Object" />
+        <Parameter Name="Arg12" Type="System.Object" />
+        <Parameter Name="Arg13" Type="System.Object" />
+        <Parameter Name="Arg14" Type="System.Object" />
+        <Parameter Name="Arg15" Type="System.Object" />
+        <Parameter Name="Arg16" Type="System.Object" />
+        <Parameter Name="Arg17" Type="System.Object" />
+        <Parameter Name="Arg18" Type="System.Object" />
+        <Parameter Name="Arg19" Type="System.Object" />
+        <Parameter Name="Arg20" Type="System.Object" />
+        <Parameter Name="Arg21" Type="System.Object" />
+        <Parameter Name="Arg22" Type="System.Object" />
+        <Parameter Name="Arg23" Type="System.Object" />
+        <Parameter Name="Arg24" Type="System.Object" />
+        <Parameter Name="Arg25" Type="System.Object" />
+        <Parameter Name="Arg26" Type="System.Object" />
+        <Parameter Name="Arg27" Type="System.Object" />
+        <Parameter Name="Arg28" Type="System.Object" />
+        <Parameter Name="Arg29" Type="System.Object" />
+        <Parameter Name="Arg30" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Arg1">To be added.</param>
+        <param name="Arg2">To be added.</param>
+        <param name="Arg3">To be added.</param>
+        <param name="Arg4">To be added.</param>
+        <param name="Arg5">To be added.</param>
+        <param name="Arg6">To be added.</param>
+        <param name="Arg7">To be added.</param>
+        <param name="Arg8">To be added.</param>
+        <param name="Arg9">To be added.</param>
+        <param name="Arg10">To be added.</param>
+        <param name="Arg11">To be added.</param>
+        <param name="Arg12">To be added.</param>
+        <param name="Arg13">To be added.</param>
+        <param name="Arg14">To be added.</param>
+        <param name="Arg15">To be added.</param>
+        <param name="Arg16">To be added.</param>
+        <param name="Arg17">To be added.</param>
+        <param name="Arg18">To be added.</param>
+        <param name="Arg19">To be added.</param>
+        <param name="Arg20">To be added.</param>
+        <param name="Arg21">To be added.</param>
+        <param name="Arg22">To be added.</param>
+        <param name="Arg23">To be added.</param>
+        <param name="Arg24">To be added.</param>
+        <param name="Arg25">To be added.</param>
+        <param name="Arg26">To be added.</param>
+        <param name="Arg27">To be added.</param>
+        <param name="Arg28">To be added.</param>
+        <param name="Arg29">To be added.</param>
+        <param name="Arg30">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Dummy2">
+      <MemberSignature Language="C#" Value="public object Dummy2 (object Arg1, object Arg2, object Arg3, object Arg4);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Dummy2([in]object Arg1, [in]object Arg2, [in]object Arg3, [in]object Arg4) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.Dummy2(System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Dummy2 (Arg1 As Object, Optional Arg2 As Object, Optional Arg3 As Object, Optional Arg4 As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Arg1" Type="System.Object" />
+        <Parameter Name="Arg2" Type="System.Object" />
+        <Parameter Name="Arg3" Type="System.Object" />
+        <Parameter Name="Arg4" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Arg1">To be added.</param>
+        <param name="Arg2">To be added.</param>
+        <param name="Arg3">To be added.</param>
+        <param name="Arg4">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableDataValueEditing">
+      <MemberSignature Language="C#" Value="public bool EnableDataValueEditing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableDataValueEditing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableDataValueEditing" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableDataValueEditing As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableDataValueEditing { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2121)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableDrilldown">
+      <MemberSignature Language="C#" Value="public bool EnableDrilldown { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableDrilldown" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableDrilldown" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableDrilldown As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableDrilldown { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1487)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableFieldDialog">
+      <MemberSignature Language="C#" Value="public bool EnableFieldDialog { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableFieldDialog" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableFieldDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableFieldDialog As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableFieldDialog { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1488)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableFieldList">
+      <MemberSignature Language="C#" Value="public bool EnableFieldList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableFieldList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableFieldList" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableFieldList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableFieldList { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2128)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableWizard">
+      <MemberSignature Language="C#" Value="public bool EnableWizard { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableWizard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableWizard" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableWizard As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableWizard { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1489)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableWriteback">
+      <MemberSignature Language="C#" Value="public bool EnableWriteback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableWriteback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.EnableWriteback" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableWriteback As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableWriteback { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2872)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorString">
+      <MemberSignature Language="C#" Value="public string ErrorString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ErrorString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ErrorString" />
+      <MemberSignature Language="VB.NET" Value="Public Property ErrorString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1490)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FieldListSortAscending">
+      <MemberSignature Language="C#" Value="public bool FieldListSortAscending { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FieldListSortAscending" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.FieldListSortAscending" />
+      <MemberSignature Language="VB.NET" Value="Public Property FieldListSortAscending As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FieldListSortAscending { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2573)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public void Format (Microsoft.Office.Interop.Excel.XlPivotFormatType Format);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Format([in]valuetype Microsoft.Office.Interop.Excel.XlPivotFormatType Format) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.Format(Microsoft.Office.Interop.Excel.XlPivotFormatType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Format (Format As XlPivotFormatType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Format(Microsoft::Office::Interop::Excel::XlPivotFormatType Format);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Format" Type="Microsoft.Office.Interop.Excel.XlPivotFormatType" />
+      </Parameters>
+      <Docs>
+        <param name="Format">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetData">
+      <MemberSignature Language="C#" Value="public double GetData (string Name);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance float64 GetData([in]string Name) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.GetData(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetData (Name As String) As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; double GetData(System::String ^ Name);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPivotData">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range GetPivotData (object DataField, object Field1, object Item1, object Field2, object Item2, object Field3, object Item3, object Field4, object Item4, object Field5, object Item5, object Field6, object Item6, object Field7, object Item7, object Field8, object Item8, object Field9, object Item9, object Field10, object Item10, object Field11, object Item11, object Field12, object Item12, object Field13, object Item13, object Field14, object Item14);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.Range GetPivotData([in]object DataField, [in]object Field1, [in]object Item1, [in]object Field2, [in]object Item2, [in]object Field3, [in]object Item3, [in]object Field4, [in]object Item4, [in]object Field5, [in]object Item5, [in]object Field6, [in]object Item6, [in]object Field7, [in]object Item7, [in]object Field8, [in]object Item8, [in]object Field9, [in]object Item9, [in]object Field10, [in]object Item10, [in]object Field11, [in]object Item11, [in]object Field12, [in]object Item12, [in]object Field13, [in]object Item13, [in]object Field14, [in]object Item14) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.GetPivotData(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetPivotData (Optional DataField As Object, Optional Field1 As Object, Optional Item1 As Object, Optional Field2 As Object, Optional Item2 As Object, Optional Field3 As Object, Optional Item3 As Object, Optional Field4 As Object, Optional Item4 As Object, Optional Field5 As Object, Optional Item5 As Object, Optional Field6 As Object, Optional Item6 As Object, Optional Field7 As Object, Optional Item7 As Object, Optional Field8 As Object, Optional Item8 As Object, Optional Field9 As Object, Optional Item9 As Object, Optional Field10 As Object, Optional Item10 As Object, Optional Field11 As Object, Optional Item11 As Object, Optional Field12 As Object, Optional Item12 As Object, Optional Field13 As Object, Optional Item13 As Object, Optional Field14 As Object, Optional Item14 As Object) As Range" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="DataField" Type="System.Object" />
+        <Parameter Name="Field1" Type="System.Object" />
+        <Parameter Name="Item1" Type="System.Object" />
+        <Parameter Name="Field2" Type="System.Object" />
+        <Parameter Name="Item2" Type="System.Object" />
+        <Parameter Name="Field3" Type="System.Object" />
+        <Parameter Name="Item3" Type="System.Object" />
+        <Parameter Name="Field4" Type="System.Object" />
+        <Parameter Name="Item4" Type="System.Object" />
+        <Parameter Name="Field5" Type="System.Object" />
+        <Parameter Name="Item5" Type="System.Object" />
+        <Parameter Name="Field6" Type="System.Object" />
+        <Parameter Name="Item6" Type="System.Object" />
+        <Parameter Name="Field7" Type="System.Object" />
+        <Parameter Name="Item7" Type="System.Object" />
+        <Parameter Name="Field8" Type="System.Object" />
+        <Parameter Name="Item8" Type="System.Object" />
+        <Parameter Name="Field9" Type="System.Object" />
+        <Parameter Name="Item9" Type="System.Object" />
+        <Parameter Name="Field10" Type="System.Object" />
+        <Parameter Name="Item10" Type="System.Object" />
+        <Parameter Name="Field11" Type="System.Object" />
+        <Parameter Name="Item11" Type="System.Object" />
+        <Parameter Name="Field12" Type="System.Object" />
+        <Parameter Name="Item12" Type="System.Object" />
+        <Parameter Name="Field13" Type="System.Object" />
+        <Parameter Name="Item13" Type="System.Object" />
+        <Parameter Name="Field14" Type="System.Object" />
+        <Parameter Name="Item14" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="DataField">To be added.</param>
+        <param name="Field1">To be added.</param>
+        <param name="Item1">To be added.</param>
+        <param name="Field2">To be added.</param>
+        <param name="Item2">To be added.</param>
+        <param name="Field3">To be added.</param>
+        <param name="Item3">To be added.</param>
+        <param name="Field4">To be added.</param>
+        <param name="Item4">To be added.</param>
+        <param name="Field5">To be added.</param>
+        <param name="Item5">To be added.</param>
+        <param name="Field6">To be added.</param>
+        <param name="Item6">To be added.</param>
+        <param name="Field7">To be added.</param>
+        <param name="Item7">To be added.</param>
+        <param name="Field8">To be added.</param>
+        <param name="Item8">To be added.</param>
+        <param name="Field9">To be added.</param>
+        <param name="Item9">To be added.</param>
+        <param name="Field10">To be added.</param>
+        <param name="Item10">To be added.</param>
+        <param name="Field11">To be added.</param>
+        <param name="Item11">To be added.</param>
+        <param name="Field12">To be added.</param>
+        <param name="Item12">To be added.</param>
+        <param name="Field13">To be added.</param>
+        <param name="Item13">To be added.</param>
+        <param name="Field14">To be added.</param>
+        <param name="Item14">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GrandTotalName">
+      <MemberSignature Language="C#" Value="public string GrandTotalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string GrandTotalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.GrandTotalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property GrandTotalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ GrandTotalName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1840)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAutoFormat">
+      <MemberSignature Language="C#" Value="public bool HasAutoFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAutoFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.HasAutoFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAutoFormat As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAutoFormat { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(695)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hidden">
+      <MemberSignature Language="C#" Value="public bool Hidden { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Hidden" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Hidden" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Hidden As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Hidden { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HiddenFields">
+      <MemberSignature Language="C#" Value="public object HiddenFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HiddenFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.HiddenFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HiddenFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HiddenFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(711)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InGridDropZones">
+      <MemberSignature Language="C#" Value="public bool InGridDropZones { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InGridDropZones" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.InGridDropZones" />
+      <MemberSignature Language="VB.NET" Value="Public Property InGridDropZones As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InGridDropZones { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2560)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InnerDetail">
+      <MemberSignature Language="C#" Value="public string InnerDetail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InnerDetail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.InnerDetail" />
+      <MemberSignature Language="VB.NET" Value="Public Property InnerDetail As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InnerDetail { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(698)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutRowDefault">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlLayoutRowType LayoutRowDefault { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlLayoutRowType LayoutRowDefault" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.LayoutRowDefault" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutRowDefault As XlLayoutRowType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlLayoutRowType LayoutRowDefault { Microsoft::Office::Interop::Excel::XlLayoutRowType get(); void set(Microsoft::Office::Interop::Excel::XlLayoutRowType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2554)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlLayoutRowType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListFormulas">
+      <MemberSignature Language="C#" Value="public void ListFormulas ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ListFormulas() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ListFormulas" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ListFormulas ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ListFormulas();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Location" />
+      <MemberSignature Language="VB.NET" Value="Public Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1397)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManualUpdate">
+      <MemberSignature Language="C#" Value="public bool ManualUpdate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ManualUpdate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ManualUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManualUpdate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ManualUpdate { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1493)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MDX">
+      <MemberSignature Language="C#" Value="public string MDX { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MDX" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.MDX" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MDX As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MDX { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2123)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MergeLabels">
+      <MemberSignature Language="C#" Value="public bool MergeLabels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MergeLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.MergeLabels" />
+      <MemberSignature Language="VB.NET" Value="Public Property MergeLabels As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool MergeLabels { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1494)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NullString">
+      <MemberSignature Language="C#" Value="public string NullString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NullString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.NullString" />
+      <MemberSignature Language="VB.NET" Value="Public Property NullString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NullString { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1495)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFieldOrder">
+      <MemberSignature Language="C#" Value="public int PageFieldOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageFieldOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageFieldOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageFieldOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageFieldOrder { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1429)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFields">
+      <MemberSignature Language="C#" Value="public object PageFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object PageFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ PageFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(714)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFieldStyle">
+      <MemberSignature Language="C#" Value="public string PageFieldStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PageFieldStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageFieldStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageFieldStyle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PageFieldStyle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1499)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageFieldWrapCount">
+      <MemberSignature Language="C#" Value="public int PageFieldWrapCount { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PageFieldWrapCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageFieldWrapCount" />
+      <MemberSignature Language="VB.NET" Value="Public Property PageFieldWrapCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PageFieldWrapCount { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1430)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range PageRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range PageRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ PageRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(703)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PageRangeCells">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range PageRangeCells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range PageRangeCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PageRangeCells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PageRangeCells As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ PageRangeCells { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1482)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotCache">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotCache PivotCache ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.PivotCache PivotCache() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.PivotCache" />
+      <MemberSignature Language="VB.NET" Value="Public Function PivotCache () As PivotCache" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::PivotCache ^ PivotCache();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotCache</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotChart">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Shape PivotChart { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Shape PivotChart" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotChart" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotChart As Shape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Shape ^ PivotChart { Microsoft::Office::Interop::Excel::Shape ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3067)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Shape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotColumnAxis">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotAxis PivotColumnAxis { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotAxis PivotColumnAxis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotColumnAxis" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotColumnAxis As PivotAxis" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotAxis ^ PivotColumnAxis { Microsoft::Office::Interop::Excel::PivotAxis ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2546)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotAxis</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotFields">
+      <MemberSignature Language="C#" Value="public object PivotFields (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object PivotFields([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.PivotFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PivotFields (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotFormulas">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotFormulas PivotFormulas { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotFormulas PivotFormulas" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotFormulas" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotFormulas As PivotFormulas" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotFormulas ^ PivotFormulas { Microsoft::Office::Interop::Excel::PivotFormulas ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1497)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotFormulas</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotRowAxis">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotAxis PivotRowAxis { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotAxis PivotRowAxis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotRowAxis" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotRowAxis As PivotAxis" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotAxis ^ PivotRowAxis { Microsoft::Office::Interop::Excel::PivotAxis ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2547)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotAxis</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotSelect">
+      <MemberSignature Language="C#" Value="public void PivotSelect (string Name, Microsoft.Office.Interop.Excel.XlPTSelectionMode Mode = Microsoft.Office.Interop.Excel.XlPTSelectionMode.xlDataAndLabel, object UseStandardName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotSelect([in]string Name, [in]valuetype Microsoft.Office.Interop.Excel.XlPTSelectionMode Mode, [in]object UseStandardName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.PivotSelect(System.String,Microsoft.Office.Interop.Excel.XlPTSelectionMode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotSelect (Name As String, Optional Mode As XlPTSelectionMode = Microsoft.Office.Interop.Excel.XlPTSelectionMode.xlDataAndLabel, Optional UseStandardName As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Name" Type="System.String" />
+        <Parameter Name="Mode" Type="Microsoft.Office.Interop.Excel.XlPTSelectionMode" />
+        <Parameter Name="UseStandardName" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Name">To be added.</param>
+        <param name="Mode">To be added.</param>
+        <param name="UseStandardName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotSelection">
+      <MemberSignature Language="C#" Value="public string PivotSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PivotSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property PivotSelection As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PivotSelection { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1502)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotSelectionStandard">
+      <MemberSignature Language="C#" Value="public string PivotSelectionStandard { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PivotSelectionStandard" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PivotSelectionStandard" />
+      <MemberSignature Language="VB.NET" Value="Public Property PivotSelectionStandard As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PivotSelectionStandard { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2089)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotTableWizard">
+      <MemberSignature Language="C#" Value="public void PivotTableWizard (object SourceType, object SourceData, object TableDestination, object TableName, object RowGrand, object ColumnGrand, object SaveData, object HasAutoFormat, object AutoPage, object Reserved, object BackgroundQuery, object OptimizeCache, object PageFieldOrder, object PageFieldWrapCount, object ReadData, object Connection);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PivotTableWizard([in]object SourceType, [in]object SourceData, [in]object TableDestination, [in]object TableName, [in]object RowGrand, [in]object ColumnGrand, [in]object SaveData, [in]object HasAutoFormat, [in]object AutoPage, [in]object Reserved, [in]object BackgroundQuery, [in]object OptimizeCache, [in]object PageFieldOrder, [in]object PageFieldWrapCount, [in]object ReadData, [in]object Connection) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.PivotTableWizard(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PivotTableWizard (Optional SourceType As Object, Optional SourceData As Object, Optional TableDestination As Object, Optional TableName As Object, Optional RowGrand As Object, Optional ColumnGrand As Object, Optional SaveData As Object, Optional HasAutoFormat As Object, Optional AutoPage As Object, Optional Reserved As Object, Optional BackgroundQuery As Object, Optional OptimizeCache As Object, Optional PageFieldOrder As Object, Optional PageFieldWrapCount As Object, Optional ReadData As Object, Optional Connection As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SourceType" Type="System.Object" />
+        <Parameter Name="SourceData" Type="System.Object" />
+        <Parameter Name="TableDestination" Type="System.Object" />
+        <Parameter Name="TableName" Type="System.Object" />
+        <Parameter Name="RowGrand" Type="System.Object" />
+        <Parameter Name="ColumnGrand" Type="System.Object" />
+        <Parameter Name="SaveData" Type="System.Object" />
+        <Parameter Name="HasAutoFormat" Type="System.Object" />
+        <Parameter Name="AutoPage" Type="System.Object" />
+        <Parameter Name="Reserved" Type="System.Object" />
+        <Parameter Name="BackgroundQuery" Type="System.Object" />
+        <Parameter Name="OptimizeCache" Type="System.Object" />
+        <Parameter Name="PageFieldOrder" Type="System.Object" />
+        <Parameter Name="PageFieldWrapCount" Type="System.Object" />
+        <Parameter Name="ReadData" Type="System.Object" />
+        <Parameter Name="Connection" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SourceType">To be added.</param>
+        <param name="SourceData">To be added.</param>
+        <param name="TableDestination">To be added.</param>
+        <param name="TableName">To be added.</param>
+        <param name="RowGrand">To be added.</param>
+        <param name="ColumnGrand">To be added.</param>
+        <param name="SaveData">To be added.</param>
+        <param name="HasAutoFormat">To be added.</param>
+        <param name="AutoPage">To be added.</param>
+        <param name="Reserved">To be added.</param>
+        <param name="BackgroundQuery">To be added.</param>
+        <param name="OptimizeCache">To be added.</param>
+        <param name="PageFieldOrder">To be added.</param>
+        <param name="PageFieldWrapCount">To be added.</param>
+        <param name="ReadData">To be added.</param>
+        <param name="Connection">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotValueCell">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotValueCell PivotValueCell (object rowline, object columnline);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.PivotValueCell PivotValueCell([in]object rowline, [in]object columnline) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.PivotValueCell(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PivotValueCell (Optional rowline As Object, Optional columnline As Object) As PivotValueCell" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotValueCell</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="rowline" Type="System.Object" />
+        <Parameter Name="columnline" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="rowline">To be added.</param>
+        <param name="columnline">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PreserveFormatting">
+      <MemberSignature Language="C#" Value="public bool PreserveFormatting { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PreserveFormatting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PreserveFormatting" />
+      <MemberSignature Language="VB.NET" Value="Public Property PreserveFormatting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PreserveFormatting { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1500)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintDrillIndicators">
+      <MemberSignature Language="C#" Value="public bool PrintDrillIndicators { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PrintDrillIndicators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PrintDrillIndicators" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrintDrillIndicators As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintDrillIndicators { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2549)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintTitles">
+      <MemberSignature Language="C#" Value="public bool PrintTitles { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PrintTitles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.PrintTitles" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrintTitles As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool PrintTitles { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1838)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshDataSourceValues">
+      <MemberSignature Language="C#" Value="public void RefreshDataSourceValues ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshDataSourceValues() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.RefreshDataSourceValues" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshDataSourceValues ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshDataSourceValues();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshDate">
+      <MemberSignature Language="C#" Value="public DateTime RefreshDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime RefreshDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RefreshDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshDate As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime RefreshDate { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(696)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshName">
+      <MemberSignature Language="C#" Value="public string RefreshName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RefreshName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RefreshName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RefreshName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RefreshName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(697)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshTable">
+      <MemberSignature Language="C#" Value="public bool RefreshTable ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool RefreshTable() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.RefreshTable" />
+      <MemberSignature Language="VB.NET" Value="Public Function RefreshTable () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool RefreshTable();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatAllLabels">
+      <MemberSignature Language="C#" Value="public void RepeatAllLabels (Microsoft.Office.Interop.Excel.XlPivotFieldRepeatLabels Repeat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RepeatAllLabels([in]valuetype Microsoft.Office.Interop.Excel.XlPivotFieldRepeatLabels Repeat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.RepeatAllLabels(Microsoft.Office.Interop.Excel.XlPivotFieldRepeatLabels)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RepeatAllLabels (Repeat As XlPivotFieldRepeatLabels)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RepeatAllLabels(Microsoft::Office::Interop::Excel::XlPivotFieldRepeatLabels Repeat);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Repeat" Type="Microsoft.Office.Interop.Excel.XlPivotFieldRepeatLabels" />
+      </Parameters>
+      <Docs>
+        <param name="Repeat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatItemsOnEachPrintedPage">
+      <MemberSignature Language="C#" Value="public bool RepeatItemsOnEachPrintedPage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RepeatItemsOnEachPrintedPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RepeatItemsOnEachPrintedPage" />
+      <MemberSignature Language="VB.NET" Value="Public Property RepeatItemsOnEachPrintedPage As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RepeatItemsOnEachPrintedPage { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1842)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowAxisLayout">
+      <MemberSignature Language="C#" Value="public void RowAxisLayout (Microsoft.Office.Interop.Excel.XlLayoutRowType RowLayout);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RowAxisLayout([in]valuetype Microsoft.Office.Interop.Excel.XlLayoutRowType RowLayout) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.RowAxisLayout(Microsoft.Office.Interop.Excel.XlLayoutRowType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RowAxisLayout (RowLayout As XlLayoutRowType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RowAxisLayout(Microsoft::Office::Interop::Excel::XlLayoutRowType RowLayout);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="RowLayout" Type="Microsoft.Office.Interop.Excel.XlLayoutRowType" />
+      </Parameters>
+      <Docs>
+        <param name="RowLayout">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowFields">
+      <MemberSignature Language="C#" Value="public object RowFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object RowFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RowFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ RowFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(712)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowGrand">
+      <MemberSignature Language="C#" Value="public bool RowGrand { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RowGrand" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RowGrand" />
+      <MemberSignature Language="VB.NET" Value="Public Property RowGrand As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RowGrand { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(693)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RowRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range RowRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range RowRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.RowRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ RowRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(701)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveData">
+      <MemberSignature Language="C#" Value="public bool SaveData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SaveData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SaveData" />
+      <MemberSignature Language="VB.NET" Value="Public Property SaveData As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SaveData { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(692)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectionMode">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPTSelectionMode SelectionMode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPTSelectionMode SelectionMode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SelectionMode" />
+      <MemberSignature Language="VB.NET" Value="Public Property SelectionMode As XlPTSelectionMode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPTSelectionMode SelectionMode { Microsoft::Office::Interop::Excel::XlPTSelectionMode get(); void set(Microsoft::Office::Interop::Excel::XlPTSelectionMode value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1503)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPTSelectionMode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowCellBackgroundFromOLAP">
+      <MemberSignature Language="C#" Value="public bool ShowCellBackgroundFromOLAP { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowCellBackgroundFromOLAP" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowCellBackgroundFromOLAP" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowCellBackgroundFromOLAP As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowCellBackgroundFromOLAP { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2138)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowDrillIndicators">
+      <MemberSignature Language="C#" Value="public bool ShowDrillIndicators { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowDrillIndicators" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowDrillIndicators" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowDrillIndicators As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowDrillIndicators { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2548)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPageMultipleItemLabel">
+      <MemberSignature Language="C#" Value="public bool ShowPageMultipleItemLabel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowPageMultipleItemLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowPageMultipleItemLabel" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowPageMultipleItemLabel As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowPageMultipleItemLabel { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2130)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowPages">
+      <MemberSignature Language="C#" Value="public object ShowPages (object PageField);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ShowPages([in]object PageField) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.ShowPages(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ShowPages (Optional PageField As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="PageField" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="PageField">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleColumnHeaders">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleColumnHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleColumnHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowTableStyleColumnHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleColumnHeaders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleColumnHeaders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2567)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleColumnStripes">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleColumnStripes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleColumnStripes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowTableStyleColumnStripes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleColumnStripes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleColumnStripes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2565)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleLastColumn">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleLastColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleLastColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowTableStyleLastColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleLastColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleLastColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2563)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleRowHeaders">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleRowHeaders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleRowHeaders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowTableStyleRowHeaders" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleRowHeaders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleRowHeaders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2566)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTableStyleRowStripes">
+      <MemberSignature Language="C#" Value="public bool ShowTableStyleRowStripes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowTableStyleRowStripes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowTableStyleRowStripes" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowTableStyleRowStripes As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowTableStyleRowStripes { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2564)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowValuesRow">
+      <MemberSignature Language="C#" Value="public bool ShowValuesRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowValuesRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ShowValuesRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowValuesRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowValuesRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2883)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Slicers">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Slicers Slicers { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Slicers Slicers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Slicers" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Slicers As Slicers" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Slicers ^ Slicers { Microsoft::Office::Interop::Excel::Slicers ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2881)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Slicers</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SmallGrid">
+      <MemberSignature Language="C#" Value="public bool SmallGrid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SmallGrid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SmallGrid" />
+      <MemberSignature Language="VB.NET" Value="Public Property SmallGrid As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SmallGrid { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1841)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SortUsingCustomLists">
+      <MemberSignature Language="C#" Value="public bool SortUsingCustomLists { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SortUsingCustomLists" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SortUsingCustomLists" />
+      <MemberSignature Language="VB.NET" Value="Public Property SortUsingCustomLists As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SortUsingCustomLists { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2574)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceData">
+      <MemberSignature Language="C#" Value="public object SourceData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object SourceData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SourceData" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceData As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ SourceData { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(686)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubtotalHiddenPageItems">
+      <MemberSignature Language="C#" Value="public bool SubtotalHiddenPageItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubtotalHiddenPageItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.SubtotalHiddenPageItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubtotalHiddenPageItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SubtotalHiddenPageItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1498)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubtotalLocation">
+      <MemberSignature Language="C#" Value="public void SubtotalLocation (Microsoft.Office.Interop.Excel.XlSubtototalLocationType Location);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubtotalLocation([in]valuetype Microsoft.Office.Interop.Excel.XlSubtototalLocationType Location) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.SubtotalLocation(Microsoft.Office.Interop.Excel.XlSubtototalLocationType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SubtotalLocation (Location As XlSubtototalLocationType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SubtotalLocation(Microsoft::Office::Interop::Excel::XlSubtototalLocationType Location);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Location" Type="Microsoft.Office.Interop.Excel.XlSubtototalLocationType" />
+      </Parameters>
+      <Docs>
+        <param name="Location">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Summary">
+      <MemberSignature Language="C#" Value="public string Summary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Summary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Summary" />
+      <MemberSignature Language="VB.NET" Value="Public Property Summary As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Summary { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(273)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableRange1">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range TableRange1 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range TableRange1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.TableRange1" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableRange1 As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ TableRange1 { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(699)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableRange2">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range TableRange2 { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range TableRange2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.TableRange2" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TableRange2 As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ TableRange2 { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(700)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableStyle">
+      <MemberSignature Language="C#" Value="public string TableStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TableStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.TableStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property TableStyle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TableStyle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1504)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TableStyle2">
+      <MemberSignature Language="C#" Value="public object TableStyle2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TableStyle2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.TableStyle2" />
+      <MemberSignature Language="VB.NET" Value="Public Property TableStyle2 As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TableStyle2 { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2562)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tag">
+      <MemberSignature Language="C#" Value="public string Tag { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tag" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Tag" />
+      <MemberSignature Language="VB.NET" Value="Public Property Tag As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Tag { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1505)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalsAnnotation">
+      <MemberSignature Language="C#" Value="public bool TotalsAnnotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TotalsAnnotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.TotalsAnnotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property TotalsAnnotation As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool TotalsAnnotation { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1843)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public void Update ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Update() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.IPivotTable.Update" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Update ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Update();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VacatedStyle">
+      <MemberSignature Language="C#" Value="public string VacatedStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VacatedStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.VacatedStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property VacatedStyle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ VacatedStyle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1506)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotTableVersionList Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotTableVersionList Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As XlPivotTableVersionList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotTableVersionList Version { Microsoft::Office::Interop::Excel::XlPivotTableVersionList get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(392)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotTableVersionList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewCalculatedMembers">
+      <MemberSignature Language="C#" Value="public bool ViewCalculatedMembers { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ViewCalculatedMembers" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.ViewCalculatedMembers" />
+      <MemberSignature Language="VB.NET" Value="Public Property ViewCalculatedMembers As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ViewCalculatedMembers { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2124)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleFields">
+      <MemberSignature Language="C#" Value="public object VisibleFields[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object VisibleFields(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.VisibleFields(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VisibleFields(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ VisibleFields[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(710)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisualTotals">
+      <MemberSignature Language="C#" Value="public bool VisualTotals { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool VisualTotals" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.VisualTotals" />
+      <MemberSignature Language="VB.NET" Value="Public Property VisualTotals As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool VisualTotals { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2129)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisualTotalsForSets">
+      <MemberSignature Language="C#" Value="public bool VisualTotalsForSets { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool VisualTotalsForSets" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.IPivotTable.VisualTotalsForSets" />
+      <MemberSignature Language="VB.NET" Value="Public Property VisualTotalsForSets As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool VisualTotalsForSets { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2882)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

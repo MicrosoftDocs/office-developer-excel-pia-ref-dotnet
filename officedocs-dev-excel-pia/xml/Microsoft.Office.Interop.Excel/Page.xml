@@ -1,0 +1,213 @@
+﻿<Type Name="Page" FullName="Microsoft.Office.Interop.Excel.Page">
+  <TypeSignature Language="C#" Value="public interface Page" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Page" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Page" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Page" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Page" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("000244A2-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a page in a workbook. Use the <see cref="T:Microsoft.Office.Interop.Excel.PageSetup" /> object and the related methods and properties for programmatically defining page layout in a workbook.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.Pages.Item(System.Object)" /> method to access a specific page in a workbook.  The following example accesses the first page in the active workbook.</para>
+      <code />
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CenterFooter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter CenterFooter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter CenterFooter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.CenterFooter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CenterFooter As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ CenterFooter { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1010)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1010)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be center aligned in the page footer.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CenterHeader">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter CenterHeader { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter CenterHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.CenterHeader" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CenterHeader As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ CenterHeader { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1011)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1011)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be center aligned in the page header.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftFooter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter LeftFooter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter LeftFooter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.LeftFooter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeftFooter As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ LeftFooter { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1017)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1017)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be left aligned in the page footer.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeftHeader">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter LeftHeader { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter LeftHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.LeftHeader" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeftHeader As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ LeftHeader { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1018)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1018)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be left aligned in the page header.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightFooter">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter RightFooter { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter RightFooter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.RightFooter" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RightFooter As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ RightFooter { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1025)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1025)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be right aligned in the page footer.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RightHeader">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.HeaderFooter RightHeader { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.HeaderFooter RightHeader" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Page.RightHeader" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RightHeader As HeaderFooter" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::HeaderFooter ^ RightHeader { Microsoft::Office::Interop::Excel::HeaderFooter ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1026)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1026)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.HeaderFooter</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies a picture or text to be right aligned in the page header.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.HeaderFooter" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,40 @@
+﻿<Type Name="WorkbookEvents_AfterXmlImportEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_AfterXmlImportEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_AfterXmlImportEventHandler(XmlMap Map, bool IsRefresh, XlXmlImportResult Result);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_AfterXmlImportEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_AfterXmlImportEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_AfterXmlImportEventHandler(Map As XmlMap, IsRefresh As Boolean, Result As XlXmlImportResult)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_AfterXmlImportEventHandler(XmlMap ^ Map, bool IsRefresh, XlXmlImportResult Result);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Map" Type="Microsoft.Office.Interop.Excel.XmlMap" />
+    <Parameter Name="IsRefresh" Type="System.Boolean" />
+    <Parameter Name="Result" Type="Microsoft.Office.Interop.Excel.XlXmlImportResult" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Map">Required <see cref="T:Microsoft.Office.Interop.Excel.XmlMap" /> object. The XML map that will be used to import data.</param>
+    <param name="IsRefresh">Required <b>Boolean</b>. <b>True</b> if the event was triggered by refreshing an existing connection to XML data; <b>False</b> if the event was triggered by importing from a different data source.</param>
+    <param name="Result">Required <see cref="T:Microsoft.Office.Interop.Excel.XlXmlImportResult" />. Indicates the results of the refresh or import operation.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.AfterXmlImport" /> event. The <b>AfterXmlImport</b> event occurs after an existing XML data connection is refreshed or after new XML data is imported into the specified Microsoft Excel workbook.</summary>
+    <remarks>
+      <para>XML features, except for saving files in the XML Spreadsheet format, are available only in Microsoft Office Professional Edition 2003 and Microsoft Office Excel 2003.</para>
+      <para />
+    </remarks>
+  </Docs>
+</Type>

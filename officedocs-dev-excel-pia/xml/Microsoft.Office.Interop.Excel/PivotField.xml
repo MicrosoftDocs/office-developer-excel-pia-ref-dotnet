@@ -1,0 +1,3328 @@
+﻿<Type Name="PivotField" FullName="Microsoft.Office.Interop.Excel.PivotField">
+  <TypeSignature Language="C#" Value="public interface PivotField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract PivotField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.PivotField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface PivotField" />
+  <TypeSignature Language="C++ CLI" Value="public interface class PivotField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020874-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a field in a PivotTable report. The <b>PivotField</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection. The <b>PivotFields</b> collection contains all the fields in a PivotTable report, including hidden fields.</summary>
+    <remarks>
+      <para>Use <b>PivotFields</b>(<paramref name="index" />), where <paramref name="index" /> is the field name or index number, to return a single <b>PivotField</b> object.</para>
+      <para>In some cases, it may be easier to use one of the properties that returns a subset of the PivotTable fields. The following properties are available:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.CubeFields" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.DataFields(System.Object)" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.HiddenFields(System.Object)" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.PageFields(System.Object)" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.RowFields(System.Object)" /> property</description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.VisibleFields(System.Object)" /> property</description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public string this { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property _Default As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddPageItem">
+      <MemberSignature Language="C#" Value="public void AddPageItem (string Item, object ClearList);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddPageItem([in]string Item, [in]object ClearList) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.AddPageItem(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddPageItem (Item As String, Optional ClearList As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2146)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Item" Type="System.String" />
+        <Parameter Name="ClearList" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Item">Required <b>String</b>. Source name of a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object, corresponding to the specific Online Analytical Processing (OLAP) member unique name.</param>
+        <param name="ClearList">Optional <b>Object</b>. If <b>False</b> (default), adds a page item to the existing list. If <b>True</b>, deletes all current items and adds <paramref name="Item" />.</param>
+        <summary>Adds an additional item to a multiple item page field.</summary>
+        <remarks>
+          <para>To avoid run-time errors, the data source must be an OLAP source, the field chosen must currently be in the page position, and the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.EnableMultiplePageItems" /> property must be set to <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllItemsVisible">
+      <MemberSignature Language="C#" Value="public bool AllItemsVisible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllItemsVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AllItemsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllItemsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllItemsVisible { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2593)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2593)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Retrieves a value that indicates whether or not any manual filtering is applied to the <see cref="T:Microsoft.Office.Interop.Excel.Pivotfield" />.
+ Read-only.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>This property provides a simple way to easily check whether manual filtering is applied to a <b>PivotField</b> or <see cref="T:Microsoft.Office.Interop.Excel.CubeField" />.</para>
+          <para>For OLAP PivotTables, this property is available only for the <b>CubeField</b> object. Trying to get or set it on the <b>PivotField</b> object in an OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> will return a run-time error.</para>
+          <para>For <b>PivotTables</b>, this property is available for the <b>PivotField</b> object.</para>
+          <para>The default value is <b>True</b>.  This property is automatically set to <b>True</b> when no manual filtering is applied (independent of whether the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IncludeNewItemsInFilter" /> property is <b>True</b> or <b>False</b>). It is automatically set to <b>False</b> when any manual filtering is applied (independent of whether the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IncludeNewItemsInFilter" /> property is <b>True</b> or <b>False</b>).</para>
+          <para>This property directly reflects the state of the Select All check box in the filter drop-down list for the <b>PivotField</b> or <b>CubeField</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel._Application" /> object that represents the Microsoft Excel application. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel._Application" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShow">
+      <MemberSignature Language="C#" Value="public void AutoShow (int Type, int Range, int Count, string Field);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutoShow([in]int32 Type, [in]int32 Range, [in]int32 Count, [in]string Field) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.AutoShow(System.Int32,System.Int32,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AutoShow (Type As Integer, Range As Integer, Count As Integer, Field As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutoShow(int Type, int Range, int Count, System::String ^ Field);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1515)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="System.Int32" />
+        <Parameter Name="Range" Type="System.Int32" />
+        <Parameter Name="Count" Type="System.Int32" />
+        <Parameter Name="Field" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Required <b>Integer</b>. Use <b>xlAutomatic</b> to cause the specified PivotTable report to show the items that match the specified criteria. Use <b>xlManual</b> to disable this feature.</param>
+        <param name="Range">Required <b>Integer</b>. The location at which to start showing items. Can be either of the following constants: <b>xlTop</b> or <b>xlBottom</b>.</param>
+        <param name="Count">Required <b>Integer</b>. The number of items to be shown.</param>
+        <param name="Field">Required <b>String</b>. The name of the base data field. You must specify the unique name (as returned from the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.SourceName" /> property) and not the displayed name.</param>
+        <summary>Displays the number of top or bottom items for a row, page, or column field in the specified PivotTable report.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShowCount">
+      <MemberSignature Language="C#" Value="public int AutoShowCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoShowCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoShowCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoShowCount As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoShowCount { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1520)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1520)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of top or bottom items that are automatically shown in the specified PivotTable field. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShowField">
+      <MemberSignature Language="C#" Value="public string AutoShowField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoShowField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoShowField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoShowField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AutoShowField { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1521)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1521)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the data field used to determine the top or bottom items that are automatically shown in the specified PivotTable field. Read-only <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShowRange">
+      <MemberSignature Language="C#" Value="public int AutoShowRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoShowRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoShowRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoShowRange As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoShowRange { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1519)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1519)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>xlTop</b> if the top items are shown automatically in the specified PivotTable field; returns <b>xlBottom</b> if the bottom items are shown. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoShowType">
+      <MemberSignature Language="C#" Value="public int AutoShowType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoShowType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoShowType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoShowType As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoShowType { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1518)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1518)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>xlAutomatic</b> if <see cref="M:Microsoft.Office.Interop.Excel.PivotField.AutoShow(System.Int32,System.Int32,System.Int32,System.String)" /> is enabled for the specified PivotTable field; returns <b>xlManual</b> if <b>AutoShow</b> is disabled. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSort">
+      <MemberSignature Language="C#" Value="public void AutoSort (int Order, string Field);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutoSort([in]int32 Order, [in]string Field) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.AutoSort(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AutoSort (Order As Integer, Field As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AutoSort(int Order, System::String ^ Field);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2579)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Order" Type="System.Int32" />
+        <Parameter Name="Field" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Order">Required <see cref="T:Microsoft.Office.Interop.Excel.XlSortOrder" />. The sort order.</param>
+        <param name="Field">Required <b>String</b>. The name of the sort key field. You must specify the unique name (as returned from the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.SourceName" /> property) and not the displayed name.</param>
+        <summary>Establishes automatic field-sorting rules for PivotTable reports.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSortCustomSubtotal">
+      <MemberSignature Language="C#" Value="public int AutoSortCustomSubtotal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoSortCustomSubtotal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoSortCustomSubtotal" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoSortCustomSubtotal As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoSortCustomSubtotal { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2591)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2591)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an integer corresponding to the custom subtotal used to sort the specified <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> field automatically. Read-only.</summary>
+        <value>
+          <b>Integer</b>
+        </value>
+        <remarks>
+          <para>The default value is 1 (Automatic).
+When the <b>AutoSortCustomSubtotal</b> property is set to 1 (Automatic), the data is sorted by the regular subtotals.
+The <b>AutoSortCustomSubtotal</b> property can have one of the index values listed in the following table.</para>
+          <list type="table">
+            <item>
+              <term>1</term>
+              <description>Automatic</description>
+            </item>
+            <item>
+              <term>2</term>
+              <description>Sum</description>
+            </item>
+            <item>
+              <term>3</term>
+              <description>Count</description>
+            </item>
+            <item>
+              <term>4</term>
+              <description>Average</description>
+            </item>
+            <item>
+              <term>5</term>
+              <description>Max</description>
+            </item>
+            <item>
+              <term>6</term>
+              <description>Min</description>
+            </item>
+            <item>
+              <term>7</term>
+              <description>Product</description>
+            </item>
+            <item>
+              <term>8</term>
+              <description>Count Nums</description>
+            </item>
+            <item>
+              <term>9</term>
+              <description>StdDev</description>
+            </item>
+            <item>
+              <term>10</term>
+              <description>StdDevp</description>
+            </item>
+            <item>
+              <term>11</term>
+              <description>Var</description>
+            </item>
+            <item>
+              <term>12</term>
+              <description>Varp</description>
+            </item>
+          </list>
+          <para>Sorting is supported only by custom subtotals that are actually displayed in the PivotTable, so trying to set <b>AutoSortCustomSubtotal</b> to a value representing a custom subtotal not in the PivotTable view will return a run-time error.</para>
+          <para>If sorting is applied based on a custom subtotal, and that subtotal is removed from the PivotTable, the <b>AutoSortCustomSubtotal</b> property will automatically be set to the default value (1).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSortEx">
+      <MemberSignature Language="C#" Value="public void AutoSortEx (int Order, string Field, object PivotLine, object CustomSubtotal);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AutoSortEx([in]int32 Order, [in]string Field, [in]object PivotLine, [in]object CustomSubtotal) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.AutoSortEx(System.Int32,System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AutoSortEx (Order As Integer, Field As String, Optional PivotLine As Object, Optional CustomSubtotal As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1514)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Order" Type="System.Int32" />
+        <Parameter Name="Field" Type="System.String" />
+        <Parameter Name="PivotLine" Type="System.Object" />
+        <Parameter Name="CustomSubtotal" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Order">To be added.</param>
+        <param name="Field">To be added.</param>
+        <param name="PivotLine">To be added.</param>
+        <param name="CustomSubtotal">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSortField">
+      <MemberSignature Language="C#" Value="public string AutoSortField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoSortField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoSortField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoSortField As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ AutoSortField { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1517)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1517)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the data field used to sort the specified PivotTable field automatically. Read-only <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSortOrder">
+      <MemberSignature Language="C#" Value="public int AutoSortOrder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 AutoSortOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoSortOrder" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoSortOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int AutoSortOrder { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1516)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1516)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the order used to sort the specified PivotTable field automatically. Can be one of the <see cref="T:Microsoft.Office.Interop.Excel.XlSortOrder" /> constants. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoSortPivotLine">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotLine AutoSortPivotLine { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotLine AutoSortPivotLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.AutoSortPivotLine" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoSortPivotLine As PivotLine" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotLine ^ AutoSortPivotLine { Microsoft::Office::Interop::Excel::PivotLine ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2590)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2590)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotLine</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" /> used to sort the specified <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> field automatically. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.PivotLine" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseField">
+      <MemberSignature Language="C#" Value="public object BaseField { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object BaseField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.BaseField" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseField As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BaseField { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(734)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(734)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(734)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the base field for a custom calculation. This property is valid only for data fields. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BaseItem">
+      <MemberSignature Language="C#" Value="public object BaseItem { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object BaseItem" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.BaseItem" />
+      <MemberSignature Language="VB.NET" Value="Public Property BaseItem As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BaseItem { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(735)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(735)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(735)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the item in the base field for a custom calculation. Valid only for data fields. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CalculatedItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CalculatedItems CalculatedItems ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.CalculatedItems CalculatedItems() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.CalculatedItems" />
+      <MemberSignature Language="VB.NET" Value="Public Function CalculatedItems () As CalculatedItems" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Office::Interop::Excel::CalculatedItems ^ CalculatedItems();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1507)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CalculatedItems</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.CalculatedItems" /> collection that represents all the calculated items in the specified PivotTable report. Read-only.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>For OLAP data sources, this method returns a zero-length collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Calculation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotFieldCalculation Calculation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotFieldCalculation Calculation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Calculation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Calculation As XlPivotFieldCalculation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotFieldCalculation Calculation { Microsoft::Office::Interop::Excel::XlPivotFieldCalculation get(); void set(Microsoft::Office::Interop::Excel::XlPivotFieldCalculation value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(316)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(316)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(316)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotFieldCalculation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the type of calculation performed by the specified field. This property is valid only for data fields. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldCalculation" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, this property can only return or be set to <b>xlNormal</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The label text for the pivot field. Read-only <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotField ChildField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotField ChildField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ChildField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChildField As PivotField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotField ^ ChildField { Microsoft::Office::Interop::Excel::PivotField ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(736)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(736)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotField</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object that represents the child field for the specified field (if the field is grouped and has a child field). Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the specified field has no child field, this property causes an error.</para>
+          <para>This property is not available for OLAP data sources.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildItems">
+      <MemberSignature Language="C#" Value="public object ChildItems[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ChildItems(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ChildItems(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChildItems(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ChildItems[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(730)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(730)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The item name or number (can be an array to specify more than one item).</param>
+        <summary>Returns an object that represents either a single PivotTable item (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object) or a collection of all the items (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> object) that are group children in the specified field, or children of the specified item. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAllFilters">
+      <MemberSignature Language="C#" Value="public void ClearAllFilters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearAllFilters() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.ClearAllFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearAllFilters ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearAllFilters();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2561)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Calling this method deletes all filters currently applied to the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />. This includes deleting all filters from the <see cref="T:Microsoft.Office.Interop.Excel.PivotFilters" /> collection of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> and removing any manual filtering applied to the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> as well. If the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is in the Report Filter area, the item selected will be set to the default item.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearLabelFilters">
+      <MemberSignature Language="C#" Value="public void ClearLabelFilters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearLabelFilters() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.ClearLabelFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearLabelFilters ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearLabelFilters();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2596)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>This method deletes all label filters or all date filters in the <see cref="T:Microsoft.Office.Interop.Excel.PivotFilters" /> collection of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />.</summary>
+        <remarks>
+          <para>The following table lists the different label filter types that will be deleted by this method.</para>
+          <list type="table">
+            <item>
+              <term />
+            </item>
+            <item>
+              <term>xlCaptionEquals</term>
+            </item>
+            <item>
+              <term>xlCaptionDoesNotEqual</term>
+            </item>
+            <item>
+              <term>xlCaptionIsGreaterThan</term>
+            </item>
+            <item>
+              <term>xlCaptionIsGreaterThanOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlCaptionIsLessThan</term>
+            </item>
+            <item>
+              <term>xlCaptionIsLessThanOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlCaptionBeginsWith</term>
+            </item>
+            <item>
+              <term>xlCaptionDoesNotBeginWith</term>
+            </item>
+            <item>
+              <term>xlCaptionEndsWith</term>
+            </item>
+            <item>
+              <term>xlCaptionDoesNotEndWith</term>
+            </item>
+            <item>
+              <term>xlCaptionContains</term>
+            </item>
+            <item>
+              <term>xlCaptionDoesNotContain </term>
+            </item>
+            <item>
+              <term>xlCaptionIsBetween</term>
+            </item>
+            <item>
+              <term>xlCaptionIsNotBetween</term>
+            </item>
+            <item>
+              <term />
+            </item>
+            <item>
+              <term />
+            </item>
+          </list>
+          <para>The following table lists the different date filter types that will be deleted by this method.</para>
+          <list type="table">
+            <item>
+              <term />
+            </item>
+            <item>
+              <term>xlSpecificDate</term>
+            </item>
+            <item>
+              <term>xlNotSpecificDate</term>
+            </item>
+            <item>
+              <term>xlBefore</term>
+            </item>
+            <item>
+              <term>xlBeforeOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlAfter</term>
+            </item>
+            <item>
+              <term>xlAfterOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlDateBetween</term>
+            </item>
+            <item>
+              <term>xlDateNotBetween</term>
+            </item>
+            <item>
+              <term>xlDateToday</term>
+            </item>
+            <item>
+              <term>xlDateYesterday</term>
+            </item>
+            <item>
+              <term>xlDateTomorrow</term>
+            </item>
+            <item>
+              <term>xlDateThisWeek</term>
+            </item>
+            <item>
+              <term>xlDateLastWeek</term>
+            </item>
+            <item>
+              <term>xlDateNextWeek</term>
+            </item>
+            <item>
+              <term>xlDateThisMonth</term>
+            </item>
+            <item>
+              <term>xlDateLastMonth</term>
+            </item>
+            <item>
+              <term>xlDateNextMonth</term>
+            </item>
+            <item>
+              <term>xlDateThisQuarter</term>
+            </item>
+            <item>
+              <term>xlDateLastQuarter</term>
+            </item>
+            <item>
+              <term>xlDateNextQuarter</term>
+            </item>
+            <item>
+              <term>xlDateThisYear</term>
+            </item>
+            <item>
+              <term>xlDateLastYear</term>
+            </item>
+            <item>
+              <term>xlDateNextYear</term>
+            </item>
+            <item>
+              <term>xlYearToDate</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodQuarter1</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodQuarter2</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodQuarter3</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodQuarter4</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodJanuary</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodFebruary</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodMarch</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodApril</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodMay</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodJune</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodJuly</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodAugust</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodSeptember</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodOctober</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodNovember</term>
+            </item>
+            <item>
+              <term>xlAllDatesInPeriodDecember</term>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearManualFilter">
+      <MemberSignature Language="C#" Value="public void ClearManualFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearManualFilter() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.ClearManualFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearManualFilter ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearManualFilter();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2594)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Provides an easy way to set the <b>Visible</b> property to <b>True</b> for all items of a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> in <see cref="T:Microsoft.Office.Interop.Excel.PivotTables" />, and to empty the <b>HiddenItemsList</b> and <b>VisibleItemsList</b> collections in OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTables" />.</summary>
+        <remarks>
+          <para>This method is available for the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /><b>Object</b> in <see cref="T:Microsoft.Office.Interop.Excel.PivotTables" /> and for the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object in the OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTables" />. Calling it for a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> in an OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> will return a run-time error.</para>
+          <para>After calling this method, the following collections are empty:  <b>HiddenItemsList</b>, <b>HiddenItems</b>, <b>VisibleItemsList</b>, and <b>VisibleItems</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearValueFilters">
+      <MemberSignature Language="C#" Value="public void ClearValueFilters ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearValueFilters() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.ClearValueFilters" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearValueFilters ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearValueFilters();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2595)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Calling this method deletes all value filters in the <see cref="T:Microsoft.Office.Interop.Excel.PivotFilters" /> collection of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />.</summary>
+        <remarks>
+          <para>The following table lists the different value filter types that will be deleted by this method.</para>
+          <list type="table">
+            <item>
+              <term />
+            </item>
+            <item>
+              <term>xlTopCount</term>
+            </item>
+            <item>
+              <term>xlBottomCount</term>
+            </item>
+            <item>
+              <term>xlTopPercent</term>
+            </item>
+            <item>
+              <term>xlBottomPercent</term>
+            </item>
+            <item>
+              <term>xlTopSum</term>
+            </item>
+            <item>
+              <term>xlBottomSum</term>
+            </item>
+            <item>
+              <term>xlValueEquals</term>
+            </item>
+            <item>
+              <term>xlValueDoesNotEqual</term>
+            </item>
+            <item>
+              <term>xlValueIsGreaterThan</term>
+            </item>
+            <item>
+              <term>xlValueIsGreaterThanOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlValueIsLessThan</term>
+            </item>
+            <item>
+              <term>xlValueIsLessThanOrEqualTo</term>
+            </item>
+            <item>
+              <term>xlValueIsBetween</term>
+            </item>
+            <item>
+              <term>xlValueIsNotBetween </term>
+            </item>
+            <item>
+              <term />
+            </item>
+            <item>
+              <term />
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.CubeField CubeField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.CubeField CubeField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.CubeField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CubeField As CubeField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::CubeField ^ CubeField { Microsoft::Office::Interop::Excel::CubeField ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1851)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1851)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.CubeField</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object from which the specified PivotTable field is descended. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPage">
+      <MemberSignature Language="C#" Value="public object CurrentPage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.CurrentPage" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentPage As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentPage { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(738)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(738)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(738)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the current page showing for the page field (valid only for page fields). Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPageList">
+      <MemberSignature Language="C#" Value="public object CurrentPageList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object CurrentPageList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.CurrentPageList" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentPageList As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ CurrentPageList { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2145)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2145)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2145)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an array of strings corresponding to the list of items included in a multiple-item page field of a PivotTable report. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>To avoid run-time errors, the data source must be an OLAP source, the field chosen must currently be in the Page position, and the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.EnableMultiplePageItems" /> property must be set to <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPageName">
+      <MemberSignature Language="C#" Value="public string CurrentPageName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrentPageName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.CurrentPageName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentPageName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CurrentPageName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the currently displayed page of the specified PivotTable report. The name of the page appears in the page field. Note that this property works only if the currently displayed page already exists. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property applies to PivotTables that are connected to an OLAP data source. Attempting to return or set this property with a PivotTable that is not connected to an OLAP data source will result in a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DatabaseSort">
+      <MemberSignature Language="C#" Value="public bool DatabaseSort { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DatabaseSort" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DatabaseSort" />
+      <MemberSignature Language="VB.NET" Value="Public Property DatabaseSort As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DatabaseSort { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2140)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2140)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2140)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b>, manual repositioning of items in a PivotTable field is allowed. Returns <b>True</b> if the field has no manually positioned items. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>DatabaseSort</b> property returns <b>False</b> if the data source is not an Online Analytical Processing (OLAP) data source.</para>
+          <para>This property returns <b>True</b> if the data source is OLAP and neither custom ordering nor automatic sorting has been applied to the field.</para>
+          <para>Setting the <b>DatabaseSort</b> property to <b>True</b>, for an OLAP PivotTable, will remove any custom ordering or automatic sort applied to the field (in other words, the PivotTable reverts to the default behavior when the connection was made).</para>
+          <para>Setting the <b>DatabaseSort</b> property to <b>False</b> will cause the sort order to be the current order of the items, if no automatic sort is applied.</para>
+          <para>Setting the <b>DatabaseSort</b> property to either <b>True</b> or <b>False</b> causes an Update.</para>
+          <para>Setting the <b>DatabaseSort</b> property to <b>True</b> for a non-OLAP source or an OLAP data field causes a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range DataRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range DataRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DataRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ DataRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(720)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(720)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>DataRange</b> property returns the following, depending on the object:</para>
+          <list type="table">
+            <item>
+              <term>Data field</term>
+              <description>Data contained in the field</description>
+            </item>
+            <item>
+              <term>Row, column, or page field</term>
+              <description>Items in the field</description>
+            </item>
+            <item>
+              <term>Item</term>
+              <description>Data qualified by the item</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotFieldDataType DataType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotFieldDataType DataType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DataType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataType As XlPivotFieldDataType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotFieldDataType DataType { Microsoft::Office::Interop::Excel::XlPivotFieldDataType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(722)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(722)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotFieldDataType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a constant describing the type of data in the PivotTable field. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldDataType" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayAsCaption">
+      <MemberSignature Language="C#" Value="public bool DisplayAsCaption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayAsCaption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DisplayAsCaption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayAsCaption As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayAsCaption { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2585)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2585)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This property is used to display member properties of <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s as captions. Read-only.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>This property returns <b>True</b> when a given member property is used as a caption and <b>False</b> when a member property <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is not used as caption. Trying to use this property for <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s that are not member properties will return a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayAsTooltip">
+      <MemberSignature Language="C#" Value="public bool DisplayAsTooltip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayAsTooltip" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DisplayAsTooltip" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayAsTooltip As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayAsTooltip { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2583)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2583)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2583)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This property is used to specify whether or not a specific member property <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is displayed in tooltips.  Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>Trying to get or set these properties for <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s that are not member properties will return a run-time error.</para>
+          <para>A given member property is displayed in tooltips when the <b>DisplayAsTooltip</b> property is set to <b>True</b>, and not displayed in tooltips when it is set to <b>False</b>. The default value is <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayInReport">
+      <MemberSignature Language="C#" Value="public bool DisplayInReport { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisplayInReport" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DisplayInReport" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayInReport As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DisplayInReport { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2584)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2584)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2584)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This property is used to specify whether the specified member property <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is displayed in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> or not. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToColumn">
+      <MemberSignature Language="C#" Value="public bool DragToColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DragToColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified field can be dragged to the column position. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToData">
+      <MemberSignature Language="C#" Value="public bool DragToData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DragToData" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToData As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToData { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified field can be dragged to the data position. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToHide">
+      <MemberSignature Language="C#" Value="public bool DragToHide { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToHide" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DragToHide" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToHide As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToHide { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be hidden by being dragged off the PivotTable report. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToPage">
+      <MemberSignature Language="C#" Value="public bool DragToPage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DragToPage" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToPage As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToPage { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be dragged to the page position. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToRow">
+      <MemberSignature Language="C#" Value="public bool DragToRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DragToRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be dragged to the row position. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrilledDown">
+      <MemberSignature Language="C#" Value="public bool DrilledDown { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DrilledDown" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.DrilledDown" />
+      <MemberSignature Language="VB.NET" Value="Public Property DrilledDown As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DrilledDown { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1850)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1850)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1850)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the flag for the specified PivotTable field or PivotTable item is set to "drilled" (expanded, or visible). Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can use this property only for OLAP data sources.</para>
+          <para>You cannot set this property if the field or item is hidden.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DrillTo">
+      <MemberSignature Language="C#" Value="public void DrillTo (string Field);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DrillTo([in]string Field) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.DrillTo(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DrillTo (Field As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void DrillTo(System::String ^ Field);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2580)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Field" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="Field">Required <b>String</b> The name of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> to drill to.</param>
+        <summary>The <b>DrillTo</b> method supports drilling to a specified <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> from another <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />.</summary>
+        <remarks>
+          <para>This operation can only be performed on fields that are actually on the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />. So either a hierarchy containing the requested <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> has to be in rows or columns of the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />, or the attribute/relational field has to be in rows or columns of the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> placed next to at least one other attribute/relational field. Also, the field being drilled to has to be in the same hierarchy or attribute chain. If these conditions are not met, a run-time error occurs.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableItemSelection">
+      <MemberSignature Language="C#" Value="public bool EnableItemSelection { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableItemSelection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.EnableItemSelection" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableItemSelection As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableItemSelection { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2144)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2144)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2144)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>False</b>, disables the ability to use the field dropdown in the user interface. The default value is <b>True</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>A run-time error will occur if the OLAP PivotTable field is not the highest level for the hierarchy.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableMultiplePageItems">
+      <MemberSignature Language="C#" Value="public bool EnableMultiplePageItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableMultiplePageItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.EnableMultiplePageItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableMultiplePageItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableMultiplePageItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Used for specifying whether or not check boxes are present in the filter drop-down list for fields in the page area. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>The existing property value is retained for OLAP.</para>
+          <para>
+            <b>Note</b>: In short_Excel2007, if you create pre-short_Excel2007 OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />s (PivotTable.Version &lt; 3) with the <see cref="P:Microsoft.Office.Interop.Excel.PivotTable.SubtotalHiddenPageItems" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> object and the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.EnableMultiplePageItems" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object set to <b>True</b>, changing the state of the check boxes in the filter drop-down menu of the page area will have no effect.  In this case, the filter will always be set to <b>All</b>, including the unchecked (hidden) items.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Formula">
+      <MemberSignature Language="C#" Value="public string Formula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Formula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Formula" />
+      <MemberSignature Language="VB.NET" Value="Public Property Formula As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Formula { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the object's formula in A1-style notation Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para>If the cell contains a constant, this property returns the constant. If the cell is empty, this <b>Formula</b> property returns an empty string. If the cell contains a formula, the <b>Formula</b> property returns the formula as a string in the same format that would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, Microsoft Excel changes the number format to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.</para>
+          <para>Setting the formula for a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Function">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlConsolidationFunction Function { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlConsolidationFunction Function" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Function" />
+      <MemberSignature Language="VB.NET" Value="Public Property Function As XlConsolidationFunction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlConsolidationFunction Function { Microsoft::Office::Interop::Excel::XlConsolidationFunction get(); void set(Microsoft::Office::Interop::Excel::XlConsolidationFunction value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(899)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(899)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(899)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlConsolidationFunction</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the function used to summarize the PivotTable field (data fields only). Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlConsolidationFunction" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, this property is read-only and always returns <b>xlUnknown</b>. For other data sources, this property cannot be set to <b>xlUnknown</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GroupLevel">
+      <MemberSignature Language="C#" Value="public object GroupLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object GroupLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.GroupLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupLevel As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ GroupLevel { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(723)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(723)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the placement of the specified field within a group of fields (if the field is a member of a grouped set of fields). Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para>The highest-level parent field (leftmost parent field) is level one, its child is level two, and so on.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Hidden">
+      <MemberSignature Language="C#" Value="public bool Hidden { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Hidden" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Hidden" />
+      <MemberSignature Language="VB.NET" Value="Public Property Hidden As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Hidden { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(268)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This property is used to hide the individual levels of an OLAP hierarchy. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>Returns <b>True</b> for hidden levels and <b>False</b> for visible (non-hidden) levels.</para>
+          <para>This property is applicable only to levels of OLAP hierarchies.</para>
+          <para>For relational data sources and OLAP attributes, this property is always <b>False</b>. Trying to set it to <b>True</b> for an attribute or a relational field will return a run-time error.
+
+It is not possible to set this property to <b>True</b> for a level if all other levels of the same hierarchy already have this setting set to <b>True</b>. At least one level of a hierarchy has to have this property set to <b>False</b>. Attempting to do this will return a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HiddenItems">
+      <MemberSignature Language="C#" Value="public object HiddenItems[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HiddenItems(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItems(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HiddenItems(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HiddenItems[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(728)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(728)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The number or name of the item to be returned (can be an array to specify more than one item).</param>
+        <summary>Returns an object that represents either a single hidden PivotTable item (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object) or a collection of all the hidden items (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> object) in the specified field. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, this property always returns an empty collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HiddenItemsList">
+      <MemberSignature Language="C#" Value="public object HiddenItemsList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object HiddenItemsList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItemsList" />
+      <MemberSignature Language="VB.NET" Value="Public Property HiddenItemsList As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ HiddenItemsList { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2139)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an <b>Object</b> specifying an array of strings that are hidden items for a PivotTable field. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>HiddenItemsList</b> property is only valid for Online Analytical Processing (OLAP) data sources; using this property on non-OLAP data sources will return a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeNewItemsInFilter">
+      <MemberSignature Language="C#" Value="public bool IncludeNewItemsInFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeNewItemsInFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.IncludeNewItemsInFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeNewItemsInFilter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeNewItemsInFilter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Allows developers to specify whether excluded or included items should be tracked when manual filtering is applied to the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>The default value for this property is <b>False</b>.</para>
+          <para>When manual filtering is applied, developers can set the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IncludeNewItemsInFilter" /> property to <b>True</b> to track  excluded items. They can set the property to <b>False</b> to track included items.
+
+If new items are added to the source data after the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IncludeNewItemsInFilter" /> property is set to <b>True</b>, the new items appear in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> after the next refresh operation because they are not in the collection of items that Excel is tracking.</para>
+          <para>For OLAP hierarchies this setting is set on the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object, and trying to set it on <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s that are part of a hierarchy will fail (with a run-time error). You can get this setting from the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s that are part of a hierarchy and it will return the same as the corresponding <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> property.</para>
+          <para>Toggling this setting will clear the following collections: <see cref="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItemsList" />, <see cref="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItems(System.Object)" />, <see cref="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItemsList" />, and <see cref="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItems(System.Object)" />.
+
+When <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> is set to <b>False</b>, the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItemsList" /> and <see cref="P:Microsoft.Office.Interop.Excel.PivotField.HiddenItems(System.Object)" /> collections are empty and items cannot be added to them.  A run-time error is returned when attempting to add items.
+
+When <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> is set to <b>True</b>, the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItemsList" /> and <see cref="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItems(System.Object)" /> collections are empty and items cannot be added to them.  A run-time error is returned when attempting to add items.</para>
+          <para>In  <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />s, this setting is set on the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object. Toggling this setting will not change the filter state.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCalculated">
+      <MemberSignature Language="C#" Value="public bool IsCalculated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsCalculated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.IsCalculated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCalculated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsCalculated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1512)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1512)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the PivotTable field or PivotTable item is a calculated field or item. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, this property always returns <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMemberProperty">
+      <MemberSignature Language="C#" Value="public bool IsMemberProperty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMemberProperty" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.IsMemberProperty" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsMemberProperty As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMemberProperty { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2141)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2141)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> when the PivotField contains member properties. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property will return a run-time error if an Online Analytical Processing (OLAP) data source is not used.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Range LabelRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Range LabelRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LabelRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LabelRange As Range" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Range ^ LabelRange { Microsoft::Office::Interop::Excel::Range ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(719)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(719)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Range</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>For a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object, returns a <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object that represents the cell (or cells) that contain the field label. For a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object, returns a <b>Range</b> object that represents all the cells in the PivotTable report that contain the item. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutBlankLine">
+      <MemberSignature Language="C#" Value="public bool LayoutBlankLine { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LayoutBlankLine" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LayoutBlankLine" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutBlankLine As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LayoutBlankLine { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1845)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1845)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1845)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a blank row is inserted after the specified row field in a PivotTable report. The default value is <b>False</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set this property for any PivotTable field; however, the blank row appears only if the specified field is a row field other than the innermost (lowest-level) row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or added to the PivotTable report.</para>
+          <para>You cannot enter data in the blank row in the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutCompactRow">
+      <MemberSignature Language="C#" Value="public bool LayoutCompactRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LayoutCompactRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LayoutCompactRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutCompactRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LayoutCompactRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2586)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2586)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2586)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies whether or not a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is compacted (items of multiple <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />s are displayed in a single column) when rows are selected. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>Setting this property to <b>True</b> (default) will have no immediate visual effect in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> if the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.LayoutForm" /> property is set to <see cref="F:Microsoft.Office.Interop.Excel.XlLayoutFormType.xlTabular" />, but it can be set independently.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutForm">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlLayoutFormType LayoutForm { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlLayoutFormType LayoutForm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LayoutForm" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutForm As XlLayoutFormType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlLayoutFormType LayoutForm { Microsoft::Office::Interop::Excel::XlLayoutFormType get(); void set(Microsoft::Office::Interop::Excel::XlLayoutFormType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlLayoutFormType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the way the specified PivotTable items appear — in table format or in outline format. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlLayoutFormType" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set this property for any PivotTable field; however, the formatting appears only if the specified field is a row field other than the innermost (lowest-level row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or when it is added to or removed from the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutPageBreak">
+      <MemberSignature Language="C#" Value="public bool LayoutPageBreak { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LayoutPageBreak" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LayoutPageBreak" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutPageBreak As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool LayoutPageBreak { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1847)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1847)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1847)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a page break is inserted after each field. The default value is <b>False</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Although you can set this property for any PivotTable field, the print option appears only if the specified field is a row field other than the innermost (lowest-level) row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or when it is added to or removed from the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutSubtotalLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSubtototalLocationType LayoutSubtotalLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSubtototalLocationType LayoutSubtotalLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.LayoutSubtotalLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutSubtotalLocation As XlSubtototalLocationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSubtototalLocationType LayoutSubtotalLocation { Microsoft::Office::Interop::Excel::XlSubtototalLocationType get(); void set(Microsoft::Office::Interop::Excel::XlSubtototalLocationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSubtototalLocationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the position of the PivotTable field subtotals in relation to (either above or below) the specified field. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlSubtototalLocationType" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set this property for any PivotTable field in outline format; however, the formatting appears only if the specified field is a row field other than the innermost (lowest level) row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or when it is added to or removed from the report.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.PivotField.LayoutForm" /> property determines whether the report appears in table format or in outline format.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemberPropertyCaption">
+      <MemberSignature Language="C#" Value="public string MemberPropertyCaption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MemberPropertyCaption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.MemberPropertyCaption" />
+      <MemberSignature Language="VB.NET" Value="Public Property MemberPropertyCaption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MemberPropertyCaption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2582)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2582)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2582)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Setting the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.MemberPropertyCaption" /> property controls which member property is used as caption for a given level.  Read/write.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>
+          <para>
+            <b>Note</b>: This setting has a visual effect only when <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> is set to <b>True</b> for the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />.</para>
+          <para>When <see cref="P:Microsoft.Office.Interop.Excel.PivotField.MemberPropertyCaption" /> is set, the setting is remembered while toggling the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> property.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MemoryUsed">
+      <MemberSignature Language="C#" Value="public int MemoryUsed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MemoryUsed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.MemoryUsed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemoryUsed As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MemoryUsed { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(372)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(372)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the amount of memory in bytes currently being used by the object. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the object. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NumberFormat">
+      <MemberSignature Language="C#" Value="public string NumberFormat { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NumberFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.NumberFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Property NumberFormat As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ NumberFormat { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(193)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the format code for the object. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object, you can set the <b>NumberFormat</b> property only for a data field.</para>
+          <para>The format code is the same string as the Format Codes option in the Format Cells dialog box. The <b>Format</b> function uses different format code strings than do the <b>NumberFormat</b> and <see cref="P:Microsoft.Office.Interop.Excel.CellFormat.NumberFormatLocal" /> properties.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotFieldOrientation Orientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotFieldOrientation Orientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Orientation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Orientation As XlPivotFieldOrientation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotFieldOrientation Orientation { Microsoft::Office::Interop::Excel::XlPivotFieldOrientation get(); void set(Microsoft::Office::Interop::Excel::XlPivotFieldOrientation value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The location of the field in the specified PivotTable report. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldOrientation" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, setting this property for one field in a hierarchy sets the orientation for the other fields in the same hierarchy. Dimension fields can only be oriented in the row, column, and page field areas of the PivotTable report. Measure fields can only be oriented in the data area. Setting a hierarchy or data field to <b>xlHidden</b> removes the hierarchy or field from the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotField ParentField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotField ParentField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ParentField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentField As PivotField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotField ^ ParentField { Microsoft::Office::Interop::Excel::PivotField ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(732)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(732)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotField</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object that represents the PivotTable field that’s the group parent of the specified object. The field must be grouped and must have a parent field. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property isn’t available for OLAP data sources.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentItems">
+      <MemberSignature Language="C#" Value="public object ParentItems[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ParentItems(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ParentItems(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParentItems(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ParentItems[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(729)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(729)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The number or name of the item to be returned (can be an array to specify more than one item).</param>
+        <summary>Returns an object that represents either a single PivotTable item (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object) or a collection of all the items (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> object) that are group parents in the specified field. The specified field must be a group parent of another field. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property isn’t available for OLAP data sources.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotFilters">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotFilters PivotFilters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotFilters PivotFilters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.PivotFilters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotFilters As PivotFilters" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotFilters ^ PivotFilters { Microsoft::Office::Interop::Excel::PivotFilters ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2589)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2589)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotFilters</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.PivotFilters" /> for the specified <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object. Read-only.</summary>
+        <value>
+          <see cref="P:Microsoft.Office.Interop.Excel.PivotField.PivotFilters" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotItems">
+      <MemberSignature Language="C#" Value="public object PivotItems (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object PivotItems([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.PivotField.PivotItems(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function PivotItems (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(737)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The name or number of the item to be returned.</param>
+        <summary>Returns an object that represents either a single PivotTable item (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object) or a collection of all the visible and hidden items (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> object) in the specified field. Read-only.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>For OLAP data sources, the collection is indexed by the unique name (the name returned by the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.SourceName" /> property), not by the display name.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public object Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Position { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Position of the field (first, second, third, and so on) among all the fields in its orientation (Rows, Columns, Pages, Data). Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyOrder">
+      <MemberSignature Language="C#" Value="public int PropertyOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PropertyOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.PropertyOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property PropertyOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PropertyOrder { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2143)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2143)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2143)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Valid only for PivotTable fields that are member property fields. Returns an <b>Integer</b> indicating the display position of the member property within the cube field to which it belongs. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Setting this property will rearrange the order of the properties for this cube field. This property is one-based. The allowable range is from one to the maximum number of member property fields being displayed for the hierarchy.</para>
+          <para>If the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IsMemberProperty" /> property is <b>False</b>, using the <b>PropertyOrder</b> property will create a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PropertyParentField">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotField PropertyParentField { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotField PropertyParentField" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.PropertyParentField" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyParentField As PivotField" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotField ^ PropertyParentField { Microsoft::Office::Interop::Excel::PivotField ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2142)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2142)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotField</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object representing the field to which the properties in this field pertain.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Valid only for fields that are member property fields.</para>
+          <para>If the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.IsMemberProperty" /> property is <b>False</b>, using the <b>PropertyParentField</b> property will return a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RepeatLabels">
+      <MemberSignature Language="C#" Value="public bool RepeatLabels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RepeatLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.RepeatLabels" />
+      <MemberSignature Language="VB.NET" Value="Public Property RepeatLabels As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool RepeatLabels { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2885)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2885)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2885)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether item labels are repeated in the PivotTable for the specified PivotField.</summary>
+        <value>
+          <b>true</b> if item labels are repeated in the PivotTable for the specified PivotField; otherwise <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if item labels are repeated for the specified PivotField; otherwise <b>false</b>.The setting of the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.RepeatLabels" /> property corresponds to the Repeat item labels check box on the Layout &amp; Print tab of the Field Settings dialog box for a field in a PivotTable.To specify whether to repeat item labels for all PivotFields in a PivotTable in a single operation, use the <see cref="M:Microsoft.Office.Interop.Excel.PivotTable.RepeatAllLabels(Microsoft.Office.Interop.Excel.XlPivotFieldRepeatLabels)" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerBased">
+      <MemberSignature Language="C#" Value="public bool ServerBased { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ServerBased" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ServerBased" />
+      <MemberSignature Language="VB.NET" Value="Public Property ServerBased As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ServerBased { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1513)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1513)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the data source for the specified PivotTable report is external and only the items matching the page field selection are retrieved. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property doesn’t apply to OLAP data sources and is always <b>False</b>.</para>
+          <para>When this property is <b>True</b>, only records in the database that match the selected page field item are retrieved. From then on, whenever the user changes the page field selection, the newly selected page field item is passed to the query as a parameter, and the cache is refreshed.</para>
+          <para>This property cannot be set if any of the following conditions are true:</para>
+          <list type="bullet">
+            <item>
+              <description>The field is grouped.</description>
+            </item>
+            <item>
+              <description>The data source isn’t external.</description>
+            </item>
+            <item>
+              <description>The cache is shared by two or more PivotTable reports.</description>
+            </item>
+            <item>
+              <description>The field is a data type that cannot be server based (a memo field or an OLE object).</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowAllItems">
+      <MemberSignature Language="C#" Value="public bool ShowAllItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowAllItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ShowAllItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowAllItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowAllItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(452)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(452)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(452)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if all items in the PivotTable report are displayed, even if they don’t contain summary data. The default value is <b>False</b>. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, the value is always <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowDetail">
+      <MemberSignature Language="C#" Value="public bool ShowDetail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowDetail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ShowDetail" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowDetail As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowDetail { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(585)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(585)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(585)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether the specified <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is showing detail. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowingInAxis">
+      <MemberSignature Language="C#" Value="public bool ShowingInAxis { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowingInAxis" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.ShowingInAxis" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ShowingInAxis As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowingInAxis { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2592)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2592)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates if the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is currently visible in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> or not. Read-only.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>The property returns <b>True</b> if the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is currently visible and returns <b>False</b> if is not currently visible. The visibility of the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> is determined by whether or not the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> caption is visible in the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" /> in tabular (non-compact) form.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceCaption">
+      <MemberSignature Language="C#" Value="public string SourceCaption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceCaption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.SourceCaption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceCaption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceCaption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2599)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2599)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:Microsoft.Office.Interop.Excel.PivotField.SourceCaption" /> property is applicable only for OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />s, and returns the original caption from the OLAP server for a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />. Read-only.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>
+          <para>You can use the <see cref="T:Microsoft.Office.Interop.Excel.PivotField.Name" /> or the <see cref="T:Microsoft.Office.Interop.Excel.PivotField.SourceName" />  for non-OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />s.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceName">
+      <MemberSignature Language="C#" Value="public string SourceName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.SourceName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SourceName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(721)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(721)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the specified object’s name as it appears in the original source data for the specified PivotTable report. This might be different from the current item name if the user renamed the item after creating the PivotTable report. Read-only <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StandardFormula">
+      <MemberSignature Language="C#" Value="public string StandardFormula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StandardFormula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.StandardFormula" />
+      <MemberSignature Language="VB.NET" Value="Public Property StandardFormula As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ StandardFormula { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2084)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2084)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2084)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>String</b> specifying formulas with standard English (United States) formatting. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>StandardFormula</b> property primarily affects item names with date or number formatting. It provides a way to specify or query a formula for a given calculated item.</para>
+          <para>The <b>StandardFormula</b> property is "international-friendly," whereas the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.Formula" /> property is not.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubtotalName">
+      <MemberSignature Language="C#" Value="public string SubtotalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubtotalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.SubtotalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SubtotalName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SubtotalName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1849)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1849)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1849)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the text string label displayed in the subtotal column or row heading in the specified PivotTable report. The default value is the string "Subtotal". Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subtotals">
+      <MemberSignature Language="C#" Value="public object Subtotals[object Index] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Subtotals(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Subtotals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Property Subtotals(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Subtotals[System::Object ^] { System::Object ^ get(System::Object ^ Index); void set(System::Object ^ Index, System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(733)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(733)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(733)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. A subtotal index, as shown in the following table. If this argument is omitted, the <b>Subtotals</b> method returns an array that contains a <b>Boolean</b> value for each subtotal.IndexMeaning1Automatic2Sum3Count4Average5Max6Min7Product8Count Nums9StdDev10StdDevp11Var12VarpIf an index is <b>True</b>, the field shows that subtotal. If index 1 (Automatic) is <b>True</b>, all other values are set to <b>False</b>.</param>
+        <summary>Returns or sets subtotals displayed with the specified field. Valid only for non-data fields. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, <paramref name="Index" /> can only return or be set to 1 (Automatic). The returned array always contains <b>True</b> or <b>False</b> for the first array element, and it contains <b>False</b> for all other elements. An array of element values that are all <b>False</b> indicates that there are no subtotals.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalLevels">
+      <MemberSignature Language="C#" Value="public object TotalLevels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TotalLevels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.TotalLevels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TotalLevels As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TotalLevels { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(724)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(724)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the total number of fields in the current field group. If the field isn’t grouped, or if the data source is OLAP-based, <b>TotalLevels</b> returns the value 1. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>All fields in a set of grouped fields have the same <b>TotalLevels</b> value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseMemberPropertyAsCaption">
+      <MemberSignature Language="C#" Value="public bool UseMemberPropertyAsCaption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseMemberPropertyAsCaption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" />
+      <MemberSignature Language="VB.NET" Value="Public Property UseMemberPropertyAsCaption As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool UseMemberPropertyAsCaption { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2581)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2581)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2581)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This property is used to control whether member property captions are used for <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> captions of the <see cref="P:Microsoft.Office.Interop.Excel.PivotField" />. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>If <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> is set to <b>True</b> for a <see cref="P:Microsoft.Office.Interop.Excel.PivotField" />, then  <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> specifies which member property caption to display. If none is specified, the first member property of that <see cref="P:Microsoft.Office.Interop.Excel.PivotField" /> (in data source order) will be displayed as the caption for items of that <see cref="P:Microsoft.Office.Interop.Excel.PivotField" />.</para>
+          <para>If <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> is set to <b>False</b>, then the regular <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> captions are used for the <see cref="P:Microsoft.Office.Interop.Excel.PivotField" />.</para>
+          <para>If you try to set <see cref="P:Microsoft.Office.Interop.Excel.PivotField.UseMemberPropertyAsCaption" /> to <b>True</b> for a <see cref="P:Microsoft.Office.Interop.Excel.PivotField" /> with no member properties, a run-time error is returned. For <see cref="P:Microsoft.Office.Interop.Excel.PivotField" />s with no member properties, the property will always be <b>False</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.Value" />
+      <MemberSignature Language="VB.NET" Value="Public Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The name of the specified field in the PivotTable report. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleItems">
+      <MemberSignature Language="C#" Value="public object VisibleItems[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object VisibleItems(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItems(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VisibleItems(Optional Index As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ VisibleItems[System::Object ^] { System::Object ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(727)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(727)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The number or name of the item to be returned (can be an array to specify more than one item).</param>
+        <summary>Returns an object that represents either a single visible PivotTable item (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItem" /> object) or a collection of all the visible items (a <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> object) in the specified field. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For OLAP data sources, this property is read-only and always returns <b>True</b>. There are no hidden items.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisibleItemsList">
+      <MemberSignature Language="C#" Value="public object VisibleItemsList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object VisibleItemsList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.PivotField.VisibleItemsList" />
+      <MemberSignature Language="VB.NET" Value="Public Property VisibleItemsList As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ VisibleItemsList { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2588)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2588)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2588)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Object</b> specifying an array of strings that represent included items in a manual filter applied to a <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />. Read/write.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>This property is applicable to OLAP <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />s only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

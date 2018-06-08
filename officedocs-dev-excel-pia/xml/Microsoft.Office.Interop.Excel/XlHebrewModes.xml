@@ -1,0 +1,96 @@
+﻿<Type Name="XlHebrewModes" FullName="Microsoft.Office.Interop.Excel.XlHebrewModes">
+  <TypeSignature Language="C#" Value="public enum XlHebrewModes" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlHebrewModes extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlHebrewModes" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlHebrewModes" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlHebrewModes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the mode for the Hebrew spelling checker.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlHebrewFullScript">
+      <MemberSignature Language="C#" Value="xlHebrewFullScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlHebrewModes xlHebrewFullScript = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlHebrewModes.xlHebrewFullScript" />
+      <MemberSignature Language="VB.NET" Value="xlHebrewFullScript" />
+      <MemberSignature Language="C++ CLI" Value="xlHebrewFullScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlHebrewModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>The conventional script type as required by the Hebrew Language Academy when writing non-diacritisized text.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHebrewMixedAuthorizedScript">
+      <MemberSignature Language="C#" Value="xlHebrewMixedAuthorizedScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlHebrewModes xlHebrewMixedAuthorizedScript = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlHebrewModes.xlHebrewMixedAuthorizedScript" />
+      <MemberSignature Language="VB.NET" Value="xlHebrewMixedAuthorizedScript" />
+      <MemberSignature Language="C++ CLI" Value="xlHebrewMixedAuthorizedScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlHebrewModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>The Hebrew traditional script. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHebrewMixedScript">
+      <MemberSignature Language="C#" Value="xlHebrewMixedScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlHebrewModes xlHebrewMixedScript = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlHebrewModes.xlHebrewMixedScript" />
+      <MemberSignature Language="VB.NET" Value="xlHebrewMixedScript" />
+      <MemberSignature Language="C++ CLI" Value="xlHebrewMixedScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlHebrewModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>In this mode the speller accepts any word recognized as Hebrew, whether in Full Script, Partial Script, or any non-conventional spelling variation that is known to the speller. </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlHebrewPartialScript">
+      <MemberSignature Language="C#" Value="xlHebrewPartialScript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlHebrewModes xlHebrewPartialScript = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlHebrewModes.xlHebrewPartialScript" />
+      <MemberSignature Language="VB.NET" Value="xlHebrewPartialScript" />
+      <MemberSignature Language="C++ CLI" Value="xlHebrewPartialScript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlHebrewModes</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>In this mode the speller accepts words both in Full Script and Partial Script. Some words will be flagged since this spelling is not authorized in either Full script or Partial script.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

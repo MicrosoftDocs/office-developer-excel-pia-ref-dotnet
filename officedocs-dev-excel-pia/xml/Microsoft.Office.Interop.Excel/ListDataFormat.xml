@@ -1,0 +1,525 @@
+﻿<Type Name="ListDataFormat" FullName="Microsoft.Office.Interop.Excel.ListDataFormat">
+  <TypeSignature Language="C#" Value="public interface ListDataFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ListDataFormat" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ListDataFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ListDataFormat" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ListDataFormat" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002447D-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>The <b>ListDataFormat</b> object holds all the data type properties of the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object. These properties are read-only.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.ListColumn.ListDataFormat" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object to return a <b>ListDataFormat</b> object collection. The <b>ListDataFormat</b> object's <see cref="P:Microsoft.Office.Interop.Excel.ListDataFormat.Type" /> property indicates the data type of the list column.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlListDataType this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlListDataType _Default" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat._Default" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default As XlListDataType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlListDataType default { Microsoft::Office::Interop::Excel::XlListDataType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlListDataType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowFillIn">
+      <MemberSignature Language="C#" Value="public bool AllowFillIn { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowFillIn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.AllowFillIn" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowFillIn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowFillIn { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2357)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2357)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value indicating whether users can provide their own data for cells in a column (rather than being restricted to a list of values) for those columns that supply a list of values. Returns <b>False</b> for lists that are not linked to a SharePoint site. Also returns <b>False</b> if the column is not a specified as choice or multi-choice. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Choices">
+      <MemberSignature Language="C#" Value="public object Choices { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Choices" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Choices" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Choices As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Choices { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2348)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2348)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Array</b> of <b>String</b> values that contains the choices offered to the user by the <b>ListLookUp</b>, <b>ChoiceMulti</b>, and <b>Choice</b> data types of the <see cref="P:Microsoft.Office.Interop.Excel.ListDataFormat.DefaultValue" /> property. Read-only <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In Microsoft Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the server that is running Microsoft Windows SharePoint Services.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DecimalPlaces">
+      <MemberSignature Language="C#" Value="public int DecimalPlaces { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 DecimalPlaces" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.DecimalPlaces" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DecimalPlaces As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int DecimalPlaces { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2349)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2349)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> value that represents the number of decimal places to show for the numbers in the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object. Returns 0 if the <see cref="P:Microsoft.Office.Interop.Excel.ListDataFormat.Type" /> property setting is not appropriate for decimal places. Returns <b>xlAutomatic</b> (-4105 decimal) if the Microsoft Windows SharePoint Services site is automatically determining the number of decimal places to show in the SharePoint list. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultValue">
+      <MemberSignature Language="C#" Value="public object DefaultValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object DefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.DefaultValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultValue As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ DefaultValue { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2350)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2350)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> representing the default data type value for a new row in a column. The <b>Nothing</b> object is returned when the schema does not specify a default value. Read-only <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists linked to a Microsoft Windows SharePoint Services site.</para>
+          <para>In Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPercent">
+      <MemberSignature Language="C#" Value="public bool IsPercent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPercent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.IsPercent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPercent As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPercent { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2351)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2351)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value. Returns <b>True</b> only if the number data for the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object will be shown in percentage formatting. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a Microsoft Windows SharePoint Services site.</para>
+          <para>In Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="lcid">
+      <MemberSignature Language="C#" Value="public int lcid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 lcid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.lcid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property lcid As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int lcid { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2352)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2352)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> value that represents the LCID for the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object that is specified in the schema definition. In Microsoft Excel, the LCID indicates the currency symbol to be used when this is an <b>xlListDataTypeCurrency</b> type. Returns 0 (which is the Language Neutral LCID) when no locale is set for the data type of the column. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a Microsoft Windows SharePoint Services site. In Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxCharacters">
+      <MemberSignature Language="C#" Value="public int MaxCharacters { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxCharacters" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.MaxCharacters" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxCharacters As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MaxCharacters { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2353)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2353)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Integer</b> containing the maximum number of characters allowed in the <see cref="T:Microsoft.Office.Interop.Excel.ListColumn" /> object if the <see cref="P:Microsoft.Office.Interop.Excel.ListDataFormat.Type" /> property is set to <b>xlListDataTypeText</b> or <b>xlListDataTypeMultiLineText</b>. Returns -1 for columns whose <b>Type</b> property is set to a non-text value. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para>In Microsoft Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxNumber">
+      <MemberSignature Language="C#" Value="public object MaxNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MaxNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.MaxNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxNumber As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MaxNumber { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2354)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2354)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> containing the maximum value allowed in this field in the list column. The <b>Nothing</b> object is returned if a maximum value number has not been specified or if the <see cref="P:Microsoft.Office.Interop.Excel.ListDataFormat.Type" /> property setting is such that a maximum value for the column is not applicable. Read-only <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para>In Microsoft Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinNumber">
+      <MemberSignature Language="C#" Value="public object MinNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object MinNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.MinNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinNumber As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ MinNumber { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2355)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2355)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <b>Object</b> containing the minimum value allowed in this field in the list column. This can be a negative floating point number. This property will return the <b>Nothing</b> object if no value has been specified for this field or if the setting of the <b>Type</b> property is such that a minimum value is not applicable to the column. Read-only <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para>In Microsoft Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadOnly">
+      <MemberSignature Language="C#" Value="public bool ReadOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReadOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.ReadOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReadOnly As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ReadOnly { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(296)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(296)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the object has been opened as read-only. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Required">
+      <MemberSignature Language="C#" Value="public bool Required { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Required" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Required" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Required As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Required { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2356)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2356)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>Boolean</b> value indicating whether the schema definition of a column requires data before the row is committed. Read-only <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para>In Microsoft Excel, you cannot set any of the properties associated with the <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object. You can set these properties, however, by modifying the list on the SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlListDataType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlListDataType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListDataFormat.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As XlListDataType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlListDataType Type { Microsoft::Office::Interop::Excel::XlListDataType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlListDataType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates the data type of the list column. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlListDataType" />.</summary>
+        <value>Required. An expression that returns a <see cref="T:Microsoft.Office.Interop.Excel.ListDataFormat" /> object.</value>
+        <remarks>
+          <para>This property is used only for lists that are linked to a SharePoint site.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

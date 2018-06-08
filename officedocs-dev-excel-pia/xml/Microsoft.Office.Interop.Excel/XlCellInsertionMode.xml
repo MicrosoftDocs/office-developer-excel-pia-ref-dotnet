@@ -1,0 +1,77 @@
+﻿<Type Name="XlCellInsertionMode" FullName="Microsoft.Office.Interop.Excel.XlCellInsertionMode">
+  <TypeSignature Language="C#" Value="public enum XlCellInsertionMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XlCellInsertionMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.XlCellInsertionMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XlCellInsertionMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XlCellInsertionMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Specifies the way rows on the specified worksheet are added or deleted to accommodate the number of rows in a recordset returned by a query.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xlInsertDeleteCells">
+      <MemberSignature Language="C#" Value="xlInsertDeleteCells" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlCellInsertionMode xlInsertDeleteCells = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlCellInsertionMode.xlInsertDeleteCells" />
+      <MemberSignature Language="VB.NET" Value="xlInsertDeleteCells" />
+      <MemberSignature Language="C++ CLI" Value="xlInsertDeleteCells" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCellInsertionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Partial rows are inserted or deleted to match the exact number of rows required for the new recordset.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlInsertEntireRows">
+      <MemberSignature Language="C#" Value="xlInsertEntireRows" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlCellInsertionMode xlInsertEntireRows = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlCellInsertionMode.xlInsertEntireRows" />
+      <MemberSignature Language="VB.NET" Value="xlInsertEntireRows" />
+      <MemberSignature Language="C++ CLI" Value="xlInsertEntireRows" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCellInsertionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Entire rows are inserted, if necessary, to accommodate any overflow. No cells or rows are deleted from the worksheet.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xlOverwriteCells">
+      <MemberSignature Language="C#" Value="xlOverwriteCells" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.Excel.XlCellInsertionMode xlOverwriteCells = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.Excel.XlCellInsertionMode.xlOverwriteCells" />
+      <MemberSignature Language="VB.NET" Value="xlOverwriteCells" />
+      <MemberSignature Language="C++ CLI" Value="xlOverwriteCells" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCellInsertionMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>No new cells or rows are added to the worksheet. Data in surrounding cells is overwritten to accommodate any overflow.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

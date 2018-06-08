@@ -1,0 +1,330 @@
+﻿<Type Name="ListObjects" FullName="Microsoft.Office.Interop.Excel.ListObjects">
+  <TypeSignature Language="C#" Value="public interface ListObjects : System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ListObjects implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.ListObjects" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ListObjects&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ListObjects : System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024470-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>A collection of all the <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> objects on a worksheet. Each <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object represents a list in the worksheet.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Worksheet.ListObjects" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object to return the <b>ListObjects</b> collection.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Default">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListObject this[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ListObject _Default(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects._Default(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property _Default(Index As Object) As ListObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ListObject ^ default[System::Object ^] { Microsoft::Office::Interop::Excel::ListObject ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListObject Add (Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType = Microsoft.Office.Interop.Excel.XlListObjectSourceType.xlSrcRange, object Source, object LinkSource, Microsoft.Office.Interop.Excel.XlYesNoGuess XlListObjectHasHeaders = Microsoft.Office.Interop.Excel.XlYesNoGuess.xlGuess, object Destination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.ListObject Add([in]valuetype Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType, [in]object Source, [in]object LinkSource, [in]valuetype Microsoft.Office.Interop.Excel.XlYesNoGuess XlListObjectHasHeaders, [in]object Destination) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObjects.Add(Microsoft.Office.Interop.Excel.XlListObjectSourceType,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlYesNoGuess,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (Optional SourceType As XlListObjectSourceType = Microsoft.Office.Interop.Excel.XlListObjectSourceType.xlSrcRange, Optional Source As Object, Optional LinkSource As Object, Optional XlListObjectHasHeaders As XlYesNoGuess = Microsoft.Office.Interop.Excel.XlYesNoGuess.xlGuess, Optional Destination As Object) As ListObject" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2085)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SourceType" Type="Microsoft.Office.Interop.Excel.XlListObjectSourceType" />
+        <Parameter Name="Source" Type="System.Object" />
+        <Parameter Name="LinkSource" Type="System.Object" />
+        <Parameter Name="XlListObjectHasHeaders" Type="Microsoft.Office.Interop.Excel.XlYesNoGuess" />
+        <Parameter Name="Destination" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SourceType">Optional <b>XlListObjectSourceType</b>. Indicates the kind of source for the query. Can be one of the following <b>XlListObjectSourceType</b> constants: <b>xlSrcExternal</b> or <b>xlSrcRange</b>. If omitted, the <paramref name="SourceType" /> will default to <b>xlSrcRange</b>.</param>
+        <param name="Source">Optional when <paramref name="SourceType" /> is <b>xlSrcRange</b>. A <see cref="T:Microsoft.Office.Interop.Excel.Range" /> object representing the data source. If omitted, the <paramref name="Source" /> will default to the range returned by list range detection code. Required when <paramref name="SourceType" /> is <b>xlSrcExternal</b>. An array of <b>String</b> values specifying a connection to the source.Element#Contents0URL to SharePoint site 1ListName 2ViewGUID</param>
+        <param name="LinkSource">Optional <b>Boolean</b>. Indicates whether an external data source is to be linked to the <b>ListObject</b> object. If <paramref name="SourceType" /> is <b>xlSrcExternal</b>, default is <b>True</b>. Invalid if <paramref name="SourceType" /> is <b>xlSrcRange</b>, and will return an error if not omitted.</param>
+        <param name="XlListObjectHasHeaders">Optional <b>Object</b>. An <see cref="T:Microsoft.Office.Interop.Excel.XlYesNoGuess" /> constant that indicates whether the data being imported has column labels. If the Source does not contain headers, Excel will automatically generate headers.</param>
+        <param name="Destination">Optional <b>Object</b>. A <b>Range</b> object specifying a single-cell reference as the destination for the top-left corner of the new list object. If the <b>Range</b> object refers to more than one cell, an error is generated. The <paramref name="Destination" /> argument must be specified when <paramref name="SourceType" /> is set to <b>xlSrcExternal</b>. The <paramref name="Destination" /> argument is ignored if <paramref name="SourceType" /> is set to <b>xlSrcRange</b>. The destination range must be on the worksheet that contains the specified <see cref="T:Microsoft.Office.Interop.Excel.ListObjects" /> collection. New columns will be inserted at the <paramref name="Destination" /> to fit the new list. Therefore, existing data will not be overwritten.</param>
+        <summary>Creates a new list object. Returns a <see cref="T:Microsoft.Office.Interop.Excel.ListObject" /> object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>When the list has headers, the first row of cells will be converted to <b>Text</b>, if not already set to text. The conversion will be based on the visible text for the cell. This means that if there is a date value with a <b>Date</b> format that changes with locale, the conversion to a list might produce different results depending on the current system locale. Moreover, if there are two cells in the header row that have the same visible text, an incremental <b>Integer</b> will be appended to make each column header unique.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEx">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListObject AddEx (Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType = Microsoft.Office.Interop.Excel.XlListObjectSourceType.xlSrcRange, object Source, object LinkSource, Microsoft.Office.Interop.Excel.XlYesNoGuess XlListObjectHasHeaders = Microsoft.Office.Interop.Excel.XlYesNoGuess.xlGuess, object Destination, object TableStyleName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.Excel.ListObject AddEx([in]valuetype Microsoft.Office.Interop.Excel.XlListObjectSourceType SourceType, [in]object Source, [in]object LinkSource, [in]valuetype Microsoft.Office.Interop.Excel.XlYesNoGuess XlListObjectHasHeaders, [in]object Destination, [in]object TableStyleName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObjects.AddEx(Microsoft.Office.Interop.Excel.XlListObjectSourceType,System.Object,System.Object,Microsoft.Office.Interop.Excel.XlYesNoGuess,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddEx (Optional SourceType As XlListObjectSourceType = Microsoft.Office.Interop.Excel.XlListObjectSourceType.xlSrcRange, Optional Source As Object, Optional LinkSource As Object, Optional XlListObjectHasHeaders As XlYesNoGuess = Microsoft.Office.Interop.Excel.XlYesNoGuess.xlGuess, Optional Destination As Object, Optional TableStyleName As Object) As ListObject" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(181)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="SourceType" Type="Microsoft.Office.Interop.Excel.XlListObjectSourceType" />
+        <Parameter Name="Source" Type="System.Object" />
+        <Parameter Name="LinkSource" Type="System.Object" />
+        <Parameter Name="XlListObjectHasHeaders" Type="Microsoft.Office.Interop.Excel.XlYesNoGuess" />
+        <Parameter Name="Destination" Type="System.Object" />
+        <Parameter Name="TableStyleName" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="SourceType">To be added.</param>
+        <param name="Source">To be added.</param>
+        <param name="LinkSource">To be added.</param>
+        <param name="XlListObjectHasHeaders">To be added.</param>
+        <param name="Destination">To be added.</param>
+        <param name="TableStyleName">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(118)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the number of objects in the collection. Read-only <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.ListObjects.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1024)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ListObject Item[object Index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ListObject Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Item(Index As Object) As ListObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ListObject ^ Item[System::Object ^] { Microsoft::Office::Interop::Excel::ListObject ^ get(System::Object ^ Index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(170)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ListObject</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Required <b>Object</b>. The name or index number of the object.</param>
+        <summary>Returns a single object from a collection.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.ListObjects.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

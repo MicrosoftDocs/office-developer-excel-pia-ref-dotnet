@@ -1,0 +1,378 @@
+﻿<Type Name="Border" FullName="Microsoft.Office.Interop.Excel.Border">
+  <TypeSignature Language="C#" Value="public interface Border" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Border" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Border" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Border" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Border" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00020854-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the border of an object.</summary>
+    <remarks>
+      <para>Most bordered objects (all except for the <see cref="T:Microsoft.Office.Interop.Excel.Range" /> and <see cref="T:Microsoft.Office.Interop.Excel.Style" /> objects) have a border that’s treated as a single entity, regardless of how many sides it has. The entire border must be returned as a unit. Use the <b>Border</b> property to return the <b>Border</b> object for this kind of object.</para>
+      <para>
+        <b>Range</b> and <b>Style</b> objects have four discrete borders — left, right, top, and bottom — that can be returned individually or as a group. Use the <b>Borders</b> property of a <b>Range</b> or <b>Style</b> object to return the <b>Borders</b> collection, which contains all four borders and treats the borders as a unit.</para>
+      <para>Use <b>Borders</b>(<paramref name="index" />), where <paramref name="index" /> identifies the border, to return a single <b>Border</b> object.</para>
+      <para>
+        <paramref name="Index" /> can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlBordersIndex" /> constants: <b>xlDiagonalDown</b>, <b>xlDiagonalUp</b>, <b>xlEdgeBottom</b>, <b>xlEdgeLeft</b>, <b>xlEdgeRight</b>, <b>xlEdgeTop</b>, <b>xlInsideHorizontal</b>, or <b>xlInsideVertical</b>.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public object Color { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.Color" />
+      <MemberSignature Language="VB.NET" Value="Public Property Color As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Color { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(99)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the primary color of the border.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Use the <b>RGB</b> function to create a color value.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ColorIndex">
+      <MemberSignature Language="C#" Value="public object ColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.ColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property ColorIndex As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ColorIndex { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(97)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the color of the border.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The color is specified as an index value into the current color palette, or as one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" /> constants:</para>
+          <para>
+            <b>xlColorIndexAutomatic</b>
+          </para>
+          <para>
+            <b>xlColorIndexNone</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineStyle">
+      <MemberSignature Language="C#" Value="public object LineStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LineStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.LineStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property LineStyle As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ LineStyle { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(119)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the line style for the border.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlLineStyle" /> can be one of these <b>XlLineStyle</b> constants:</para>
+          <para>
+            <b>xlContinuous</b>
+          </para>
+          <para>
+            <b>xlDash</b>
+          </para>
+          <para>
+            <b>xlDashDot</b>
+          </para>
+          <para>
+            <b>xlDashDotDot</b>
+          </para>
+          <para>
+            <b>xlDot</b>
+          </para>
+          <para>
+            <b>xlDouble</b>
+          </para>
+          <para>
+            <b>xlSlantDashDot</b>
+          </para>
+          <para>
+            <b>xlLineStyleNone</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ThemeColor">
+      <MemberSignature Language="C#" Value="public object ThemeColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object ThemeColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.ThemeColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property ThemeColor As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ThemeColor { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2365)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the theme color in the applied color scheme that is associated with the specified object.  Read/write <b>Object</b>.</summary>
+        <value>
+          <b>Object</b>
+        </value>
+        <remarks>
+          <para>Attempting to access a theme color for an object whose color is not currently themed will result in an invalid request run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TintAndShade">
+      <MemberSignature Language="C#" Value="public object TintAndShade { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object TintAndShade" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.TintAndShade" />
+      <MemberSignature Language="VB.NET" Value="Public Property TintAndShade As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ TintAndShade { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2366)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a <b>Single</b> that lightens or darkens a color.</summary>
+        <value>
+          <b>Single</b>
+        </value>
+        <remarks>
+          <para>You can enter a number from -1 (darkest) to 1 (lightest) for the <see cref="P:Microsoft.Office.Interop.Excel.Border.TintAndShade" /> property. Zero (0) is neutral.</para>
+          <para>Attempting to set this property to a value less than -1 or more than 1 results in a run-time error: "The specified value is out of range."  This property works for both theme colors and nontheme colors.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Weight">
+      <MemberSignature Language="C#" Value="public object Weight { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Weight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Border.Weight" />
+      <MemberSignature Language="VB.NET" Value="Public Property Weight As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Weight { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(120)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the weight of the border.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlBorderWeight" /> can be one of these <b>XlBorderWeight</b> constants:</para>
+          <para>
+            <b>xlHairline</b>
+          </para>
+          <para>
+            <b>xlThin</b>
+          </para>
+          <para>
+            <b>xlMedium</b>
+          </para>
+          <para>
+            <b>xlThick</b>
+          </para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,33 @@
+﻿<Type Name="DocEvents_ChangeEventHandler" FullName="Microsoft.Office.Interop.Excel.DocEvents_ChangeEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void DocEvents_ChangeEventHandler(Range Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocEvents_ChangeEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DocEvents_ChangeEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub DocEvents_ChangeEventHandler(Target As Range)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void DocEvents_ChangeEventHandler(Range ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.Range" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Target">The changed range. Can be more than one cell.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.Change" /> event. The <b>Change</b> event occurs when cells on the worksheet are changed by the user or by an external link.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

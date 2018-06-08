@@ -1,0 +1,468 @@
+﻿<Type Name="Protection" FullName="Microsoft.Office.Interop.Excel.Protection">
+  <TypeSignature Language="C#" Value="public interface Protection" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Protection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Protection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Protection" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Protection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00024467-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents the various types of protection options available for a worksheet.</summary>
+    <remarks>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel._Worksheet.Protection" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Worksheet" /> object to return a <b>Protection</b> object.</para>
+      <para>Once a <b>Protection</b> object is returned, you can use the following properties to set or return protection options:</para>
+      <list type="bullet">
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowDeletingColumns" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowDeletingRows" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowFiltering" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingCells" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingColumns" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingRows" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingColumns" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingHyperlinks" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingRows" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowSorting" />
+          </description>
+        </item>
+        <item>
+          <description>
+            <see cref="P:Microsoft.Office.Interop.Excel.Protection.AllowUsingPivotTables" />
+          </description>
+        </item>
+      </list>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AllowDeletingColumns">
+      <MemberSignature Language="C#" Value="public bool AllowDeletingColumns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowDeletingColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowDeletingColumns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowDeletingColumns As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowDeletingColumns { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2038)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2038)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the deletion of columns is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowDeletingColumns</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para>The columns containing the cells to be deleted must be unlocked when the sheet is protected.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowDeletingRows">
+      <MemberSignature Language="C#" Value="public bool AllowDeletingRows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowDeletingRows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowDeletingRows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowDeletingRows As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowDeletingRows { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2039)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2039)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the deletion of rows is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowDeletingRows</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para>The rows containing the cells to be deleted must be unlocked when the sheet is protected.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowEditRanges">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.AllowEditRanges AllowEditRanges { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.AllowEditRanges AllowEditRanges" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowEditRanges" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowEditRanges As AllowEditRanges" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::AllowEditRanges ^ AllowEditRanges { Microsoft::Office::Interop::Excel::AllowEditRanges ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2236)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2236)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.AllowEditRanges</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.AllowEditRanges" /> object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowFiltering">
+      <MemberSignature Language="C#" Value="public bool AllowFiltering { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowFiltering" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowFiltering" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowFiltering As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowFiltering { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2041)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2041)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the user is allowed to make use of an AutoFilter that was created before the sheet was protected.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowFiltering</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para>The <b>AllowFiltering</b> property allows the user to change filter criteria on an existing AutoFilter. The user cannot create or remove an AutoFilter on a protected worksheet.</para>
+          <para>The cells to be filtered must be unlocked when the sheet is protected.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowFormattingCells">
+      <MemberSignature Language="C#" Value="public bool AllowFormattingCells { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowFormattingCells" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingCells" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowFormattingCells As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowFormattingCells { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2032)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2032)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the formatting of cells is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowFormattingCells</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para>Use of this property disables the protection tab, allowing the user to change all formats but not to unlock or unhide ranges.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowFormattingColumns">
+      <MemberSignature Language="C#" Value="public bool AllowFormattingColumns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowFormattingColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingColumns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowFormattingColumns As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowFormattingColumns { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2033)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2033)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the formatting of columns is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowFormattingColumns</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowFormattingRows">
+      <MemberSignature Language="C#" Value="public bool AllowFormattingRows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowFormattingRows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowFormattingRows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowFormattingRows As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowFormattingRows { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2034)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2034)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the formatting of rows is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowFormattingRows</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowInsertingColumns">
+      <MemberSignature Language="C#" Value="public bool AllowInsertingColumns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInsertingColumns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingColumns" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowInsertingColumns As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowInsertingColumns { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2035)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2035)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the insertion of columns is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>An inserted column inherits its formatting (by default) from the column to its left, which means that it may have locked cells. In other words, users may not be able to delete columns that they have inserted.</para>
+          <para>The <b>AllowInsertingColumns</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowInsertingHyperlinks">
+      <MemberSignature Language="C#" Value="public bool AllowInsertingHyperlinks { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInsertingHyperlinks" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingHyperlinks" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowInsertingHyperlinks As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowInsertingHyperlinks { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2037)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2037)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the insertion of hyperlinks is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Hyperlinks can only be inserted in unlocked or unprotected cells on a protected worksheet.</para>
+          <para>The <b>AllowInsertingHyperlinks</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowInsertingRows">
+      <MemberSignature Language="C#" Value="public bool AllowInsertingRows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowInsertingRows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowInsertingRows" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowInsertingRows As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowInsertingRows { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2036)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2036)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the insertion of rows is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowInsertingRows</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowSorting">
+      <MemberSignature Language="C#" Value="public bool AllowSorting { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowSorting" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowSorting" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowSorting As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowSorting { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2040)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2040)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the sorting option is allowed on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>In a protected worksheet, sorting can only be performed on unlocked or unprotected cells.</para>
+          <para>The <b>AllowSorting</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowUsingPivotTables">
+      <MemberSignature Language="C#" Value="public bool AllowUsingPivotTables { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowUsingPivotTables" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Protection.AllowUsingPivotTables" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllowUsingPivotTables As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllowUsingPivotTables { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2042)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2042)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the user is allowed to manipulate pivot tables on a protected worksheet.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>AllowUsingPivotTables</b> property applies to non-OLAP source data.</para>
+          <para>The <b>AllowUsingPivotTables</b> property can be set by using the <see cref="M:Microsoft.Office.Interop.Excel._Workbook.Protect(System.Object,System.Object,System.Object)" /> method arguments.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

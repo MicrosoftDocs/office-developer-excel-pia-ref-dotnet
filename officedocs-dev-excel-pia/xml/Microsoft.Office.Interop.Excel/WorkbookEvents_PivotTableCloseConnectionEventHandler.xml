@@ -1,0 +1,33 @@
+﻿<Type Name="WorkbookEvents_PivotTableCloseConnectionEventHandler" FullName="Microsoft.Office.Interop.Excel.WorkbookEvents_PivotTableCloseConnectionEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void WorkbookEvents_PivotTableCloseConnectionEventHandler(PivotTable Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WorkbookEvents_PivotTableCloseConnectionEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.WorkbookEvents_PivotTableCloseConnectionEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub WorkbookEvents_PivotTableCloseConnectionEventHandler(Target As PivotTable)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void WorkbookEvents_PivotTableCloseConnectionEventHandler(PivotTable ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.PivotTable" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Target">Required. The selected PivotTable report.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.WorkbookEvents_Event.PivotTableCloseConnection" /> event. The <b>PivotTableCloseConnection</b> event occurs after a PivotTable report closes the connection to its data source.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

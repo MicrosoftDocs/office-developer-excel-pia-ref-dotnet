@@ -1,0 +1,33 @@
+﻿<Type Name="DocEvents_TableUpdateEventHandler" FullName="Microsoft.Office.Interop.Excel.DocEvents_TableUpdateEventHandler">
+  <TypeSignature Language="C#" Value="public delegate void DocEvents_TableUpdateEventHandler(TableObject Target);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DocEvents_TableUpdateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.DocEvents_TableUpdateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub DocEvents_TableUpdateEventHandler(Target As TableObject)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void DocEvents_TableUpdateEventHandler(TableObject ^ Target);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="Target" Type="Microsoft.Office.Interop.Excel.TableObject" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="Target">The Query table with data from the Data Model.</param>
+    <summary>A <b>Delegate</b> type used to add an event handler for the <see cref="E:Microsoft.Office.Interop.Excel.DocEvents_Event.TableUpdate" /> event. The <b>TableUpdate</b> event occurs after a Query table connected to the Data Model is updated on a worksheet.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

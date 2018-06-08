@@ -1,0 +1,1939 @@
+﻿<Type Name="Series" FullName="Microsoft.Office.Interop.Excel.Series">
+  <TypeSignature Language="C#" Value="public interface Series" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Series" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.Series" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Series" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Series" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002086B-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a series in a chart. The <b>Series</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.SeriesCollection" /> collection.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_ApplyDataLabels">
+      <MemberSignature Language="C#" Value="public object _ApplyDataLabels (Microsoft.Office.Interop.Excel.XlDataLabelsType Type = Microsoft.Office.Interop.Excel.XlDataLabelsType.xlDataLabelsShowValue, object LegendKey, object AutoText, object HasLeaderLines);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _ApplyDataLabels([in]valuetype Microsoft.Office.Interop.Excel.XlDataLabelsType Type, [in]object LegendKey, [in]object AutoText, [in]object HasLeaderLines) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series._ApplyDataLabels(Microsoft.Office.Interop.Excel.XlDataLabelsType,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function _ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Interop.Excel.XlDataLabelsType.xlDataLabelsShowValue, Optional LegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(151)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Excel.XlDataLabelsType" />
+        <Parameter Name="LegendKey" Type="System.Object" />
+        <Parameter Name="AutoText" Type="System.Object" />
+        <Parameter Name="HasLeaderLines" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">To be added.</param>
+        <param name="LegendKey">To be added.</param>
+        <param name="AutoText">To be added.</param>
+        <param name="HasLeaderLines">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyCustomType">
+      <MemberSignature Language="C#" Value="public void ApplyCustomType (Microsoft.Office.Interop.Excel.XlChartType ChartType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ApplyCustomType([in]valuetype Microsoft.Office.Interop.Excel.XlChartType ChartType) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.ApplyCustomType(Microsoft.Office.Interop.Excel.XlChartType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ApplyCustomType (ChartType As XlChartType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ApplyCustomType(Microsoft::Office::Interop::Excel::XlChartType ChartType);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1401)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ChartType" Type="Microsoft.Office.Interop.Excel.XlChartType" />
+      </Parameters>
+      <Docs>
+        <param name="ChartType">Required <see cref="T:Microsoft.Office.Interop.Excel.XlChartType" />. A standard chart type.</param>
+        <summary>Applies a standard or custom chart type to a series.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyDataLabels">
+      <MemberSignature Language="C#" Value="public object ApplyDataLabels (Microsoft.Office.Interop.Excel.XlDataLabelsType Type = Microsoft.Office.Interop.Excel.XlDataLabelsType.xlDataLabelsShowValue, object LegendKey, object AutoText, object HasLeaderLines, object ShowSeriesName, object ShowCategoryName, object ShowValue, object ShowPercentage, object ShowBubbleSize, object Separator);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ApplyDataLabels([in]valuetype Microsoft.Office.Interop.Excel.XlDataLabelsType Type, [in]object LegendKey, [in]object AutoText, [in]object HasLeaderLines, [in]object ShowSeriesName, [in]object ShowCategoryName, [in]object ShowValue, [in]object ShowPercentage, [in]object ShowBubbleSize, [in]object Separator) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.ApplyDataLabels(Microsoft.Office.Interop.Excel.XlDataLabelsType,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ApplyDataLabels (Optional Type As XlDataLabelsType = Microsoft.Office.Interop.Excel.XlDataLabelsType.xlDataLabelsShowValue, Optional LegendKey As Object, Optional AutoText As Object, Optional HasLeaderLines As Object, Optional ShowSeriesName As Object, Optional ShowCategoryName As Object, Optional ShowValue As Object, Optional ShowPercentage As Object, Optional ShowBubbleSize As Object, Optional Separator As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1922)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Excel.XlDataLabelsType" />
+        <Parameter Name="LegendKey" Type="System.Object" />
+        <Parameter Name="AutoText" Type="System.Object" />
+        <Parameter Name="HasLeaderLines" Type="System.Object" />
+        <Parameter Name="ShowSeriesName" Type="System.Object" />
+        <Parameter Name="ShowCategoryName" Type="System.Object" />
+        <Parameter Name="ShowValue" Type="System.Object" />
+        <Parameter Name="ShowPercentage" Type="System.Object" />
+        <Parameter Name="ShowBubbleSize" Type="System.Object" />
+        <Parameter Name="Separator" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Type">Optional <see cref="T:Microsoft.Office.Interop.Excel.XlDataLabelsType" />. The type of data label to apply.</param>
+        <param name="LegendKey">Optional <b>Object</b>. <b>True</b> to show the legend key next to the point. The default value is <b>False</b>.</param>
+        <param name="AutoText">Optional <b>Object</b>. <b>True</b> if the object automatically generates appropriate text based on content.</param>
+        <param name="HasLeaderLines">Optional <b>Object</b>. For the <see cref="T:Microsoft.Office.Interop.Excel.Chart" /> and <see cref="T:Microsoft.Office.Interop.Excel.Series" /> objects, <b>True</b> if the series has leader lines.</param>
+        <param name="ShowSeriesName">Optional <b>Object</b>. The series name for the data label.</param>
+        <param name="ShowCategoryName">Optional <b>Object</b>. The category name for the data label.</param>
+        <param name="ShowValue">Optional <b>Object</b>. The value for the data label.</param>
+        <param name="ShowPercentage">Optional <b>Object</b>. The percentage for the data label.</param>
+        <param name="ShowBubbleSize">Optional <b>Object</b>. The bubble size for the data label.</param>
+        <param name="Separator">Optional <b>Object</b>. The separator for the data label.</param>
+        <summary>Applies data labels to a point, a series, or all the series in a chart.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToEnd">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToEnd { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToEnd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.ApplyPictToEnd" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToEnd As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToEnd { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1661)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1661)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1661)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a picture is applied to the end of the point or all points in the series. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToFront">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToFront { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToFront" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.ApplyPictToFront" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToFront As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToFront { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1660)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1660)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1660)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a picture is applied to the front of the point or all points in the series. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyPictToSides">
+      <MemberSignature Language="C#" Value="public bool ApplyPictToSides { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ApplyPictToSides" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.ApplyPictToSides" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplyPictToSides As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ApplyPictToSides { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1659)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1659)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1659)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if a picture is applied to the sides of the point or all points in the series. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AxisGroup">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlAxisGroup AxisGroup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.AxisGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Property AxisGroup As XlAxisGroup" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlAxisGroup AxisGroup { Microsoft::Office::Interop::Excel::XlAxisGroup get(); void set(Microsoft::Office::Interop::Excel::XlAxisGroup value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(47)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlAxisGroup</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the group for the specified chart group or series. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlAxisGroup" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For 3-D charts, only <b>xlPrimary</b> is valid.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BarShape">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlBarShape BarShape { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlBarShape BarShape" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.BarShape" />
+      <MemberSignature Language="VB.NET" Value="Public Property BarShape As XlBarShape" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlBarShape BarShape { Microsoft::Office::Interop::Excel::XlBarShape get(); void set(Microsoft::Office::Interop::Excel::XlBarShape value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1403)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1403)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1403)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlBarShape</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the shape used with the 3-D bar or column chart. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlBarShape" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Border">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Border Border { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Border Border" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Border" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Border As Border" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Border ^ Border { Microsoft::Office::Interop::Excel::Border ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(128)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Border</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.Border" /> object that represents the border of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BubbleSizes">
+      <MemberSignature Language="C#" Value="public object BubbleSizes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object BubbleSizes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.BubbleSizes" />
+      <MemberSignature Language="VB.NET" Value="Public Property BubbleSizes As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ BubbleSizes { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1664)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1664)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a string that refers to the worksheet cells containing the size data for the bubble chart. Applies only to bubble charts. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When you return the cell reference, it will return a string describing the cells in A1-style notation. To set the size data for the bubble chart, you must use R1-style notation.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChartType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlChartType ChartType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlChartType ChartType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.ChartType" />
+      <MemberSignature Language="VB.NET" Value="Public Property ChartType As XlChartType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlChartType ChartType { Microsoft::Office::Interop::Excel::XlChartType get(); void set(Microsoft::Office::Interop::Excel::XlChartType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1400)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1400)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1400)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlChartType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the chart type. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlChartType" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Some chart types aren’t available for PivotChart reports.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearFormats">
+      <MemberSignature Language="C#" Value="public object ClearFormats ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ClearFormats() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.ClearFormats" />
+      <MemberSignature Language="VB.NET" Value="Public Function ClearFormats () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ClearFormats();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(112)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Clears the formatting of the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="public object Copy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Copy() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Copy" />
+      <MemberSignature Language="VB.NET" Value="Public Function Copy () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Copy();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(551)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Copies the object to the Clipboard. Copies a picture of the point or series to the Clipboard.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created. If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C. Read-only <see cref="T:Microsoft.Office.Interop.Excel.XlCreator" />.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataLabels">
+      <MemberSignature Language="C#" Value="public object DataLabels (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object DataLabels([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.DataLabels(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DataLabels (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(157)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The number of the data label.</param>
+        <summary>Returns an object that represents either a single data label (a <see cref="T:Microsoft.Office.Interop.Excel.DataLabel" /> object) or a collection of all the data labels for the series (a <see cref="T:Microsoft.Office.Interop.Excel.DataLabels" /> collection).</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>If the series has the <b>Show Value</b> option turned on for the data labels, the returned collection can contain up to one label for each point. Data labels can be turned on or off for individual points in the series.</para>
+          <para>If the series is on an area chart and has the <b>Show Label</b> option turned on for the data labels, the returned collection contains only a single label, which is the label for the area series.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public object Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Function Delete () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>Deleting a <b>Point</b> or <b>LegendKey</b> object deletes the entire series.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorBar">
+      <MemberSignature Language="C#" Value="public object ErrorBar (Microsoft.Office.Interop.Excel.XlErrorBarDirection Direction, Microsoft.Office.Interop.Excel.XlErrorBarInclude Include, Microsoft.Office.Interop.Excel.XlErrorBarType Type, object Amount, object MinusValues);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ErrorBar([in]valuetype Microsoft.Office.Interop.Excel.XlErrorBarDirection Direction, [in]valuetype Microsoft.Office.Interop.Excel.XlErrorBarInclude Include, [in]valuetype Microsoft.Office.Interop.Excel.XlErrorBarType Type, [in]object Amount, [in]object MinusValues) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.ErrorBar(Microsoft.Office.Interop.Excel.XlErrorBarDirection,Microsoft.Office.Interop.Excel.XlErrorBarInclude,Microsoft.Office.Interop.Excel.XlErrorBarType,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ErrorBar (Direction As XlErrorBarDirection, Include As XlErrorBarInclude, Type As XlErrorBarType, Optional Amount As Object, Optional MinusValues As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(152)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Direction" Type="Microsoft.Office.Interop.Excel.XlErrorBarDirection" />
+        <Parameter Name="Include" Type="Microsoft.Office.Interop.Excel.XlErrorBarInclude" />
+        <Parameter Name="Type" Type="Microsoft.Office.Interop.Excel.XlErrorBarType" />
+        <Parameter Name="Amount" Type="System.Object" />
+        <Parameter Name="MinusValues" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Direction">Required <see cref="T:Microsoft.Office.Interop.Excel.XlErrorBarDirection" />. The error bar direction.</param>
+        <param name="Include">Required <see cref="T:Microsoft.Office.Interop.Excel.XlErrorBarInclude" />. The error bar parts to include.</param>
+        <param name="Type">Required <see cref="T:Microsoft.Office.Interop.Excel.XlErrorBarType" />. The error bar type.</param>
+        <param name="Amount">Optional <b>Object</b>. The error amount. Used for only the positive error amount when <paramref name="Type" /> is <b>xlErrorBarTypeCustom</b>.</param>
+        <param name="MinusValues">Optional <b>Object</b>. The negative error amount when <paramref name="Type" /> is <b>xlErrorBarTypeCustom</b>.</param>
+        <summary>Applies error bars to the series. <b>Object</b>.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ErrorBars">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ErrorBars ErrorBars { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ErrorBars ErrorBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.ErrorBars" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorBars As ErrorBars" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ErrorBars ^ ErrorBars { Microsoft::Office::Interop::Excel::ErrorBars ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(159)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(159)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ErrorBars</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.ErrorBars" /> object that represents the error bars for the series. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Explosion">
+      <MemberSignature Language="C#" Value="public int Explosion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Explosion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Explosion" />
+      <MemberSignature Language="VB.NET" Value="Public Property Explosion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Explosion { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(182)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(182)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(182)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the explosion value for a pie-chart or doughnut-chart slice. Returns 0 (zero) if there's no explosion (the tip of the slice is in the center of the pie). Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Fill">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ChartFillFormat Fill { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ChartFillFormat Fill" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Fill" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Fill As ChartFillFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ChartFillFormat ^ Fill { Microsoft::Office::Interop::Excel::ChartFillFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1663)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1663)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartFillFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <see cref="T:Microsoft.Office.Interop.Excel.FillFormat" /> object that contains fill formatting properties for the specified chart or shape. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Format">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.ChartFormat Format { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.ChartFormat Format" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Format" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Format As ChartFormat" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::ChartFormat ^ Format { Microsoft::Office::Interop::Excel::ChartFormat ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(116)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.ChartFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.ChartFormat" /> object. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.ChartFormat" />
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Formula">
+      <MemberSignature Language="C#" Value="public string Formula { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Formula" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Formula" />
+      <MemberSignature Language="VB.NET" Value="Public Property Formula As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Formula { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(261)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the object's formula in A1-style notation. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is not available for OLAP data sources.</para>
+          <para>If the cell contains a constant, this property returns the constant. If the cell is empty, this <b>Formula</b> property returns an empty string. If the cell contains a formula, the <b>Formula</b> property returns the formula as a string in the same format that would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, Microsoft Excel changes the number format to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.</para>
+          <para>Setting the formula for a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormulaLocal">
+      <MemberSignature Language="C#" Value="public string FormulaLocal { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormulaLocal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.FormulaLocal" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormulaLocal As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaLocal { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(263)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the formula for the object using A1-style references in the language of the user. Read/write <b>String</b></summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the cell contains a constant, this property returns that constant. If the cell is empty, the property returns an empty string. If the cell contains a formula, the property returns the formula as a string, in the same format in which it would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, the number format is changed to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.</para>
+          <para>Setting the formula of a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormulaR1C1">
+      <MemberSignature Language="C#" Value="public string FormulaR1C1 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormulaR1C1" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.FormulaR1C1" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1 As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1 { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(264)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the formula for the object using R1C1-style notation. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the cell contains a constant, this property returns the constant. If the cell is empty, the property returns an empty string. If the cell contains a formula, the property returns the formula as a string, in the same format in which it would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, the number format is changed to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.</para>
+          <para>Setting the formula of a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormulaR1C1Local">
+      <MemberSignature Language="C#" Value="public string FormulaR1C1Local { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormulaR1C1Local" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.FormulaR1C1Local" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormulaR1C1Local As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormulaR1C1Local { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(265)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the formula for the object, using R1C1-style notation in the language of the user. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the cell contains a constant, this property returns that constant. If the cell is empty, the property returns an empty string. If the cell contains a formula, the property returns the formula as a string, in the same format in which it would be displayed in the formula bar (including the equal sign).</para>
+          <para>If you set the value or formula of a cell to a date, Microsoft Excel checks to see whether that cell is already formatted with one of the date or time number formats. If not, the number format is changed to the default short date number format.</para>
+          <para>If the range is a one- or two-dimensional range, you can set the formula to a Visual Basic array of the same dimensions. Similarly, you can put the formula into a Visual Basic array.</para>
+          <para>Setting the formula of a multiple-cell range fills all cells in the range with the formula.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Has3DEffect">
+      <MemberSignature Language="C#" Value="public bool Has3DEffect { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Has3DEffect" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Has3DEffect" />
+      <MemberSignature Language="VB.NET" Value="Public Property Has3DEffect As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Has3DEffect { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1665)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1665)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1665)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the series has a three-dimensional appearance. Applies only to bubble charts. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasDataLabels">
+      <MemberSignature Language="C#" Value="public bool HasDataLabels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasDataLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.HasDataLabels" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasDataLabels As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasDataLabels { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(78)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(78)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(78)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the series has data labels. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasErrorBars">
+      <MemberSignature Language="C#" Value="public bool HasErrorBars { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasErrorBars" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.HasErrorBars" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasErrorBars As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasErrorBars { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(160)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(160)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(160)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the series has error bars. This property isn’t available for 3-D charts. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLeaderLines">
+      <MemberSignature Language="C#" Value="public bool HasLeaderLines { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasLeaderLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.HasLeaderLines" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasLeaderLines As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasLeaderLines { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1394)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1394)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1394)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the series has leader lines. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Interior">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Interior Interior { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Interior Interior" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Interior" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Interior As Interior" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Interior ^ Interior { Microsoft::Office::Interop::Excel::Interior ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(129)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Interior</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns an <see cref="T:Microsoft.Office.Interop.Excel.Interior" /> object that represents the interior of the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertColor">
+      <MemberSignature Language="C#" Value="public int InvertColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InvertColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.InvertColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InvertColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2916)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2916)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2916)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the fill color for negative data points in a series.</summary>
+        <value>The fill color for negative data points in a series.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColor" /> property enables you to set the fill color for negative data points as a specific numeric, hexadecimal, octal, or RGB color value. To set the value as an RBG value, use the Visual Basic <b>RGB</b> function. Instead of using the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColor" /> property, you can use the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColorIndex" /> property, which uses a simpler set of integer values from the current color palette.</para>
+          <para>For the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColor" />property to have an effect, the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertIfNegative" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> object must also be set to <b>true</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertColorIndex">
+      <MemberSignature Language="C#" Value="public int InvertColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 InvertColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.InvertColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertColorIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int InvertColorIndex { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2917)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2917)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2917)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets the fill color for negative data points in a series.</summary>
+        <value>The fill color for negative data points in a series.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColorIndex" /> property enables you to set the fill color for negative data points as a color index value from 0 to 56. Instead of using the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColorIndex" /> property, you can use the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColor" /> property, which enables you to set the color as a specific numeric, hexadecimal, octal, or RGB color value.</para>
+          <para>For the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertColorIndex" /> property to have an effect, the <see cref="P:Microsoft.Office.Interop.Excel.Series.InvertIfNegative" /> property of the <see cref="T:Microsoft.Office.Interop.Excel.Series" /> object must also be set to <b>true</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvertIfNegative">
+      <MemberSignature Language="C#" Value="public bool InvertIfNegative { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool InvertIfNegative" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.InvertIfNegative" />
+      <MemberSignature Language="VB.NET" Value="Public Property InvertIfNegative As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool InvertIfNegative { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(132)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if Microsoft Excel inverts the pattern in the item when it corresponds to a negative number. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFiltered">
+      <MemberSignature Language="C#" Value="public bool IsFiltered { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFiltered" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.IsFiltered" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFiltered As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFiltered { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3083)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3083)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3083)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This setting controls whether the series has been filtered out from the chart. The default value is <b>False</b>. <b>Boolean</b> (<b>bool</b> in C#) Read/Write.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>When a user filters out a series, the series <b>IsFiltered</b> property switches to <b>True</b>, and the series is transferred out of its parent <b>SeriesCollection</b>. However, that series still remains in its parent <b>FullSeriesCollection</b>. When a user filters the series back in, it is inserted back in its original place in the <b>SeriesCollection</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LeaderLines">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.LeaderLines LeaderLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.LeaderLines LeaderLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.LeaderLines" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LeaderLines As LeaderLines" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::LeaderLines ^ LeaderLines { Microsoft::Office::Interop::Excel::LeaderLines ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1666)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1666)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.LeaderLines</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>LeaderLines</b> object that represents the leader lines for the series. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerBackgroundColor">
+      <MemberSignature Language="C#" Value="public int MarkerBackgroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerBackgroundColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(73)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(73)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(73)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the marker background color as an RGB value. Applies only to line, scatter, and radar charts. Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerBackgroundColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlColorIndex MarkerBackgroundColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlColorIndex MarkerBackgroundColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerBackgroundColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerBackgroundColorIndex As XlColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlColorIndex MarkerBackgroundColorIndex { Microsoft::Office::Interop::Excel::XlColorIndex get(); void set(Microsoft::Office::Interop::Excel::XlColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(74)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(74)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(74)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the marker background color. Applies only to line, scatter, and radar charts. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerForegroundColor">
+      <MemberSignature Language="C#" Value="public int MarkerForegroundColor { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerForegroundColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerForegroundColor" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColor As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerForegroundColor { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(75)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(75)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(75)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the foreground color of the marker as an RGB value. Applies only to line, scatter, and radar charts. Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerForegroundColorIndex">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlColorIndex MarkerForegroundColorIndex { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlColorIndex MarkerForegroundColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerForegroundColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerForegroundColorIndex As XlColorIndex" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlColorIndex MarkerForegroundColorIndex { Microsoft::Office::Interop::Excel::XlColorIndex get(); void set(Microsoft::Office::Interop::Excel::XlColorIndex value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(76)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(76)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(76)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlColorIndex</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the marker foreground color. Applies only to line, scatter, and radar charts. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlColorIndex" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerSize">
+      <MemberSignature Language="C#" Value="public int MarkerSize { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MarkerSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerSize" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerSize As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MarkerSize { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(231)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(231)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the data-marker size in points. Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MarkerStyle">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlMarkerStyle MarkerStyle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlMarkerStyle MarkerStyle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.MarkerStyle" />
+      <MemberSignature Language="VB.NET" Value="Public Property MarkerStyle As XlMarkerStyle" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlMarkerStyle MarkerStyle { Microsoft::Office::Interop::Excel::XlMarkerStyle get(); void set(Microsoft::Office::Interop::Excel::XlMarkerStyle value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(72)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(72)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(72)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlMarkerStyle</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the marker style for a point or series in a line chart, scatter chart, or radar chart. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlMarkerStyle" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the name of the object. Read/write <b>String</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The following table shows example values of the <b>Name</b> property and related properties given an OLAP data source with the unique name "[Europe].[France].[Paris]" and a non-OLAP data source with the item name "Paris".</para>
+          <list type="table">
+            <item>
+              <term>
+                <b>Caption</b>
+              </term>
+              <description>Paris</description>
+              <description>Paris</description>
+            </item>
+            <item>
+              <term>
+                <b>Name</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
+            </item>
+            <item>
+              <term>
+                <b>SourceName</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>(Same as SQL property value, read-only)</description>
+            </item>
+            <item>
+              <term>
+                <b>Value</b>
+              </term>
+              <description>[Europe].[France].[Paris] (read-only)</description>
+              <description>Paris</description>
+            </item>
+          </list>
+          <para>When specifying an index into the <see cref="T:Microsoft.Office.Interop.Excel.PivotItems" /> collection, you can use the syntax shown in the following table.</para>
+          <list type="table">
+            <item>
+              <term>expression.PivotItems("[Europe].[France].[Paris]")</term>
+              <description>expression.PivotItems("Paris")</description>
+            </item>
+          </list>
+          <para>When using the <see cref="M:Microsoft.Office.Interop.Excel.PivotItems.Item(System.Object)" /> property to reference a specific member of a collection, you can use the text index name as shown in the following table.</para>
+          <list type="table">
+            <item>
+              <term>[Europe].[France].[Paris]</term>
+              <description>Paris</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object. Read-only.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="public object Paste ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Paste() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Paste" />
+      <MemberSignature Language="VB.NET" Value="Public Function Paste () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Paste();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(211)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Pastes a picture from the Clipboard as the marker on the selected series. This method can be used on column, bar, line, or radar charts, and it sets the <see cref="P:Microsoft.Office.Interop.Excel.Series.MarkerStyle" /> property to <b>xlMarkerStylePicture</b>.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlChartPictureType PictureType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlChartPictureType PictureType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.PictureType" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureType As XlChartPictureType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlChartPictureType PictureType { Microsoft::Office::Interop::Excel::XlChartPictureType get(); void set(Microsoft::Office::Interop::Excel::XlChartPictureType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(161)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(161)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlChartPictureType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the way pictures are displayed on a column or bar picture chart. Read/write <see cref="T:Microsoft.Office.Interop.Excel.XlChartPictureType" />.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureUnit">
+      <MemberSignature Language="C#" Value="public int PictureUnit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PictureUnit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.PictureUnit" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureUnit As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PictureUnit { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(162)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(162)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(162)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the unit for each picture on the chart if the <see cref="P:Microsoft.Office.Interop.Excel.Series.PictureType" /> property is set to <b>xlScale</b> (if not, this property is ignored). Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PictureUnit2">
+      <MemberSignature Language="C#" Value="public double PictureUnit2 { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance float64 PictureUnit2" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.PictureUnit2" />
+      <MemberSignature Language="VB.NET" Value="Public Property PictureUnit2 As Double" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property double PictureUnit2 { double get(); void set(double value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2649)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2649)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Double</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the unit for each picture on the chart if the <see cref="P:Microsoft.Office.Interop.Excel.Series.PictureType" /> property is set to <see cref="F:Microsoft.Office.Interop.Excel.XlChartPictureType.xlStackScale" /> (if not, this property is ignored). Read/Write.</summary>
+        <value>
+          <b>Double</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlotColorIndex">
+      <MemberSignature Language="C#" Value="public int PlotColorIndex { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PlotColorIndex" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.PlotColorIndex" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PlotColorIndex As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PlotColorIndex { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2915)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2915)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets an index value that is used internally to associate series formatting with chart elements.</summary>
+        <value>An index value that is used internally to associate series formatting with chart elements.</value>
+        <remarks>
+          <para>Read-only.</para>
+          <para>This property is used internally by Excel and is not intended to be called from your code.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PlotOrder">
+      <MemberSignature Language="C#" Value="public int PlotOrder { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 PlotOrder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.PlotOrder" />
+      <MemberSignature Language="VB.NET" Value="Public Property PlotOrder As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int PlotOrder { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(228)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(228)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the plot order for the selected series within the chart group. Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>You can set plot order only within a chart group (you cannot set the plot order for the entire chart if you have more than one chart type). A chart group is a collection of series with the same chart type.</para>
+          <para>Changing the plot order of one series will cause the plot orders of the other series in the chart group to be adjusted as necessary.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Points">
+      <MemberSignature Language="C#" Value="public object Points (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Points([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Points(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Points (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(70)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The name or number of the point.</param>
+        <summary>Returns an object that represents a single point (a <see cref="T:Microsoft.Office.Interop.Excel.Point" /> object) or a collection of all the points (a <see cref="T:Microsoft.Office.Interop.Excel.Points" /> collection) in the series. Read-only.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Select">
+      <MemberSignature Language="C#" Value="public object Select ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Select() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Select" />
+      <MemberSignature Language="VB.NET" Value="Public Function Select () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Select();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(235)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Selects the object.</summary>
+        <returns>To be added.</returns>
+        <remarks>
+          <para>To select a cell or a range of cells, use the <b>Select</b> method. To make a single cell the active cell, use the <see cref="M:Microsoft.Office.Interop.Excel._Worksheet.Activate" /> method.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Shadow">
+      <MemberSignature Language="C#" Value="public bool Shadow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Shadow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Shadow" />
+      <MemberSignature Language="VB.NET" Value="Public Property Shadow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Shadow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(103)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the font is a shadow font or if the object has a shadow. Read/write <b>Boolean</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Smooth">
+      <MemberSignature Language="C#" Value="public bool Smooth { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Smooth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Smooth" />
+      <MemberSignature Language="VB.NET" Value="Public Property Smooth As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool Smooth { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(163)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(163)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(163)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter charts. Read/write.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Trendlines">
+      <MemberSignature Language="C#" Value="public object Trendlines (object Index);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Trendlines([in]object Index) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.Series.Trendlines(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Trendlines (Optional Index As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(154)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Index" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Index">Optional <b>Object</b>. The name or number of the trendline.</param>
+        <summary>Returns an object that represents a single trendline (a <see cref="T:Microsoft.Office.Interop.Excel.Trendline" /> object) or a collection of all the trendlines (a <see cref="T:Microsoft.Office.Interop.Excel.Trendlines" /> collection) for the series.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public int Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Type { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(108)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the chart or series type. Read/write <b>Integer</b>.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Values">
+      <MemberSignature Language="C#" Value="public object Values { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Values" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.Values" />
+      <MemberSignature Language="VB.NET" Value="Public Property Values As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Values { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(164)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(164)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets a collection of all the values in the series. This can be a range on a worksheet or an array of constant values, but not a combination of both. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For PivotChart reports, this property is read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XValues">
+      <MemberSignature Language="C#" Value="public object XValues { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object XValues" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.Series.XValues" />
+      <MemberSignature Language="VB.NET" Value="Public Property XValues As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ XValues { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1111)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1111)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets an array of x values for a chart series. The <b>XValues</b> property can be set to a range on a worksheet or to an array of values, but it cannot be a combination of both. Read/write <b>Object</b>.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For PivotChart reports this property is read-only.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,1267 @@
+﻿<Type Name="CubeField" FullName="Microsoft.Office.Interop.Excel.CubeField">
+  <TypeSignature Language="C#" Value="public interface CubeField" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract CubeField" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.Excel.CubeField" />
+  <TypeSignature Language="VB.NET" Value="Public Interface CubeField" />
+  <TypeSignature Language="C++ CLI" Value="public interface class CubeField" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("0002444C-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Represents a hierarchy or measure field from an OLAP cube.</summary>
+    <remarks>
+      <para>In a PivotTable report, the <b>CubeField</b> object is a member of the <see cref="T:Microsoft.Office.Interop.Excel.CubeFields" /> collection.</para>
+      <para>Use the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.CubeField" /> property to return the <b>CubeField</b> object.</para>
+      <para>Use <b>CubeFields</b>(<paramref name="index" />), where <paramref name="index" /> is the cube field’s index number, to return a single <b>CubeField</b> object.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="_Caption">
+      <MemberSignature Language="C#" Value="public string _Caption { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField._Caption" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property _Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ _Caption { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2667)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2667)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a <b>String</b> value that represents the label text for the cube field.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddMemberPropertyField">
+      <MemberSignature Language="C#" Value="public void AddMemberPropertyField (string Property, object PropertyOrder);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddMemberPropertyField([in]string Property, [in]object PropertyOrder) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CubeField.AddMemberPropertyField(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddMemberPropertyField (Property As String, Optional PropertyOrder As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2182)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1088)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="PropertyOrder" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property">Required <b>String</b>. The unique name of the member property. For balanced hierarchies, a unique name can be created by appending the "quoted" member property name to the unique name of the level the member property is associated with. For unbalanced hierarchies, a unique name can be created by appending the "quoted" member property name to the unique name of the hierarchy.</param>
+        <param name="PropertyOrder">Optional <b>Object</b>. Sets the <see cref="P:Microsoft.Office.Interop.Excel.PivotField.PropertyOrder" /> property value for a <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object. The actual position in the collection will be immediately before the PivotTable field that currently has the same <paramref name="PropertyOrder" /> value that is given in the argument. If no field has the given property order value, the range of acceptable values is from 1 to the number of member properties already showing for the hierarchy plus one. This argument is one-based. If omitted, the property goes to the end of the list.</param>
+        <summary>Adds a member property field to the display for the cube field.</summary>
+        <remarks>
+          <para>The property field specified will not be viewable if the PivotTable view has no fields.</para>
+          <para>To delete member properties, use the <see cref="M:Microsoft.Office.Interop.Excel.PivotField.Delete" /> method to delete the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object from the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddMemberPropertyFieldEx">
+      <MemberSignature Language="C#" Value="public void AddMemberPropertyFieldEx (string Property, object PropertyOrder, object PropertyDisplayedIn);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddMemberPropertyFieldEx([in]string Property, [in]object PropertyOrder, [in]object PropertyDisplayedIn) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CubeField.AddMemberPropertyFieldEx(System.String,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddMemberPropertyFieldEx (Property As String, Optional PropertyOrder As Object, Optional PropertyDisplayedIn As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2668)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="Property" Type="System.String" />
+        <Parameter Name="PropertyOrder" Type="System.Object" />
+        <Parameter Name="PropertyDisplayedIn" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="Property">To be added.</param>
+        <param name="PropertyOrder">To be added.</param>
+        <param name="PropertyDisplayedIn">To be added.</param>
+        <summary>Reserved for internal use.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllItemsVisible">
+      <MemberSignature Language="C#" Value="public bool AllItemsVisible { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllItemsVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.AllItemsVisible" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AllItemsVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool AllItemsVisible { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2593)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2593)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:Microsoft.Office.Interop.Excel.CubeField.AllItemsVisible" /> property checks whether manual filtering is applied to a PivotField or CubeField. Read-only <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>Default value is <b>True</b> and is available for the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />and the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" />objects.</para>
+          <para>For OLAP PivotTables, this property is only available for the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object. Trying to get or set it on the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object in OLAP PivotTables will return a run-time error.</para>
+          <para>For PivotTables, this property is available for the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" /> object.</para>
+          <para>This property is automatically set to <b>True</b> when no manual filtering is applied (independent of whether the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> property is true or false). It is automatically set to <b>False</b> when any manual filtering is applied (independent of whether the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> property is true or false).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Application">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.Application Application { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.Application Application" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Application" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Application As Application" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::Application ^ Application { Microsoft::Office::Interop::Excel::Application ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(148)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.Application</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When used without an object qualifier, this property returns an <see cref="T:Microsoft.Office.Interop.Excel.Application" /> object that represents the Microsoft Excel application. When used with an object qualifier, this property returns an <b>Application</b> object that represents the creator of the specified object (you can use this property with an OLE Automation object to return the application of that object). Read-only.</summary>
+        <value>
+          <b>Application</b> (see above)</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Caption">
+      <MemberSignature Language="C#" Value="public string Caption { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Caption" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Caption" />
+      <MemberSignature Language="VB.NET" Value="Public Property Caption As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Caption { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(139)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The label text for the cube field.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearManualFilter">
+      <MemberSignature Language="C#" Value="public void ClearManualFilter ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ClearManualFilter() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CubeField.ClearManualFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ClearManualFilter ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ClearManualFilter();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2594)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>The <see cref="M:Microsoft.Office.Interop.Excel.CubeField.ClearManualFilter" /> method provides an easy way to set the <b>Visible</b> property to <b>True</b> for all items of a PivotField in PivotTables, and to empty the <b>HiddenItemsInList</b>/<b>VisibleItemsList</b> collections in OLAP PivotTables.</summary>
+        <remarks>
+          <para>This method is available for the <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />object in <see cref="T:Microsoft.Office.Interop.Excel.PivotTables" />and for the <see cref="T:Microsoft.Office.Interop.Excel.CubeField" />object in the OLAP PivotTable. Calling it for a PivotField in an OLAP PivotTable will return a run-time error.</para>
+          <para>After calling this method, the <b>HiddenItemsList</b>/<b>HiddenItems</b> and <b>VisibleItemsList</b>/<b>VisibleItems</b> collections are empty.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreatePivotFields">
+      <MemberSignature Language="C#" Value="public void CreatePivotFields ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreatePivotFields() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CubeField.CreatePivotFields" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreatePivotFields ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CreatePivotFields();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2671)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>The  <see cref="M:Microsoft.Office.Interop.Excel.CubeField.CreatePivotFields" /> method is new in Microsoft Office Excel 2007. It enables users to apply a filter to PivotFields not yet added to the PivotTable by creating the corresponding <see cref="T:Microsoft.Office.Interop.Excel.PivotField" />object.</summary>
+        <remarks>
+          <para>In OLAP PivotTables, <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> do not exist until the corresponding <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> is added to the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />. The <see cref="M:Microsoft.Office.Interop.Excel.CubeField.CreatePivotFields" />method enables users to create all <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> of a <see cref="T:Microsoft.Office.Interop.Excel.CubeField" />.  Users can also add filters to the PivotFields and set properties on them before the CubeField is added to the <see cref="T:Microsoft.Office.Interop.Excel.PivotTable" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Creator">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCreator Creator { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCreator Creator" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Creator" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Creator As XlCreator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCreator Creator { Microsoft::Office::Interop::Excel::XlCreator get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(149)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCreator</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns a 32-bit integer that indicates the application in which this object was created.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>If the object was created in Microsoft Excel, this property returns the string XCEL, which is equivalent to the hexadecimal number 5843454C.</para>
+          <para>The <b>Creator</b> property is designed to be used in Microsoft Excel for the Macintosh, where each application has a four-character creator code. For example, Microsoft Excel has the creator code XCEL.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeFieldSubType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCubeFieldSubType CubeFieldSubType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCubeFieldSubType CubeFieldSubType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.CubeFieldSubType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CubeFieldSubType As XlCubeFieldSubType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCubeFieldSubType CubeFieldSubType { Microsoft::Office::Interop::Excel::XlCubeFieldSubType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2670)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2670)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCubeFieldSubType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Specifies the type of a <see cref="P:Microsoft.Office.Interop.Excel.CubeField" />. Read-only.</summary>
+        <value>
+          <see cref="T:Microsoft.Office.Interop.Excel.XlCubeFieldSubType" />
+        </value>
+        <remarks>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.CubeField.CubeFieldSubType" /> can be any of the values in the following enumeration </para>
+          <list type="bullet">
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeAttribute" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeCalculatedMeasure" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeHierarchy" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeKPIGoal" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeKPIStatus" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeKPITrend" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeKPIValue" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeKPIWeight" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeMeasure" />
+              </description>
+            </item>
+            <item>
+              <description>
+                <see cref="F:Microsoft.Office.Interop.Excel.XlCubeFieldSubType.xlCubeSet" />
+              </description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CubeFieldType">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlCubeFieldType CubeFieldType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlCubeFieldType CubeFieldType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.CubeFieldType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CubeFieldType As XlCubeFieldType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlCubeFieldType CubeFieldType { Microsoft::Office::Interop::Excel::XlCubeFieldType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1918)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1918)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlCubeFieldType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Indicates whether the OLAP cube field is a hierarchy field or a measure field.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Can be one of the following <see cref="T:Microsoft.Office.Interop.Excel.XlCubeFieldType" /> constants: <b>xlHierarchy</b> or <b>xlMeasure</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CurrentPageName">
+      <MemberSignature Language="C#" Value="public string CurrentPageName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CurrentPageName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.CurrentPageName" />
+      <MemberSignature Language="VB.NET" Value="Public Property CurrentPageName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CurrentPageName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1852)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the page name for a CubeField. Read/write <b>String</b>.</summary>
+        <value>
+          <b>String</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Delete">
+      <MemberSignature Language="C#" Value="public void Delete ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Delete() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.Excel.CubeField.Delete" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Delete ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Delete();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(117)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Deletes the object.</summary>
+        <remarks>
+          <para>You can delete cube fields only if you have created the cube fields yourself by using the <see cref="M:Microsoft.Office.Interop.Excel.CalculatedMembers.Add(System.String,System.String,System.Object,System.Object)" /> method of the <see cref="T:Microsoft.Office.Interop.Excel.CalculatedMembers" /> object with the <paramref name="xlCalculatedSet" /> argument.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToColumn">
+      <MemberSignature Language="C#" Value="public bool DragToColumn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToColumn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.DragToColumn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToColumn As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToColumn { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1508)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified field can be dragged to the column position.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>True</b>.</para>
+          <para>For OLAP data sources the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToData">
+      <MemberSignature Language="C#" Value="public bool DragToData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.DragToData" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToData As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToData { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1844)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the specified field can be dragged to the data position.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>True</b>.</para>
+          <para>For OLAP data sources the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToHide">
+      <MemberSignature Language="C#" Value="public bool DragToHide { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToHide" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.DragToHide" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToHide As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToHide { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1509)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be hidden by being dragged off the PivotTable report.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>True</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToPage">
+      <MemberSignature Language="C#" Value="public bool DragToPage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToPage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.DragToPage" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToPage As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToPage { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1510)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be dragged to the page position.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>True</b>.</para>
+          <para>For OLAP data sources the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DragToRow">
+      <MemberSignature Language="C#" Value="public bool DragToRow { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DragToRow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.DragToRow" />
+      <MemberSignature Language="VB.NET" Value="Public Property DragToRow As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool DragToRow { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1511)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> if the field can be dragged to the row position.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>True</b>. </para>
+          <para>For OLAP data sources the value is <b>False</b> for measure fields.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableMultiplePageItems">
+      <MemberSignature Language="C#" Value="public bool EnableMultiplePageItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableMultiplePageItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.EnableMultiplePageItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableMultiplePageItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableMultiplePageItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2184)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <b>True</b> to allow multiple items in the page field area for OLAP PivotTables to be selected.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is <b>False</b>.</para>
+          <para>This property only applies to Online Analytical Processing (OLAP) PivotTables. Querying or setting a non-OLAP PivotTable will result in a run-time error.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlattenHierarchies">
+      <MemberSignature Language="C#" Value="public bool FlattenHierarchies { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool FlattenHierarchies" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.FlattenHierarchies" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlattenHierarchies As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool FlattenHierarchies { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2924)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether items from all levels of hierarchies in a named set cube field are displayed in the same field of a PivotTable report based on an OLAP cube.</summary>
+        <value>
+          <b>true</b> if items from all levels of hierarchies in a named set cube field are displayed in the same field of a PivotTable report based on an OLAP cube; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if all hierarchies of the specified named set are displayed in the same field; otherwise <b>false</b>.</para>
+          <para>The value of this property corresponds to the setting of the Display items from different levels in separate fields check box on the Layout &amp; Print tab of the Field Settings dialog box for a named set in a PivotTable report that is based on an OLAP cube.</para>
+          <para>This property returns an error if the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.CubeFieldType" /> property of the specified <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object is not <b>xlSet</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasMemberProperties">
+      <MemberSignature Language="C#" Value="public bool HasMemberProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasMemberProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.HasMemberProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasMemberProperties As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasMemberProperties { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2181)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2181)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> when there are member properties specified to be displayed for the cube field.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HiddenLevels">
+      <MemberSignature Language="C#" Value="public int HiddenLevels { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 HiddenLevels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.HiddenLevels" />
+      <MemberSignature Language="VB.NET" Value="Public Property HiddenLevels As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int HiddenLevels { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1920)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1920)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1920)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(64)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the top levels of the specified hierarchy that are hidden.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>The default value is 0 (zero), indicating that no levels are hidden.</para>
+          <para>To set the value of this property to an integer greater than 0, you must first set the value to 0.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HierarchizeDistinct">
+      <MemberSignature Language="C#" Value="public bool HierarchizeDistinct { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HierarchizeDistinct" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.HierarchizeDistinct" />
+      <MemberSignature Language="VB.NET" Value="Public Property HierarchizeDistinct As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HierarchizeDistinct { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2925)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets whether to order and remove duplicates when displaying the specified named set in a PivotTable report based on an OLAP cube.</summary>
+        <value>
+          <b>true</b> if duplicates should be ordered and removed when displaying the specified named set in a PivotTable report based on an OLAP cube; otherwise, <b>false</b>.</value>
+        <remarks>
+          <para>Read/write.</para>
+          <para>
+            <b>true</b> if the named set is displayed as ordered with duplicates removed; otherwise <b>false</b>.</para>
+          <para>The value of this property corresponds to the setting of the Automatically order and remove duplicates from the set check box on the Layout &amp; Print tab of the Field Settings dialog box for a named set in a PivotTable report based on an OLAP cube.</para>
+          <para>This property returns an error if the <see cref="P:Microsoft.Office.Interop.Excel.CubeField.CubeFieldType" /> property of the specified <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object is not <b>xlSet</b>.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncludeNewItemsInFilter">
+      <MemberSignature Language="C#" Value="public bool IncludeNewItemsInFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IncludeNewItemsInFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property IncludeNewItemsInFilter As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IncludeNewItemsInFilter { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2587)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> property is used to track included/excluded items in OLAP PivotTables. Read/write.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>
+          <para>Default value is <b>False</b>.</para>
+          <para>When this setting is set to <b>True</b>, excluded items are tracked when manual filtering is applied. When this setting is set to <b>False</b>, included items are tracked when manual filtering is applied.</para>
+          <para>When <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> is set to <b>False</b>, the <b>HiddenItemsList</b> and <b>HiddenItems</b> collections are empty and items cannot be added to them.</para>
+          <para>When <see cref="P:Microsoft.Office.Interop.Excel.CubeField.IncludeNewItemsInFilter" /> is set to <b>True</b>, the <b>VisibleItemsList</b> and <b>VisibleItems</b> collections are empty and items cannot be added to them.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDate">
+      <MemberSignature Language="C#" Value="public bool IsDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.IsDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDate { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2672)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2672)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns <b>True</b> if the CubeField is a date. Read-only <b>Boolean</b>.</summary>
+        <value>
+          <b>Boolean</b>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutForm">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlLayoutFormType LayoutForm { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlLayoutFormType LayoutForm" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.LayoutForm" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutForm As XlLayoutFormType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlLayoutFormType LayoutForm { Microsoft::Office::Interop::Excel::XlLayoutFormType get(); void set(Microsoft::Office::Interop::Excel::XlLayoutFormType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1848)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlLayoutFormType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the way the specified PivotTable items appear — in table format or in outline format.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlLayoutFormType" /> can be one of these <b>XlLayoutFormType</b> constants:</para>
+          <para>
+            <b>xlTabular</b> Default.</para>
+          <para>
+            <b>xlOutline</b> The <see cref="P:Microsoft.Office.Interop.Excel.CubeField.LayoutSubtotalLocation" /> property specifies where the subtotal appears in the PivotTable report.</para>
+          <para>You can set this property for any PivotTable field; however, the formatting appears only if the specified field is a row field other than the innermost (lowest-level) row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or when it is added to or removed from the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LayoutSubtotalLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlSubtototalLocationType LayoutSubtotalLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlSubtototalLocationType LayoutSubtotalLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.LayoutSubtotalLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property LayoutSubtotalLocation As XlSubtototalLocationType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlSubtototalLocationType LayoutSubtotalLocation { Microsoft::Office::Interop::Excel::XlSubtototalLocationType get(); void set(Microsoft::Office::Interop::Excel::XlSubtototalLocationType value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1846)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlSubtototalLocationType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns or sets the position of the PivotTable field subtotals in relation to (either above or below) the specified field.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlSubtototalLocationType" /> can be one of these <b>XlSubtototalLocationType</b> constants:</para>
+          <para>
+            <b>xlAtTop</b>
+          </para>
+          <para>
+            <b>xlAtBottom</b> Default</para>
+          <para>You can set this property for any PivotTable field in outline format; however, the formatting appears only if the specified field is a row field other than the innermost (lowest level) row field. For non-OLAP data sources, the value of this property doesn’t change when the field is rearranged or when it is added to or removed from the report.</para>
+          <para>The <see cref="P:Microsoft.Office.Interop.Excel.CubeField.LayoutForm" /> property determines whether the report appears in table format or in outline format.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(110)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Orientation">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.XlPivotFieldOrientation Orientation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.Excel.XlPivotFieldOrientation Orientation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Orientation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Orientation As XlPivotFieldOrientation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::XlPivotFieldOrientation Orientation { Microsoft::Office::Interop::Excel::XlPivotFieldOrientation get(); void set(Microsoft::Office::Interop::Excel::XlPivotFieldOrientation value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(134)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.XlPivotFieldOrientation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>The location of the field in the specified PivotTable report.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>
+            <see cref="T:Microsoft.Office.Interop.Excel.XlPivotFieldOrientation" /> can be one of these <b>XlPivotFieldOrientation</b> constants:</para>
+          <para>
+            <b>xlColumnField</b>
+          </para>
+          <para>
+            <b>xlDataField</b>
+          </para>
+          <para>
+            <b>xlHidden</b>
+          </para>
+          <para>
+            <b>xlPageField</b>
+          </para>
+          <para>
+            <b>xlRowField</b>
+          </para>
+          <para>For OLAP data sources, setting this property for one field in a hierarchy sets the orientation for the other fields in the same hierarchy. Dimension fields can only be oriented in the row, column, and page field areas of the PivotTable report. Measure fields can only be oriented in the data area. Setting a hierarchy or data field to <b>xlHidden</b> removes the hierarchy or field from the PivotTable report.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public object Parent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parent As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Parent { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(150)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the parent object for the specified object.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PivotFields">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.PivotFields PivotFields { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.PivotFields PivotFields" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.PivotFields" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PivotFields As PivotFields" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::PivotFields ^ PivotFields { Microsoft::Office::Interop::Excel::PivotFields ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(718)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(718)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.PivotFields</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.PivotFields" /> collection. This collection contains all PivotTable fields, including those that aren’t currently visible on-screen.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>For Online Analytical Processing (OLAP) data sources, there are no hidden fields, and the object or collection that’s returned reflects what’s currently visible.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Position">
+      <MemberSignature Language="C#" Value="public int Position { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Position" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Position" />
+      <MemberSignature Language="VB.NET" Value="Public Property Position As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Position { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(133)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Position of the item in its field if the item is currently showing.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowInFieldList">
+      <MemberSignature Language="C#" Value="public bool ShowInFieldList { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ShowInFieldList" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.ShowInFieldList" />
+      <MemberSignature Language="VB.NET" Value="Public Property ShowInFieldList As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool ShowInFieldList { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2185)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2185)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2185)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>When set to <b>True</b> (default), a <see cref="T:Microsoft.Office.Interop.Excel.CubeField" /> object will be shown in the field list.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TreeviewControl">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.Excel.TreeviewControl TreeviewControl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.Excel.TreeviewControl TreeviewControl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.TreeviewControl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TreeviewControl As TreeviewControl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::Excel::TreeviewControl ^ TreeviewControl { Microsoft::Office::Interop::Excel::TreeviewControl ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1919)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1919)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.Excel.TreeviewControl</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the <see cref="T:Microsoft.Office.Interop.Excel.TreeviewControl" /> object, representing the cube manipulation control of an OLAP-based PivotTable report.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>This property is available only when the control is visible.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.Excel.CubeField.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Value { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.Excel</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Returns the name of the specified field.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
