@@ -13,15 +13,18 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
+      "customized_template_paths": [],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -36,7 +39,8 @@
         "SourceXmlFolder": "officedocs-dev-excel-pia/xml",
         "OutputYamlFolder": "officedocs-dev-excel-pia/api",
         "Flatten": true,
-        "id": "officedocs-dev-excel-pia"
+        "id": "officedocs-dev-excel-pia",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "officedocs-dev-excel-pia/api/officedocs-dev-excel-pia/toc.yml"
